@@ -23,19 +23,19 @@ Description: Android Platform Headers from AOSP releases
  of LineageOS, for the 7.1 release.
 
 Package: hybris-usb
-Version: 0.2
+Version: 0.2.1
 Architecture: all
 Maintainer: JBBgameich <jbb.mail@gmx.de>
 Installed-Size: 23
-Depends: isc-dhcp-server
+Depends: isc-dhcp-server, net-tools
 Homepage: https://github.com/mickybart/gnulinux_support
 Priority: optional
 Section: net
-Filename: pool/main/h/hybris-usb/hybris-usb_0.2_all.deb
-Size: 2750
-SHA256: 5ba74558fab7147cece7973c6ba5fa56a6e93299a0d83f4c90d000b5828f174d
-SHA1: bd0bc6ab01dbefbfd6417844912f2c5072e8a5ca
-MD5sum: 588702ceee84745c7b0fa2d298655e5d
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
+Size: 2760
+SHA256: f7bdaa768d4db2573bdb9c9362aa19415386d3afb245b288948729e3642ad727
+SHA1: 706eefeb428b934f5f9dde9fafc5177bc5e85280
+MD5sum: cb19ac63aed9791dcf846967ca759d50
 Description: USB control for Android with hybris
 
 Package: lxc-android
