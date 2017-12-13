@@ -32,25 +32,25 @@ Homepage: https://github.com/mickybart/gnulinux_support
 Priority: optional
 Section: net
 Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
-Size: 2760
-SHA256: f7bdaa768d4db2573bdb9c9362aa19415386d3afb245b288948729e3642ad727
-SHA1: 706eefeb428b934f5f9dde9fafc5177bc5e85280
-MD5sum: cb19ac63aed9791dcf846967ca759d50
+Size: 2844
+SHA256: d2fe9f3b3dee0829ee8225c7347b3671ed98089fe984f4d062dc7b49b397940d
+SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
+MD5sum: f98ab87d5503b3aaf77b772d435240d6
 Description: USB control for Android with hybris
 
 Package: lxc-android
-Version: 0.1-1
+Version: 0.1+git20171201-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 253
+Installed-Size: 289
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxc-android/lxc-android_0.1-1_all.deb
-Size: 9848
-SHA256: 1cf4dc444fc13bf9b6a56858585b04b0e1e56caec14e0d0e64efce72ef9af2d2
-SHA1: 7064d2e6267761a45c10e07efd2b6f4bbc98abed
-MD5sum: 421438d93ae6c4edf65a700191dfc43a
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20171201-1_all.deb
+Size: 10764
+SHA256: c2fd95365ad98d9932a38b7e813d5a3d5b8e556c6702e316b94233275a277cfd
+SHA1: bd4634be9399244e3f45a9ddb557daba0f42f585
+MD5sum: f8b97b4b282dcf74ea483e0a04a02492
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
