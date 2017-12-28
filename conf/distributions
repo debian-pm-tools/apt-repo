@@ -1,0 +1,7 @@
+Origin: Halium
+Label: Halium (local repository)
+Codename: buster
+Architectures: armhf amd64 i386 source
+Components: main
+Description: Local apt repository for building halium rootfs
+SignWith: C3D7CAFBF442353F95F69F4AA81E075ABEC80A7E
