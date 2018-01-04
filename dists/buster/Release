@@ -1,13 +1,13 @@
 Origin: Halium
 Label: Halium (local repository)
 Codename: buster
-Date: Thu, 28 Dec 2017 12:56:15 UTC
+Date: Thu, 04 Jan 2018 16:42:49 UTC
 Architectures: armhf amd64 i386
 Components: main
 Description: Local apt repository for building halium rootfs
 MD5Sum:
- c68b381815f74a746d1cd135d0688c80 23923 main/binary-armhf/Packages
- 5e91d0d64909a2b11a7f667ce221f78a 6923 main/binary-armhf/Packages.gz
+ f5b825aafb13f8fa26a06ca585726c2c 23942 main/binary-armhf/Packages
+ 6011a2c2cecf57f18ab1abf7e9577f3b 6929 main/binary-armhf/Packages.gz
  d35cf24fd6f4d1281e2b037e8c3ba281 145 main/binary-armhf/Release
  0f6d097656d2b8d682c1315a1903b937 4268 main/binary-amd64/Packages
  caf6cf46a99dad318ed22f12e9c1c2ad 1747 main/binary-amd64/Packages.gz
@@ -15,12 +15,12 @@ MD5Sum:
  0f6d097656d2b8d682c1315a1903b937 4268 main/binary-i386/Packages
  caf6cf46a99dad318ed22f12e9c1c2ad 1747 main/binary-i386/Packages.gz
  7024bc58d7bf10d9c441b839282c43fb 144 main/binary-i386/Release
- 9e887670034470428fba0585f38084cf 9087 main/source/Sources
- 28aa74104fd2014befc256396d2dd3c6 3009 main/source/Sources.gz
+ 71221e53a8d74ade9de75fff66b169c4 9087 main/source/Sources
+ 95616d6bf00d1922d0e4c76ce5a9b5d1 3005 main/source/Sources.gz
  3a2eb7037cb0b6b5d781f98e4fb5817d 146 main/source/Release
 SHA1:
- 2b07b6c3a0c4376998727878af27853817ab044d 23923 main/binary-armhf/Packages
- fbd9001492fce99c03f347d5a7e68919a165b922 6923 main/binary-armhf/Packages.gz
+ 3e28f4eec41b90e4e30cfff4f65b56ea4ca36c72 23942 main/binary-armhf/Packages
+ 596edafa324defc981c7f226dbf8fa0f3646f833 6929 main/binary-armhf/Packages.gz
  2b98f92147c77a617c2f67d1f06ffc6fb64d277e 145 main/binary-armhf/Release
  3d1dd57e36f87b976bd64a414f76452c566bbd54 4268 main/binary-amd64/Packages
  3e650de30d851944929e46af65950d5110dd0f10 1747 main/binary-amd64/Packages.gz
@@ -28,12 +28,12 @@ SHA1:
  3d1dd57e36f87b976bd64a414f76452c566bbd54 4268 main/binary-i386/Packages
  3e650de30d851944929e46af65950d5110dd0f10 1747 main/binary-i386/Packages.gz
  4f8c62a087dccccba9c9fb638a97af857cacece1 144 main/binary-i386/Release
- 74ac6f4c9d12acb6e91695cf7eec07d7b6090cad 9087 main/source/Sources
- c481bed6855231ddec5295c11814ee9ae1180e02 3009 main/source/Sources.gz
+ 86ddb8e19d4523dc96a3cad68dce9f4cb164ce06 9087 main/source/Sources
+ 239503ce4d8584e71b188aa5a7be244cdc922963 3005 main/source/Sources.gz
  c4fa2b56c8a0aeb4b9a149a17f5dcd2dcf237be4 146 main/source/Release
 SHA256:
- 091584e9431a2848445ac5608f2aa768477497e8600877230a3905577c63d85b 23923 main/binary-armhf/Packages
- ae058707625d8cf6bb77f7ed6636ee52ab81b2b7a55ac18a2ab744246e47f6a9 6923 main/binary-armhf/Packages.gz
+ f6aaa0c75a78e7cb46cf3aa56adca712138fc7fcc078d6c86a59eaf6695e46e2 23942 main/binary-armhf/Packages
+ 0a1c9b8d9167e2f38804e153f3b8f8c973518c9cf559f752b382e9a4dad2b4ca 6929 main/binary-armhf/Packages.gz
  de5597ae0f860b6c6147f0adacc7318089847acb9e13d3e592745695c1ff5db2 145 main/binary-armhf/Release
  420ae687d6f4aa7a7e04be785edd567c421573dafb61a0ba4cc09570d157c36f 4268 main/binary-amd64/Packages
  4142b740700724248fba70d497330dfcc0a8a81aeda40ef4adc3d468f2376bea 1747 main/binary-amd64/Packages.gz
@@ -41,6 +41,6 @@ SHA256:
  420ae687d6f4aa7a7e04be785edd567c421573dafb61a0ba4cc09570d157c36f 4268 main/binary-i386/Packages
  4142b740700724248fba70d497330dfcc0a8a81aeda40ef4adc3d468f2376bea 1747 main/binary-i386/Packages.gz
  5860763d3a18878b99686ac9c1d774df721a0f8bf411aa2c29ba1555158c1a38 144 main/binary-i386/Release
- 321f8edae5dfe76f7b799417cc899e01dca7433e41653808494833665d249acd 9087 main/source/Sources
- ad6d10a010979891fff32f70cec648e092345be376c76deccc921de805e1b9fa 3009 main/source/Sources.gz
+ 62eb9235e3bf8cb8968a48f0f2a82c81106979d85f6b88a32df01274d8ab465c 9087 main/source/Sources
+ 1340824e76d31eacd630eb5e3437701bc2d98d05e9fe07d58425257a4f371d12 3005 main/source/Sources.gz
  3c61ba3853952dd9910ba8d0ca5094d42591d788df8bede6938861c15bc17308 146 main/source/Release
