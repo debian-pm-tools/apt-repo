@@ -423,18 +423,18 @@ Description: debug symbols for libmedia1
 Build-Ids: 2315ffb2cecf3ea151ee3a95fe23f2bdfaa695d8
 
 Package: lxc-android
-Version: 0.1+git20171201-1
+Version: 0.1+git20180105-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 289
+Installed-Size: 305
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxc-android/lxc-android_0.1+git20171201-1_all.deb
-Size: 10764
-SHA256: c2fd95365ad98d9932a38b7e813d5a3d5b8e556c6702e316b94233275a277cfd
-SHA1: bd4634be9399244e3f45a9ddb557daba0f42f585
-MD5sum: f8b97b4b282dcf74ea483e0a04a02492
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180105-1_all.deb
+Size: 10752
+SHA256: 07315b51dedbf34b1351d9360335b8a0eda59ca2218243036c9283ee87783ed5
+SHA1: d1546d9da43ccdd30f3553363058fec8e0477720
+MD5sum: 9b1933a4d6c68a96e44355b493b27ac9
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
