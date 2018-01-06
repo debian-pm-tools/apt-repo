@@ -4,62 +4,62 @@ Hash: SHA512
 Origin: Halium
 Label: Halium (local repository)
 Codename: buster
-Date: Fri, 05 Jan 2018 13:32:36 UTC
+Date: Sat, 06 Jan 2018 14:10:41 UTC
 Architectures: armhf amd64 i386
 Components: main
 Description: Local apt repository for building halium rootfs
 MD5Sum:
- c74f4d34f702e17ab0586f89189aecb5 23942 main/binary-armhf/Packages
- 72335500af0c18e3d616b39948c15cab 6930 main/binary-armhf/Packages.gz
+ 3ab0010c616fbc253ff2cc94d66eb1bd 26516 main/binary-armhf/Packages
+ 3318feb211b5cdeb5a4614a857fde52a 7822 main/binary-armhf/Packages.gz
  d35cf24fd6f4d1281e2b037e8c3ba281 145 main/binary-armhf/Release
- c2b72dba2c629bc6d9210d5f596708e3 4268 main/binary-amd64/Packages
- a4c0c5c5f4539319e042d5eb80720464 1750 main/binary-amd64/Packages.gz
+ fec06a96c41dedaa42e4a792d795ff27 6828 main/binary-amd64/Packages
+ 6382b590867710abce39502d0c6e6f36 2703 main/binary-amd64/Packages.gz
  ace75e03f1b29c0cfe3225b5c9b2861c 145 main/binary-amd64/Release
  c2b72dba2c629bc6d9210d5f596708e3 4268 main/binary-i386/Packages
  a4c0c5c5f4539319e042d5eb80720464 1750 main/binary-i386/Packages.gz
  7024bc58d7bf10d9c441b839282c43fb 144 main/binary-i386/Release
- ec48fe75f5ccd4369e2ea77237900e78 9084 main/source/Sources
- f483d059435b7b19844113f346c69a47 3008 main/source/Sources.gz
+ d03c76e96e4894e757c3fa43e5d24fbc 11007 main/source/Sources
+ bb58824247448bce05322986f5d68e71 3577 main/source/Sources.gz
  3a2eb7037cb0b6b5d781f98e4fb5817d 146 main/source/Release
 SHA1:
- 5e4da4e7dcc5a9a9301a96df5233d726c5d871c2 23942 main/binary-armhf/Packages
- dbb368ae8d1d9b0c4208ab43a2788558915d538b 6930 main/binary-armhf/Packages.gz
+ 6466c817e03883a1dec091f2d0180c546eac21ef 26516 main/binary-armhf/Packages
+ b5c60dfa956f3e96f5c59995bf1bc66764c6bbea 7822 main/binary-armhf/Packages.gz
  2b98f92147c77a617c2f67d1f06ffc6fb64d277e 145 main/binary-armhf/Release
- 40936bf02bab28ef2c2c0f398ee6441ae9f92aa5 4268 main/binary-amd64/Packages
- 57bc54779ba4daedec7d7848f8e4001f3726fa10 1750 main/binary-amd64/Packages.gz
+ 3a6f0845852f117add08755ed4477abdef6d2bd5 6828 main/binary-amd64/Packages
+ 955dadf5527a5715bd457e7fd27e9054ae6d8a6e 2703 main/binary-amd64/Packages.gz
  039e11fca109b78708021f3c16c40d01d43361cd 145 main/binary-amd64/Release
  40936bf02bab28ef2c2c0f398ee6441ae9f92aa5 4268 main/binary-i386/Packages
  57bc54779ba4daedec7d7848f8e4001f3726fa10 1750 main/binary-i386/Packages.gz
  4f8c62a087dccccba9c9fb638a97af857cacece1 144 main/binary-i386/Release
- 934b740e3a763aa3d84f51271bf034659108314b 9084 main/source/Sources
- f1aee0c7dc17a327c0f18cbbf93bae06158f8027 3008 main/source/Sources.gz
+ c4993f3594b7e74f405eff83fc8ac7295e841cd6 11007 main/source/Sources
+ 28e99a653bddd9e4bb4990a906b93ec92ccb4796 3577 main/source/Sources.gz
  c4fa2b56c8a0aeb4b9a149a17f5dcd2dcf237be4 146 main/source/Release
 SHA256:
- b624eef7d1ae029b7cce46f7e5d83224e4acd1975142f32e66593b02e1de553e 23942 main/binary-armhf/Packages
- 7a11272562430e33b6b37aeb625eff85a5d9c1009dc34676f42bf9ca34a4cade 6930 main/binary-armhf/Packages.gz
+ eea6c2dd0e323131c350525223fd10d66d58b0335d8695f02de40d468dc306e7 26516 main/binary-armhf/Packages
+ 7889fa5f26eba99feea2ee9acf6bd0ea94f07d22870da37c6515094d2652251e 7822 main/binary-armhf/Packages.gz
  de5597ae0f860b6c6147f0adacc7318089847acb9e13d3e592745695c1ff5db2 145 main/binary-armhf/Release
- 7b66112d8dae49f4d32272a9c5118f1b2cde43e8fb3fb4c28d12a0b47e6239a4 4268 main/binary-amd64/Packages
- 67884087cb30a5f8f5b27c64fccd7b7dd5abb7507ff2bc042139596ea826032f 1750 main/binary-amd64/Packages.gz
+ 7a1382c9b51c1a8dbff4953ae694cdd551a195c292331a460f77bdf0cb83f98a 6828 main/binary-amd64/Packages
+ da428c1de49eaff522d2ab00097b59fbbd0a188fd3e20f447d3ff3137efe0f2c 2703 main/binary-amd64/Packages.gz
  5998fdac02c196178f6eb0f500517a70a4aa0c970d22508aa9b61fc1de205643 145 main/binary-amd64/Release
  7b66112d8dae49f4d32272a9c5118f1b2cde43e8fb3fb4c28d12a0b47e6239a4 4268 main/binary-i386/Packages
  67884087cb30a5f8f5b27c64fccd7b7dd5abb7507ff2bc042139596ea826032f 1750 main/binary-i386/Packages.gz
  5860763d3a18878b99686ac9c1d774df721a0f8bf411aa2c29ba1555158c1a38 144 main/binary-i386/Release
- 0169ec22fa896b5a8675b558fe7076f60eb82ea850dc489161a3bb67f8f1c758 9084 main/source/Sources
- 6d90f06ccf00bbf133939622bc43b4ed77e6b43c5e4bfaa0115a772d05e071f1 3008 main/source/Sources.gz
+ d56ccb8840fa3439ae71f02dafcb0c2c71880887c7c25cb45e1e91bb7aa20235 11007 main/source/Sources
+ 0015ba2b71aa83a375c5c43c21837f308afda3742738f0f4ab70cac8ee485ac9 3577 main/source/Sources.gz
  3c61ba3853952dd9910ba8d0ca5094d42591d788df8bede6938861c15bc17308 146 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlpPfnUACgkQqB4HWr7I
-Cn7KDQ//Yyz5Buag0hxSdaiWdlRH/yZuKCs1VYQdJUP3kvphDHsnw49G7K0V/BLq
-Ju9GN3xkt8EbX6kgFxkdoY12RY/MDG4SlzBRoYN7mY8S3xogjrt1q1cfnmblr2qT
-hMr6zZKoSG1XosAqVVZyWrqqtXwV6Pd6frUhhf+QBW/W8XXUORLdckiJfV3rOL2o
-bW4VcgJmRKBVE6DQp9NgJfULinKXkaHBBnq7yx1Y/zLgP38ANU6eDyaDlQUZKFuC
-13DVN9OW61xvdpLj3jyzW2d1T0xiL1eVubObcoI3swTYkikElEgVyX1Sz8F/WcCs
-P4cyLjLjJ05XUPHkqCqLqE/lxtmZTN39zP2nkaqJBEw6BNeKKv3f2XoWZ+lUqgzf
-C3V/6oSibDnSCtIcZ5ZmxQwosZHdvr2dDXFJ5IYuO+Pz2Pj+gMvvy7TcI4Oo9kTP
-omQhyqXSHNiLx3ApiP8cJDzf/XAikSisvtUpy3YAqC2qm2HP6ovwY/dwbk8RAqAx
-WE0q8YdscOOLxcrxmYIoClnrmmP0uvB3HTw+R7msdk0G/SnGnvTV4qGn8aO9NQ6M
-06mYcsruO579v/VzQrqTEQy0krYzTWyJMD8NFDwwrCFhuM3V/ElsU+L5WvH/cjCQ
-0D8fQWiqFmQ8W5XJ8Jfk28W/HFtrReBQjkD/7o6selIfik9gWiE=
-=54sZ
+iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlpQ2OwACgkQqB4HWr7I
+Cn5orA//W8eCmcOfe6rm4txiVNZxrrRTY9fLY4Fe1wJcYffuoiVhYH+fYx39cf4q
+Ii3qqmKf+zw+c5fqPOon0B/AIUHYygM5ZcQ5Z8qEnBWyH32UdnW7Si4vKTEJYEbU
+DdiV5mJKvGikIYGxzRYfJ8aBHNsVo6T3nnOf2r/VZXHOkja1PcAmt3U+C6XqOfAV
+2ueK7Sys/WdxmXfa57syuPYxz76A2ldd4/5g8h+FbU6QM8PcjZjQurLNovvwux+T
+cU+3zZ2NjNGP7LHCR6jdkkuo+4Moq0yWoTGw+e92TYiteNy53XPRqPa0pylgL5s4
+2Flrp71EmMn4NZYYHB843UcPtZugNI5560fuJ+wBO9AzByDvPSeZMeAN5JpgCQou
+7xAav0NZHRNWxXEu8lc+LuuLT5SOct1hNmlM5sLt377hwPJ5ajksy2Bjug60Stki
+HMSA9VG8LapXxb+0jh6abbkYAogSE+9O+yLXsYlWay1n6KdvCXtaqmR/pPLk6Vrp
+mfkS2BDQzpI89oPo3FNKm2ACW15W8cDjtSayVXGTohs2w7jUS+zX4jcQDefVp+tl
+SsN/Dd6w6FQ6ppyil5SlBlRbqxNgQpnURvSSRu7wSoOWKOtkMhcC8Ozh4/eqSdX5
+JG2CpkYNTE242+ApxK+ao2RD94cmbccoMlHCDJv2tCcXPjs7s28=
+=NzXm
 -----END PGP SIGNATURE-----
