@@ -576,7 +576,7 @@ Build-Ids: 5624cfb81282d18ee8d06ed929765afda8b0a879 80243134a279c561c69b00ca22e0
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: xserver-xorg-video-hwcomposer
-Version: 0.3.8-1
+Version: 0.3.8-2
 Architecture: armhf
 Maintainer: JBBgameich <jbb.mail@gmx.de>
 Installed-Size: 31
@@ -584,30 +584,30 @@ Depends: libc6 (>= 2.4), libegl1, libepoxy0 (>= 1.0), libgles2, libhardware2, li
 Provides: xorg-driver-video
 Priority: optional
 Section: x11
-Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer_0.3.8-1_armhf.deb
-Size: 10216
-SHA256: 00c52f026764dd72ef697f8e64aa795aa6487c33bc415742c8325ea34a72e298
-SHA1: 11958deedc8ef28cd354546cf6745365596703c8
-MD5sum: 5ba30a62f4d727343e35751111132221
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer_0.3.8-2_armhf.deb
+Size: 10208
+SHA256: 1130319331c47ca4e80661a6639671717838b12e29ca497bbb9625ba1060c815
+SHA1: aef3d3c429f94ab0ce820f0aa35e505a9be70eb3
+MD5sum: 14a2117f48e5a3c0bfd572f34ee73807
 Description: X.Org X server -- hwcomposer driver
  frame buffer driver for the Xorg X server,
  utilizing Android HWComposer API through libhybris for rendering.
 
 Package: xserver-xorg-video-hwcomposer-dbgsym
 Source: xserver-xorg-video-hwcomposer
-Version: 0.3.8-1
+Version: 0.3.8-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 306
-Depends: xserver-xorg-video-hwcomposer (= 0.3.8-1)
+Installed-Size: 307
+Depends: xserver-xorg-video-hwcomposer (= 0.3.8-2)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer-dbgsym_0.3.8-1_armhf.deb
-Size: 297484
-SHA256: ac816d8ef064e66923d625e69c7466dea70ffee7e107814bb83a6e165ee26ebf
-SHA1: 0b773b7f0c7b0b2aa5adc65c61b4c0bda2b454d6
-MD5sum: f0f02024eba1521426b3132aa4a9e094
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer-dbgsym_0.3.8-2_armhf.deb
+Size: 297076
+SHA256: 2e226153536a231bf57c242f1f007ca4eaa9ac5cd4b3c34634c47e2dfcfa1efc
+SHA1: 925fa14feb07e28fd12f62714dc0e5407bbb5199
+MD5sum: 414b8ca444f23364098721a51a0ad8dc
 Description: debug symbols for xserver-xorg-video-hwcomposer
-Build-Ids: 1ab4e67eaa6020d764051ccaff66c2364ea88432
+Build-Ids: ec285d8164148e02e35571a1a4e75c6757c686b7
 
