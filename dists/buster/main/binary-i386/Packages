@@ -22,6 +22,23 @@ Description: Android Platform Headers from AOSP releases
  This package provides the platform development headers for core components
  of LineageOS, for the 7.1 release.
 
+Package: halium-tool
+Source: halium-install
+Version: 0.1
+Architecture: all
+Maintainer: JBBgameich <jbb.mail@gmx.de
+Installed-Size: 20
+Depends: qemu-utils, qemu-user-static, qemu-system-arm, simg2img, adb, sudo, e2fsprogs, binfmt-support
+Homepage: https://github.com/JBBgameich/halium-install
+Priority: optional
+Section: devel
+Filename: pool/main/h/halium-install/halium-tool_0.1_all.deb
+Size: 4720
+SHA256: 477d1bd223320f6af297084ad739a8d34ee8ea9fe99d894b81983420c3375ab3
+SHA1: 359e419015ef98034a59a838417bdd98a1115ee6
+MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
+Description: Scripts to install a Halium rootfs on your android device
+
 Package: hybris-usb
 Version: 0.2.1
 Architecture: all
