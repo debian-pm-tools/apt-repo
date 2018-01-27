@@ -1,0 +1,5 @@
+Component: main
+Origin: Halium
+Label: Halium (local repository)
+Architecture: arm64
+Description: Local apt repository for building halium rootfs

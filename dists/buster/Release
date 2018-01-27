@@ -1,14 +1,17 @@
 Origin: Halium
 Label: Halium (local repository)
 Codename: buster
-Date: Sun, 21 Jan 2018 16:15:43 UTC
-Architectures: armhf amd64 i386
+Date: Sat, 27 Jan 2018 10:24:42 UTC
+Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Local apt repository for building halium rootfs
 MD5Sum:
  1628cbfd00cb1a4f0587c0fcedce76aa 28084 main/binary-armhf/Packages
  5b9dd20570f25412ffd1118512f070b9 8440 main/binary-armhf/Packages.gz
  d35cf24fd6f4d1281e2b037e8c3ba281 145 main/binary-armhf/Release
+ 1f9e0a93fa36b7ddda1c27f788414377 16435 main/binary-arm64/Packages
+ 044ec5f384c9c725e56a4e2f900d9d02 4524 main/binary-arm64/Packages.gz
+ 55411f63126d1c6990d927c582dc0f9a 145 main/binary-arm64/Release
  8a529a46c4fd23ea21f7a3975ba7de09 8396 main/binary-amd64/Packages
  2b947d4051ade457cacb64642f2842b3 3316 main/binary-amd64/Packages.gz
  ace75e03f1b29c0cfe3225b5c9b2861c 145 main/binary-amd64/Release
@@ -22,6 +25,9 @@ SHA1:
  f2e38cda89f8ea8905461a833a5c973beb76a695 28084 main/binary-armhf/Packages
  19800feb2afb017ee679548f155bbf808ac4bc1a 8440 main/binary-armhf/Packages.gz
  2b98f92147c77a617c2f67d1f06ffc6fb64d277e 145 main/binary-armhf/Release
+ 61daa1f08f876820b07da5d99a457740ac9ddd8b 16435 main/binary-arm64/Packages
+ 1b9cdc568b1144af589ff22263c372268548d488 4524 main/binary-arm64/Packages.gz
+ c564ee8f1056a5effbb32daefeb7440b136f6dd8 145 main/binary-arm64/Release
  d40599ab74f5c9f551a9585739079b80fcb01c7e 8396 main/binary-amd64/Packages
  9a1e3760e2624f49a3d0b8de31207c9e9c7041a7 3316 main/binary-amd64/Packages.gz
  039e11fca109b78708021f3c16c40d01d43361cd 145 main/binary-amd64/Release
@@ -35,6 +41,9 @@ SHA256:
  cb3de1abf1014926179339a253893c16408a928cbc4412472e54f5508170e244 28084 main/binary-armhf/Packages
  55370edf7f6cf54c9d7705fb56fb395ddf0503fefe3562704cbae37b86ebace4 8440 main/binary-armhf/Packages.gz
  de5597ae0f860b6c6147f0adacc7318089847acb9e13d3e592745695c1ff5db2 145 main/binary-armhf/Release
+ 89fb1aaf15c2e4ece0dd1d9d05b43cfb2ddf1f08fbb9f39ad30029c28b46aff1 16435 main/binary-arm64/Packages
+ d9d959c9e0b23e3e38c7ad42a7a6f678f03dcaa4b67c26452e43e1ad2b226392 4524 main/binary-arm64/Packages.gz
+ cc2886cdb80482e5565c5729563c2b01bd9533eeb8b22ee6fae246d78115f0d5 145 main/binary-arm64/Release
  83200890af8a2c23b87c016bfeed33625684ebeca9ad25615be2bd20c71c5c83 8396 main/binary-amd64/Packages
  57fa0265b59eacc8c49d4e6be593e54008aa9fabb11f62ea85fc4eaea160d27a 3316 main/binary-amd64/Packages.gz
  5998fdac02c196178f6eb0f500517a70a4aa0c970d22508aa9b61fc1de205643 145 main/binary-amd64/Release
