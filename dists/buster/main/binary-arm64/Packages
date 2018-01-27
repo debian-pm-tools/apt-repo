@@ -1,3 +1,82 @@
+Package: android-headers
+Version: 1:7.1-2
+Architecture: all
+Maintainer: Rohan Garg <rohan@kde.org>
+Installed-Size: 2876
+Homepage: https://github.com/Halium/android-headers
+Priority: optional
+Section: libs
+Filename: pool/main/a/android-headers/android-headers_7.1-2_all.deb
+Size: 407088
+SHA256: b7d4f406f3d21679c932c3ca1e7e1670634e64feacd16a860fbe3f5c7bfb4675
+SHA1: e24c73d1107eb44ccc7f661398886ec97d54f94c
+MD5sum: 255922eae72fd8ba6f1a57592d1f16f0
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of LineageOS, for the 7.1 release.
+
+Package: halium-tool
+Source: halium-install
+Version: 0.1
+Architecture: all
+Maintainer: JBBgameich <jbb.mail@gmx.de
+Installed-Size: 20
+Depends: qemu-utils, qemu-user-static, qemu-system-arm, simg2img, adb, sudo, e2fsprogs, binfmt-support
+Homepage: https://github.com/JBBgameich/halium-install
+Priority: optional
+Section: devel
+Filename: pool/main/h/halium-install/halium-tool_0.1_all.deb
+Size: 4720
+SHA256: 477d1bd223320f6af297084ad739a8d34ee8ea9fe99d894b81983420c3375ab3
+SHA1: 359e419015ef98034a59a838417bdd98a1115ee6
+MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
+Description: Scripts to install a Halium rootfs on your android device
+
+Package: hybris-usb
+Version: 0.2.1
+Architecture: all
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Installed-Size: 23
+Depends: isc-dhcp-server, net-tools
+Homepage: https://github.com/mickybart/gnulinux_support
+Priority: optional
+Section: net
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
+Size: 2844
+SHA256: d2fe9f3b3dee0829ee8225c7347b3671ed98089fe984f4d062dc7b49b397940d
+SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
+MD5sum: f98ab87d5503b3aaf77b772d435240d6
+Description: USB control for Android with hybris
+
+Package: initramfs-tools-halium
+Version: 0.95
+Architecture: all
+Maintainer: Halium developers <admin@halium.org>
+Installed-Size: 59
+Depends: initramfs-tools, abootimg, udev (>= 175-0ubuntu29), coreutils, busybox-static, e2fsprogs
+Priority: optional
+Section: utils
+Filename: pool/main/i/initramfs-tools-halium/initramfs-tools-halium_0.95_all.deb
+Size: 17128
+SHA256: 09de10e2f0b547d8db8089667f959f6ad3e4227bd1d41a06674363ea93465745
+SHA1: 8c021f4ffa3254ed7ba5e8a47e8ea027954dc168
+MD5sum: 9703099fb99c941ff7f3ffbbe994cc05
+Description: tools for mounting an Ubuntu Touch rootfs
+ This package contains the scripts to boot an Ubuntu Touch device.
+ It also ships a default fstab that uses the android device paths based
+ on partition label. By default it will mount the android userdata
+ partition, then do a bind mount of the ubuntu subdir in there to become
+ the root filesystem.
+ .
+ On failure the script will fire up an adb debugging shell
+
 Package: libandroid-properties-dev
 Source: libhybris
 Version: 0.1.0+git20180110-1
@@ -381,4 +460,75 @@ SHA1: da40ae10ade4033d218077f1c46e2f6d454c1eb2
 MD5sum: 1bbb25991d7e915d104f24debdaef9bf
 Description: debug symbols for libmedia1
 Build-Ids: 6fac3a3445c8938ae61131ebfa054c2cadf5b18e
+
+Package: lxc-android
+Version: 0.1+git20180105-1
+Architecture: all
+Maintainer: Bhushan Shah <bshah@kde.org>
+Installed-Size: 305
+Homepage: https://github.com/Halium/lxc-android
+Priority: optional
+Section: libs
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180105-1_all.deb
+Size: 10752
+SHA256: 07315b51dedbf34b1351d9360335b8a0eda59ca2218243036c9283ee87783ed5
+SHA1: d1546d9da43ccdd30f3553363058fec8e0477720
+MD5sum: 9b1933a4d6c68a96e44355b493b27ac9
+Description: lxc configuration for starting android
+ .
+ This package provides the configuration for starting android in lxc
+
+Package: ofono-dev
+Source: ofono
+Version: 1.21-1
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 179
+Depends: libc6-dev | libc-dev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-dev_1.21-1_all.deb
+Size: 38370
+SHA256: 75c0ce9b789d8795031620ea69639f4c2c09f0c5da1551bd6308463507e44366
+SHA1: 0fd59a74610c575deacccae162f5d51e4b50b99a
+MD5sum: 0ed269e6d5b720706b2aa77630f64fb3
+Description: Mobile telephony stack (development files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the header files for building oFono plugins.
+
+Package: ofono-scripts
+Source: ofono
+Version: 1.21-1
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: ofono (>= 1.21-1), python3, python3-dbus, python3-gi
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-scripts_1.21-1_all.deb
+Size: 32558
+SHA256: 7808683c91b292406a0606a737c63a8d1b8446b129beb4146e9ffda9740f2327
+SHA1: 8181e93fc4a0c12c858caa688080f971a0e9de96
+MD5sum: a68e60b7a01ef165fb2ccb11789aa3fb
+Description: Mobile telephony stack (test and maintenance script files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes test and maintenance scripts.
 
