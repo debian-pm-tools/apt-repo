@@ -1,3 +1,24 @@
+Package: accounts-qml-module-doc
+Source: accounts-qml-module
+Version: 0.7-1
+Architecture: all
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 213
+Multi-Arch: foreign
+Homepage: https://gitlab.com/accounts-sso/accounts-qml-module
+Priority: optional
+Section: doc
+Filename: pool/main/a/accounts-qml-module/accounts-qml-module-doc_0.7-1_all.deb
+Size: 15724
+SHA256: f3caa7e7c42d439575e7d8f10a3ae29a639d01ce3a7e902b33e9b33c28799791
+SHA1: 97de4b207bb01077e482fb1348f9c3e8e0b58674
+MD5sum: a3f349a17c2217dbf94564e15e0df7b3
+Description: Online Accounts QML - documentation
+ This module provides access to the Online Accounts framework from QML
+ applications.
+ .
+ This package contains developer documentation.
+
 Package: android-headers
 Version: 1:7.1-2
 Architecture: all
@@ -184,4 +205,19 @@ MD5sum: 447162a7907cf5942dd705ddedf15472
 Description: debug symbols for plasma-phone-components
 Build-Ids: 32eb401eaaebad7a94dbe547c200a1a35d2a0932 56167c6afe1c248b3be3753769b9ee83f3469ef5 c212df92eeeb3c5c1ae44805da0feaa9c4f6a3b3 dd39fb1ba9bbf736ac3be18a2c1f20c5b555b666 ea7598c514b7d9b0b132bccce98de4a6638b0745 fe7745e8c30abd64a63fcf6249c83f95e2dbfca4
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
+
+Package: plasma-phone-settings
+Version: 4+git20180223-1
+Architecture: all
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Installed-Size: 33
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-phone-settings/plasma-phone-settings_4+git20180223-1_all.deb
+Size: 3836
+SHA256: 99226ff577ffbc20482a03c3b3cac336304aee971582a7e09ac22fb3fef89c19
+SHA1: d540135d4666654da80f5ed79aa626865df0ad50
+MD5sum: 24631f6cdecd1da01842ac181cb6586b
+Description: Settings and artwork for Plasma Phone
+ This package contains settings used by Plasma Phone.
 

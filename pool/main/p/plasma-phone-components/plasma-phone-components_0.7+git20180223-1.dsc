@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: plasma-phone-components
 Binary: plasma-phone-components
 Architecture: any
-Version: 0.7+git20180104-1
+Version: 0.7+git20180223-1
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Homepage: https://plasma-mobile.org
 Standards-Version: 4.1.3
@@ -12,12 +12,12 @@ Build-Depends: cmake, debhelper (>= 9), extra-cmake-modules, kwayland-dev, libkf
 Package-List:
  plasma-phone-components deb kde optional arch=any
 Checksums-Sha1:
- 766afe6e0f8ab09d840dec72a628e031bef71ca5 1700056 plasma-phone-components_0.7+git20180104.orig.tar.xz
- 6d09b964ce11be5165d0d6985aa61dd0a0d66c9b 2136 plasma-phone-components_0.7+git20180104-1.debian.tar.xz
+ f51dd5370731a45440a2515425d9275f02527bed 1710024 plasma-phone-components_0.7+git20180223.orig.tar.xz
+ e672c6662891ba2b94d5be4af13218d264647748 1976 plasma-phone-components_0.7+git20180223-1.debian.tar.xz
 Checksums-Sha256:
- 850c48565d502f337f9936594edfd414ca1688763da37aa56987ecd7b09cd62f 1700056 plasma-phone-components_0.7+git20180104.orig.tar.xz
- 20b092975382e5457af8c987daabd4af60022ef3d9e74ab8cd50bd32c6487ad2 2136 plasma-phone-components_0.7+git20180104-1.debian.tar.xz
+ 77fb6217c1d073c10e3ee86a8ad3ccd5a1d5255c035a02b1dab182943a755eb3 1710024 plasma-phone-components_0.7+git20180223.orig.tar.xz
+ 6cdbb909446a682751ae84c3fa84bc6ef34a64df186a23d60c8c4879056f8aa9 1976 plasma-phone-components_0.7+git20180223-1.debian.tar.xz
 Files:
- 8ca762232cc2e76d239270cf0ec836fb 1700056 plasma-phone-components_0.7+git20180104.orig.tar.xz
- 5d08df2e2775cbc776629fa6abf7f880 2136 plasma-phone-components_0.7+git20180104-1.debian.tar.xz
+ 6382613ddce97c069beb406160855bde 1710024 plasma-phone-components_0.7+git20180223.orig.tar.xz
+ d4fb860075725bee66304076588e7de7 1976 plasma-phone-components_0.7+git20180223-1.debian.tar.xz
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
