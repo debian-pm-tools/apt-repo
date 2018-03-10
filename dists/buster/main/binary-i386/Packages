@@ -98,38 +98,618 @@ Description: tools for mounting an Ubuntu Touch rootfs
  .
  On failure the script will fire up an adb debugging shell
 
+Package: kde-window-manager
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 31
+Depends: kwin-x11 (>= 4:5.3.2-4~)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: oldlibs
+Filename: pool/main/k/kwin/kde-window-manager_5.12.1-1_all.deb
+Size: 12132
+SHA256: fd2db220a748e271267269e9fed4233ca30125045226e232242d8924dffd66dd
+SHA1: 2e9b8fa9f92db27de9966a6aa2ff0db9d5751444
+MD5sum: f7f342bb7b69c7d7f1f81cfdf94b0682
+Description: transitional package for kwin-x11
+ This transitional package allows one to migrate to the packages providing
+ the X11 version of the KDE window manager.
+ .
+ It can be safely removed after the installation.
+
+Package: koko
+Version: 0.0+git20171201-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 24266
+Depends: plasma-framework, qml-module-qtgraphicaleffects, qml-module-org-kde-kirigami2, kio, libc6 (>= 2.4), libexiv2-14 (>= 0.25), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5dbusaddons5 (>= 4.97.0), libkf5guiaddons5 (>= 4.96.0), libkf5i18n5 (>= 5.17.0), libkf5kiocore5 (>= 5.20.0), libkf5kiowidgets5 (>= 4.99.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Priority: optional
+Section: kde
+Filename: pool/main/k/koko/koko_0.0+git20171201-1_i386.deb
+Size: 6332948
+SHA256: 4d4cf25b487f7569dc235b5294e1a11b54ca6267f2e48bf2e0a9d516c168a665
+SHA1: bea789aab22fc0b1ddb8a369e00b835445030d2c
+MD5sum: 4b1c94ab91c8b7b251871c282f6d7701
+Description: KDE Image Gallery
+ A KDE Image Gallery.
+Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+
+Package: koko-dbgsym
+Source: koko
+Version: 0.0+git20171201-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2801
+Depends: koko (= 0.0+git20171201-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/koko/koko-dbgsym_0.0+git20171201-1_i386.deb
+Size: 2768876
+SHA256: 27d69718c397e89b4a323cb43dc375656ae85ae6f13398c9b5d7f2ce502b6883
+SHA1: 88efd13ddd4633fd97e53136dfef3ad50856220b
+MD5sum: 557c022726e9d24624289835498f7aa8
+Description: debug symbols for koko
+Build-Ids: 0a7c8341031668e046abae8a94b2257d86246614 44dbdf1287956da0f325b6270075e64bd547a952 aa587d82436ec3e8c1b73e898c181b1e397d14fe
+Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+
+Package: kpeople-vcard
+Source: kpeoplevcard
+Version: 0.0+git20170117-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 53
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20170117-1_i386.deb
+Size: 15704
+SHA256: 577fe6805e6b306a192120276dcd4a0019afc2a2e50c93051090fb4a3c185fe4
+SHA1: 6453854c1e9cd8079eb257bd36f0cce5b83d0410
+MD5sum: f3ae607a19a0af052c96053be410090c
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
+Package: kpeople-vcard-dbgsym
+Source: kpeoplevcard
+Version: 0.0+git20170117-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 340
+Depends: kpeople-vcard (= 0.0+git20170117-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20170117-1_i386.deb
+Size: 326376
+SHA256: 9ba2c5556f3391a2d1492ac3f47eb3a4d0e4df3b8fa640ab8062019198418e35
+SHA1: b8eb9dbb7e2583bea802d1fa788e89c46d14faa0
+MD5sum: b3c48f61c1ed4d970a581931afa2a158
+Description: debug symbols for kpeople-vcard
+Build-Ids: 265e639fcc39acb5635de418302f19cf275a0b2a
+
+Package: kwin-common
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9238
+Depends: kwin-data (= 4:5.12.1-1), libkwineffects11 (= 4:5.12.1-1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.8), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private5v5 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.28.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
+Recommends: libqt5multimedia5-plugins, plasma-desktop
+Suggests: kwin-addons
+Breaks: kwin (<= 4:5.3.1-0ubuntu3), plasma-workspace (<< 4:5.12), plasma-workspace-dev (<< 4:5.12)
+Replaces: kwin (<= 4:5.3.1-0ubuntu3)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-common_5.12.1-1_i386.deb
+Size: 1843076
+SHA256: f9f29e8114190f729c2292026bcaa85211654771e1b4f14785d3bd15544be8c4
+SHA1: 2fe371d360f505c5e2b1a8e3b58f788df19b816d
+MD5sum: 06951c5c563c8dc8e52f2af685dad7ba
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-common-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 52073
+Depends: kwin-common (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-common-dbgsym_5.12.1-1_i386.deb
+Size: 50419744
+SHA256: b9d776aa367ef1e5d6adba38f0919914ccdeaf319d32f23b42a8ea98066a1a2c
+SHA1: 9392c1828a7474aa3c08b4292ddfd35768460d84
+MD5sum: c6bf8210cbb0b74ca793ee938241a1af
+Description: debug symbols for kwin-common
+Build-Ids: 0c56168aa76f2723ba61ce8ad14952777b26def8 0cc3927edb0ec2725cc2db6a42a7c387ed1a9659 0ce65b875d38058300ad2a2c6e3e7c216170fc2d 12e11261961785dee51d4cae30cf54f91ee0cbbc 1caca76476e284062f91e1a0eecaf82836c7e971 21ab67a754f2354a7429bc0bea5561e28184a228 236a21ad994ed7fde7bbd1673364981d9135ea86 27ee410b2521aa80f3297422cb6ad426ee00be45 2d0663ee706e7a5df046850ab3bcba376602063c 30a4f251ef72e626735bbf063258dd74b5d557fd 3bdd8bd50e2f3bee5829a6e5789fd336bdab18a9 4299212b2c363ecfad40ab4263b49c11b59451bf 42a4f5dc7ae469b6bdc4c2fa51c98733bdf8d1fc 55100c1ae7e602091c5a9db32e4f485130cd5c44 565ffdd77184d229806a226590ec621d68555f69 58c62db46b1cbdba07d052d825dbd675df87614f 59ad1b8785122555e36b57ee3641f8fd68e7f185 5bdd21c6c4887c03b0bbf278919d3b1069046bea 5f508fbb834c876382c0bf07c1392159288d76e2 5faf4137696a5bef6003512cdaa1eeba9f71baa1 600109308aa670c5d7a2b2b1ce2458b7531f4b3d 622edd36c157aae1f8257bdf120b2464eb298e4b 6aebf839b0f7595fe6efdc5354fe40a5a25be2ce 6b7a08f621b17be842cee10c53d71aa0b80a387f 6c9fff157227ebad150f66c4b277166318f04d35 7266ffa626563db7f1240ef6e4614e35e5c7dd6c 769019fac6014f74124d92c990ba3ceb23590d46 77626fed7f90ee282df8ce33aa7dc562f2278363 79950be8191f904e81c60ef2e22443500015aea4 7c98392c15fc7e96766727e050ca07b4b4e480f5 8252ce6d5c30f331f632da38d7beb1452b77fb80 83ca3a43d539de5d4cf54cd0f5b41cadaa5ea650 87bb1df158e39a0f443e2ab44fe49a009438032d 9749f3cd17bfb3f67cc901b2b8ff69ca6f2a9a1d 9d0ffbb8cd418952710c9607dd3c7ba8f4fa5ed5 9dc5a9c13bd426edf975964586ff937fc90dd014 9f2f185f1d7a778b2cef9934c0a34f8a039de786 9fa275a01d6ae49e2b8416e5e16392befd2299cd a226fba6f79d4e4d594519ed4d05aa14c7e2a5cf aa9ffc898cbf82d98d79f25ca8d5f0aed31b79fc c2b13603720a3a2a006c297be6cee603df3c9ae8 c434666c4ae421bdc934896194f2683662b8bf28 c64332494c5aff3ec1a01538f73a48aae720b5ea c986d227ff486bcb407562cec25a657dafbedb4c d18edaeec816bdf798847256ba9d13a3c1522977 d3d0f2d3ec42043e1b41430b10e72ce001189541 d5c985d635f0fcaa53ee6879866671fd5584a906 dbe919d9c4d71a0a1511e6215b7cd5de3a5379b6 e4d52bf9fb359cb3577acf25610c50c50a7e0d65 f630c9d38ebfcbccd46471ea205fb09a725a8da8 fdc8d2a937bf63c531dd586b6df7a989aba07474
+
+Package: kwin-data
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12436
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-data_5.12.1-1_all.deb
+Size: 3924532
+SHA256: f07cbc80d88e910c36a0b81b48ce0e3d20e1480699516612f73bd3ff0ecc396b
+SHA1: 0e33676dd7e53c01f447709ae52434215d35196e
+MD5sum: 6e7e9e3dad51de8acf52be06882fec75
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: kwin-dev
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 251
+Depends: kwin-common (= 4:5.12.1-1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libdevel
+Filename: pool/main/k/kwin/kwin-dev_5.12.1-1_i386.deb
+Size: 54556
+SHA256: 2f7f6d12476046277ac0d2986038ca75ec42b1729b66075c61dadf4204b90e58
+SHA1: 213608ee0002e4dc7141d7c65b17d2270f0e53e5
+MD5sum: 08c5288ea9af05356d56f6051f04eea4
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 656
+Depends: kwayland-integration, kwin-common (= 4:5.12.1-1), kwin-wayland-backend-drm (= 4:5.12.1-1) | kwin-wayland-backend-fbdev (= 4:5.12.1-1) | kwin-wayland-backend-x11 (= 4:5.12.1-1) | kwin-wayland-backend-virtual (= 4:5.12.1-1) | kwin-wayland-backend-wayland (= 4:5.12.1-1), libcap2-bin, xwayland, libc6 (>= 2.4), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12), libfreetype6 (>= 2.6), libgcc1 (>= 1:4.2), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1-mesa (>= 10.0.2) | libwayland-egl1, libxcb1, qtbase-abi-5-9-2
+Breaks: plasma-workspace-wayland (<< 4:5.12)
+Provides: kwin
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-wayland_5.12.1-1_i386.deb
+Size: 186016
+SHA256: ac1b94c9c1b624f252d93f2af381a83c7f6a6979a9b42deabf0a136f10065d06
+SHA1: cb47fd2d50b4919a78f2959fb7563ce53f200047
+MD5sum: 52798c7d0b90517d9628f5e3d3e78688
+Description: KDE window manager, wayland version, PREVIEW release
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package provides the wayland version, which is still a work in progress
+ project, and is available as a PREVIEW release. Don't expect the same
+ stability as with the x11 version.
+
+Package: kwin-wayland-backend-drm
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 279
+Depends: kwin-common, libc6 (>= 2.4), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 8.1~0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.12.1-1_i386.deb
+Size: 92992
+SHA256: 4aad49ac76ac5b53c6fffa6725c9ba99ff57e03498abb07fb316260f9f62910f
+SHA1: ecb4ea1c7f4608c7c133ef938cd4010e1e6caed2
+MD5sum: 8d311ebc4451d27d8ec3624d22448895
+Description: KDE window manager drm plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-drm-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2688
+Depends: kwin-wayland-backend-drm (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm-dbgsym_5.12.1-1_i386.deb
+Size: 2686184
+SHA256: 99f184252e6b396e4a365c60065c81bbb629237b8106b2ef12d9be7b6b04cfd2
+SHA1: 72180d49e4e5801d771f0de6f2aca437f6cb64fe
+MD5sum: 2ccc0eb3f4b539438fa5545c2ee4a778
+Description: debug symbols for kwin-wayland-backend-drm
+Build-Ids: 3caaafb7354ca570313e89a4764be21c31057f90
+
+Package: kwin-wayland-backend-fbdev
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 74
+Depends: kwin-common, libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.12.1-1_i386.deb
+Size: 24072
+SHA256: 66c364a1a2e30dc208316e75e1676395e19e352a8f85ba1e6d2d7e98c4d8c092
+SHA1: 19ba9737c9517b591d7432ed017f3a7fa613d3d3
+MD5sum: 8d8658542e3d3a48b04e130197a7db9b
+Description: KDE window manager fbdev plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-fbdev-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 657
+Depends: kwin-wayland-backend-fbdev (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev-dbgsym_5.12.1-1_i386.deb
+Size: 649036
+SHA256: 20d89702bf11b2a49eaa553c8997d4016b65fb0c8fabb89fdd83fbba0865c2ac
+SHA1: 95151adcd769c2821f5f0f2a961471e60cfa0ef8
+MD5sum: f6b49d7ec10396d1a4689ab5e2fa0122
+Description: debug symbols for kwin-wayland-backend-fbdev
+Build-Ids: 7ca6f2c2c86a689b69ca5733018d90200aabc1be
+
+Package: kwin-wayland-backend-hwcomposer
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 123
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libhardware2, libhybris, libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.12.1-1_i386.deb
+Size: 43016
+SHA256: 64cb3f81810b35563ac0d63d95dd960511207e6002d539534c487c6ab6aa6cbd
+SHA1: dc65cff9d485707a73b4e11fa99f71d6776aad01
+MD5sum: 0284bf1852b43a34db446ce1a751256a
+Description: KDE window manager hwcompositor plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland-backend-hwcomposer-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1308
+Depends: kwin-wayland-backend-hwcomposer (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer-dbgsym_5.12.1-1_i386.deb
+Size: 1302256
+SHA256: 2a69ba26a47fca25b08eac40351027bcb37de728d09c7922e04f3d6490bbf99b
+SHA1: 289686d87815ab73dddc3fe111a64c4b78bb4e51
+MD5sum: d2324b005af340867f8e99b1e3a7b588
+Description: debug symbols for kwin-wayland-backend-hwcomposer
+Build-Ids: 7b21a393e5e24998b3fa1d1399de4dfa8253bb49
+
+Package: kwin-wayland-backend-virtual
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 131
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.2), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.12.1-1_i386.deb
+Size: 45956
+SHA256: df726bdf4bc06b8f7c1a3e1bf4f644583dc0f53db83760e6eebc6691c5ced8ba
+SHA1: e54338de6dedd5008d22ae7cc705d52bc01faa33
+MD5sum: 47cf9453a906f8101b22f23a7628bb55
+Description: KDE window manager virtual plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This backend allows running kwin-wayland in headless mode, useful for testing,
+ or in the Cloud.
+
+Package: kwin-wayland-backend-virtual-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1545
+Depends: kwin-wayland-backend-virtual (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual-dbgsym_5.12.1-1_i386.deb
+Size: 1542900
+SHA256: 028ea92d1283844b37b9b2517a41a5bc6c82f41376dd54b927f0e9e463d47c37
+SHA1: 9595eb7edf53f33f3544754d2a7f20490414bfcf
+MD5sum: 9d7be47f5889da1b99d1687202f203b9
+Description: debug symbols for kwin-wayland-backend-virtual
+Build-Ids: c0314668ea08f976f655c7ef005a8e6a30440983
+
+Package: kwin-wayland-backend-wayland
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 163
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.35.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1-mesa (>= 10.0.2) | libwayland-egl1
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.12.1-1_i386.deb
+Size: 52108
+SHA256: b4ddc4c130f7a14860105cbd9b06898c78724e45c87a92ed35a5fd5930b5a9cb
+SHA1: 112ee6e16ee0b18456ae2288e8e00790b5493b45
+MD5sum: cad7ee041a28e61cc86fa5e84a3a8090
+Description: KDE window manager nested wayland plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-wayland-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1516
+Depends: kwin-wayland-backend-wayland (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland-dbgsym_5.12.1-1_i386.deb
+Size: 1498296
+SHA256: 96bbd2a67d751d3379070bff7d234dcc8a77a422d6469d06eb2642a165790301
+SHA1: 35d57258677638cfdc735634eee9ba74879f5711
+MD5sum: 63092174a523ea0dd26e2b0cde96fb43
+Description: debug symbols for kwin-wayland-backend-wayland
+Build-Ids: fc20a005d264f16e8b3ea8c87fee013d4406df65
+
+Package: kwin-wayland-backend-x11
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 159
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.98.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1, libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.12.1-1_i386.deb
+Size: 56312
+SHA256: c3b0c6b8c838b15214fc439d46deaabcf93dc00de0827e42259127ffdbe81bbb
+SHA1: 3b4e23b24b3d49aa7a95b4992d1e7b6f429f53d7
+MD5sum: d39abc4ea8cba72739d223f86344def2
+Description: KDE window manager x11 plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-x11-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1659
+Depends: kwin-wayland-backend-x11 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11-dbgsym_5.12.1-1_i386.deb
+Size: 1656740
+SHA256: 8c03cc0b079cf47d5e2cec4afb20a5fd585aae9c917000ae647dedbedb524478
+SHA1: a762b54c31cedebc9bbfbcd8b1884ae3f079a736
+MD5sum: 3a36e5d3d04a976a9e7be67c74cc4384
+Description: debug symbols for kwin-wayland-backend-x11
+Build-Ids: e58c7130277f3658f9537d48dec80359fa221c7b
+
+Package: kwin-wayland-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2228
+Depends: kwin-wayland (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-dbgsym_5.12.1-1_i386.deb
+Size: 2109032
+SHA256: 10ee5effbb65d8b5265be1641ae9f33c8166d1ac8c007f396a8447f19af03ca8
+SHA1: 0e50cd3607f695bdee90b77a04fe8e1985ed22b7
+MD5sum: 0a838d57a88f8a1fd7f7400c65e8f065
+Description: debug symbols for kwin-wayland
+Build-Ids: 2d432a878eecead2022da0e33f21db4db37bc385 afd34efc894c83b7a5b5003212fb59f083e89193 ea2bd31b361a1aaeca25c6559fd762e220d659ed
+
+Package: kwin-x11
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 433
+Depends: kwin-common (= 4:5.12.1-1), libkwinglutils11 (= 4:5.12.1-1), libkwinxrenderutils11 (= 4:5.12.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.12)
+Replaces: kde-window-manager (<< 4:5)
+Provides: kwin, x-window-manager
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-x11_5.12.1-1_i386.deb
+Size: 130960
+SHA256: 1a456b94496b2c58f267a4c75535ddc21fb2e21573827873fd00a03d0e70b752
+SHA1: 89bf86a495e9b041b569cb555dd899eb069a397c
+MD5sum: 9bc2dcc81d34f9ef1616e43172857564
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-x11-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3548
+Depends: kwin-x11 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-x11-dbgsym_5.12.1-1_i386.deb
+Size: 3522320
+SHA256: bb7d1a85fd41c6023ae69a5cdf78521eddb70de8a7853ee5d4560e67fca938b0
+SHA1: ae43669503bfd7c67a7b59cc314a253b847d17d1
+MD5sum: 959c1d0af76560f9617cde1618a3a11b
+Description: debug symbols for kwin-x11
+Build-Ids: 4ba65c669d6610c6f586b2e43e4f02677c09e5de 5e459aecb54d9f52676ebfd0bdd91a89ed291026 7a6309d56e4e36d35a9f0e93263487b82ff22e08
+
 Package: libandroid-properties-dev
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 46
-Depends: libandroid-properties1 (= 0.1.0+git20180206-1)
+Depends: libandroid-properties1 (= 0.1.0+git20180309-1)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180206-1_i386.deb
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180309-1_i386.deb
 Size: 16672
-SHA256: d98a6695de7190ec5f4d1151ee2f33ad41b2b9e9603488cf8f8fd27c157f23d2
-SHA1: a85b1eb3a673138efee340da19e8cf1b0a933916
-MD5sum: ae843259506d86ca1ed94779d03c93f6
+SHA256: 3edbe21db6471915acad14a119b278865e12241bb644bacb79c874d1f51fdca3
+SHA1: 717a5ad9de5c911c064590113606ce9ff129ec8d
+MD5sum: 60f982f48581b53b34fd27f96ca1b37b
 Description: Development headers files for libandroid-properties
  Contains the development files for use in applications that wants to get,
  set or list the Android properties.
 
 Package: libandroid-properties1
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 56
+Installed-Size: 55
 Depends: libc6 (>= 2.17)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180206-1_i386.deb
-Size: 20936
-SHA256: c48d48106aae569b25fa6b3f1e2cd92939c37dfaf777383a5d22d6fd679296ab
-SHA1: d5a82a2dfb7e73bce8f9fd698dc1ac7ce65398d5
-MD5sum: 71e1d9c123455334bb4b94cbe102118f
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180309-1_i386.deb
+Size: 21300
+SHA256: ed31eacd8f22921d85c350427235a4ade987e47183a7b5aafe46b0c96fb940a9
+SHA1: ee7f21acc17b8bf5ecbc4dcb926bd5914fcf006e
+MD5sum: 5e5dd5e10595e34c886269af8e2672b5
 Description: Library to provide access to get, set and list Android properties
  Contains a library that provides access to get, set and list Android
  properties, which can be used by any Ubuntu app that needs to probe
@@ -137,38 +717,38 @@ Description: Library to provide access to get, set and list Android properties
 
 Package: libandroid-properties1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 30
-Depends: libandroid-properties1 (= 0.1.0+git20180206-1)
+Installed-Size: 28
+Depends: libandroid-properties1 (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 15384
-SHA256: 306fca364f34382d30d0e32dbe844d818b9023cddffe4774351ff4c13aff2700
-SHA1: 4ff25c08222a3d86e68e52b1250d131aec14961f
-MD5sum: 3ec218b3b674315c8519f2062f25a161
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 14428
+SHA256: 59ba9659246255cd7d0248cd249d70303a83e9f34e347d7a6d64fcb68027fc38
+SHA1: 952398e28214b5aea5b8639f90a0ebd562d2adff
+MD5sum: fe05937413693f8a4ecd5384dbe51688
 Description: debug symbols for libandroid-properties1
-Build-Ids: bbff257a1c4f27f68c8802a6582838d59d386e95
+Build-Ids: 876c7fef7bea77fcde5901d6af366ae3fd282af2
 
 Package: libhardware-dev
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 41
-Depends: libhardware2 (= 0.1.0+git20180206-1), android-headers (>= 4.4.2)
+Depends: libhardware2 (= 0.1.0+git20180309-1), android-headers (>= 4.4.2)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180206-1_i386.deb
-Size: 16200
-SHA256: 1780b80ab09bb3ff4ac3f7a82dfb848a1c0c8fe26308ef4faaef23e645140899
-SHA1: 9bfdc2cd3697622f6ef44d393570ae933ed87e18
-MD5sum: f8effd8dbafaaf293d96a22885be464f
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180309-1_i386.deb
+Size: 16204
+SHA256: 38324713e02e5c5cb0946e38a87c8f50f5cb67ba5a8e61016795c7da310558f5
+SHA1: 7666624ce708909561bec0ab4be6b5db267cfeba
+MD5sum: 6cad522e1b92e03ae3fb8b79ab6fd0e6
 Description: Development files for libhardware
  Contains the development files for the Android libhardware HAL, which can
  be used to access a wide range of other HALs, such as audio, power,
@@ -179,20 +759,20 @@ Description: Development files for libhardware
 
 Package: libhardware2
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 47
-Depends: libc6 (>= 2.2.5), libhybris-common1
+Depends: libc6 (>= 2.3.6-6~), libhybris-common1
 Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180206-1_i386.deb
-Size: 17680
-SHA256: 879e104bf707915f4f7657c3e7f54ad51e9d93e00e4bd43bc9927d6f20ceae07
-SHA1: 71aadd1d21c828d1aa8581f799469bb5bc88334c
-MD5sum: 381af23b49fa02d040527a0f868b49c5
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180309-1_i386.deb
+Size: 17772
+SHA256: a34386d07bbaee54822d93c2a43168b514dfdfd25331cbab2fb9f9200cff5aba
+SHA1: 1973217c1de3ad16ce8c962654f244c2cc829f1f
+MD5sum: 5af8475e99d64a2b2c33fb0188cb2f4b
 Description: Library to provide access to the Android libhardware HAL
  Contains a library that provides access to the Android libhardware HAL,
  which can be used to access a wide range of other HALs, such as audio,
@@ -203,55 +783,55 @@ Description: Library to provide access to the Android libhardware HAL
 
 Package: libhardware2-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 17
-Depends: libhardware2 (= 0.1.0+git20180206-1)
+Installed-Size: 16
+Depends: libhardware2 (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 4032
-SHA256: 381ac25fbb8942fa54749667cac57fe5653c912a003c0668e7f65fafa39c9e95
-SHA1: aa85f860840b3d63621b39a1b8cbc4698199d032
-MD5sum: 565218c8d8b1cdddf558d9f883e4c2a2
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 3768
+SHA256: 12a27e7fa7cf800e4fee934d850f4419079949da9d6cb0aff9d8c7939669376c
+SHA1: b168a30e641a7140cf90c6a301b141c913596034
+MD5sum: 7d4d3bc1b88a24b57931e028bae55e60
 Description: debug symbols for libhardware2
-Build-Ids: 5afaad9fbdd2d93b5f1717dde1909389dabfce49
+Build-Ids: 2aa1674b640c6ced53126807286579aafc160e69
 
 Package: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 548
-Depends: libandroid-properties1 (= 0.1.0+git20180206-1), libhardware2, libmedia1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Installed-Size: 539
+Depends: libandroid-properties1 (= 0.1.0+git20180309-1), libhardware2, libmedia1, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180206-1_i386.deb
-Size: 106204
-SHA256: 406f148cc312ab7b7cee4865c75c77175deacf3072a55c813be50ab3fe0c6eef
-SHA1: 5f109dbd75019b674b664bd739adbad1899111b3
-MD5sum: a52b75d02e8d45dd19d32c1f1cfdf608
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180309-1_i386.deb
+Size: 105388
+SHA256: 98545105e4c57d148ccc1a614a2228e0e22bb653c63a1a8d24ac85344f4fc1c0
+SHA1: 252202e339f031f0901f2fdaad7a6d89eb5eaef4
+MD5sum: 13daae06ee5de949065ead883ce75459
 Description: Allows to run bionic-based HW adaptations in glibc systems - libs
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
 
 Package: libhybris-common-dev
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 39
-Depends: libhybris-common1 (= 0.1.0+git20180206-1)
+Depends: libhybris-common1 (= 0.1.0+git20180309-1)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180206-1_i386.deb
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180309-1_i386.deb
 Size: 15960
-SHA256: d5899b8269e599c44d80a7f545846c83a8db51929597e57a559f48ca1fea7226
-SHA1: 6358973ce82b585c6806e9a7dad86ee519aeda38
-MD5sum: 1bacf30471ea639a74f5b382e5483c3d
+SHA256: 41832f6de7fba6ba42556ccca43cb7c666cc26c4f4e56a136ee6e9fce38ea5d0
+SHA1: 358369a96e2080a2a22aacb237dfec50fa7511f8
+MD5sum: ecb0218480f39853b0031b856f564de6
 Description: Development files for libhybris-common
  Contains the development files for the common library that contains the
  Android linker, used to dynamically load and use symbols from Android
@@ -262,20 +842,20 @@ Description: Development files for libhybris-common
 
 Package: libhybris-common1
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 546
-Depends: libandroid-properties1, libc6 (>> 2.26), libc6 (<< 2.27), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Installed-Size: 527
+Depends: libandroid-properties1, libc6 (>> 2.27), libc6 (<< 2.28), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
 Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180206-1_i386.deb
-Size: 144916
-SHA256: 1f1523928270ba6277dba6a48ae184095b45825ba8ebb4142af48927decac182
-SHA1: da7711530bfddda3dc48b473bd77f0bb965db3a2
-MD5sum: 56bf450b055f4aa8425c262a694151e6
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180309-1_i386.deb
+Size: 152680
+SHA256: 7a4b4c2c93bbb2d068f2ddac0442ae6d78042ed3283cd3f0ce2b924899a2292c
+SHA1: 621f8419505b6c2770e577dd3668cc041fb3eb59
+MD5sum: 35289088bd706537a8395df31cfe98b1
 Description: Common library that contains the Android linker and custom hooks
  Contains a common library that contains the Android linker, used to
  dynamically load and use symbols from Android based libraries.
@@ -285,54 +865,54 @@ Description: Common library that contains the Android linker and custom hooks
 
 Package: libhybris-common1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 750
-Depends: libhybris-common1 (= 0.1.0+git20180206-1)
+Installed-Size: 719
+Depends: libhybris-common1 (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 660100
-SHA256: 5ad85d4f4449d5f7cbe4d2e2b6a757d04589421ad49203a58da5600a0f88ab75
-SHA1: ad41af65955df7190abfcda36ccfd4b1b1552cae
-MD5sum: a33cab2ba9023706cd5499e6d1480fef
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 640516
+SHA256: 51d1e419c77526fb3e52974675960bc814717012b97a75e2de7821679f5bdddf
+SHA1: 4c0dda51c8d749aae068ba09bc5666c4ce26d96e
+MD5sum: f89fbd2cadab6904076cb5cf0bfbb011
 Description: debug symbols for libhybris-common1
-Build-Ids: 4c2d00173d2214f43f365373f505594db88334dc 80a2fb9d065c8209e7fa1ea4780d82d68cf96b6a ad92ff5587685ae106c38fef00d0f5f60f0fbb81 ff0e346fd9f5695d8fb724e883691c5b8cc5f90e
+Build-Ids: b4437ff48c79ea3fa368090c0ec07383cf18ee4c cdcf380d53b65d0799f7ab6bdd9e9cecf69b1458 cede97bc4ba5b4c79ce980564355a1c77a85a28b ef6791e0036cdbfd520d4eb631eca1b91e12334f
 
 Package: libhybris-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 613
-Depends: libhybris (= 0.1.0+git20180206-1)
+Installed-Size: 489
+Depends: libhybris (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 400004
-SHA256: 141616ad734297eeb7b1f18bc1931c79ba8c26d3c83037c60dd9049f85557edb
-SHA1: 69e6333c6f599d9467538fac0e878bfddd241eec
-MD5sum: fb5438f919e17f6d716a9a194f26ac68
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 333404
+SHA256: 5cf78a45d6bf0b84a0cc8235e041bc7e1fd757ebf93ed6edd3e91ba92772871b
+SHA1: 729eed06e480887b526d140b2ccf019f61791771
+MD5sum: 4c038db9db44aa76724f8d9e27174c20
 Description: debug symbols for libhybris
-Build-Ids: 024b2f77741ac445c2c4d2d2d229e6c481b11657 078f250a294f5d44be6a1a92aadf1355211f6563 1766507c14a4fdf138890bc56f3433965aca2146 2b4e8563b207cd8468ed9271dfb8c554a61cf0d1 2d2d047fc541af0e849a55b1b3500147260d9755 4a5f7da7021fcd318faede1377b2795d736c713b 662254f6a48ab3a1d325a85e7d6a18ce724f4485 6fdc21f659edb7136ecb255fb26d6b7666bfc4ae 711eabcad537d48a8ee3fc8f61a2fd16f231b54b 7c628a763e08f22b2966ff880669965acf75451c 83cebb20de44bd780a0d3ba67207b001d9ed8907 a672d8479fc7a6701fb4d98df741d3feed308f75 a9197e471fb290a2169d723717ef29bee0b71955 b03da148617a56922e72bd463cc6798ffd04e7b7 b9220059540105bd75f046b22b59b73083235923 c3445164240a16885c84c7ee7362c426b7e86242 c615ee19ba87482bdd7eeae3455b964c4dcf17a9 c6d5f9e8a0af26e76fd3b117e633ed3f6c959c0d
+Build-Ids: 1f91aea7c3a3b2402ddd5e21902a4c74b9134306 2f623250d23e9638cf46d6896b1ede7f022f3627 40b79b4721aece9955de0ee2362c3efae3165528 4295b9686002ea89b94c1c28c19e09f295650bd1 459eaf18465f52e4bcf219d2d5d71bca18211d86 4fdd8d8b04bf558454ad193319811fb85974d16d 512da0bdb5fa19ecc056d8ba09d870876bb8696c 5a0a8c11edba46e8965fc06a05ed892b6393c8e4 6861e306e460502af4e77e7b861478ec0c866022 6ee68b2e6daa0d118ca1abb27cb0c5519f0a47dc 848bc6edff059e7cd3073fc32baf6b24f11dec97 9fb9851ff0c4c0e63f2b1607f62973b2bed7f1ee a7c7a9f24e622fea27e0cf07d992fd339efd3e40 b9f657f2cf07b97492c8dcfc1716aed3e07523ec c70b30cdef094b505d728fd6183e5608892cf0f4 c9c55c6e94f5d6aa6dae2abee990cdcbb6f8ed3c dfd65e1f87a14b84ac8214501a24ff0a8a202675 ee02ccc3f5c0c67168d55c6c904e4860514d13ae
 
 Package: libhybris-dev
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 181
-Depends: libhybris (= 0.1.0+git20180206-1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180206-1), libhardware-dev (= 0.1.0+git20180206-1), libmedia-dev (= 0.1.0+git20180206-1), libhybris-common-dev (= 0.1.0+git20180206-1), libgles2-mesa-dev
+Depends: libhybris (= 0.1.0+git20180309-1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180309-1), libhardware-dev (= 0.1.0+git20180309-1), libmedia-dev (= 0.1.0+git20180309-1), libhybris-common-dev (= 0.1.0+git20180309-1), libgles2-mesa-dev
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180206-1_i386.deb
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180309-1_i386.deb
 Size: 34764
-SHA256: 80771b3206c21bad7c5917d155098348e62294275020194c40029c580b929492
-SHA1: acf60f2e8016705825f23fa29acb32794b8c25d4
-MD5sum: 30e4e6d1a50671df86438e7822ad71b0
+SHA256: 07c80fd0e9319f7b074f638e475b5f333dcdfc9c85a46ead9241097317a5d68e
+SHA1: c86deef4d933e440c19681e6b7fa17646004bf4d
+MD5sum: 5520a5308e81e9a0d69a6d94df00d585
 Description: Development headers and libraries for libhybris
  Contains the header files for use in developing applications that use
  the libhybris library.
@@ -342,18 +922,18 @@ Description: Development headers and libraries for libhybris
 
 Package: libhybris-test
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 245
-Depends: libhybris (= 0.1.0+git20180206-1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.0), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5)
+Installed-Size: 223
+Depends: libhybris (= 0.1.0+git20180309-1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.0), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
 Priority: extra
 Section: devel
-Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180206-1_i386.deb
-Size: 51756
-SHA256: c90bb8363b56e48e0ab4f566fa1ca951b8338d4656bd02ec99412ade0c3cccd2
-SHA1: cb3d6daab6b1cde800bc69b9e71a340265471e75
-MD5sum: b3cae2ec05cd02a2e638c7efb66429e5
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180309-1_i386.deb
+Size: 53632
+SHA256: 1dbcb855051d9afa890f90113ecb87835a839803e899aba9d0da68b0b2accd4e
+SHA1: 2ceb35d923f6566a3965557bedd5300830a10a2a
+MD5sum: 0333e8ee7cfb533f08e471202880c4d1
 Description: Allows to run bionic-based HW adaptations in glibc systems - tests
  Contains the test applications used to validate libhybris (needs Android
  libraries or container).
@@ -363,36 +943,36 @@ Description: Allows to run bionic-based HW adaptations in glibc systems - tests
 
 Package: libhybris-test-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 268
-Depends: libhybris-test (= 0.1.0+git20180206-1)
+Installed-Size: 236
+Depends: libhybris-test (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 135948
-SHA256: 961560b7555af98a5986de894918f8edea9b87de33ca290391d17c8c9944b352
-SHA1: 100d60ea86e360a71d4c923c3b6310db0559d347
-MD5sum: 6e23c0bfbadea5f61c6780810a3fdb25
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 129732
+SHA256: ba783c557ce32d4e552e4aaad84b964151ba4ad163d127b8532daace983339a0
+SHA1: 536777116de5970ad99ce70e238b72fcfe627f7c
+MD5sum: 79c9475ba3065c5c772f76b33de4490d
 Description: debug symbols for libhybris-test
-Build-Ids: 1b4901105f9cf3baf2980309b2d72aac795414d7 50097473b78e05093d563c1ae1ec1434600ea722 55940f1bb9559298d5a6261d3ed24d75e3110596 6588c304cc941195e534843fcb8187629380dd77 69f9c3d1a22c624d4982313de997ff37694ff037 7dd7e61618a52a6e908515fd586134fbe286cff4 89cd690a16ea6ef3b4a3cedbb059e69a3b018d0e 8a7c23d8ae9bdb0f565b9a4cb56b36acd8beab7d 904f964fd6ebfa1f4984781c08ab16578c788cf6 91646516346ace99cfd3e716cd2620d53e54ca23 adb7855dc8593b93d668c1b246f7570cf3ffd3c9 c97608730798f6de5076e4351c51a8ac6f73088c ce5d4e1155a8360ae3ce5f1c8da9495e234990ef e4d2ec06512222787b33e6215a3e2ac6071e6d79 ea873c7e54e69b7cc95e5474c9a6ec76695b9d64 f8096809b21b0b92f64fce73571356cc422667d0
+Build-Ids: 04399d3cf0a9caa53d9c7411b72073b46560eb25 0a3a7a8a4cbcba9304a783359b9aae302f5e23e1 3763954352b70c835d9c401e564250eb536b89b5 459d77a9cbd62c497d91319f2eb4d399c4497798 4c75da086051e26e100f2dcd545a71a6b8fc4687 538b629e618b3b2b37d0c7cb69326f397d4b9daa 564ad31a31a64d04d3b1f0935c33e8e61d1327db 6bd26b9e2d5ee562ef692578c864a4d4d6280377 74f7843a106f13306dde59331efab2fd115e65da 7a0a0fd26ca2a70d06c178419d37d455bbb68a10 83faee15c0e4d4a50a1d242c757853abaa26f7e4 84e3fcfecd44b1851abf364b166d8284285f2023 8807fd6256d04570155ac36ee2e897d40e78ca07 90602a703335f2b674ef57d137e013bbe0d209a8 934a499beb8fe4a680a36b7a79214a27a06a34ce a69045ee1b39a9f64e4209bb9ab89d88d5c30aa0 e4ded372dd010cc9a1ae1b55a18c85ae3e2d9b79
 
 Package: libhybris-utils
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 61
-Depends: libhybris (= 0.1.0+git20180206-1), libandroid-properties1, libc6 (>= 2.4)
+Installed-Size: 59
+Depends: libhybris (= 0.1.0+git20180309-1), libandroid-properties1, libc6 (>= 2.4)
 Priority: extra
 Section: utils
-Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180206-1_i386.deb
-Size: 20772
-SHA256: 129f800bb06e4ef4f93b50773eec65bdb3685c01ce8346f20c676cdd03bbc949
-SHA1: f143018431ff547334593ffa763e2ad9dcf66e55
-MD5sum: a7253fbeaf2e719e339b3ecb51a2d982
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180309-1_i386.deb
+Size: 20912
+SHA256: 8c258ee87f541867a03ab7d0461c3f065a2a1bab484d8efe9a472c45c6d72dbf
+SHA1: 0f8a4529f3a7ab989b2ecd090e1f1220c2cf1395
+MD5sum: 62da54ba7fe7739109b3b282774b658c
 Description: Utilities to help working with the Android HW abstraction layer
  Contains utilities used to help working with Android HW abstraction layer.
  .
@@ -401,38 +981,228 @@ Description: Utilities to help working with the Android HW abstraction layer
 
 Package: libhybris-utils-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 28
-Depends: libhybris-utils (= 0.1.0+git20180206-1)
+Installed-Size: 24
+Depends: libhybris-utils (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 7384
-SHA256: 05a21c0df3d15645343140f8ceae2f384dcd3bb63455136ae8b692ea76ccceec
-SHA1: 3134f497fdc1d47f2288c383018a6c5e0208d4bb
-MD5sum: 02e94781072c21a2f84887b96de28ae2
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 7112
+SHA256: f9c9771aa8bbb1390e43dedd5eafdfb445d2b19085218a09dc35133d98a7379e
+SHA1: f7f59ba7b2381160f6d02d5f909ce99e0806b392
+MD5sum: ef1f86f83a47c37d0b8ac908a7d26d31
 Description: debug symbols for libhybris-utils
-Build-Ids: e2420c0d13a945405151f5a2425d6975765896bd f61ac1e5c0c6d98bc1f310bb83b1cc837243b545
+Build-Ids: 6890b584d475a9f12049eb651bb7eec728cf2f20 799caf60a658b0363477117709bb6835957735ff
+
+Package: libkwin4-effect-builtins1
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1273
+Depends: libkwineffects11 (= 4:5.12.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.12.1-1_i386.deb
+Size: 352300
+SHA256: 787cd6ef7b01368027b333e682deecbbe05c579027b1c5e07151030440e9d620
+SHA1: d44bb10f534753c4cf5b253edeed8a3af825a6e8
+MD5sum: 258a65e9bd5846f9ed29337253ffe90a
+Description: KDE window manager effect builtins library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwin4-effect-builtins1-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10448
+Depends: libkwin4-effect-builtins1 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1-dbgsym_5.12.1-1_i386.deb
+Size: 10354524
+SHA256: ae06bbe947c038fc819bd54b711d6b25a299858f25b43da34c391e30a179e6ed
+SHA1: 955dafae11aebe18bdc7ea62a48e39f3958bf0c8
+MD5sum: dc16bb4ece273a91d0deef864cab1ec1
+Description: debug symbols for libkwin4-effect-builtins1
+Build-Ids: 0f45c985dde17127ec629d4221f361d1070b1893
+
+Package: libkwineffects11
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 291
+Depends: libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0
+Breaks: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Replaces: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwineffects11_5.12.1-1_i386.deb
+Size: 82988
+SHA256: 2c2439b785e97883a35f1c729231f934835c82bb1b96be6c23ba14524928b432
+SHA1: 30147846c3501137ed7f93a5a6313b4bdc3ce2b2
+MD5sum: 1604821954c2c2e12bcc16534e0a4fd8
+Description: KDE window manager effects library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwineffects11-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 910
+Depends: libkwineffects11 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwineffects11-dbgsym_5.12.1-1_i386.deb
+Size: 879664
+SHA256: 82d46d8a6399a75c24264a744dbce216b6eabf17697c542ceb222e3f36342d82
+SHA1: 8580e631b292b5e085b849652d8235b18b39e064
+MD5sum: e5ccb292a6325d231a9bb69b3ee9d2d9
+Description: debug symbols for libkwineffects11
+Build-Ids: 949f44215ab9e299531de4c0498fba4e0167c97a
+
+Package: libkwinglutils11
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 203
+Depends: libc6 (>= 2.4), libepoxy0 (>= 1.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb1
+Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4), libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4.5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Replaces: libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4:5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwinglutils11_5.12.1-1_i386.deb
+Size: 67504
+SHA256: 7123c73a3f35fd2467fc6a5d7f8e40101e052b35da403cb0cfc80e21b87cc4fb
+SHA1: a864710901d0742eec88b4e373a0c0d5cf05d1f5
+MD5sum: 21bf42457989a1295e9862c4f46ff6cd
+Description: KDE window manager gl utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwinglutils11-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 866
+Depends: libkwinglutils11 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwinglutils11-dbgsym_5.12.1-1_i386.deb
+Size: 839848
+SHA256: 0badafc8fcd247d308b7be89e28720c095bc6a6bfb8f53ded1676a3733615bb3
+SHA1: 3ff2755bb35e473b07944e3680bfe144dfa5e5a7
+MD5sum: 8a5d4744bfd5ed50f79987e0ff65ed57
+Description: debug symbols for libkwinglutils11
+Build-Ids: a4b795e515f117ffe382050334f6b2db9d535d64
+
+Package: libkwinxrenderutils11
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
+Breaks: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Replaces: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwinxrenderutils11_5.12.1-1_i386.deb
+Size: 22656
+SHA256: 79d6d3e240e01edfed225a3da4bca8e20ffd3cf7549cf58be44d7570c21cc30d
+SHA1: ee577f27efefb2f0a87d377b1cc9fd240d12df1a
+MD5sum: d29b6c8169b7f9b6d54900a066ed1895
+Description: KDE window manager render utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwinxrenderutils11-dbgsym
+Source: kwin
+Version: 4:5.12.1-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 266
+Depends: libkwinxrenderutils11 (= 4:5.12.1-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwinxrenderutils11-dbgsym_5.12.1-1_i386.deb
+Size: 255104
+SHA256: 98819d957fe3f23af3da4e6a0ff191609016cbf79eefa814b53b3042012477b3
+SHA1: 0d667cab32ed1a09123366cca0489ee4efe1a161
+MD5sum: a1e5d139cbb6e1f2f4a66632d44e09fa
+Description: debug symbols for libkwinxrenderutils11
+Build-Ids: 35b1f561a78ce67278517fa7d778b889e4dfbacf
 
 Package: libmedia-dev
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 85
-Depends: libmedia1 (= 0.1.0+git20180206-1), android-headers (>= 4.4.2)
+Depends: libmedia1 (= 0.1.0+git20180309-1), android-headers (>= 4.4.2)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180206-1_i386.deb
-Size: 21320
-SHA256: a1f943615036f61df0aa2b5630e77ee3458cf205f967e0f0301c59434a20cecd
-SHA1: 43b5403cc20fa583148ab13f7ba52bb0cf87af84
-MD5sum: 3ec6b632cf78fc39a70f9bb83354f785
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180309-1_i386.deb
+Size: 21316
+SHA256: 8f0bd5aeed3ca4324ae30ce1a4bad8d71a78378d8d9095f761659e9eb6245751
+SHA1: 777fb297cfec3925a44123936a38cbbe0a3673d2
+MD5sum: f203e688c586f02a0478ca09288ac32a
 Description: Development files for libmedia
  Contains the development files for the Android Media HAL, which
  abstract the access to the Android libstagefright based decoders.
@@ -442,20 +1212,20 @@ Description: Development files for libmedia
 
 Package: libmedia1
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 99
-Depends: libc6 (>= 2.2.5), libhybris-common1
+Depends: libc6 (>= 2.3.6-6~), libhybris-common1
 Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180206-1_i386.deb
-Size: 25964
-SHA256: 398e99c48044f0bca3c08947091f5054e525f5fdf8df18423b4b809e288bd33b
-SHA1: bf7fdff7f77c29c2056f1529a07e13d76b6c7b27
-MD5sum: f224b8df77f495845bebfd797cd405a4
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180309-1_i386.deb
+Size: 25808
+SHA256: df3ab4ade084ce371823f8d0ef26ad6321fa0431ce72e3c0f26c0f3e196a31c0
+SHA1: 4e8e354e2d485b8ee190fdf185cd1fe76bb6b21d
+MD5sum: 25c694096bccbebf80af8a26f2f7c1ea
 Description: Library to provide access to the Android Media HAL
  Contains a library that provides access to the Android Media HAL,
  which abstract the access to the Android libstagefright based
@@ -466,21 +1236,21 @@ Description: Library to provide access to the Android Media HAL
 
 Package: libmedia1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180206-1
+Version: 0.1.0+git20180309-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 56
-Depends: libmedia1 (= 0.1.0+git20180206-1)
+Installed-Size: 41
+Depends: libmedia1 (= 0.1.0+git20180309-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180206-1_i386.deb
-Size: 29020
-SHA256: 929edf67b9360ce7b7358ea99aa30828451362f28f113acf610c20ea62e30a49
-SHA1: f190ff39c4aa4457e4376cd2ecfb5450064168ab
-MD5sum: 49df7bc573548b8b365bfb352716c1ef
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180309-1_i386.deb
+Size: 20304
+SHA256: c04a7949b8ce439e1930fafeca3fef98fdc2a5cbaa8ee81b94c771e22c7752fd
+SHA1: ac6881c241f298b05bdb69ad707a656e05ba4f81
+MD5sum: 154bb52204d1c546e7f501fc5b3a0fbb
 Description: debug symbols for libmedia1
-Build-Ids: 3db104d11f3fdd635948ee2de3c8cdffcb308a65
+Build-Ids: a67004da1b1bd4a2e12fbd02290268bfa70bdf2a
 
 Package: lxc-android
 Version: 0.1+git20180105-1
@@ -553,6 +1323,43 @@ Description: Mobile telephony stack (test and maintenance script files)
  .
  This package includes test and maintenance scripts.
 
+Package: plasma-phone-components
+Version: 0.7+git20180223-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3819
+Depends: breeze-icon-theme, milou, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-qtquick-localstorage, fonts-oxygen, kpeople-vcard, kio, kpackagetool5, libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
+Homepage: https://plasma-mobile.org
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180223-1_i386.deb
+Size: 1755904
+SHA256: 178ffe6797975ce77d6248b6a8f12e2512fa4726a8be55f24d0c50aef2c6e1e1
+SHA1: 617cbe701c95a5c689edee4f57a838d5936444a0
+MD5sum: 6765dc9cbebcfcab1e84777a73e54756
+Description: Plasma Phone Components
+ Phone components for KDE Plasma.
+Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
+
+Package: plasma-phone-components-dbgsym
+Source: plasma-phone-components
+Version: 0.7+git20180223-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3248
+Depends: plasma-phone-components (= 0.7+git20180223-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180223-1_i386.deb
+Size: 3217492
+SHA256: cad6c5e5c5cec161f4d0402b0faa6b22af9eacd8747da593a86c22e0cfc0eb02
+SHA1: bac68a48258f9f4d535e8b50151727ff973e97e2
+MD5sum: 84bbdf4f60c3babc1187c1aff3cf12ee
+Description: debug symbols for plasma-phone-components
+Build-Ids: 2d68b2a5c330b64dff8967a781c8201eec1de8b0 6a445593001ea12c3309f563506c47e1d5972653 8c1e749989d7eb3fbfada83b1fcb27a4e3e70e52 a80eaa408a6a2d308d40b159d0d8f0138208a79c a99b521d1277470efe1caa9757a5288467fe3696 f1287892db0dc57eadfc382ede4e7ab21f6177ba
+Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
+
 Package: plasma-phone-settings
 Version: 4+git20180223-1
 Architecture: all
@@ -567,4 +1374,82 @@ SHA1: d540135d4666654da80f5ed79aa626865df0ad50
 MD5sum: 24631f6cdecd1da01842ac181cb6586b
 Description: Settings and artwork for Plasma Phone
  This package contains settings used by Plasma Phone.
+
+Package: plasma-settings
+Version: 0.0.1+git20180223-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 567
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-ubuntu-onlineaccounts, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.4), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180223-1_i386.deb
+Size: 110584
+SHA256: f2e7526e8f964a9c86409f6d57f7db57a6147bdf73ae03f928978aa847fe7537
+SHA1: ec3d47f63b3fc4c534cda545b33c7001a2283bdb
+MD5sum: e9c70e8c53f86a24a3a5ea0981c129d9
+Description: Plasma phone settings application
+ The settings application and a few modules for it.
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: plasma-settings-dbgsym
+Source: plasma-settings
+Version: 0.0.1+git20180223-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3531
+Depends: plasma-settings (= 0.0.1+git20180223-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180223-1_i386.deb
+Size: 3482200
+SHA256: 768a21feabb6c9e29aaf8770be286ddec9e69f97622f61f51d85a5fd9d967ab3
+SHA1: 66b32eaa6f26360596e1958d3b34b545f0663e46
+MD5sum: 7d59dce2293fbe48b70afbb983188954
+Description: debug symbols for plasma-settings
+Build-Ids: 007030fd650a8e2e5b38091684b1352f5cf1e97b 367ff6f74d3b331eaa631bdc6b259c84e5bd086c 57b69867320a1119bfea25b97eb5330ca77bf586 688a3235ee9a956285cdd08e3cc9140f18357612 95fa49b5a72f387c26a51a24b889f32045078619 ba088e57d5f28b672edd038537b575296c1cf85e cbf71b2d4f019c4abe4dbb3836263087f701fdf0 e60c59ac548e2cc90ee87df6b741e2ba1350b581
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: qml-module-ubuntu-onlineaccounts
+Source: accounts-qml-module
+Version: 0.7-1
+Architecture: i386
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 276
+Depends: libaccounts-qt5-1 (>= 1.13), libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libsignon-qt5-1 (>= 8.57+20150423), libstdc++6 (>= 4.1.1), qml-module-qtquick2
+Breaks: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Replaces: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Multi-Arch: same
+Homepage: https://gitlab.com/accounts-sso/accounts-qml-module
+Priority: optional
+Section: libs
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts_0.7-1_i386.deb
+Size: 69488
+SHA256: aa58f4652c7b1df429366d3efe716e03bf9f5801aac91f127f96c9616811acd5
+SHA1: b5d8f32d827b9a51f1c3aee6bdd342673045f95e
+MD5sum: 389692ddb7cbe8bbd7d81dda4ada7f6a
+Description: Expose the Online Accounts API to QML applications
+ This module provides access to the Online Accounts framework from QML
+ applications.
+
+Package: qml-module-ubuntu-onlineaccounts-dbgsym
+Source: accounts-qml-module
+Version: 0.7-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 1858
+Depends: qml-module-ubuntu-onlineaccounts (= 0.7-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts-dbgsym_0.7-1_i386.deb
+Size: 1844804
+SHA256: ace40d64ce43aad0e34f643a05ae1de3d091f18ca528185a897af720facbb07c
+SHA1: d5b079498ee9fb588809ea1f614a5a8790163782
+MD5sum: adc40852c9feccdf1b73a85ff1ee5723
+Description: debug symbols for qml-module-ubuntu-onlineaccounts
+Build-Ids: b0ed04f5b84383d7e703d7c2bb87808deb116591
 

@@ -98,6 +98,55 @@ Description: tools for mounting an Ubuntu Touch rootfs
  .
  On failure the script will fire up an adb debugging shell
 
+Package: kde-window-manager
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 31
+Depends: kwin-x11 (>= 4:5.3.2-4~)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: oldlibs
+Filename: pool/main/k/kwin/kde-window-manager_5.12.1-1_all.deb
+Size: 12132
+SHA256: fd2db220a748e271267269e9fed4233ca30125045226e232242d8924dffd66dd
+SHA1: 2e9b8fa9f92db27de9966a6aa2ff0db9d5751444
+MD5sum: f7f342bb7b69c7d7f1f81cfdf94b0682
+Description: transitional package for kwin-x11
+ This transitional package allows one to migrate to the packages providing
+ the X11 version of the KDE window manager.
+ .
+ It can be safely removed after the installation.
+
+Package: kwin-data
+Source: kwin
+Version: 4:5.12.1-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12436
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-data_5.12.1-1_all.deb
+Size: 3924532
+SHA256: f07cbc80d88e910c36a0b81b48ce0e3d20e1480699516612f73bd3ff0ecc396b
+SHA1: 0e33676dd7e53c01f447709ae52434215d35196e
+MD5sum: 6e7e9e3dad51de8acf52be06882fec75
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
 Package: libandroid-properties-dev
 Source: libhybris
 Version: 0.1.0+git20180206-1
