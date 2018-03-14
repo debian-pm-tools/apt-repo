@@ -1453,3 +1453,40 @@ MD5sum: adc40852c9feccdf1b73a85ff1ee5723
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: b0ed04f5b84383d7e703d7c2bb87808deb116591
 
+Package: simplelogin
+Version: 0.0.6+git20180314-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 80
+Depends: libpam-runtime, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/bhush9/simplelogin
+Priority: optional
+Section: kde
+Filename: pool/main/s/simplelogin/simplelogin_0.0.6+git20180314-1_i386.deb
+Size: 23192
+SHA256: 05af871207200b092e11b489b629627f0c67f74445d7760f20d8ab0ea5b54b7c
+SHA1: c96d0baeb3468261aefa8686825584b2eeb6221f
+MD5sum: 781941607e08beba5270c00fa0d62c6a
+Description: Simple Login
+ A trivial login manager without UI useful on embedded devices.
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: simplelogin-dbgsym
+Source: simplelogin
+Version: 0.0.6+git20180314-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 377
+Depends: simplelogin (= 0.0.6+git20180314-1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/simplelogin/simplelogin-dbgsym_0.0.6+git20180314-1_i386.deb
+Size: 365924
+SHA256: 457222e950b5e4caebdcdf1321a6187369c4efe497a1f5e7c9df82e064ca051c
+SHA1: 954088b3cbefe706b99d16d18141d447d7100bb0
+MD5sum: 4bc9dbb869d63a8a688b8a53ffa50de0
+Description: debug symbols for simplelogin
+Build-Ids: 21b3cfc17ef9c724d7b338764fb6631f4b7e02b3
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
