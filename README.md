@@ -1,5 +1,5 @@
 ## Development apt repository
 
 ```
-deb https://debian-pm.github.io/halium-debian-repo buster main
+deb https://debian-pm-tools.github.io/apt-repo buster main
 ```
