@@ -20,18 +20,19 @@ Description: Online Accounts QML - documentation
  This package contains developer documentation.
 
 Package: android-headers
-Version: 1:7.1-2
+Version: 1:7.1-3
 Architecture: all
 Maintainer: Rohan Garg <rohan@kde.org>
 Installed-Size: 2876
+Multi-Arch: foreign
 Homepage: https://github.com/Halium/android-headers
 Priority: optional
 Section: libs
-Filename: pool/main/a/android-headers/android-headers_7.1-2_all.deb
-Size: 407088
-SHA256: b7d4f406f3d21679c932c3ca1e7e1670634e64feacd16a860fbe3f5c7bfb4675
-SHA1: e24c73d1107eb44ccc7f661398886ec97d54f94c
-MD5sum: 255922eae72fd8ba6f1a57592d1f16f0
+Filename: pool/main/a/android-headers/android-headers_7.1-3_all.deb
+Size: 407096
+SHA256: 20557b4c8ccd5e6e69c05c866367ffb4775ef189d5efadf1d8465c69f84362c0
+SHA1: 2381788437fd41b3bcb639aa4baf14b47668359b
+MD5sum: f373ee694439a94952f99a9b08aef35f
 Description: Android Platform Headers from AOSP releases
  Android NDK provided by Google contains subset of AOSP platform
  headers which are deemed "external interface" by Google. However,
