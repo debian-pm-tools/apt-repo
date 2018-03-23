@@ -567,6 +567,58 @@ MD5sum: a7781e434c5fe9847b0a85a7ff89ffc9
 Description: debug symbols for libmedia1
 Build-Ids: cdd44cbd3ba12ed055c92c3d31451eb6cc9821c4
 
+Package: libqrtr
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 28
+Depends: qrtr, libc6 (>= 2.4)
+Homepage: https://github.com/andersson/qrtr
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qrtr/libqrtr_0.3+git20180323-1_armhf.deb
+Size: 6928
+SHA256: cc0ffa8caaf2ead3266c41487a12ac9a4aebc5b9351b73122184c3f5ec6c420b
+SHA1: 5de48b87b99fe78c955d9ac36add250dcbb35da4
+MD5sum: 3c87944e73f287abb9d398d175194eeb
+Description: Userspace reference for net/qrtr in the Linux kernel
+
+Package: libqrtr-dbgsym
+Source: qrtr
+Version: 0.3+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 23
+Depends: libqrtr (= 0.3+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qrtr/libqrtr-dbgsym_0.3+git20180323-1_armhf.deb
+Size: 9640
+SHA256: a83c79dd85fda86116db8ff0c6a64aad788c154f3ffd8a4566f9c4ac782dcc4a
+SHA1: 18ba9bfc6e839b89ad5432dd6bc034552e934c5f
+MD5sum: 923e44964e5a1d883aab2eaa88566e9a
+Description: debug symbols for libqrtr
+Build-Ids: 817e2130094f931b396dc891890146e027b16de7
+
+Package: libqrtr-dev
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: all
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 16
+Depends: libqrtr
+Homepage: https://github.com/andersson/qrtr
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_all.deb
+Size: 3816
+SHA256: e3f26737b2ed493f0b05debd32979c176ebe072ac06245f7379f813fdaa9c4a8
+SHA1: 68ebceaccc9656c5dde4983922b12ed6bd872cd7
+MD5sum: 5f954ba58424b8450890aacd858dde1d
+Description: Userspace reference for net/qrtr in the Linux kernel
+
 Package: lxc-android
 Version: 0.1+git20180105-1
 Architecture: all
@@ -772,6 +824,40 @@ Description: debug symbols for plasma-settings
 Build-Ids: 42d4c010fa6b5b2877f2e04343dd9952a1ebfd10 5d8efc5be08f114e2767a7682ceff10d2f4b354f 70fa9ef8c7c6135dc5b337618657146217a801c6 852f882402dc741d50c88d45491983261dd06ef1 a89d5fa16f49bb8bc1ebbb75ff6efb8cb342f272 d5faf91e3f5bf1b93d0d60488ac80be55710e7ea d95c3ced69defedc3ae24adf0d5c9aae4ed8da51 fa3602ba3ab911ea0f14bdf49cbc9d08737f4c94
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: qmic
+Version: 0.1+git20180323-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 28
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/andersson/qmic
+Priority: optional
+Section: comm
+Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_armhf.deb
+Size: 9140
+SHA256: 47cfa4727b095eb0164d881bcaca068a69898780d5dc5f6523f102b95ee3dadc
+SHA1: b01a321efeabde6742841a503dfb63c4ab521f65
+MD5sum: 12e8e449a9731c3efdf609d7427d053c
+Description: QMI IDL compiler
+
+Package: qmic-dbgsym
+Source: qmic
+Version: 0.1+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 37
+Depends: qmic (= 0.1+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180323-1_armhf.deb
+Size: 22684
+SHA256: f040f49e79f4b3b81d6ccef12221534bc6dcb58e542b0280ff48a50c4cb5d28a
+SHA1: 057c83bbe4a9243278392a5bacf5a83a7569d8a7
+MD5sum: c43a40af6f86f0dd66f8bbb8eefd371b
+Description: debug symbols for qmic
+Build-Ids: 0865bc97b07eaec22fc8509808339e2994cbe299
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -812,6 +898,283 @@ SHA1: fbd1b56f00f5409f797a3f84faa78e65803ee11e
 MD5sum: 5bd3276c2e710f1d0a44b927e5438c8f
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: d9a51355a4b194f84cb31c6cfc6306cbff60e41a
+
+Package: qrtr
+Version: 0.3+git20180323-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 40
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/andersson/qrtr
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_armhf.deb
+Size: 10716
+SHA256: 565315843577034f43504f44c3e80448023dd61a63e2008f08d5f7c686bf3dac
+SHA1: 6d9c4a913909f199a5d997942173988e4b575aa7
+MD5sum: 84dac28a92a5be34c0833c4bbaef3b0b
+Description: Userspace reference for net/qrtr in the Linux kernel
+
+Package: qrtr-dbgsym
+Source: qrtr
+Version: 0.3+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 49
+Depends: qrtr (= 0.3+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180323-1_armhf.deb
+Size: 22092
+SHA256: c433a180e4cf37d870e9b67156abcc53c083c3cc16559249909fb17468c1c3ba
+SHA1: d7dc08ce02173223b41ceecd3a55898a807fb989
+MD5sum: 2d3bc8c782db133f9ae5e83ce7c2606c
+Description: debug symbols for qrtr
+Build-Ids: 108ec1bbba81f5af8d664c3f97b802ba066e9c71 3013eddcda3e05b1b44d0e48df3c3706b086ac09 c3f53798eafd21c333b7397da3c834cc76452431
+
+Package: qt3d5-doc
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 18333
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc_5.9.2+dfsg-3_all.deb
+Size: 17195264
+SHA256: a5a4c347ed15431100ca45670a7dccf3131f2b8ef080a9d573aa68401c880b7e
+SHA1: 57f775e1b916524a0907e6437e5b26bb243ee732
+MD5sum: 60448567ba254c6d8cdd51411e5d536e
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 29184
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc-html_5.9.2+dfsg-3_all.deb
+Size: 15605300
+SHA256: fdd70a23eb442f115ffc605f1bbd317adaaedbd0f793e08fe9e037c10a3a8bca
+SHA1: d0e93c6fc157c09c66ae527e64dcbc1fccbee981
+MD5sum: ef3a966a157feb15273489324d7c55bb
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.
+
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 37032
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.9.2+dfsg-12_all.deb
+Size: 28413340
+SHA256: 1e63890b14ef4f56fdd53f96b1b4fafd1cd3442faae8c3b99ef368f9536c4f9b
+SHA1: b8d69d13549d611550608be31a58be74234beaac
+MD5sum: f4743a759298ac0afca1100413e8d4e0
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 161474
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.9.2+dfsg-12_all.deb
+Size: 21994352
+SHA256: 3f6ef1cb985d3f75db9eea829704d666977d0731e91d62a89a0ccfd201b40f81
+SHA1: d1666e7a874672cb8ae414c4bcc280f4971ca39e
+MD5sum: db94264c44163e6345347343a753a85e
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtdeclarative5-doc
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12805
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc_5.9.2-3_all.deb
+Size: 10980032
+SHA256: 67fa224096150b11d0391ede35a384abf4a5bb2412d91d94b17011a5a3a86f63
+SHA1: 1c5e79f3e6542ec0c6a8f5854c897a3512158c06
+MD5sum: 5bbcc686da5d608630f2a62fabf671d3
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-doc-html
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 36962
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc-html_5.9.2-3_all.deb
+Size: 8672308
+SHA256: 7da5bf73232751dcde6ea7ee670a2f5c0546f643229f3bd0d46eddd58c3de82a
+SHA1: c27e6a5374d3ebc6146807568fb51ec1fe2875ad
+MD5sum: c256897978b756dfec0f5a57dae12d58
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
+
+Package: qtlocation5-doc
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3089
+Breaks: qtpositioning5-doc (<< 5.5.0~)
+Replaces: qtpositioning5-doc (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc_5.9.2+dfsg-3_all.deb
+Size: 2495468
+SHA256: 55f7defeb132a590af72741b46fa5d3737a2956b7752325daa21f7f1542eb319
+SHA1: 9fae86aaaab0d0cdf4d7046a9990fe3ef765995f
+MD5sum: d6f20f30249ef187eebb7fc3dc7605aa
+Description: Qt 5 Positioning documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Positioning
+ library and binaries.
+
+Package: qtlocation5-doc-html
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8917
+Breaks: qtpositioning5-doc-html (<< 5.5.0~)
+Replaces: qtpositioning5-doc-html (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc-html_5.9.2+dfsg-3_all.deb
+Size: 1878148
+SHA256: f8236dd4935a6f44f78ca802d48f8e24e94d7bebceb184c98f4f36bf43f9c68b
+SHA1: 4aeea29f288baafcce27b1705318f68927f5f83d
+MD5sum: fe5d1190b371287ee31b79be59aaf0c7
+Description: Qt 5 Positioning HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Positioning
+ libraries and binaries.
+
+Package: qtmultimedia5-doc
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3282
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.9.2-1_all.deb
+Size: 2434508
+SHA256: 19befd17c8a36e603383d248f55d5f40d9c50b1524c636a49f1720ee7327caeb
+SHA1: e1ac38c8834651865151247860c3a8cf0ab5267b
+MD5sum: af5c46654caf7e9884919d5874a798a1
+Description: Qt 5 multimedia documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 multimedia libraries.
+
+Package: qtmultimedia5-doc-html
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13817
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.9.2-1_all.deb
+Size: 1575632
+SHA256: 169e53e55a13a3c72cdd251136493af6572f9e959ba15d418b4ad4377e705951
+SHA1: 9e020a44562cdff6a06b0ddae4d83ba17e3f614f
+MD5sum: 80446cd39464819fd493285555dde24e
+Description: Qt 5 multimedia HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 multimedia
+ libraries.
+
+Package: rmtfs
+Version: 0.2+git20180323-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 25
+Depends: libc6 (>= 2.4), libqrtr, libudev1 (>= 183)
+Homepage: https://github.com/andersson/rmtfs
+Priority: optional
+Section: unknown
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_armhf.deb
+Size: 8780
+SHA256: ea593bce5bf6d48a4a38aceb2f956c742ce65f14300c5e07afa681e39d58f8f9
+SHA1: 8c61d026b1a2c6c0f1f6e4f8fadeef76d891e9a2
+MD5sum: b1a1a76184ca221f518ee15dbb71d952
+Description: Qualcomm Remote Filesystem Service Implementation
+
+Package: rmtfs-dbgsym
+Source: rmtfs
+Version: 0.2+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 38
+Depends: rmtfs (= 0.2+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-1_armhf.deb
+Size: 23360
+SHA256: 0866abfd522a8b83f934169910ceed387ff6767a650170acc961d732e3fd5bbf
+SHA1: f9c45e5ae0238a1f9a4e7774e0e24d9a61ecdff7
+MD5sum: 7aada5df6bd7098b4672dc1e54603cce
+Description: debug symbols for rmtfs
+Build-Ids: 642f3570279d295ca1b3931c9dbd63527a0ff11a
 
 Package: xserver-xorg-video-hwcomposer
 Version: 0.3.8-2

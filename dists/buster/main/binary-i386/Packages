@@ -1253,6 +1253,1936 @@ MD5sum: 154bb52204d1c546e7f501fc5b3a0fbb
 Description: debug symbols for libmedia1
 Build-Ids: a67004da1b1bd4a2e12fbd02290268bfa70bdf2a
 
+Package: libqgsttools-p1
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 303
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.31.8), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.6.0~beta), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.9.2+dfsg~), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/libqgsttools-p1_5.9.2-1_i386.deb
+Size: 84264
+SHA256: 1f99439dbd0960903e8705b7ecd177cb6445d138311c9eafe8e44ec4d1dfa844
+SHA1: a7c871f2196cf8be2c32657ad0616fe34340331d
+MD5sum: cfc2dc96763ff7cbd12ee41d06d79646
+Description: GStreamer tools for  Qt 5 Multimedia module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the GStreamer tools for Qt 5 Multimedia module.
+
+Package: libqgsttools-p1-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2409
+Depends: libqgsttools-p1 (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/libqgsttools-p1-dbgsym_5.9.2-1_i386.deb
+Size: 2399620
+SHA256: 65d7b1d9f4a3b33eebbc99c09ebcfa90dc29cef7fe54d2f0a6d7d227ae3bb269
+SHA1: db12ad7d9991b095f75a0c3d7bd0c9bc7a81095b
+MD5sum: 2016635b744034074352f6d1bca654bb
+Description: debug symbols for libqgsttools-p1
+Build-Ids: 4ba82bd204922d511f4d5172bb0a6d40145d4c0f
+
+Package: libqrtr-dev
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: all
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 16
+Depends: libqrtr
+Homepage: https://github.com/andersson/qrtr
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_all.deb
+Size: 3816
+SHA256: e3f26737b2ed493f0b05debd32979c176ebe072ac06245f7379f813fdaa9c4a8
+SHA1: 68ebceaccc9656c5dde4983922b12ed6bd872cd7
+MD5sum: 5f954ba58424b8450890aacd858dde1d
+Description: Userspace reference for net/qrtr in the Linux kernel
+
+Package: libqt53danimation5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 507
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53drender5 (>= 5.7.1~20161122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53danimation5_5.9.2+dfsg-3_i386.deb
+Size: 130292
+SHA256: e599b2fc313adec14d5ae3da7784d426038eec5e22ebc4fb0b64a9938b1838f4
+SHA1: 9afee7dfb73c1639054f76052766207f523e1b1f
+MD5sum: 9083a8222ae556e8a1597e633174064b
+Description: Qt 3D animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Animation module.
+
+Package: libqt53danimation5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7882
+Depends: libqt53danimation5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53danimation5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 7781436
+SHA256: 9674a5dd3732c5128b98fe9b6a862c84a0893d9a6215c417118a44a6dbe48210
+SHA1: eb5292b7cf12a47dd69885804503575b91c55952
+MD5sum: 626b28ac574393f527975677f4b8792b
+Description: debug symbols for libqt53danimation5
+Build-Ids: 578793ea55ca1d711a8bd68eba6d9b6e4d7b278c
+
+Package: libqt53dcore5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 469
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.5.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dcore5_5.9.2+dfsg-3_i386.deb
+Size: 121324
+SHA256: 72fbee9ed7766858e557cf5cb173e937a12c0166943ed99e86b9ba1707c9346f
+SHA1: 9f42fc78190f091a1852a477e0b9d06fc6d118c7
+MD5sum: 791e042cd36130bf4826765e91079e9a
+Description: Qt 3D module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Core module.
+
+Package: libqt53dcore5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 6691
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dcore5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 6554100
+SHA256: b0e08238f578f6c326658d23b47494e30c073da3ebe4185ebebdd1a470de43fa
+SHA1: 75e90a5a4f37ec3bdb154ab1c7c2262c69cb5ee8
+MD5sum: 15efbf1bc9acd0aa73bc0fbda7055e02
+Description: debug symbols for libqt53dcore5
+Build-Ids: 3915d69dca8320746026967919b8aff4ca4bc17d
+
+Package: libqt53dextras5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 775
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53dinput5 (>= 5.7.1~20161122), libqt53dlogic5 (>= 5.7.1~20161122), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dextras5_5.9.2+dfsg-3_i386.deb
+Size: 155892
+SHA256: 91791a7ce04a3704ba17bba26a4717b5c0de7fd56f188d63adb1739e20ecdbbf
+SHA1: e33722ccf27b50c0161cc7949d2d5b0afe4c7a19
+MD5sum: cafcc04217522cbbb2ef16ef3daa6d4e
+Description: Qt 3D extras
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D extras module.
+
+Package: libqt53dextras5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8171
+Depends: libqt53dextras5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dextras5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 7980628
+SHA256: 47a06f1a644faa0733eb70cf194b34b19580ec0da7d76646472012833ab8a31f
+SHA1: 95356a7be11f23992a939b7c0f01b556332d04c5
+MD5sum: c9ac6b6506ab325cc82ea2cdf9b970ce
+Description: debug symbols for libqt53dextras5
+Build-Ids: 1b7cc0c4870a46ce81b9ec235b332a415696c213
+
+Package: libqt53dinput5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 607
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dinput5_5.9.2+dfsg-3_i386.deb
+Size: 137084
+SHA256: 65fee5c798fb9ddbc4b5db0f138e920ae17304496986ec09e7e2c74fe5d0fb71
+SHA1: a3863588beab43e4764bd9e89f27ff8cea1d377d
+MD5sum: b2cd55bbbb73b2d606bf75e8924d15f2
+Description: Qt 3D Input module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Input module.
+
+Package: libqt53dinput5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10792
+Depends: libqt53dinput5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dinput5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 10615260
+SHA256: 58a036ad7b827349df26645644fc9fcb27e1cd19f2299dfc247f65cd5fc58eb7
+SHA1: fc463904099761ec8c6ec699b6732b587e6680e7
+MD5sum: f39f45b95e9d2e6fe74b84bd7fe638e4
+Description: debug symbols for libqt53dinput5
+Build-Ids: 401b54d77705c07b1f9ad23565d820c26dacb7bd
+
+Package: libqt53dlogic5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 98
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dlogic5_5.9.2+dfsg-3_i386.deb
+Size: 30620
+SHA256: 7e389db96f9a1b4ebf02abd1ac2abbec53c9ca1abfedef7120ef7766d8d8bcb9
+SHA1: 26757cdcb05906fcfe0333a429431503cf41d099
+MD5sum: 975ac18db051cb3cc5c9ab7cf928f5d1
+Description: Qt 3D logic module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Logic module.
+
+Package: libqt53dlogic5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 827
+Depends: libqt53dlogic5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dlogic5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 809704
+SHA256: 116b19f7663d5f144a12650d6b6b1d053c9d37725e2eb73d757568b358deebbf
+SHA1: b79653ce9ba4e048d360916027ece6ec4b4641bc
+MD5sum: 694b3f1db2883127f46b6fa156bc0895
+Description: debug symbols for libqt53dlogic5
+Build-Ids: 87562559db73b3fa7a784f432bf47ae3cb754090
+
+Package: libqt53dquick5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 245
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.5.0), libqt5qml5 (>= 5.9.2), libqt5quick5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquick5_5.9.2+dfsg-3_i386.deb
+Size: 66036
+SHA256: 9e4b3686f07203f657c10751ac1521bbbbfe7ca54c3e9efbc28266a884d35d45
+SHA1: dffcf3260c43422a16a3ba65e1e58aa5a3356d75
+MD5sum: e77fda6026a845014ee0fbe4d1651672
+Description: Qt 3D Quick module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Quick module.
+
+Package: libqt53dquick5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2363
+Depends: libqt53dquick5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquick5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 2341928
+SHA256: 94ce4eafd1bd16a7a1d5f1746d4ac2a3bf14184c1687bd8d7623ff45a9692017
+SHA1: ddf4eded5fe10fa614a818f23c0f8cd1c5830e51
+MD5sum: e165acb7c7f3e9a81c8d6ae02acea989
+Description: debug symbols for libqt53dquick5
+Build-Ids: 4a05a391c27913e41cc7137549b136829704b316
+
+Package: libqt53dquickanimation5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 109
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53danimation5 (>= 5.9.0), libqt53drender5 (>= 5.7.1~20161122), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.9.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickanimation5_5.9.2+dfsg-3_i386.deb
+Size: 26864
+SHA256: 625c25f024903975d556caead50ed03e3d49d38c52343b16ae1a81ed73611363
+SHA1: 2f207897a0f88c01ab67d3ee443973eab06d5402
+MD5sum: e670070bf43ff91b56e6c66bffb1c9ff
+Description: Qt 3D Quick animation module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Animation module.
+
+Package: libqt53dquickanimation5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1731
+Depends: libqt53dquickanimation5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickanimation5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1711848
+SHA256: e8b6b2357a98d7664c33e6ab143a40406fc13cc6667cb7d84323a85ba9fa4ed2
+SHA1: 4a8c235ff8efc0fbda40f605065bccd78ebce37e
+MD5sum: 19cb7db6ee346e3227e41aed3ebc5a82
+Description: debug symbols for libqt53dquickanimation5
+Build-Ids: 9f6b41157bcdb9793c17732afc1992aa26c12e71
+
+Package: libqt53dquickextras5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 109
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53dinput5 (>= 5.7.1~20161122), libqt53dlogic5 (>= 5.7.1~20161122), libqt53dquick5 (>= 5.7.1~20161122), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.4.1), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickextras5_5.9.2+dfsg-3_i386.deb
+Size: 32060
+SHA256: 97b64744e8c103aea056b37018a4b51dfffdf1cb5c327ca68ce38fd8ce55d85b
+SHA1: a9b3c3e1e08d1ef23e2e646cef7826ca915e4f77
+MD5sum: 6c3af6415cb6e7980dd13d50a0ed7d67
+Description: Qt 3D Quick extras
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Quick extras module.
+
+Package: libqt53dquickextras5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 734
+Depends: libqt53dquickextras5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickextras5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 713640
+SHA256: 941620e3a0cf148e5b9e0cc307f6ae65d0572de5dfc520304051680ec0f5584d
+SHA1: 02a1d91e2a7586223729b769c4c18f87b8b67f89
+MD5sum: cdf1f0b9d70d6d1c711c86053ff79648
+Description: debug symbols for libqt53dquickextras5
+Build-Ids: 3749af953f00444006801940feb2639fefe4f7c9
+
+Package: libqt53dquickinput5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 104
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53dinput5 (>= 5.7.1~20161122), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.9.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickinput5_5.9.2+dfsg-3_i386.deb
+Size: 26272
+SHA256: 5aa4213b12ef9648bbcad64798af4a1a63474b3fbf7c9c9710f716acc51ae1c0
+SHA1: acad1632d8f33536b5233047606c7076f22a5dc2
+MD5sum: 64f6e33b8ef7c11ad0f3530d27a25089
+Description: Qt 3D Quick input
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Quick input module.
+
+Package: libqt53dquickinput5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1508
+Depends: libqt53dquickinput5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickinput5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1488080
+SHA256: a6b33c4d1199aa573ebc192e9d5280e13d7cf17cd08cd6093e9f7f3d94ab3fcc
+SHA1: a1bee3e58375f426d11899a64bb697633f7bf0e6
+MD5sum: c128a1d797154c1962a30c11ae730349
+Description: debug symbols for libqt53dquickinput5
+Build-Ids: 5baa3ac3e5632a6f8cbbe82e83cdb24bc80e28ce
+
+Package: libqt53dquickrender5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 224
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.9.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickrender5_5.9.2+dfsg-3_i386.deb
+Size: 50332
+SHA256: 7292c19279141774adfa69a41c41ae6fcc15b26bcf7c7c2df7479b297f486897
+SHA1: ecd44a284096671ce7b85105ec9df5f4edc9ea4d
+MD5sum: a11396ea15972fe63d339268394067d9
+Description: Qt 3D Quick Renderer module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Quick Renderer module.
+
+Package: libqt53dquickrender5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4503
+Depends: libqt53dquickrender5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickrender5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 4443888
+SHA256: 66b0d370bbd35adf51eeb0c1de3f52a466cd31e7666e9b4e89bb112270b54005
+SHA1: 669c7c0b2cc9733e547603bbb11a575307312225
+MD5sum: fbf43016db37f21e499830d5afe6a73a
+Description: debug symbols for libqt53dquickrender5
+Build-Ids: 9da8aba87e65a375f0ed0fab6d97cbe72c0b17cd
+
+Package: libqt53dquickscene2d5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 141
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.6.0~beta), libqt5qml5 (>= 5.9.2), libqt5quick5 (>= 5.5.0), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickscene2d5_5.9.2+dfsg-3_i386.deb
+Size: 43944
+SHA256: 732636086854e0ac6cccc9d55f2c59e0fbef21bc38967adab223ac7070274d60
+SHA1: e87354ce664756329474c9c2ffc0c27d40b27093
+MD5sum: 2a67a21551c30c5b4c49d7ce9faef977
+Description: Qt 3D Quick scene module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D module.
+
+Package: libqt53dquickscene2d5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1550
+Depends: libqt53dquickscene2d5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53dquickscene2d5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1531212
+SHA256: 23aacb9de999a2ace2a51163f92c7b2d01e483dabfd8f1a0f76b7a32fd4bcfde
+SHA1: cc830ea04c0ce8ed43bfb902f38859f0c6720537
+MD5sum: 00f489462543872cce43cd916f0e4f7f
+Description: debug symbols for libqt53dquickscene2d5
+Build-Ids: ab27a4bec9460eb4efbff4ccd492bc0b77a7a484
+
+Package: libqt53drender5
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2500
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/libqt53drender5_5.9.2+dfsg-3_i386.deb
+Size: 563704
+SHA256: 6190d356577a96047e1928bcaed3d17fde0f3196b21d986ebf6c65d47bb39183
+SHA1: 8140e567eddd6f1201ac55e76afeab70ae09f2b8
+MD5sum: 0aea3a7ff60dd7797a4909a400071558
+Description: Qt 3D Renderer module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D Renderer module.
+
+Package: libqt53drender5-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 44771
+Depends: libqt53drender5 (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/libqt53drender5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 43941956
+SHA256: 2a1696ead2279d9f661f4a39f59759dc480ed261e2bcddad466c121e8d0ea202
+SHA1: 0d5d7c6efe1f2c0fbf6f7cdc3ebadfbe27fff5b9
+MD5sum: bb7eab0ecf6821abaf11db0f8e66b434
+Description: debug symbols for libqt53drender5
+Build-Ids: aebd416b3a5c8d66592da144affbcebf048ae369
+
+Package: libqt5concurrent5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5concurrent5_5.9.2+dfsg-12_i386.deb
+Size: 57212
+SHA256: c5941cd3fcaa9c981042855503478686ea62f9650062bb79b170004814061392
+SHA1: 18318f0a4abd2899febaedce21fcec36123073d1
+MD5sum: 4c04809196dfe32d242296815c7446f7
+Description: Qt 5 concurrent module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtConcurrent module contains functionality to support concurrent execution
+ of program code.
+
+Package: libqt5concurrent5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 242
+Depends: libqt5concurrent5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5concurrent5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 229692
+SHA256: 75577f13b109f63b9aa04ce85177f62a45e867e026c15531a38062ebe5e73d1b
+SHA1: 2775d0e02200e71d2759bd5c23374417f902a35f
+MD5sum: b7eb9236e4528cd8f71a275916b1b80c
+Description: debug symbols for libqt5concurrent5
+Build-Ids: e81cedd5ded00def68c9d3ddf858d1a33e04704d
+
+Package: libqt5core5a
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10758
+Depends: libc6 (>= 2.17), libdouble-conversion1 (>= 2.0.0), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.22.0), libicu57 (>= 57.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: qttranslations5-l10n
+Suggests: libthai0
+Breaks: libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~)
+Provides: qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5core5a_5.9.2+dfsg-12_i386.deb
+Size: 2438072
+SHA256: ee927c7aa4728c6ac8f792fbe6948c1bf96a4f9f4e2be9d8d9e7072ed00dd651
+SHA1: 3d019ec6b8ac4a3b0889f138179f781c0b1845c4
+MD5sum: 4546965146adac74adba36dfb9907aa8
+Description: Qt 5 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.
+
+Package: libqt5core5a-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 49463
+Depends: libqt5core5a (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5core5a-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 48602200
+SHA256: 7db8a43cfb6b2942383d86c795fb1cfbc04cb45959ba3245a162396d1748c14b
+SHA1: 74d2b726163c309368e676425899286c249b7f60
+MD5sum: 59317bf94026949306dc9beb7e17bb73
+Description: debug symbols for libqt5core5a
+Build-Ids: 1b15c6378ce28b7ac8c46c8ef9961703e8444e7c c5976c404ed877e7d28772955c6ddc3c5d0ca243
+
+Package: libqt5dbus5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 839
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5dbus5_5.9.2+dfsg-12_i386.deb
+Size: 247700
+SHA256: ae62bbfed6f9a232b8fd8d05340ea0044d328d354a56f7a9a08d0783e49bfc42
+SHA1: c32d70a75f4c85d7eba8fd1159d94312e947f76d
+MD5sum: 20adf430ee30b9c6e0c41f98cc45dd61
+Description: Qt 5 D-Bus module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDBus module is a Unix-only library that you can use to make Inter-Process
+ Communication using the D-Bus protocol.
+ .
+ Applications using the QtDBus module can provide services to other, remote
+ applications by exporting objects, as well as use services exported by those
+ applications by placing calls and accessing properties.
+
+Package: libqt5dbus5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4726
+Depends: libqt5dbus5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5dbus5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 4660532
+SHA256: 9f5cdfbac8e0ca6d5f077241378921b78fbcf0990579951bd530c4997af31aed
+SHA1: 7584eaef8805b6ac7f047c8c67e8cd54629eea0a
+MD5sum: 64402bd62a86b04ac21f3426f9c9ce4c
+Description: debug symbols for libqt5dbus5
+Build-Ids: 93af5e62a3fe2daf763753fa096b46f066bfd4d3
+
+Package: libqt5gui5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 16271
+Depends: fontconfig, libc6 (>= 2.11), libdrm2 (>= 2.4.30), libegl1, libfontconfig1 (>= 2.12), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc1 (>= 1:7), libgles2, libglib2.0-0 (>= 2.12.0), libharfbuzz0b (>= 1.2.6), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xkb1, libxcb1 (>= 1.8), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), qtbase-abi-5-9-2, zlib1g (>= 1:1.1.4)
+Recommends: libqt5svg5, qt5-gtk-platformtheme
+Suggests: qt5-image-formats-plugins, qtwayland5
+Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Replaces: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5gui5_5.9.2+dfsg-12_i386.deb
+Size: 4375296
+SHA256: 484883d327b2775e272e605afd9184acb8f3d2c14033024093ee7d0467d9f288
+SHA1: 5279117acbc58a79027622060c8f6e9352b39473
+MD5sum: 294e75049528f7476d5d0a8bf6e7757d
+Description: Qt 5 GUI module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtGui module extends QtCore with GUI functionality.
+
+Package: libqt5gui5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 125776
+Depends: libqt5gui5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5gui5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 124542992
+SHA256: 91fb14a4917056506a391df50b784f63762d54a391410d9f2b173ae9edc1452c
+SHA1: e0ef02d63bfaa2251767c25ef59af0e277998433
+MD5sum: c30f7742ab01060e75a0e8722775e5f1
+Description: debug symbols for libqt5gui5
+Build-Ids: 02c7e22da12e8fcdd7b6f09f5d6a97d28ca42c13 146414a50d688a81a18d41740e09fe2baaec5ad0 1825491e185b2e5315bd11c07f53ffcdf4fe548f 3b0332c02d376d89490188539068a1ad47a8e6ea 4914beed96b368e5a000e3ebbb72574b93fd58a0 49c873f5c26351c4bfb33683c0156d293fe39727 4a42c6ed4c39643eff3dbed31b6f2b2cd37a35b9 50858f2d73297eee35efe8e3cf550ac83914a4ea 5f5d7d1f59aecbdbe73e2e130027a7b26e355bcf 60586ead2340ebf831385c10b723b25a600b4560 6527aecc74d33f5ce063dcf197214cb22a9591cf 7e21633db4a0268155ccf23787d99a7c307f729e 7efb78dfd06b9cc1980cbdbedfc885596dc2159f 999882a2b15e13de0c91c7acd14bffd61d385c7f a440237e03c8703fcbfb18fe5c87f5f7f64516ff aff8f9a5d0c3d547117955b30defdf4495664ca2 b5173fbc2b21f7da4ca1214548c85a5247698f15 d5aa297ee846598a8da6c69b4d5b5a91c550016e d927911b928fe73bb84686d3dd9c8e8a2625b4fc dac27e98f1d56aad64b0a394c9091fd7093feda1 dbb4006b53aefe47a7bfdcbfebcae54be8f15712 dd884a8bde5cc02e086231e25a7016df93dc867b e29548ee2edc8d3c9740623f8d6174b43eb4cad6 e604156be4516b107af35ebe874f510489886cff e8c2aab76c17ee5f6bc474bce0ee7f49f3e40b60 ec0bad342826c71909c3e3c6d64de1a24343a4e9 f7932d58ffc8e1d3316908754c6729e10ec9b352 fcc7d23caaffe990621970b22cd864a73df08230
+
+Package: libqt5location5
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2210
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5positioning5 (>= 5.9.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.9.0), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/libqt5location5_5.9.2+dfsg-3_i386.deb
+Size: 556080
+SHA256: a2ea18e1fbf8acb5d34bad027e34d8302dc68f48aa3427087fbc9ee7b2ab5689
+SHA1: b2f2f6f76650fbe30b0f226242f086854c8c5659
+MD5sum: 352a45d086661bd0a748fba1c6d69b06
+Description: Qt Location module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Location module.
+
+Package: libqt5location5-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 20818
+Depends: libqt5location5 (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/libqt5location5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 20487564
+SHA256: 097c87a3b4eefa5155c547f876b663bc002a22e4b040f6ae83ce6b4991cf9957
+SHA1: 857feecf309b2fafeeca3886a2061f5c7310df9f
+MD5sum: 3f6503dc61b577bd42f1639ab3935166
+Description: debug symbols for libqt5location5
+Build-Ids: 30bc5d7bd5f8d10e510f8bccf8b44f15fa2dff71
+
+Package: libqt5location5-plugins
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1129
+Depends: libqt5location5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.9.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/libqt5location5-plugins_5.9.2+dfsg-3_i386.deb
+Size: 253532
+SHA256: 04535eec0f4a5b2aeb348ec6f6efb02186d74583a00b53ba193586ec98a82d76
+SHA1: f3647d7ce7c8c702861b508248a14c868a509001
+MD5sum: 4b151ee0bea8fddadf47dc382789f44d
+Description: Qt Location module - geolocation plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Location position and geolocation plugins.
+
+Package: libqt5location5-plugins-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13427
+Depends: libqt5location5-plugins (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/libqt5location5-plugins-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 13196336
+SHA256: cfa362b4d20fb3a724aeecb56d3cbe28ed8fbedd3a5268bbd4bff2a770362fb6
+SHA1: a616ac509f18d9429087e86bfbc25e5a8d86cbf5
+MD5sum: f343a26787079df447f28073cd895385
+Description: debug symbols for libqt5location5-plugins
+Build-Ids: 212a0d78a7dcb4094b355a5ceee375630f99d05b 461b7144b00ff512d17551ed8b7c91a3eb8f99c7 658a98cfe4c2c841a815c2909987e9acf302b0bf 946e1567c3a98bded6d13dc9e730550453f7017a b8d1370dbc252af75ceacf61430397669005df06
+
+Package: libqt5multimedia5
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1350
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5network5 (>= 5.9.2+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5_5.9.2-1_i386.deb
+Size: 307240
+SHA256: cb3a63c56dd8b46ef2d9f713fe9fb280c7e28e281571e4ce6cf1f67e68e3ed02
+SHA1: cd538846e4599c0e724d3a4934bc0661edbecb66
+MD5sum: 43cce912be0ae30d908314537dafbe8f
+Description: Qt 5 Multimedia module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of APIs to play and record media, and manage a
+ collection of media content.
+
+Package: libqt5multimedia5-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12008
+Depends: libqt5multimedia5 (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5-dbgsym_5.9.2-1_i386.deb
+Size: 11742056
+SHA256: acc49054f0058d0281e582cff8dce4928b761ff43f70e76781ede2c90665df6f
+SHA1: ee1847e7b1d42d94ba35e6b89b4eead72f96ee27
+MD5sum: 00e8bfc3b30820d858643bfaa5b19c7d
+Description: debug symbols for libqt5multimedia5
+Build-Ids: 5fa0d62d520a15e9997ac9ecc703226828c38119
+
+Package: libqt5multimedia5-plugins
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 963
+Depends: libqt5multimedia5 (= 5.9.2-1), libasound2 (>= 1.0.16), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:4.2), libgles2, libglib2.0-0 (>= 2.12.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpulse0 (>= 0.99.1), libqgsttools-p1 (>= 5.9.0~rc), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimediaquick-p5 (>= 5.6.0~rc), libqt5network5 (>= 5.9.2+dfsg~), libqt5quick5 (>= 5.2.0~rc1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5-plugins_5.9.2-1_i386.deb
+Size: 227136
+SHA256: b4bdbe816aae672fc19c9e17e397a4070e7a393d2ed680e8da6e9734b53c5ac0
+SHA1: 4f06235a7492bf9ab7924137039fcf3a73dd6df1
+MD5sum: 44cbd79349aa4566cd3af22e1e840ceb
+Description: Qt 5 Multimedia module plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of plugins for supporting m3u, pulseaudio
+ and GStreamer.
+
+Package: libqt5multimedia5-plugins-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12194
+Depends: libqt5multimedia5-plugins (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5-plugins-dbgsym_5.9.2-1_i386.deb
+Size: 12039068
+SHA256: 80e7f916a61ffd7f05d275fe3bcd9bced8d95a6b0867fea22089e923b3fb1ef8
+SHA1: 29d1a567f812699e8764313ef726d0cacb3af301
+MD5sum: 88795acab1248b9abe6622275a99fc74
+Description: debug symbols for libqt5multimedia5-plugins
+Build-Ids: 08626729b3afd9f14d7b656e0ef9a582a72020e9 30ba78717d1c4203fc8fde84a19ad9885ac52651 7ea6bff1f489fa6cea2080c1f3f83ab02cbc8aba 9b0e6f4c55862b77c3b7231b125ccc545c764686 a4f62589eb4c9827d84194313e34056669c0d9bc c9380a837c2168e57f190e51fe36f83b8f8b887f d211b31fbcd0a7b1e668f465dcb763392007517b dd606000a2188dbede3b37acf937a753310375af
+
+Package: libqt5multimediaquick-p5
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 147
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.6.0~beta), libqt5quick5 (>= 5.4.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimediaquick-p5_5.9.2-1_i386.deb
+Size: 45728
+SHA256: ef6b87e80237fa519295f0b2839c39b18ea8c87942d216b6f46a722da50685cf
+SHA1: cc33cc61fbf56bda7137ee86aa280478fac7ab14
+MD5sum: ee911b5f30fbcb37dcae2b00ff919065
+Description: Qt 5 Multimedia Quick module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of APIs to play and record media, and manage a
+ collection of media content with the Quick module.
+
+Package: libqt5multimediaquick-p5-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1468
+Depends: libqt5multimediaquick-p5 (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimediaquick-p5-dbgsym_5.9.2-1_i386.deb
+Size: 1448280
+SHA256: f274bec7a4aa6e65fd9637ce1a42b80974e1ab264e3205ad2154726f4d2a2042
+SHA1: a0a38a1f9f788ba98d9f571dabd33eba510348b0
+MD5sum: d4623f63315f2ccc2fcd6f4a66400002
+Description: debug symbols for libqt5multimediaquick-p5
+Build-Ids: fbf107afe667b696466c0fd85210f226f9e31c6d
+
+Package: libqt5multimediawidgets5
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 140
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.6.0~beta), libqt5opengl5 (>= 5.9.2+dfsg~), libqt5widgets5 (>= 5.9.2+dfsg~), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimediawidgets5_5.9.2-1_i386.deb
+Size: 42820
+SHA256: 5244765e7139e5e283c3f524bb77cee59751cc568b575d2894755fb9b7829443
+SHA1: 105bd02c8d8face9a1303b427dc9cbe6cafe8705
+MD5sum: 61ec035042dddfc18c73a321806e130e
+Description: Qt 5 Multimedia Widgets module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of widgets to play and record media, and manage a
+ collection of media content.
+
+Package: libqt5multimediawidgets5-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 863
+Depends: libqt5multimediawidgets5 (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/libqt5multimediawidgets5-dbgsym_5.9.2-1_i386.deb
+Size: 834372
+SHA256: 9b1338d4ddfdf90ce6daef905a93b4f2595fddb71fa7b65c6350630d7623c445
+SHA1: f40ef9eafe492d2cd775684278d559e143ca0326
+MD5sum: 9c889a5c58c7f36070d84f2b5c9ebca5
+Description: debug symbols for libqt5multimediawidgets5
+Build-Ids: 9154411263edbe093f0d4d779221823035868db7
+
+Package: libqt5network5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2885
+Depends: libssl1.0.2, libc6 (>= 2.10), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2, zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5network5_5.9.2+dfsg-12_i386.deb
+Size: 747612
+SHA256: 751a6ae37a422406ed86ada3d6fcef1a4dc530935a4ef3956bbf7b6a6a4432fb
+SHA1: cdeb4bd98615bd2cd50582cf7b75b78d911e9010
+MD5sum: 32060aa81a82aaed3edd4e114130aa16
+Description: Qt 5 network module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtNetwork module offers classes that allow you to write TCP/IP clients and
+ servers. It provides classes to make network programming easier and portable.
+
+Package: libqt5network5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 20747
+Depends: libqt5network5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5network5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 20437912
+SHA256: 83d75f445ad564ab86b198c8cddcffdcf19ec459f176098ec01e46b313eb1300
+SHA1: 309a7e0f0ca532a233eabea66055390b3e9817ff
+MD5sum: 3fef86893e189f79e8501026080bed98
+Description: debug symbols for libqt5network5
+Build-Ids: 4892b694f3f73562f52db5dd89456ad83be95b01 7b8713deb22226204eb00c94e98b2347cc78265d bc48b2f317c455337d21811c2474f49eae0fa926 e1f36277cad30ffcf113f1cd90b89a67e3146fdd
+
+Package: libqt5opengl5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 546
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5_5.9.2+dfsg-12_i386.deb
+Size: 166056
+SHA256: e86339f6bf6c80a5be36a5c86176b5d12b568e893254321ae76a8ead3554b0b9
+SHA1: da61204f729bbc5dddab64e1100f34b356927959
+MD5sum: 5e2a30c7939d2e2571a6af50a67e2b10
+Description: Qt 5 OpenGL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtOpenGL module offers classes that make it easy to use OpenGL in Qt
+ applications.
+ .
+ OpenGL is a standard API for rendering 3D graphics. OpenGL only deals with 3D
+ rendering and provides little or no support for GUI programming issues.
+
+Package: libqt5opengl5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3805
+Depends: libqt5opengl5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 3780164
+SHA256: 35909e7c06a257de6f81f2b96db319a2cc795abe6f3003dd672865e5eaf6adbd
+SHA1: dfbfe3167ceeb4dea1c6ff9f57894126253f025d
+MD5sum: 365d883313eef6d28d88559dce8d02cf
+Description: debug symbols for libqt5opengl5
+Build-Ids: ba3c5a20e1ce55eb5c45d12ed8d3d79b05e9a0a1
+
+Package: libqt5opengl5-dev
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 278
+Depends: libqt5opengl5 (= 5.9.2+dfsg-12), qtbase5-dev (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5-dev_5.9.2+dfsg-12_i386.deb
+Size: 62684
+SHA256: 1900f5fa1403521455fda077230e70284fe8af06458f6892573f4a9d9b572eb6
+SHA1: 86ebfd6f22bc54f254d2e9050392875f1cdd17e1
+MD5sum: b7768b3b7d907fb090b0a7289c17a118
+Description: Qt 5 OpenGL library development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtOpenGL library.
+
+Package: libqt5positioning5
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 489
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Recommends: geoclue-2.0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/libqt5positioning5_5.9.2+dfsg-3_i386.deb
+Size: 143392
+SHA256: c9b6f99fdf00c1eaf07e409fadc7661225d2a3b5d5004c249f0ced27dd717ee0
+SHA1: aa1be557c91bf9eaa01adb261182e7401f93a759
+MD5sum: 9094f849a3f4b66171854921b4cc9837
+Description: Qt Positioning module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Positioning module.
+
+Package: libqt5positioning5-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3585
+Depends: libqt5positioning5 (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/libqt5positioning5-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 3538560
+SHA256: 7117c932d2b2f6b612db8a899c12e5ccbfb736494475800fb59f6f33ced8d07e
+SHA1: 6f7c7d6e037bb0ae77656812830d56bda8323454
+MD5sum: 933685a1d88ffc8c2b6ba9067b37b7ee
+Description: debug symbols for libqt5positioning5
+Build-Ids: 15b7330785d3c04013d8ea2d6562a28b5d1009f4
+
+Package: libqt5positioning5-plugins
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 229
+Depends: libqt5positioning5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/libqt5positioning5-plugins_5.9.2+dfsg-3_i386.deb
+Size: 63324
+SHA256: 69f63f1fed3bebe76099df681555d7818fbf957eb5a5a71ab908608a11299dbe
+SHA1: 915f7b36500b9a7825c87078e8ee2a8f67ff7cf3
+MD5sum: 43a0a3eca6a60c2df0ee01714a290918
+Description: Qt Positioning module - position plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Positioning plugins.
+
+Package: libqt5positioning5-plugins-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3350
+Depends: libqt5positioning5-plugins (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/libqt5positioning5-plugins-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 3324980
+SHA256: 26f73a7d78e3dc4c5954d8ea6b91636607fb3fe261573c58e3d412cf9d72967e
+SHA1: 0108b35efd04603406bc8bdd470f9066a1d65487
+MD5sum: 5c35a8b7b0a06a6ef7a7e4c066081d89
+Description: debug symbols for libqt5positioning5-plugins
+Build-Ids: 8605e72349dd2fac39ed03c47cddf285313e78fc bee26136feae366a66127ce4676fea2f2b0e1369
+
+Package: libqt5printsupport5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 721
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5printsupport5_5.9.2+dfsg-12_i386.deb
+Size: 219244
+SHA256: d6deab09a9cda4e3fa75aa718f2cf0631e6406015538c4fde82261b02844b580
+SHA1: abfd766e0095de7e17f79538d18afccb13d11fcb
+MD5sum: 09614285117ed4d5cf70e7686c46128e
+Description: Qt 5 print support module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtPrintSupport module provides classes to make printing easier and
+ portable.
+
+Package: libqt5printsupport5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4074
+Depends: libqt5printsupport5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5printsupport5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 3996676
+SHA256: 71c18f52f479240d8fbb35b13a79c1aa16a9e26b2bd179cfd009de1b8a304c80
+SHA1: 6f8bcc6dcdb21a4a2cae0829d634eff9e4978e67
+MD5sum: 1c1caad03d69de2692a4338730087499
+Description: debug symbols for libqt5printsupport5
+Build-Ids: a571a15e19d63148452fdc2bff6eac4b94ac2bd0 eff564f14248d8c292b68c584a7122aee2225c2f
+
+Package: libqt5qml5
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4938
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.4), libqt5core5a (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Recommends: libgl1-mesa-glx
+Suggests: qt5-qmltooling-plugins
+Provides: qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5qml5_5.9.2-3_i386.deb
+Size: 1396304
+SHA256: 88261592591c5dca4fc90a826b914902c08d81e81e0e52bf7c2e38968b376e42
+SHA1: 0d7966b9a45eaf2ae99a62269c604df0437c9399
+MD5sum: 34a3b00483d7541ddfb532166a39af36
+Description: Qt 5 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt QML module provides a framework for developing applications and
+ libraries with the QML language. It defines and implements the language
+ and engine infrastructure, and provides an API to enable application
+ developers to extend the QML language with custom types and integrate
+ QML code with JavaScript and C++.
+
+Package: libqt5qml5-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 43719
+Depends: libqt5qml5 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5qml5-dbgsym_5.9.2-3_i386.deb
+Size: 43494532
+SHA256: 6bdbc37334e68eb7dbf8372d92eecd13e83e8785fb527ae2bba445fc9fc762e8
+SHA1: 51db2076b2db19308d13f95e6c23f79aba3e9e8c
+MD5sum: 539310470dc8d9aab7feeb5c54c6dfb4
+Description: debug symbols for libqt5qml5
+Build-Ids: aaf2fe71069863a70f2bbf46a7b7e8ac7b564f19
+
+Package: libqt5quick5
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5164
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.9.2), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quick5_5.9.2-3_i386.deb
+Size: 1332572
+SHA256: a918f1c57186dfc32130ea2912dafb7625bc5ae8320a502f4901a561f485b583
+SHA1: 4cd2f9022af2c4ce93e857da811178729cee7729
+MD5sum: 1e53bb65eeb632d5438ceff13017ce82
+Description: Qt 5 Quick library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Quick is a collection of technologies that are designed to help
+ developers create the kind of intuitive, modern, fluid user interfaces
+ that are increasingly used on mobile phones, media players, set-top
+ boxes and other portable devices.
+
+Package: libqt5quick5-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 40233
+Depends: libqt5quick5 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quick5-dbgsym_5.9.2-3_i386.deb
+Size: 39712552
+SHA256: cc5432c91f4046237b867ea38268ee221b5b9282362afa1033c359510fd3fba2
+SHA1: e18fbe321763daec940fa13af282336f82e541cf
+MD5sum: f52ce2adc8888e3024f40d7c100bbf71
+Description: debug symbols for libqt5quick5
+Build-Ids: ba8d1d5f2aec7288354cbbf0ace8dc9e94fc3b5f
+
+Package: libqt5quickparticles5
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 671
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.3.0), libqt5qml5 (>= 5.9.1), libqt5quick5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quickparticles5_5.9.2-3_i386.deb
+Size: 185548
+SHA256: dd40b13dafbce241885367cbf83c97e07a3648a7d794afadbf0e2594f315a99e
+SHA1: d04b57463142ab33563e7117637e3170100dca82
+MD5sum: bdf446a18d3cf04cd7a02bc3aff5c1a3
+Description: Qt 5 Quick particles module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Particles support library.
+
+Package: libqt5quickparticles5-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5863
+Depends: libqt5quickparticles5 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quickparticles5-dbgsym_5.9.2-3_i386.deb
+Size: 5796224
+SHA256: 14f2bcced432e94aebecbbab6d7969e3ebc26c0125337c0a8490f7e828a528c4
+SHA1: 0f1fd884fbff6b182e748ca30a22a06050410c34
+MD5sum: 2cdfdb585ba048491bd564f7d8b0bf50
+Description: debug symbols for libqt5quickparticles5
+Build-Ids: 4dca2d61096a59d3878f34edf35a310dd3761182
+
+Package: libqt5quicktest5
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 256
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5qml5 (>= 5.5.0), libqt5quick5 (>= 5.0.2), libqt5test5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quicktest5_5.9.2-3_i386.deb
+Size: 73912
+SHA256: c077ded79fa73de9dbf52ea5e9d66025eeabe60fab025b8bd89c1f925dc995d4
+SHA1: 3e7cce6e596fe6554f04c5ab1f097f159d956016
+MD5sum: 16a5d0918f181748bc978b0f173e879d
+Description: Qt 5 Quick Test library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Test library for QtDeclarative module.
+
+Package: libqt5quicktest5-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1137
+Depends: libqt5quicktest5 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quicktest5-dbgsym_5.9.2-3_i386.deb
+Size: 1120460
+SHA256: f14d98ea9773f7fe7ef58559ffaca24aba9a3c93f833de58292302f3748d3778
+SHA1: f20ef2fb34e1841a8edea6d3afd3dd6bc2fe43ca
+MD5sum: 6fa8cdd516e9e282e77ecbe3a36d59d1
+Description: debug symbols for libqt5quicktest5
+Build-Ids: e05381ef3b6ed18ee9424add30937bf41a09892d
+
+Package: libqt5quickwidgets5
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 147
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.5.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quickwidgets5_5.9.2-3_i386.deb
+Size: 47660
+SHA256: df319961ffe94861cbe5963aa6ec618089987a59c020c292a36cead330c35e94
+SHA1: c4c3059c9cdd5356e64d8c995032cf509fe44d7e
+MD5sum: dcc380656217f3d9f43f21a1945aefaa
+Description: Qt 5 Quick Widgets library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Widgets library for QtDeclarative module.
+
+Package: libqt5quickwidgets5-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 660
+Depends: libqt5quickwidgets5 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/libqt5quickwidgets5-dbgsym_5.9.2-3_i386.deb
+Size: 645092
+SHA256: 97dbb944e0b225379cc4ad46e1990cc173ad68f1c13ae3f226a5f38dbcefa96e
+SHA1: 8a038aee1f5d515453e285ae43330603f26834e2
+MD5sum: 260cc994f42e842bccc0e342d8ad0d1e
+Description: debug symbols for libqt5quickwidgets5
+Build-Ids: 47faa167834ea9b49ee2a98ca478f19f1b68d8e6
+
+Package: libqt5sql5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 518
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-tds | libqt5sql5-ibase
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5_5.9.2+dfsg-12_i386.deb
+Size: 154436
+SHA256: 0611371a706ed5ac34aa03650ecdcee8f8f62545204910c1f9a245c4c3a9eeb7
+SHA1: 2eeb09657554530cc474e861fb8f3a8ad62bf3d7
+MD5sum: ff661bc98f9e336e983a8a0a7b4580e6
+Description: Qt 5 SQL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSql module helps you provide seamless database integration to your Qt
+ applications.
+
+Package: libqt5sql5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2321
+Depends: libqt5sql5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 2294696
+SHA256: 8716be0c53cfe4eea42898d18d8ba1e2805e8d2bcb5da9432fae0216a6d0d91f
+SHA1: bf666b46ca62599286b464fc5ee3d1a89dc03425
+MD5sum: 1cfdfa335c1b13e1b338fc7cebe4b988
+Description: debug symbols for libqt5sql5
+Build-Ids: e0a4ff4c5dd839b7b9b7e2abab337673aaa4d3af
+
+Package: libqt5sql5-ibase
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 258
+Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-ibase_5.9.2+dfsg-12_i386.deb
+Size: 84644
+SHA256: d2cd0fda4eb18a756d340a7f8315bef6349e59b052332061b41419d0a7cd8d84
+SHA1: 56058fc04f1ce33954f9f36de4a473351afebdd6
+MD5sum: c9868aba9dad11bcbee7d6757a7a979f
+Description: Qt 5 Firebird database driver
+ This package contains the Firebird plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ Firebird/InterBase DB.
+
+Package: libqt5sql5-ibase-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 579
+Depends: libqt5sql5-ibase (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-ibase-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 558496
+SHA256: 52cc99e9e1a75fd83b378c2fe324ab8b3fbc7e6b27f9ae117e0e37ce9992af2f
+SHA1: e29d718ade6e60009403c2523a1f5db4cf040c8d
+MD5sum: 249362cad55771fb0e12bf3af02db359
+Description: debug symbols for libqt5sql5-ibase
+Build-Ids: 9f5191382a28c57a08c2105419c486de72d39ab9
+
+Package: libqt5sql5-mysql
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 218
+Depends: libc6 (>= 2.4), libmariadbclient18 (>= 10.1.28), libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-mysql_5.9.2+dfsg-12_i386.deb
+Size: 73752
+SHA256: 7c83e936581072640f8203aeed4e348ee7341dcd524e8c02ee7275774d6b4a4b
+SHA1: f4ef890cc5749a1c8c4ad4d725c9921acbfcab0e
+MD5sum: 9a2a21dc838a94abee192b625e489b13
+Description: Qt 5 MySQL database driver
+ This package contains the MySQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MySQL DB.
+
+Package: libqt5sql5-mysql-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 491
+Depends: libqt5sql5-mysql (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-mysql-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 472084
+SHA256: b463038093b9aae54fdf55d789864ad59ae94527d71e0298eaf80877d593c7a0
+SHA1: ba10f2131910926f6cd70051295b420b20904dfd
+MD5sum: 2081669d99fc7204b5590847f1e495a0
+Description: debug symbols for libqt5sql5-mysql
+Build-Ids: 72c40656631b06f4105c34746cefc0bbbe7858de
+
+Package: libqt5sql5-odbc
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 246
+Depends: libc6 (>= 2.4), libodbc1 (>= 2.3.1), libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-odbc_5.9.2+dfsg-12_i386.deb
+Size: 83352
+SHA256: 0b055b2ced577bed29995d51d6ab3fcb367895f805b784861643c8432069a62f
+SHA1: 88419b0f42d68e7d6fc3178fe2e7b7c36bc18e5e
+MD5sum: 6201cf3b7e9530c1f9c4447973606ea5
+Description: Qt 5 ODBC database driver
+ This package contains the ODBC plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ ODBC DB.
+
+Package: libqt5sql5-odbc-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 494
+Depends: libqt5sql5-odbc (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-odbc-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 475268
+SHA256: bd69e22de69c596707686ddd7d1fdd5e66089a76d72a17de87e71f3d65864903
+SHA1: 1a902b9dd21d95a7cc947f3b4d32564e0692a810
+MD5sum: 81b0be449eb17624f530669e7298b4e5
+Description: debug symbols for libqt5sql5-odbc
+Build-Ids: e64b9314b4fdbf0230aa9d1580e408121db3a61f
+
+Package: libqt5sql5-psql
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 226
+Depends: libc6 (>= 2.4), libpq5, libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-psql_5.9.2+dfsg-12_i386.deb
+Size: 74380
+SHA256: c6f4015d2bdcedbb6f781018bbbc9a1a70eda961d500f2ed8b7fb42396028f38
+SHA1: 14cc0e38b18a83403f8b34822b542d239c52f5b5
+MD5sum: 2864713bf851a1b3b566e6b8ccbe168d
+Description: Qt 5 PostgreSQL database driver
+ This package contains the PostgreSQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ PostgreSQL DB.
+
+Package: libqt5sql5-psql-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 472
+Depends: libqt5sql5-psql (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-psql-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 453884
+SHA256: 0d2fccea5191548ce40f7c76079b256b51bea511edcd832947987ab0e2b17560
+SHA1: 0fede0363081fcdf374bc1dbab011d126c8c0576
+MD5sum: 252034252a01c4973ea9c3d07db33145
+Description: debug symbols for libqt5sql5-psql
+Build-Ids: 8dc306efd75c995c2e43c5151de3687117a0790e
+
+Package: libqt5sql5-sqlite
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 210
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-sqlite_5.9.2+dfsg-12_i386.deb
+Size: 69564
+SHA256: 7afebd4533baf867847cc2417209d6d2d14cf707e24c6cc756d2eecc35cd98df
+SHA1: 0de092326e5b81f1f800d219e704498ab64a93f4
+MD5sum: d2f00dd69897fb1ef9644060c43f56d3
+Description: Qt 5 SQLite 3 database driver
+ This package contains the SQLite 3 plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ SQLite 3 DB.
+
+Package: libqt5sql5-sqlite-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 472
+Depends: libqt5sql5-sqlite (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-sqlite-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 453980
+SHA256: de557eb71d99053e1b5b4aa4ec01917cd43f21caa5e3e529c2fd8a35a7bf977e
+SHA1: 3d7e15717a64bf1dfd5a77aad13c082744ac2074
+MD5sum: 3d0f75f6dba71d30dada42c57848f7ca
+Description: debug symbols for libqt5sql5-sqlite
+Build-Ids: d2eb55650aced83847f7a3d9fe880cf1de62441b
+
+Package: libqt5sql5-tds
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 202
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5sql5 (>= 5.7.0), libstdc++6 (>= 5), libsybdb5 (>= 0.63), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-tds_5.9.2+dfsg-12_i386.deb
+Size: 67428
+SHA256: 2b9dea44ce64c818a0f16ab4f7c712870efc27c6a1c82781ace8323788d9fc49
+SHA1: b40f3a097f1e4b3d14b90efc9921d1847f44be1a
+MD5sum: f53d4170a5dd8bfe583fa520ad45d2d0
+Description: Qt 5 FreeTDS database driver
+ This package contains the FreeTDS plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MS SQL or Sybase SQL server.
+
+Package: libqt5sql5-tds-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 441
+Depends: libqt5sql5-tds (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-tds-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 423948
+SHA256: 5fd016ed64b3068a068cd2b8331fd20162012a633dd8c45ace1a5eb2c8262072
+SHA1: 1336ef0423f17eed05544082c088ff459009d07f
+MD5sum: cec70d367e180d03b16cd2b9c9244bdd
+Description: debug symbols for libqt5sql5-tds
+Build-Ids: 594a94c5da5c82479494006370b8b4b8becb7a71
+
+Package: libqt5test5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 373
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5test5_5.9.2+dfsg-12_i386.deb
+Size: 130216
+SHA256: 10d9ccf7b4bd4aa3ec8561189af6a052e030fe02f097035f5794691e7b43c309
+SHA1: c95e33aa52b59ff6fbbdfd24c1a7d122eb897712
+MD5sum: acaececa55e19b23a5d7408475e1506b
+Description: Qt 5 test module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtTest module provides classes for unit testing Qt applications and
+ libraries.
+
+Package: libqt5test5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2100
+Depends: libqt5test5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5test5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 2065820
+SHA256: 63ee2de16f71e3b03c3b32752e228300a3b3d92eef741084441546fd21cdcf7f
+SHA1: f40c2b5f023da3c9f3cba847b40227b56280064d
+MD5sum: af65e30ff378b79c6a5953bdfdb69132
+Description: debug symbols for libqt5test5
+Build-Ids: 3a956b967ed48370ac6784dc4bf8dc86ecd26056
+
+Package: libqt5widgets5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7848
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.9.2), libqt5gui5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5widgets5_5.9.2+dfsg-12_i386.deb
+Size: 2505452
+SHA256: c37e7bee8760b224e4c2df959d1dfc0fd8c8379e6a9116770530850665ce73b9
+SHA1: 8a56771b31c9dead1b3318a6ed3e79f04057239c
+MD5sum: 08d8566e31e4aabbfe3bdc001d8fcc8b
+Description: Qt 5 widgets module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtWidgets module extends QtGui with C++ widget functionality.
+
+Package: libqt5widgets5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 38912
+Depends: libqt5widgets5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5widgets5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 38425248
+SHA256: 691b898cd28a1ac11ecf6256f7eaf6478335b0d2c1a6599826016505faa2c86d
+SHA1: f7aef3410e86a0edd699d5042efeafb30831bb9b
+MD5sum: 65a7065031d5b96dd752518a1f590617
+Description: debug symbols for libqt5widgets5
+Build-Ids: 89317c5b9986abbea912db68cee3961f48d04dba
+
+Package: libqt5xml5
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 437
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5xml5_5.9.2+dfsg-12_i386.deb
+Size: 137140
+SHA256: ed9217dd044a373e1eb3ce65849fa8c74fd9bcb340b9fc05b77a27b6db9790a5
+SHA1: f36286f0b281aac84731d2c611e921c1f881b50f
+MD5sum: 817d018867ebf51ee2039f97ff5e3f33
+Description: Qt 5 XML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtXml module provides a stream reader and writer for XML documents,
+ and C++ implementations of SAX and DOM.
+
+Package: libqt5xml5-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 619
+Depends: libqt5xml5 (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/libqt5xml5-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 564636
+SHA256: f73c190c9838fe147c1537bada084178c45b2862baf435582df74930e49b6773
+SHA1: 3544ecb23203a0c4b60ccd5d89fcdc97ff46209a
+MD5sum: 82b2d71cbd78b6f7beabf1f3d9972e87
+Description: debug symbols for libqt5xml5
+Build-Ids: 5be7c05586e48dc0440b5ab91df447a2bd49bd4b
+
 Package: lxc-android
 Version: 0.1+git20180105-1
 Architecture: all
@@ -1413,6 +3343,868 @@ Description: debug symbols for plasma-settings
 Build-Ids: 007030fd650a8e2e5b38091684b1352f5cf1e97b 367ff6f74d3b331eaa631bdc6b259c84e5bd086c 57b69867320a1119bfea25b97eb5330ca77bf586 688a3235ee9a956285cdd08e3cc9140f18357612 95fa49b5a72f387c26a51a24b889f32045078619 ba088e57d5f28b672edd038537b575296c1cf85e cbf71b2d4f019c4abe4dbb3836263087f701fdf0 e60c59ac548e2cc90ee87df6b741e2ba1350b581
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: qml
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 121
+Depends: qtchooser, libc6 (>= 2.4), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5qml5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtdeclarative-opensource-src/qml_5.9.2-3_i386.deb
+Size: 40264
+SHA256: 8c0ceba0c262b8f5f1885a249de3816566772b330dae2affe3c95d4c2f1e46ef
+SHA1: 6ac00819aecb6642c524dc548613730290cb646e
+MD5sum: 88389a2e9815b039b29a28870bd162ed
+Description: Qt 5 QML viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the new QML viewer for Qt Quick 2, called simply
+ 'qml'.
+
+Package: qml-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 405
+Depends: qml (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-dbgsym_5.9.2-3_i386.deb
+Size: 388788
+SHA256: 6cd479f35b856fb4f785d6296c34449a4c861810177fdc75d6b9e24d654325d8
+SHA1: f58c0944445e2757a53493bddf665ee4997d2de1
+MD5sum: cf02c9f3606d62c267a204732a2e2d11
+Description: debug symbols for qml
+Build-Ids: 44fe107360961533fd54150ac9f7913cd633a1a5
+
+Package: qml-module-qt-labs-folderlistmodel
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 140
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-folderlistmodel_5.9.2-3_i386.deb
+Size: 44604
+SHA256: e5ae1d54a3609f465edf56781ae56498a10e21c487c1b46bb5007150851c90f5
+SHA1: d07d35f9d6852e8ac41de462d7fc5d8fd71d40f5
+MD5sum: 9b2c6a9bcacb292fdf581acc3d5fffd5
+Description: Qt 5 folderlistmodel QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The FolderListModel provides a model of the contents of a file system folder.
+
+Package: qml-module-qt-labs-folderlistmodel-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 579
+Depends: qml-module-qt-labs-folderlistmodel (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-folderlistmodel-dbgsym_5.9.2-3_i386.deb
+Size: 559564
+SHA256: c1dbf1de1b6165ef0d2d1b61d850bfc953bf7c385e04d2b1ee60f554da4b5915
+SHA1: fcc04d55a426955459d6661ffc03f0b640e1dbdd
+MD5sum: 7dac71a3c0b22eff0b0b0dbbd152ab6d
+Description: debug symbols for qml-module-qt-labs-folderlistmodel
+Build-Ids: 0593d284204af0f51e57b993c0a794d61347875a
+
+Package: qml-module-qt-labs-settings
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 98
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-settings_5.9.2-3_i386.deb
+Size: 32788
+SHA256: 86411864437723142c4b207e2dc8b89d161ce440ee041aa20f139be96bd26494
+SHA1: 6c76955bf553c8a997651bbce1977f13a543ff7c
+MD5sum: df442b0e0d811743c18975b178bff2ee
+Description: Qt 5 settings QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the settings QML module for Qt declarative.
+
+Package: qml-module-qt-labs-settings-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 329
+Depends: qml-module-qt-labs-settings (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-settings-dbgsym_5.9.2-3_i386.deb
+Size: 316024
+SHA256: c34cb6d4a99d48ddcffca277128698ac9fd93affb591c66055c49a0122d50728
+SHA1: dda05fef83d1f2136c32fbbf9d94077621fec4c6
+MD5sum: 56f172bed801bcf39150f240a7e45cd8
+Description: debug symbols for qml-module-qt-labs-settings
+Build-Ids: 2549ec2b500ec40e890a8a35ca3256df6f32e417
+
+Package: qml-module-qt-labs-sharedimage
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 109
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.3.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.9.0~beta2), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-sharedimage_5.9.2-3_i386.deb
+Size: 35712
+SHA256: 9b5002a2203ae718e30375d9db7fb2bc2fff61e094ffc6da25f4f8cbf25f08cd
+SHA1: eb543334a1bc463beeb27abaab9cf9431ef02a8c
+MD5sum: 61b64114cdcd5a4a89b005cf0f29f1f4
+Description: Qt 5 SharedImage QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Shared Image plugin.
+
+Package: qml-module-qt-labs-sharedimage-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 586
+Depends: qml-module-qt-labs-sharedimage (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qt-labs-sharedimage-dbgsym_5.9.2-3_i386.deb
+Size: 574148
+SHA256: 207a6084c5fb8258861112a34549d79cdd5d77bf11c33065be34e98a87e3c9b3
+SHA1: b3e25bddf9c186344d57349d1f95624f2a1c5f82
+MD5sum: 096727381741517794eafbdf39518ff3
+Description: debug symbols for qml-module-qt-labs-sharedimage
+Build-Ids: 9f9de35bcc212ea9a8980312866f220d04f61227
+
+Package: qml-module-qt3d
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 927
+Depends: libc6 (>= 2.4), libqt53danimation5 (>= 5.9.0), libqt53dcore5 (>= 5.7.1~20161122), libqt53dextras5 (>= 5.9.0), libqt53dinput5 (>= 5.9.0), libqt53dlogic5 (>= 5.7.1~20161122), libqt53dquick5 (>= 5.9.0), libqt53dquickanimation5 (>= 5.9.0), libqt53dquickextras5 (>= 5.9.0), libqt53dquickinput5 (>= 5.7.1~20161122), libqt53dquickrender5 (>= 5.9.0), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.2.0~beta1), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qt3d_5.9.2+dfsg-3_i386.deb
+Size: 102056
+SHA256: bc9f2a01e3412d3c7760613a7f3ba48330e9882b121e369b4f78b8bbffd73cab
+SHA1: c18a588239b3f977451186d405b7ffa2528e6a9e
+MD5sum: 87ab28c6511a54c66d00ff99e2da2a6b
+Description: Qt 5 3D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 3D QML module.
+
+Package: qml-module-qt3d-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2835
+Depends: qml-module-qt3d (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qt3d-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 2520320
+SHA256: 1b0eb8a9b3d72cf4addc065749d911d6a4909ebeed1ba0d177228a024a131e07
+SHA1: 70422b8aaed9bb6fdfe983b4726088f05f9300ec
+MD5sum: 9dc118abf3e895a6cde4c2f64d09e5c4
+Description: debug symbols for qml-module-qt3d
+Build-Ids: 1338c4cd38a72bffcb7a6b9464ad3a50e98d702c 21afe1892c1f8358111a831c63ee65f76e621716 5aecc6e3129c860c19ece73c17cbbe04b1a59e7d 890ee03dd8f9443c76bea2c2ac49105bc87fda57 ac215c166a5cc2fa86a3e7cda1c039917c0bfb0e eb8ab8bc0ff754176deec91c3a4e4e4e24b10b1a
+
+Package: qml-module-qtaudioengine
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 284
+Depends: libc6 (>= 2.4), libopenal1 (>= 1.14), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/qml-module-qtaudioengine_5.9.2-1_i386.deb
+Size: 65432
+SHA256: 06e8dc65070509cdafbf6ea7c1b02013bf66414e38384fb535cc33c4fa221a6f
+SHA1: e0e8f102f4f87702790b7643c4c10004ed8d72e4
+MD5sum: 876e3a60e325cb7df2cc15168cbb983c
+Description: Qt 5 AudioEngine QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the AudioEngine QML module for QtDeclarative.
+
+Package: qml-module-qtaudioengine-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2895
+Depends: qml-module-qtaudioengine (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/qml-module-qtaudioengine-dbgsym_5.9.2-1_i386.deb
+Size: 2849252
+SHA256: 8b2c1d15a2b73f9773effacb758e687bd831309c9f1fc30f4e4cb9261376d43e
+SHA1: f46d3f8286d297786bfa349fdc9028f2bfdc4a58
+MD5sum: 61506ddb906af1cbe69742dd12e551f2
+Description: debug symbols for qml-module-qtaudioengine
+Build-Ids: b04e2a63a963ac3cf6877bf9caa5313d6c226445
+
+Package: qml-module-qtlocation
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 257
+Depends: libqt5location5-plugins (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5location5 (>= 5.9.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/qml-module-qtlocation_5.9.2+dfsg-3_i386.deb
+Size: 39444
+SHA256: b813adafab3fb749d2e4f9f1095571e8970b18b197f1d84129d2e33804105cd7
+SHA1: f62e7b7013818ee2d0894e0353431077ed201740
+MD5sum: f03ddd8f6dd2eb28e7527bcd8c07b3e4
+Description: Qt Location QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Location QML plugin for Qt Declarative.
+
+Package: qml-module-qtlocation-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 739
+Depends: qml-module-qtlocation (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/qml-module-qtlocation-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 642408
+SHA256: 533d9cd218ccf20265ffe1b5d0802fc3de82571b8f463d07e34d13a04b73b051
+SHA1: 0f59705f51fb4c1b84778d0043fd856afc1d331f
+MD5sum: 4d0b84f7df8489c1c882ddfbcb468e02
+Description: debug symbols for qml-module-qtlocation
+Build-Ids: e32b622429b3c5e9788380b7b0366a550306bf08
+
+Package: qml-module-qtmultimedia
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 448
+Depends: qml-module-qtquick2, libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.9.0~rc), libqt5multimediaquick-p5 (>= 5.6.0~beta), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtmultimedia-opensource-src/qml-module-qtmultimedia_5.9.2-1_i386.deb
+Size: 93844
+SHA256: dde087f636680b872aa1d6d442f8076505ebb16ce2d502c75736f17f07b9511e
+SHA1: dc4063a9c319adad5907a0f4971db9e06e66c954
+MD5sum: 53feeede400b6685dc6a40878f78ab7f
+Description: Qt 5 Multimedia QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Multimedia QML module for QtDeclarative.
+
+Package: qml-module-qtmultimedia-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2971
+Depends: qml-module-qtmultimedia (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/qml-module-qtmultimedia-dbgsym_5.9.2-1_i386.deb
+Size: 2886984
+SHA256: 610a07837cb4fdd73eb58d0d9d5940554ff3ad48a21e5ffe25e88cdc2ce90363
+SHA1: ed7ac9f29539a4688eef8dba1fbdf4cfaae53bd4
+MD5sum: 66d8afc420582239157c0aaaf830d037
+Description: debug symbols for qml-module-qtmultimedia
+Build-Ids: e6484eb9e74611e25e7f8982a150e29b8f95e661
+
+Package: qml-module-qtpositioning
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 150
+Depends: libqt5positioning5-plugins (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.9.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtlocation-opensource-src/qml-module-qtpositioning_5.9.2+dfsg-3_i386.deb
+Size: 39412
+SHA256: ceab032c344969f6a4711f22cd4dfb25772d015bebebfa59b5c2cbdd0752b9b0
+SHA1: 1dcc547b7809c24d423ac11f6c7cb50f0388ff69
+MD5sum: 5fa0c701e4955dc9f35cffba75f9d0c4
+Description: Qt Positioning QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Positioning QML plugin for Qt Declarative.
+
+Package: qml-module-qtpositioning-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1234
+Depends: qml-module-qtpositioning (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/qml-module-qtpositioning-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1204952
+SHA256: 68c2d6e6e8f361da3e191a384c95486d8fea6e40beca361180d5cd9e359e120c
+SHA1: 19f7e09dc95edfb562028c2f644194252b3fb944
+MD5sum: a1a617d268f62d1de69d748091f34030
+Description: debug symbols for qml-module-qtpositioning
+Build-Ids: 8ad7811699828a0136e8d226a30f03efef4822f3
+
+Package: qml-module-qtqml-models2
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 101
+Depends: libc6 (>= 2.1.3), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtqml-models2_5.9.2-3_i386.deb
+Size: 28256
+SHA256: 4fc421df1958a85c4094a11cb217d8e257498c3d7ac2e77e2a109f2355c23232
+SHA1: 897c304c9e0b3e0cc3f9ee64aba9e90f3680452d
+MD5sum: 0e3e2019f11970292b155e330fc6d97f
+Description: Qt 5 Models2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Models provides types previously found in Qt Quick module.
+
+Package: qml-module-qtqml-models2-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 144
+Depends: qml-module-qtqml-models2 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtqml-models2-dbgsym_5.9.2-3_i386.deb
+Size: 132960
+SHA256: 780a6dc27e71d88184209d028656b11b0541f0f94abd0f8f342dafef459b455e
+SHA1: a562f9cd1d616c70668db37e38a05a114e8b869a
+MD5sum: f588f182a2d37123a888466300dcd8cf
+Description: debug symbols for qml-module-qtqml-models2
+Build-Ids: 37d77938ae2b5a94267bd370f1c4946e8184d236
+
+Package: qml-module-qtqml-statemachine
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 151
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtqml-statemachine_5.9.2-3_i386.deb
+Size: 44812
+SHA256: e44497e256bd4127a743fa8e3c7aaac79b5e08f94715f67b4f12c0ea8df53fb3
+SHA1: 48435201b6a591df2775741ad97cfcfec7e5ae35
+MD5sum: a53e87f53c8bc92cc52c41480d206a04
+Description: Qt 5 State Machine QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The State Machine QML module.
+
+Package: qml-module-qtqml-statemachine-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1506
+Depends: qml-module-qtqml-statemachine (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtqml-statemachine-dbgsym_5.9.2-3_i386.deb
+Size: 1498272
+SHA256: f5886e213a87fd09fa4aeac9c87c6381512524524f69ee046fc860bbf385bb6c
+SHA1: ad4c0c14abecc156d6c015dc6a068e647f019e7d
+MD5sum: 16ce9df3344489c7b1ac51ee371c6ac2
+Description: debug symbols for qml-module-qtqml-statemachine
+Build-Ids: e6f95ff3d5e7e98b110e97a0a8b2e92422fe8e2b
+
+Package: qml-module-qtquick-layouts
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 188
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.5.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-layouts_5.9.2-3_i386.deb
+Size: 56388
+SHA256: 44862cb88b0630afd012ad6602bb0610cc1b3a7d7fe93c92526a0892e311c392
+SHA1: c8ae67b4163a2f39d908d9b6250797a0c550e0d6
+MD5sum: 6dbbb798b7e1e37b8c9018f46e68e116
+Description: Qt 5 Quick Layouts QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Quick Layouts modules provides a set of layouts that can be used to
+ build complete interfaces in Qt Quick.
+
+Package: qml-module-qtquick-layouts-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1411
+Depends: qml-module-qtquick-layouts (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-layouts-dbgsym_5.9.2-3_i386.deb
+Size: 1389928
+SHA256: 8624d1c77d02f5d58373121c57b9a0b5c3d241a10a3d06fa41d0cebd832ed033
+SHA1: ff4f9e6eece173575b2b9b2e24d3a01291b1a7e3
+MD5sum: 2b65ce4760c725c39536e092dfb3df99
+Description: debug symbols for qml-module-qtquick-layouts
+Build-Ids: 240953100ef53bccd3723520bf09ea1c2c21bb79
+
+Package: qml-module-qtquick-localstorage
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 126
+Depends: libqt5sql5-sqlite, libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.9.1), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-localstorage_5.9.2-3_i386.deb
+Size: 41236
+SHA256: e39f3d3e9c616cd519099fdfa9059ea7068ce4288a74abb4de3d797f658038bc
+SHA1: 648dea71f7152c1850da30d0bb69af5bb38b52be
+MD5sum: a0fab0b60cbe9ccc0aa86545a6b17ae2
+Description: Qt 5 localstorage QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a singleton type for reading and writing to SQLite databases.
+
+Package: qml-module-qtquick-localstorage-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 519
+Depends: qml-module-qtquick-localstorage (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-localstorage-dbgsym_5.9.2-3_i386.deb
+Size: 505040
+SHA256: ef96084f07bdbb67fe6ed4af5897d3235e88474caf19435dcb16028c63b64593
+SHA1: 1e875c95d4806fccba8096363a4c12c8fcaffc19
+MD5sum: 62004b80822aebf9c147c4c71dc5c655
+Description: debug symbols for qml-module-qtquick-localstorage
+Build-Ids: 86c1506782bf78bfd16616d194285dbbe413f657
+
+Package: qml-module-qtquick-particles2
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 120
+Depends: libc6 (>= 2.1.3), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libqt5quickparticles5 (>= 5.0.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-particles2_5.9.2-3_i386.deb
+Size: 29448
+SHA256: 133e526f2009d26afebbc63166ea0ca9bad2dfb64c617517939e82dae7935f54
+SHA1: 2804b2c98f62db4199bc6a522d5e5017907118d9
+MD5sum: 187a432528c109f5f1b3fd973d31258c
+Description: Qt 5 particles 2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains a particle system for Qt Quick.
+
+Package: qml-module-qtquick-particles2-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 144
+Depends: qml-module-qtquick-particles2 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-particles2-dbgsym_5.9.2-3_i386.deb
+Size: 132940
+SHA256: 30c5ab6e8a83f405ec25c92319371fdbcb3af21e05f27069d4c22cb78bce3909
+SHA1: 4f4ba1696d1378a2046a8d741ae99d62ced11618
+MD5sum: 4855b4a359dbb062533d3ddc41fdeb9e
+Description: debug symbols for qml-module-qtquick-particles2
+Build-Ids: d17b5eb417dc764cd98e3228f929610dba0f2517
+
+Package: qml-module-qtquick-scene2d
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 69
+Depends: libc6 (>= 2.4), libqt53dcore5 (>= 5.7.1~20161122), libqt53dquickscene2d5 (>= 5.9.0), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qtquick-scene2d_5.9.2+dfsg-3_i386.deb
+Size: 20740
+SHA256: 6e5733f37f72f0e228aac46946cff9d0213f1a538d12ea1acbd0fb2b3f6c7d33
+SHA1: 2ecb700fe29a7887ab888fe59109053a93114f79
+MD5sum: 775964e86f108ff5ea3108dcf3edb857
+Description: Qt 5 Quick Scene 2D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 2D QML module.
+
+Package: qml-module-qtquick-scene2d-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 313
+Depends: qml-module-qtquick-scene2d (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qtquick-scene2d-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 301972
+SHA256: fdf365706ac4aaf0e0c5d73d0022093507593e0178abd4acfa14bcde876c3ffe
+SHA1: 69825bdfaaf738e19242e258808753b6e2ab2463
+MD5sum: aa45cc17c5325cd7477b99e35b936f04
+Description: debug symbols for qml-module-qtquick-scene2d
+Build-Ids: 5488e1e2cde972d94914c2153523f3ed55fc3d54
+
+Package: qml-module-qtquick-scene3d
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 115
+Depends: libc6 (>= 2.4), libqt53dcore5 (>= 5.7.1~20161122), libqt53dinput5 (>= 5.7.1~20161122), libqt53dlogic5 (>= 5.7.1~20161122), libqt53drender5 (>= 5.7.1~20161122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.4.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qtquick-scene3d_5.9.2+dfsg-3_i386.deb
+Size: 34628
+SHA256: 7d505667fd9085dd9cfe6a5ccc6b50f9c8559dff332a93446c57b14bccf9a9ad
+SHA1: 65be40a1a0167bddbb52013885305fcd681195ed
+MD5sum: ccb558ae21c9cc5057d2ed5f47a26826
+Description: Qt 5 Quick Scene 3D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Scene 3D QML module.
+
+Package: qml-module-qtquick-scene3d-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1341
+Depends: qml-module-qtquick-scene3d (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qml-module-qtquick-scene3d-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1326136
+SHA256: af26d61774bc6b4f318382f722677f47374fee0ff860fe67c912b344a9dd24d8
+SHA1: c1d526bda984bdb276a76c4f1605d70fc68dabb1
+MD5sum: 7b0da04cbec56eb02c06cbd07efd081f
+Description: debug symbols for qml-module-qtquick-scene3d
+Build-Ids: c82f90c815cd4093efd12ee7c3dcf7e1bfbe6e26
+
+Package: qml-module-qtquick-window2
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 92
+Depends: libc6 (>= 2.1.3), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-window2_5.9.2-3_i386.deb
+Size: 27952
+SHA256: 8eb32e75c231653b42a8264d88de627b5684ba6c5c481bf7a8c42083a7d078f5
+SHA1: 0a4dfb58237c428077bf80879c07359c8ff4c0c1
+MD5sum: 74afb4908f18c5514e968579a3447aa6
+Description: Qt 5 window 2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains types for creating top-level windows and
+ accessing screen information.
+
+Package: qml-module-qtquick-window2-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 205
+Depends: qml-module-qtquick-window2 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-window2-dbgsym_5.9.2-3_i386.deb
+Size: 194720
+SHA256: ef9585644323b3b00e2d17cae1d57ae0a40ce8dab301230e620d276d1debff4b
+SHA1: ed106cddf93e9bd4873c78e6cab24d63164fd681
+MD5sum: bdbfb93f1cfcbc95d171408e3c1c4aa7
+Description: debug symbols for qml-module-qtquick-window2
+Build-Ids: 6ecca1dfc9a9395ee703fcc763d8088de7397545
+
+Package: qml-module-qtquick-xmllistmodel
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 163
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.9.0~beta), libqt5xmlpatterns5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-xmllistmodel_5.9.2-3_i386.deb
+Size: 53308
+SHA256: 411b32538aa31ff40dddb1a1b8c87b7ad87dba1612e5b1eff686210aadeeb463
+SHA1: 205b3131303087ea78c68639f19add61dd406694
+MD5sum: aca6edbdce85019f80462cc64ae952fc
+Description: Qt 5 xmllistmodel QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains types for creating models from XML data.
+
+Package: qml-module-qtquick-xmllistmodel-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 868
+Depends: qml-module-qtquick-xmllistmodel (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick-xmllistmodel-dbgsym_5.9.2-3_i386.deb
+Size: 851756
+SHA256: d6eb04be565dd424f382aed16d69545914590c3dad740edd69adc892727a31b7
+SHA1: 79bdd577ed3ce3cc745df01e98b67f2902d2b446
+MD5sum: c7c79e9c924835296b50a7d65bfecdc2
+Description: debug symbols for qml-module-qtquick-xmllistmodel
+Build-Ids: 7e6dc7ba1e60d55868f61b2415f2a38baf2b95ae
+
+Package: qml-module-qtquick2
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 256
+Depends: libgl1-mesa-dri, libc6 (>= 2.1.3), libqt5core5a (>= 5.9.0~beta), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.4.1), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick2_5.9.2-3_i386.deb
+Size: 41224
+SHA256: c7974ea94139c4319eb9cac7d77c23094537a900754a102fba55ca4db19ae880
+SHA1: 19eacba536ebefc2f53498e8a766347147c13e9a
+MD5sum: 2721b81c5968cec70352385f5ac2bf99
+Description: Qt 5 Qt Quick 2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick 2 QML module for Qt declarative.
+
+Package: qml-module-qtquick2-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 143
+Depends: qml-module-qtquick2 (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qtquick2-dbgsym_5.9.2-3_i386.deb
+Size: 131808
+SHA256: 83a0ff8b2a1500cdfd8465844936170ec160dccd4e8681f8a797b6a41cad7f7f
+SHA1: 6e3de6c3710624fe32a79968ceb27d008d68165f
+MD5sum: 9825a0e70dd182c340203afc27661a10
+Description: debug symbols for qml-module-qtquick2
+Build-Ids: 1825cf177788a45d31cdf9a64b4c0a3a5446a09e
+
+Package: qml-module-qttest
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 193
+Depends: qml-module-qtquick2, libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5qml5 (>= 5.9.2), libqt5quicktest5 (>= 5.9.0~beta), libqt5test5 (>= 5.0.2), libstdc++6 (>= 5), qtdeclarative-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qttest_5.9.2-3_i386.deb
+Size: 47348
+SHA256: bd585b5ed876972765d9505ad08e877fd76560dc7819931d1149a3fc87fd0856
+SHA1: d9033a0b51b6f93304668c99a6f85e99a2b7f6e4
+MD5sum: 820b029f0ab020402fb5bb5fa6878087
+Description: Qt 5 test QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the test QML module for Qt declarative.
+
+Package: qml-module-qttest-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 490
+Depends: qml-module-qttest (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qml-module-qttest-dbgsym_5.9.2-3_i386.deb
+Size: 478904
+SHA256: cd443f0599b99615d06c641f3a43235723086776f526f30586a20370c04591ff
+SHA1: c0d55b7aa8e172052bd2b55d807d94153dccefd7
+MD5sum: a4318b8b918715d79b5d5669157656ab
+Description: debug symbols for qml-module-qttest
+Build-Ids: 05212a071b3c87845949b557e3e439bae2a7aaa2
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -1453,6 +4245,1177 @@ SHA1: d5b079498ee9fb588809ea1f614a5a8790163782
 MD5sum: adc40852c9feccdf1b73a85ff1ee5723
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: b0ed04f5b84383d7e703d7c2bb87808deb116591
+
+Package: qmlscene
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 113
+Depends: qtchooser, libc6 (>= 2.4), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.3.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.3.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtdeclarative-opensource-src/qmlscene_5.9.2-3_i386.deb
+Size: 39384
+SHA256: 3a3455b97c8049c14e5a93e7b012a3f2bb800f6ca422edd54340923603b16d91
+SHA1: f2402e9d8f69d704e8545266cc13b3cd3f095ecc
+MD5sum: ab0e6a4ba7b6ac01324dda37e6514443
+Description: Qt 5 QML scene viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the older QML viewer for Qt Quick 2. See qml package
+ for the newer one.
+
+Package: qmlscene-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 376
+Depends: qmlscene (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qmlscene-dbgsym_5.9.2-3_i386.deb
+Size: 362320
+SHA256: 2494219ca51cefbd13b3af3fac2fded92850e4b561bc20fd6ecb54ab52179a0a
+SHA1: c8b80a9e87d202260496a978fde596162da32ee8
+MD5sum: 7136de5ecb1ef9381f1ede54ef09b579
+Description: debug symbols for qmlscene
+Build-Ids: 2dae4116f1b989cd432b5dffc730406153692018
+
+Package: qt3d-assimpsceneimport-plugin
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 6454
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.27), libgcc1 (>= 1:4.2), libqt53danimation5 (>= 5.9.0), libqt53dextras5 (>= 5.9.0), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qt3d-assimpsceneimport-plugin_5.9.2+dfsg-3_i386.deb
+Size: 1835920
+SHA256: 2fb905e8818507df7c06faa4fd30b38200ee458a04896befe5c57a40863dc303
+SHA1: daa2e31b43ff7ba0c04a37c9af2ea512036046f5
+MD5sum: 34ace8b4682e5a6a66caa4f88cb7fc4d
+Description: Qt 3D GL Assimp scene import plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's Assimp scene import plugin.
+
+Package: qt3d-assimpsceneimport-plugin-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 26325
+Depends: qt3d-assimpsceneimport-plugin (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d-assimpsceneimport-plugin-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 25248424
+SHA256: 93608010a0a1456a8796923d8eafd998580eebcc85953f01ad4a7f375b03c0fb
+SHA1: adbbc3a298a4dc8fbf373f4d543bad0bbe7f4868
+MD5sum: 9df753356b3573c375fa896d45158a8d
+Description: debug symbols for qt3d-assimpsceneimport-plugin
+Build-Ids: 513a6b2ce6fec473f1e8e7a3936061a1c48fc2e8
+
+Package: qt3d-defaultgeometryloader-plugin
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 118
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qt3d-defaultgeometryloader-plugin_5.9.2+dfsg-3_i386.deb
+Size: 38268
+SHA256: 491163118bf71823395ffbfaaaec655d04774b6f6bdb7ca8b8ce4936052e8601
+SHA1: 41858009c911678fd98e61e9bd9a64475b30f0c6
+MD5sum: f8c9c4e32b14c14107d7b47c0dc9f157
+Description: Qt 3D default geometry loader plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's default geometry loader plugin.
+
+Package: qt3d-defaultgeometryloader-plugin-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 897
+Depends: qt3d-defaultgeometryloader-plugin (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d-defaultgeometryloader-plugin-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 883712
+SHA256: 0f2a8fb441fd6bc24bf376641428cafd3da5272d7ac85c95c2cefa398af1d63e
+SHA1: f2b434e046eb997358c800fe38d3aa638110d803
+MD5sum: 4987955853bf65d0d6002ba3cc375d5c
+Description: debug symbols for qt3d-defaultgeometryloader-plugin
+Build-Ids: 615f7a9253830e0041e48ee816c9b3389f1b72c7
+
+Package: qt3d-gltfsceneio-plugin
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 441
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53dextras5 (>= 5.7.1~20161122), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qt3d-gltfsceneio-plugin_5.9.2+dfsg-3_i386.deb
+Size: 120696
+SHA256: c23b25a7b8200e255555a20f3a874054c522e18454280b6814a6126fc1d28389
+SHA1: 8c0a01fe8c5ddce21855c5b99b1b2d29ec365baf
+MD5sum: 0382a238c4db797536fb6b2925d5ad56
+Description: Qt 3D GL Transmission Format scene IO plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's GLTF geometry loader, and scene import and
+ export plugins.
+
+Package: qt3d-gltfsceneio-plugin-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1686
+Depends: qt3d-gltfsceneio-plugin (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d-gltfsceneio-plugin-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 1611468
+SHA256: c37a9415b0437dbbeadc9a4b4e0944acfe48d0be2f090a4a655228fa22801387
+SHA1: 05158d5c28657b91012685f13f18956c1f6ee3a3
+MD5sum: 90fc8855506b50181e4c3d6bf4ff6633
+Description: debug symbols for qt3d-gltfsceneio-plugin
+Build-Ids: 641d7161f52eeb693e8eb1cd66f113cc92ac8051 71d8e147d631367c4c5b5b56f439958eb8b2b081 df4819bdb249282cc956f523dd0876761a8865a2
+
+Package: qt3d-scene2d-plugin
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 66
+Depends: libqt53dcore5 (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt53dquickscene2d5 (>= 5.9.0), libqt53drender5 (>= 5.9.0), libqt5core5a (>= 5.9.0~beta), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt3d-opensource-src/qt3d-scene2d-plugin_5.9.2+dfsg-3_i386.deb
+Size: 21880
+SHA256: 95775a3652ff83290c45b67dea80064c0798e8cfed5d919808765fd9bc294068
+SHA1: ed561b65e21e4196ca6c3586a55254b734fb6e0c
+MD5sum: eaeca23f1a1f2c476b7fea7d49d6ddb2
+Description: Qt 3D Scene 2D plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 3D's Scene 2D plugin.
+
+Package: qt3d-scene2d-plugin-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 396
+Depends: qt3d-scene2d-plugin (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d-scene2d-plugin-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 386460
+SHA256: 189051fddcf38779f850ec00aa3dcb3680f8a01adfbaddacf736899df5646b82
+SHA1: b45fceea2c6d11004eec178d402459139e2cac6b
+MD5sum: a9d3f9af981c6550eb218380fc11b245
+Description: debug symbols for qt3d-scene2d-plugin
+Build-Ids: ffc321d50a2bc3466a5aeefbb3dac7bab903f779
+
+Package: qt3d5-dev
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1363
+Depends: libqt53danimation5 (= 5.9.2+dfsg-3), libqt53dcore5 (= 5.9.2+dfsg-3), libqt53dextras5 (= 5.9.2+dfsg-3), libqt53dinput5 (= 5.9.2+dfsg-3), libqt53dlogic5 (= 5.9.2+dfsg-3), libqt53dquick5 (= 5.9.2+dfsg-3), libqt53dquickanimation5 (= 5.9.2+dfsg-3), libqt53dquickextras5 (= 5.9.2+dfsg-3), libqt53dquickinput5 (= 5.9.2+dfsg-3), libqt53dquickrender5 (= 5.9.2+dfsg-3), libqt53dquickscene2d5 (= 5.9.2+dfsg-3), libqt53drender5 (= 5.9.2+dfsg-3), qtbase5-dev
+Suggests: qt3d5-doc, qt3d5-doc-html
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-dev_5.9.2+dfsg-3_i386.deb
+Size: 86496
+SHA256: 10930383f34f41ad4e8f0171350c63a9501f885b64dc06d7bcdd257d7dfbc7f5
+SHA1: 316e82ca4a88accd31f7728ecc58dbbf93f9a11e
+MD5sum: 99bfc96ac37d9369230c51cd95e95e48
+Description: Qt 5 3D development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt 3D library.
+
+Package: qt3d5-dev-tools
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 6478
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.6.1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Breaks: qt3d-assimpsceneio-plugin (<< 5.9.0+dfsg-1~), qt3d-gltfsceneio-plugin (<< 5.9.2+dfsg-1~)
+Replaces: qt3d-assimpsceneio-plugin (<< 5.9.0+dfsg-1~), qt3d-gltfsceneio-plugin (<< 5.9.2+dfsg-1~)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-dev-tools_5.9.2+dfsg-3_i386.deb
+Size: 1829168
+SHA256: 79e25c35c059db8254dbb98566791461b5050c01eb11c35233a3d26a40d9bd2c
+SHA1: 36c048798a9af3bbd558a529505837fcb9dfe016
+MD5sum: a2cf71bfa1641f384008416c443dd852
+Description: Qt 3D development tools
+ Qt 3D provides functionality for near-realtime simulation systems with
+ support for 2D and 3D rendering in both Qt C++ and Qt Quick applications.
+ .
+ This package contains development programs to use with Qt 3D.
+ .
+ At the moment there is only one tool here, qgltf, which can be used to
+ import a variety of 3D model formats and export it into fast-to-load,
+ optimized glTF assets embedded into Qt resource files.
+
+Package: qt3d5-dev-tools-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 26102
+Depends: qt3d5-dev-tools (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-dev-tools-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 25028780
+SHA256: 0c5e812db268c6c04cb8c2541b785d17d071ae2554611d2680d9f92234c1bf9f
+SHA1: 6c42f4c90a232ce43a49d9c42f876a2f57c46a9b
+MD5sum: 3cd343577f33c9630d68db536560c8b5
+Description: debug symbols for qt3d5-dev-tools
+Build-Ids: 9b33d99a06b8b9ba9f9b097427e793cfcf6ac067
+
+Package: qt3d5-doc
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 18333
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc_5.9.2+dfsg-3_all.deb
+Size: 17195264
+SHA256: a5a4c347ed15431100ca45670a7dccf3131f2b8ef080a9d573aa68401c880b7e
+SHA1: 57f775e1b916524a0907e6437e5b26bb243ee732
+MD5sum: 60448567ba254c6d8cdd51411e5d536e
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 29184
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc-html_5.9.2+dfsg-3_all.deb
+Size: 15605300
+SHA256: fdd70a23eb442f115ffc605f1bbd317adaaedbd0f793e08fe9e037c10a3a8bca
+SHA1: d0e93c6fc157c09c66ae527e64dcbc1fccbee981
+MD5sum: ef3a966a157feb15273489324d7c55bb
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-examples
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 43152
+Depends: qml-module-qt3d, qml-module-qtquick-scene3d, libc6 (>= 2.4), libqt53dcore5 (>= 5.7.1~20161122), libqt53dextras5 (>= 5.9.0), libqt53dinput5 (>= 5.7.1~20161122), libqt53dquick5 (>= 5.7.1~20161122), libqt53dquickextras5 (>= 5.7.1~20161122), libqt53drender5 (>= 5.7.1~20161122), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-examples_5.9.2+dfsg-3_i386.deb
+Size: 32107716
+SHA256: e31c930bec0b7f2347ea946fd440dde4439def19f31e798029789c0813abaa10
+SHA1: 966ced1e464fa2bf896eb0b51bd6fb0dc184243e
+MD5sum: f6efa9693b15891044f5a9eddf0f16f8
+Description: Qt 5 3d examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 3D examples.
+
+Package: qt3d5-examples-dbgsym
+Source: qt3d-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3105
+Depends: qt3d5-examples (= 5.9.2+dfsg-3)
+Breaks: qt3d5-dbg (<< 5.9.0-1~)
+Replaces: qt3d5-dbg (<< 5.9.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-examples-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 2909984
+SHA256: 9df318239b50a4442eaef628318ae22eba16b42005b1388981f8222093606cab
+SHA1: 9856357a3afa8d74f37686e69e5109950bb174a2
+MD5sum: dad7e2a8a193d1390a05f69bbd0a4409
+Description: debug symbols for qt3d5-examples
+Build-Ids: 0189cf0314f79bf8db2973d6181b72aca2f726be 0745584821eacd9385637e0b6d91877bfb15fdcd 0b4cd6c91855f45bece29fa9f525b3f9521a4071 14b21a840d8cfae8a7140fcebfcfd6163a380354 1cf7282a325601421b17a347bfe730603023932b 65cd595d12c4eab656e499a1d5a9b079bbd2b789 69e099b43a64da45c0a4963bfefc185f5e6af2dd 7bfb851c198e6e29baf3de3bec3b4a478b8d96ca 87b01e0af9383d1712a0c7cdd3d61632c61b67a4 94409098a89d975419b346382756def4e6fc5320 94ea60b639d5a4e982a23c704c079d9d130feb85 a7d1980cce943d10160a3e7ef9a37fdb4963aeff c5ce6c04ba49ab90c79277b88cfcdf451b583be4 c62a5762e4d371633a8ec65bcffaf9a81e57d998 d29617fa34e4796d8d20460836dc19f06928e9e8 d4168980bfd05f15598ba498372e57dfa2a96bd6 d590588ec8d64f3bf043e6e61c6126d7157396cf e100292366159549cac6b1153f0b5eebb1a95cdb eef6164502b0c1e99bb4b3bd6f3ac716cb32dcea
+
+Package: qt5-default
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 142
+Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~)
+Suggests: qt5-qmake, qtbase5-dev-tools
+Conflicts: qt4-default
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qt5-default_5.9.2+dfsg-12_i386.deb
+Size: 47456
+SHA256: e7cb600148559b2ca80903719d78eba396fc67dc92792ac30c90cbe3869d6053
+SHA1: 88fa09e66f1a474d536d7d77d7a6432e601b931b
+MD5sum: af6fde3bda81ccfc24b27d4038195d67
+Description: Qt 5 development defaults package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake. It provides a default
+ configuration for qtchooser, but does not prevent alternative Qt
+ installations from being used.
+ .
+ This package should not be used for building Debian packages. Take a
+ look at http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html for
+ more information.
+
+Package: qt5-gtk-platformtheme
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 555
+Depends: libqt5gui5 (= 5.9.2+dfsg-12), libc6 (>= 2.4), libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.5.18), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-9-2
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.9.2+dfsg-12_i386.deb
+Size: 156188
+SHA256: b9b287d5f1a8bda90ef9338583c9c8d26497db4d2fbe3b0e304f016a450c4684
+SHA1: 845dbfc6e4c9311decb43ece4cb614a8ac5ec3a5
+MD5sum: 381990abfd3c4201d8f9cab1af98f792
+Description: Qt 5 GTK+ 3 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the GTK+ 3 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
+
+Package: qt5-gtk-platformtheme-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4095
+Depends: qt5-gtk-platformtheme (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 4050760
+SHA256: abfe35850efa12a6cbba59aac8b72baae0687d33d481d32059a8ad5d589bb1ab
+SHA1: 121e0f3a067d15496f4294c7ed1363c1f3492c22
+MD5sum: 4346fa72c022375d05b7622e2b8e36a2
+Description: debug symbols for qt5-gtk-platformtheme
+Build-Ids: 2899d4988bf1c62715fbbf183b461edb5aa1aeff
+
+Package: qt5-qmake
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1440
+Depends: qt5-qmake-bin (= 5.9.2+dfsg-12), qtchooser (>= 55-gc9562a1-1~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake_5.9.2+dfsg-12_i386.deb
+Size: 214180
+SHA256: ab67347af134c137b5e4bf2deecb2b393f69991bc9d0f8c32673d6ccb2f8d5f9
+SHA1: d13f2a31b7c035909bc62d4fb5881511d227d772
+MD5sum: 6d6d0a428aee0b64acdcbd2d16870141
+Description: Qt 5 qmake Makefile generator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 qmake, a tool that helps simplify
+ the build process for development project across different platforms.
+ qmake automates the generation of Makefiles so that only a few lines of
+ information are needed to create each Makefile. qmake can be used for any
+ software project, whether it is written using Qt or not.
+ .
+ Qt 5 qmake requires a platform and compiler description file which contains
+ many default values used to generate appropriate Makefiles.
+ .
+ This package contains also these platform specifications.
+
+Package: qt5-qmake-bin
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3108
+Depends: libc6 (>= 2.6), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.9)
+Breaks: qt5-qmake (<< 5.9.1+dfsg-12~)
+Replaces: qt5-qmake (<< 5.9.1+dfsg-12~)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake-bin_5.9.2+dfsg-12_i386.deb
+Size: 1044844
+SHA256: 3005109687b925c8a8a8b0d20fd2aefa9c6889c7956929497311f562fee53f43
+SHA1: 0a1e390009609695c208b64bf7d1010d9498b463
+MD5sum: 9df482305bc47a58a7a4724c001d194e
+Description: Qt 5 qmake Makefile generator tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the binary file for qmake buildsystem. Do not
+ install this package directly, use qt5-qmake instead.
+
+Package: qt5-qmake-bin-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10135
+Depends: qt5-qmake-bin (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dbg (<< 5.7.1+dfsg-1~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake-bin-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 10102132
+SHA256: 8529276ef71a746fab947c3196f28c7e8fdeaddce67f1022c248f799ef4675bb
+SHA1: 634bc726a520b5d31a72b22452a46e2c33ae22b6
+MD5sum: a8b013b00ff86e781204399bd1a59020
+Description: debug symbols for qt5-qmake-bin
+Build-Ids: 7d159168f857f2bb6e4bd76e20c7d8acbd74c402
+
+Package: qt5-qmltooling-plugins
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 695
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.2), libqt5quick5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Breaks: libqt5qml5 (<< 5.6.0~beta~)
+Replaces: libqt5qml5 (<< 5.6.0~beta~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtdeclarative-opensource-src/qt5-qmltooling-plugins_5.9.2-3_i386.deb
+Size: 186572
+SHA256: 8ef043457b16442d4124226dd2543092c5db7734745fd24991ead797f36c1fe2
+SHA1: 50033bc1af75a163b8f4eee557dab781ef113c5b
+MD5sum: 9a07e50b811d25c0545e9c806125ac05
+Description: Qt 5 qmltooling plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the qmltooling plugins.
+
+Package: qt5-qmltooling-plugins-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 11049
+Depends: qt5-qmltooling-plugins (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qt5-qmltooling-plugins-dbgsym_5.9.2-3_i386.deb
+Size: 11006324
+SHA256: e42624bcdb57a423049c44110e142a11517cf26e6957ac24dddc78c3081efc85
+SHA1: fc15d8586d4d444a17158981cc09a61282fc2821
+MD5sum: 1581df5f8086370bd59de28ce8d52b8a
+Description: debug symbols for qt5-qmltooling-plugins
+Build-Ids: 0bc7f20939aa88de16dbfc9c10007dbf95d12fd8 117d00a6b53ae0d49bd5d8b7ae3733536570a7d1 4e5ae867da7e6bf33d68ebfc4db6b357e57f4a30 579de74767553c8f0912929841bf692514cffb1d 67acd2489d1f21fdba84f9c19ac8423c89996826 72f7fb12a325e8dc627c91f924fac54ebb607afa a03862d8dd16e0c11648ae3a8d5b45a3b9e0992f c4f8733935ed887d182be67e56711341650fe02e c634a1f2e77ba60ebbb844838de08f712ab8094d d08da68f80f0a2a07c08f10b256f1a96ef7cf1c7
+
+Package: qtbase5-dev
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12117
+Depends: libgles2-mesa-dev | libgles2-dev, libqt5concurrent5 (= 5.9.2+dfsg-12), libqt5core5a (= 5.9.2+dfsg-12), libqt5dbus5 (= 5.9.2+dfsg-12), libqt5gui5 (= 5.9.2+dfsg-12), libqt5network5 (= 5.9.2+dfsg-12), libqt5printsupport5 (= 5.9.2+dfsg-12), libqt5sql5 (= 5.9.2+dfsg-12), libqt5test5 (= 5.9.2+dfsg-12), libqt5widgets5 (= 5.9.2+dfsg-12), libqt5xml5 (= 5.9.2+dfsg-12), libxext-dev, qt5-qmake (= 5.9.2+dfsg-12), qtbase5-dev-tools (= 5.9.2+dfsg-12), qtchooser
+Recommends: libqt5opengl5-dev (= 5.9.2+dfsg-12)
+Suggests: default-libmysqlclient-dev, firebird-dev, libegl1-mesa-dev, libgl1-mesa-dev, libpq-dev, libsqlite3-dev, unixodbc-dev
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev_5.9.2+dfsg-12_i386.deb
+Size: 937180
+SHA256: a7618c1efda17b7641e62e2e890597244e5c831471cf868964131ca725964319
+SHA1: 22b87c7a47853e9342fddf68fda0ca67a0023ad0
+MD5sum: 02b361cf76715f9a940df0186bf1e27e
+Description: Qt 5 base development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html
+
+Package: qtbase5-dev-tools
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3996
+Depends: qtchooser (>= 55-gc9562a1-1~), perl:any, libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), qtbase-abi-5-9-2, zlib1g (>= 1:1.1.4)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev-tools_5.9.2+dfsg-12_i386.deb
+Size: 846612
+SHA256: 76c15a649eccd6be2ac598d3323d60553b22a929e02049e7c8c958781d54560c
+SHA1: 24eceb1a036228f7e1ca90e7b9b869adf0e6cf48
+MD5sum: dc1d1ee872b8d5c92a4805af7a2fab8f
+Description: Qt 5 base development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
+ syncqt and uic.
+
+Package: qtbase5-dev-tools-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 18037
+Depends: qtbase5-dev-tools (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dev-tools-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-dev-tools-dbg (<< 5.7.1+dfsg-1~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev-tools-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 17912336
+SHA256: 4e07f759556eb094828a871f399fb2381065b3fed5a998ac3daf29b6d7d5e464
+SHA1: 711f646ad2cae8d254ddcb8950ff3f7fa1dd9996
+MD5sum: 4b7bdba3221bf7aeb31625f5dea8dff5
+Description: debug symbols for qtbase5-dev-tools
+Build-Ids: 1c003b75001f98de4b4ea6a702eed5ed3e19e0cd 3247244a73402d4415704430bd05665f6321b0fa 4152e75f65f272973be3afae2db26dd9f896ee4b 621bd04eabcdb14fb3847440c9f647a4cb73fad0 7895ad4813bef6ad45210a07682a32558fda0d35 fb8b762f9e89908c8e4ce25185d0b43c4a81f0ee
+
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 37032
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.9.2+dfsg-12_all.deb
+Size: 28413340
+SHA256: 1e63890b14ef4f56fdd53f96b1b4fafd1cd3442faae8c3b99ef368f9536c4f9b
+SHA1: b8d69d13549d611550608be31a58be74234beaac
+MD5sum: f4743a759298ac0afca1100413e8d4e0
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 161474
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.9.2+dfsg-12_all.deb
+Size: 21994352
+SHA256: 3f6ef1cb985d3f75db9eea829704d666977d0731e91d62a89a0ccfd201b40f81
+SHA1: d1666e7a874672cb8ae414c4bcc280f4971ca39e
+MD5sum: db94264c44163e6345347343a753a85e
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtbase5-examples
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 19667
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta3), libqt5network5 (>= 5.3.0), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5test5 (>= 5.5.0), libqt5widgets5 (>= 5.9.0~beta), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-examples_5.9.2+dfsg-12_i386.deb
+Size: 4113800
+SHA256: 167cbb93ced4d62842840303993f7ee854689ff4219f4a8769bb920a063edd58
+SHA1: bab9ceeda73d5e9693fb90964b1990abf0ae98e5
+MD5sum: a4e88a370386e7611c4fe2cec13684c6
+Description: Qt 5 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt base 5 examples.
+
+Package: qtbase5-examples-dbgsym
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 125431
+Depends: qtbase5-examples (= 5.9.2+dfsg-12)
+Breaks: qtbase5-examples-dbg (<< 5.7.1+dfsg-1~)
+Replaces: qtbase5-examples-dbg (<< 5.7.1+dfsg-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-examples-dbgsym_5.9.2+dfsg-12_i386.deb
+Size: 124192460
+SHA256: cfa669909a3c3231f6fa504117d6b71e50c9e1da16054f7d87eabc3d8b07c971
+SHA1: b4671878a2545c7f3a915386610b38d43b10e16d
+MD5sum: 27d85a621f22f0ccce9b67ce639a4533
+Description: debug symbols for qtbase5-examples
+Build-Ids: 014c3d458892d58585e824628d73e1fa3adbd8cd 02491404cbe1f565f39aecdc92ae911afea7bf90 0509850d2ee4ad9861da22d7b31a8595e7b55b93 0530807d4bd5093c0881b761afd6c36ca6668a3b 0574ec8b948deb3bad254f366a767ddd638bcf14 05c7deecc202591ff455c13491a1063d28e08732 071487e49fe854dc725288df94402aa8203fea50 08d571c50e88c03d2f20dbfa0d72ca550a479f00 0908b9ba66ccf89f193442b6f0cdb8a6f7888275 099eae781a074a5da6c790e50307aca2c6d7c7de 0b299db0b2b4ac364d95c4edad668eab04ef36be 0ba7716323b9d5cdf5d77dce60f62bd8b91d0c00 0c07286477266d2931757493ee73675b83fd34f6 0cd6395f0b457bc08c19e30d6605f0e66c05dbd8 0cda18f536d2008fd8428664548da7261d6d3805 0e152b66448410254fa08cebf1b9373e23dcb447 0ffa32a3d8a4d67d1fbc7a90a7ab7369c85b99d9 0ffc33ff4dd0f1296de1a9b2f6b12d5b466d16ae 10a206258301f617afa2464fd79c285ccb154f41 13d92f7efba1584fb95ff455dccea594677b8d04 143033d211fadbb0a27da3d7cdd63f87f81bf566 14c6dbcfba4e06fad80701b93472d01d7053c419 14f0004e1b00facc4e123326e25913c63ef44e99 16f26cf849d7f695f1a97a78cbd6affddfb2d05e 177ee5872cf393fb99a1d2ca7c4be9b3661ec9c0 18b3b868777d503e0bb36876e0c763b55a2002ae 1af827e559cb553dda9780276d18fc94f24308ff 1be19efc8188a70a4f7ef1abede44db7f797b55f 1bfedac3ff36c4aade35d600dec22f503794fa37 1cdd9ae1adf7f72cebfa74f11b1abbe055ed1024 1d6d16b591312c107cfbf8f08cf3beb964fae498 1ef9989c35c7c798d99971291a7d9b8a503ab28e 1f37c34350dd0d4cc6f46cb2720f88893467e832 20807adf2f0699d48ec6dfe00da2dc4731671059 20dab551813f6b5f135cccb402649a0493d7a00f 21099841c02e7420582309db85ae217270258fab 21b87b4ea9160f9225fcc3cf1b89f8594d0519ea 22ae3ac2b29bd9c30f198c41e03940c08954c082 22b1543686aea3b9997f70b143d611ff981b3e46 23eefca2cf045d53add62b7241046b3abf5be9ef 241e46c0b278c9a8088c309e846db2fe749797c6 258cb6870d4999c603215607fb2d4f45c85e312f 26210659d2d666fa00bc8bbfbeae7eed559e507a 26d0ca9af06c2d1df3aee12e4f44e5cbe9aec5e8 274283b8fb0e1c48431c9ab811a0e055d2b10d9e 2a6b942343564c4acd056afc4cb7b6c8caf54425 2ad2cac9a921b87fce749c64c8c4daa67c6154ec 2d25333cafada55ffda798f07637cc1cd83538c6 2eb92b83be7afcc2eb8871fa163a193d6b7fc78f 2f464cc143ea2e95d2f8b55e7d2efb73afcedf20 307143dd5948c59ee59889d6d4c3b25ae17b17f5 310e535f62dce05e77ff1407e3ee0e4179d3c1d8 327d005565ced9e976582ada63273e1a3aa55487 33ca44fbfd65b896063d373b0beccc27bdcade69 343b8132cf949672700f61ab60bc18059a97064b 3488e5b21f00893e8e4b5c4f1a9729ca66faf611 35b2a8f40e2ef8f48c1157817a32aca1ca7d984d 36a758dab163af23922da2fd429731ba84a03148 37892e23173ca49719e181c2f9c229354bd3147c 39c52b5a64ef829667283631cf96891d8969c4e0 3abe5429256ee0c39abd94b14407e64c2e111aa0 3e93dc883a4a1a229b6638c56eac78691789e295 3ec1043316e30a0b7d0651cbb3f7983cd8300f60 401bda5f60e38c0e82708a9e178de44ae642e204 4155bdf631971e8b0d36b1d08ed38ffeb2b931f9 41ae3c894ff26c848077305661a0e784559d0ea3 4203e71ba88241ff8d77415adb04cc7f99dffc17 46403abc70ce3b834b7097f2fcf795baed117169 46ad3bebaf3d71004ff02d02e3d4e7e9a780d8d0 472a890e283f00b3aab1b64d4bad252d1ce9a8df 4796df8dc9205e35c01a9b120b5ae2ede2898136 4904813a1a0fec35eddc469c30eea81cd09e098d 4923f5cc822dd935b1f1b9f24b3d88209d3fef8c 499dacd7eefd19063217f947e98ee05447ed3659 4bc396dd2ea3882372a471c0d61c4fa84e1d7c79 4c5118467fc7e6f465f2c03ada669b9430edd232 4d7974c345b7155dd59cf4680f7563903b2fa517 4e33fb58565380184cff8547021c88096841f957 4fef6549f1445d5d804fe7a30bfd131c50e106a7 50843eed0e4ccacd45e0e5d5bafe5a1d9109ebd5 508e871155d89f2dcc49da56dc8702d18f84c3f9 515987c80aa7842771b5b5de85acac7e04beb6b0 51c8e6858d6cb7dbebfebd84b98118d571c99028 52d2e4484cd1dfe5ac85aeaae27b97c23df55b9c 52f531c96fa9e0ccaf35256d24ca939d565963d3 54ed614bb976b707efa06bcffd3f1853a2ce7a73 555da28143e7523deae097b178d0df8cc0fc382b 5962ee6c3e7b7e2e8bdf5cc2b59833b628610091 59a4c980fa2cb35d2f2614ce733ceb1942bb33cd 5bf771eaade466c3fe07973af33508b59d73481d 5c80fa9e22c071074b43249b982b5a4dd42a7a95 5cba3e681de8d62bbd89fdaf341ffaab5f1a7518 5e3ddefe1087ace5ae417fe417d7fb2d5ebffb90 6210f6519e1344b3cf806c60a1d0b8f458a8a98f 665da22ca6e94c70a7fb3f88bb48395fcd8d5096 666f660d24621f99775ec27bee7cd1bf89a644dd 680b96c5efde0681d611f8594c6fe5c430a17920 68ddbdc150c8deba178491ade2f0ca95082e8f7c 69b57f62c1d2442ef47611d3bbb0a728730029e3 6a9945ac6b91ba72f5cab66198d07d5e87a9c8a0 6b0135ac8b0f414b5f9f3ae13cb0c664ebc8607b 6d3d9edf0e08256e127efe777ba9e6779f9fa81b 6d50f603d709617c4247df0c80a6d5aca127e033 6de00448426c0bfe2885c1abbe775631e9e3a067 6e8d9c8d53a8ef9d1cd52e7171590074c0a7e9b2 714a4bea70e029a230cbc4ae16fcc9a1027652d7 71532af498f0de4b93d0d0132c3f8a068f6530ac 7401f252bedfd8df41dd9af017779b7136ffa4f3 74ae41d820956516444636e2a53ab875f497613a 75ae7d78e96b51f62a0b4ef28734139eabc3af98 75d155fcdebab90546c9766fc40bae97aebc5b09 781e3c36ffa1e6b0949383f2bdc71fa7e3007284 78a3de875768a48c0749d3836582917095bdf389 78e41f70ca11ec0923b86c1202f9b8eae9f5224d 79711562390762ef044a1dc22a0ce96b5a652383 79bbb53f1eca651aba010e8eaaf5e05dcbaad55c 79cbe9411e95640de65e2da96e4dea6534803ab6 79e1e7e3255a5d16e2e2d52eebf44419bd93082c 7ae93aac47a4452c75f90c519875611751210a89 7c22eecd4338927b04a597c1b113e53b895882b4 7d3e5c65faf1b988ba0b0bd723993678fdb06dcf 7dba31be3bad003813ed5e5f6148a9d0e0718d7d 7df512125518d93358a609cf8aed1890dcf296fe 7e1bd7dab89a5cd92db24d72092511fbf9dcf609 7e55bf04cd7205160e7bd3a6b670af5e6876c718 7fc8e813409e0328be2d343a20fb1af4e8e61b70 7fdf85d610736e727aa7df1438cca5441f9cffce 817aa36a2d0d2735f5f224f438802bb365d4fc90 8223068303ffeee5d44b13233ae48d5df1ba9ddd 8319baaa7c8dc19a447734f021231e6bb4abe509 84f7ad44a4ed3f823f7a5012df44fa31428726d9 85e78c61f47a2b8eb7822624c683065f56922ede 87a17663429877bacc60ca78d5855a6780be0714 87bd9d24bd9fdef7492371c2994888b3730c3cab 88561576001a0712668184fd74c99305a1f48968 88d8425975b0c2ff51bb548a23e8b3b5273334eb 89d8490fac443c020da4baa3f199004291d836de 8c327a3bdae3e680309fae9844a683a1e1612fc2 8caa395e04b772cb8ba3e72690a086729b265924 8fc66306fb692ced3994bf3c78b45c265927a6a4 904c07e2a7a14fe4d939df0de9f15ab127734e2a 9091a98dbcba7ffd44f3a900c345cbf082bbc40c 91444a61d918aeb694645132b6caf0646a352766 926d39d65a790d2619354a2523bb24996b0c7bad 9366c10d9b241ca43e4591d1d68e67aeb908da37 9566ca1f1a13928afbfc16050af875ec35637a7b 964d6b86da5950f24200d02d0f3833b673b8e5f6 97f422be56c1db1e76e8b229625ebf318495fc70 984730ad4fef03186e8c47f06a9f9ce9f3e9c2c7 99251957eaf76de75f91656722e009f91e814f10 9a9f3d5d3364bca7467a75f9f375e38a80a9971d 9bc1223bdda372c5d1516674674ebf2b992d0718 9c238605aa894fb9f10156d19306e6b7d2c3789c 9cdace7acc9fcd597abd5d715602ffc5d8bd4cd3 9d919637e438ab3c9a30d5d883afac6aa106847b 9decf9bf5ed97582e29900cfc6a08ad1f1bc5f8e a00e68e1d95f853325d2f7afd3e38d2425695eb4 a38bf5645f783007362025321e8d44dc24e586ae a4813a6b9465cdcd9ef1be46da92df87b76f042f a59c773630bfdaa6984427abf3cd990058754713 a691c6d043ffb51dcfd1e50200bc7fee25c31098 a6d326ad739e67f7a568518a5c7b652db8056234 a88f2f4b7e56f2f618375ed2386767b7e76cfd7d a8d9b37e6926b4182c9582cec1ec868e3f7d173f a8e9aa8cc23401269c4e05098c757aa7299c85aa aaa75b5f654148ab1df08a1c9d22857b7992d8a4 abfb1347d3e3fb2daff550f38ff6abded8b1ccf8 ae6cc54aa4b415bbfe81aee8d821398f151f4a93 b11f2088abda7b3ce1d6cecafa4c0573ba570437 b167ac6d20093d029d78a4bcc7b02fc87c3dfe3d b3bd0e6ee4378e1115564bb01d228c8f0e7edbe8 b49f6054abe12917594cf92a29b257dd221ed48e b5e3c9a087d427ad53dfdff164f55e41e3422f2d b6ae3b9273a4d5f11ffa4fe3218c2d15ee476ec7 b74c48d0f72078ac64a930163c8bda3ba949f7eb b8864c8961a3e3429df763c9b590f3b9395e638c ba4d4bbd7e24e44a403a87a4d25890d8ee3fc9cd ba78e22067d63de5628ee0453480447c23a80e80 bd73604309e81aeb59022fb84a0cf67fffcde95a be2f578b732bc5ca7a3f1f2ba8aedfdeeb9f2e72 be8537056e940f0d202e80b967ecc9f4ec132e74 c04fdb86f433334f4d6f52c4e3084b33fc014e5a c1e5cd8a81e0defed47597c05c9301bb7e267e4b c246d1540f7918e0434f80db2eaacef650bd8820 c268957aab961822ddda8d82f4dafa186f83e7a7 c469138f9ba15c8457e6ef86496b0c442b0f77b7 c6a8c317cd36d1a330df5d9c85b21a0a77b20c62 c6c5db4b92fad3f43c0c4c0d96170f20601611aa c75dbd8877584138d557976677e1bc6e9a958e9c c7726525ee867e9dc9e34fab8f0d09b4e1933424 cb33018d0925a8f7768b329701d1f223450c155e cc21815834f50a3133a5344d7eca0b5eec94a314 cf1c03633a3aad01ce82cb8d4c78f772300bce8d d057163302580166321eb5c0b574514aaad2a5ce d1aecd2f4d23e902b2a53ee8800c3820420946d4 d26c0dac82191d0329b5862c41d4f9df0ea123c5 d34d046afea711945e3e528827b5b9b6c2f2f675 d6df15b52b11a3fa1b319d795ff70810dc08fa58 d8c3426e6f3d76d82d30213b3bef64142f4a1de1 d9795b24133befe9c29f39ad088262f43514691b d9959a49eb37f6b0fd23f1d87f4aa12c75ac32bd dba7de825d0bcb896d61916f2d3ebe316fdb09b6 dc71cd338792e9486fc58fe6702499e153646167 dd4f7998705723a0b76ea84158929b331b46541d defc53104f348dae240c1153e156e87122d57b20 df7f405fa6ff61934ef0fea4d41bf09a0e10c567 dfb7358a866c8b7884a7175b8ff15cdac2f88121 dfcf7534194b047cbde62f3c1e40604855956b3d e03278399a1725cf34c31d735d22910603aae5f9 e2b82ce4679dbaf1b6d61257af277bec04e2c993 e3ce0c8999b009ce47b8101b7257dd683460cd26 e45c9865aa7185d3ead5fbda2ea8fbcc5b5134eb e582698bf2d6b45874bd7a7ccb8e2133277b9143 e6c30b0233fea499e9c9e94a006caceff5e0bc61 e81c8abb2058faeb1887bc6e7bdd7f0ee099e3f8 e982eb5bdca5951e1af2fd562bdc914558c44d21 eb6f43fa58cdc5c982fbc1539aa4a747e512d6b5 ecfbf6b4b4ac74442add79ba3e8953ca49d0e649 ee87b13fc090c368e9e04b4a91e540b456587bdf eeaecf55d8aa67a90d967abf0a05abd62841e5c7 eecc3cb682e62090037eb44e7ec2a8dea4bbbe5d f219ab4a69194569573dfd6602071b52ed785d79 f262e5c354c58dbd243bb0b11d76ddd7b1a54cd2 f3124b2aee1d498111b94489b55fc98a2c909dda f3fb5f6985af162f9ecc2a704801b5ad7b494ca2 f4111a578a201ff1357dc7816b4074b42697762b f52e42f3e81c3af5b9df7dc34425cdd0ab4bafca f5e93e26a1e7ee66118d015ac1ba70587d3fbab0 f70924e27e3af6c3bc19eb2dd960b940cb579e32 f71d471c74c4aa586c05575796ca43cbc70d126a f88a5b441e25d3a803a987a955324972bc89baac f8ebaef12dec25ecc729e52783c61cf2f69b3b6f f9014b7569d343175b164a33b8ee89ba2d0b37e0 f9a99b1d37951492556aa44c8fa6258b1a870214 f9b64f7dab04c7064f15301afbe73c17d6d10e75 fcafedccd2620f1c08cc0cb2798906016fafcc6a fd299a3be1c7b5f3c261e730a5b5b39f57eac13c fd5bc980aa48fbe4aaf55750b41530ed324e1ff5
+
+Package: qtbase5-private-dev
+Source: qtbase-opensource-src
+Version: 5.9.2+dfsg-12
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8754
+Depends: libinput-dev, libxkbcommon-dev, qtbase5-dev (= 5.9.2+dfsg-12)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-private-dev_5.9.2+dfsg-12_i386.deb
+Size: 1128644
+SHA256: 1f721686cf40a9bae510f352be56bf907b799eb64954c401f98ab334ffa65532
+SHA1: 2505212b8877602a9614b568b9f62d050dc57002
+MD5sum: dd421c257b7a70d26c8149b3584927a2
+Description: Qt 5 base private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications like Qt Creator QML Designer plugin.
+ .
+ Use at your own risk.
+
+Package: qtdeclarative5-dev
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4090
+Depends: libqt5qml5 (= 5.9.2-3), libqt5quick5 (= 5.9.2-3), libqt5quickparticles5 (= 5.9.2-3), libqt5quicktest5 (= 5.9.2-3), libqt5quickwidgets5 (= 5.9.2-3), qt5-qmltooling-plugins, qtbase5-dev
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-dev_5.9.2-3_i386.deb
+Size: 590428
+SHA256: 25dea39b5cb0fe18eec40544016ae9eed966e1e562f68128b243e907b0861550
+SHA1: a3662d3483364adc382a0783211d3a595ec73b6f
+MD5sum: d1c4d04791c23bdb25f8407f97b94241
+Description: Qt 5 declarative development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files for building some
+ Qt 5 applications using Qt 5 declarative headers.
+
+Package: qtdeclarative5-dev-tools
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2234
+Depends: qtchooser, libc6 (>= 2.4), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.9.2), libqt5quick5 (>= 5.0.2), libqt5quicktest5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-dev-tools_5.9.2-3_i386.deb
+Size: 560336
+SHA256: 42cec0fe654d1e4cffd2bb0540a3d3808e96bf6b8f3c1df04ab0dd92e1453049
+SHA1: 55ef101757fb5bc978cdacd71ccdec53af834420
+MD5sum: c42ead24a10ec7d10734543462d01a34
+Description: Qt 5 declarative development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ declarative applications.
+
+Package: qtdeclarative5-dev-tools-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13774
+Depends: qtdeclarative5-dev-tools (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-dev-tools-dbgsym_5.9.2-3_i386.deb
+Size: 13435560
+SHA256: d760fb293dc2e534d566801f7d3765f8091460e4b506e69bcd2646a9f4232eed
+SHA1: 965256c24e3cfc88fe3575cc803ac974a0ea5dec
+MD5sum: d2b83d6c663f9ef13ab381434f2863c7
+Description: debug symbols for qtdeclarative5-dev-tools
+Build-Ids: 02057add317da17b07c57748faa0d005c5da5279 0d6898b776173066d9161fc45bfd880054a832e6 2c88afef04ceddb359d2882b6860807f610310e8 4faa44e09fa5204ce80add92ea4c3d87e345d4d9 7e2e7a9f730e285d5901bdf3aeab25f68edf5f4f 7e9d236c26fdef647ccab6f7b206eeb51044b5a7 8803d262c2df9bf0a348f2fed3347a5dacaba24c a3b8a9600d0b8bf13c61652b6b112c380feeacf9
+
+Package: qtdeclarative5-doc
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12805
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc_5.9.2-3_all.deb
+Size: 10980032
+SHA256: 67fa224096150b11d0391ede35a384abf4a5bb2412d91d94b17011a5a3a86f63
+SHA1: 1c5e79f3e6542ec0c6a8f5854c897a3512158c06
+MD5sum: 5bbcc686da5d608630f2a62fabf671d3
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-doc-html
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 36962
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc-html_5.9.2-3_all.deb
+Size: 8672308
+SHA256: 7da5bf73232751dcde6ea7ee670a2f5c0546f643229f3bd0d46eddd58c3de82a
+SHA1: c27e6a5374d3ebc6146807568fb51ec1fe2875ad
+MD5sum: c256897978b756dfec0f5a57dae12d58
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
+
+Package: qtdeclarative5-examples
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 26009
+Depends: qml-module-qtqml-models2, qml-module-qtquick-dialogs, qml-module-qtquick-layouts, qml-module-qtquick-localstorage, qml-module-qtquick-particles2, qml-module-qtquick-xmllistmodel, qml-module-qttest, libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~rc1), libqt5quick5 (>= 5.9.0~beta), libqt5quicktest5 (>= 5.0.2), libqt5quickwidgets5 (>= 5.4.0), libqt5test5 (>= 5.5.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5), qtbase-abi-5-9-2, qtdeclarative-abi-5-9-2
+Breaks: qtquickcontrols5-examples (<< 5.7.0-1~)
+Replaces: qtquickcontrols5-examples (<< 5.7.0-1~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-examples_5.9.2-3_i386.deb
+Size: 6915840
+SHA256: c5a8d7b3ec47ad1e5424ac2307f921d1dce78bc416d8e1abd406021295f70889
+SHA1: e03b6b8d423d5d2fa19b4be21a0ca207595ea1f4
+MD5sum: 05e6119ea85cf44ad6b7297724e1830d
+Description: Qt 5 declarative examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 declarative examples.
+
+Package: qtdeclarative5-examples-dbgsym
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 21557
+Depends: qtdeclarative5-examples (= 5.9.2-3)
+Breaks: qtdeclarative5-dbg (<< 5.7.0-7~)
+Replaces: qtdeclarative5-dbg (<< 5.7.0-7~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-examples-dbgsym_5.9.2-3_i386.deb
+Size: 19658752
+SHA256: ab8af6bc864317bc20da530f0e8af373dbe6ec226cf86a21aa0a7ffab6c04d19
+SHA1: 984c1f07d43ea965b3d2fd7bd1aac739fd3e34ea
+MD5sum: 4f3765382d883fb3d97a19aef53b435b
+Description: debug symbols for qtdeclarative5-examples
+Build-Ids: 00b4fa5363830c151c92e6c859362b31e52a0bdb 05f26ff6777279c42731198fc306a33cd4e67baa 0ab77de243fc776f162b65933c6adc1fbdb5203f 0c20f9a905cf13ead2e0484d433414c165affc34 100faabd919c197d58dae9236e3ef50a16332198 119336b92d781b83706e4d17844d1bfbebe19fd5 124484331d9eed8d10af3d5228a9a64228c61e80 1355753db0ecc0ad3fac6abdfb59ae419338e0fd 1ab500373f488d52dd6aa8be20ee4b43f80c4172 1b4023d48e0b437e832fc625865678b529c51321 1e3843d038c3cced9f46c26b1edb7586ea431252 211d7c0fb6cbda01761723c035076673c4befb45 23398e2db646d196444f4c56b781a363044dce49 24d4851c3c4d4714f2f6a06845557fdefa7ac432 2619aaccb959ec87b95a180da984735f63f82af1 2c6a7a9b5701b452ae14e344f0d9d83b1e8f0d78 2daf65bf7de1dd55d100afc83ed221d1add446fd 35a8901ad707f4120a68fc635a56f4adf3a2e4da 35c22e2312012ae08c0aa8e237df5e5b70902571 39fc4789e2ed2418ea5d3724930443bc84cbdfcd 3adf9a5cd9cfffec20dd92735bbd5a5416d15524 469cd1031330d55f85f968c253461f0152aec397 543449e5068a083020b830c0e2d3141326a68650 55435a027c7e1decf12f2a821350a35b901d0865 5692df09a4a0bd475ca973dc99de27d509313fe8 5a07a8169ce777c284fdf9336d7ee6441f6b8049 5f3d6ccb73dc6ef5892d5e24193d2110753fcc94 5f87e02bc6850def78ba1c8f4c4ea28178b2061d 616d4d185a1fba4e568a9ecd4f7447dea1e09912 67730c8c11beb40d21345d4f932774c4336c4a4d 6ac79705182f76e7215245ace4d83334122c5526 6ace9dc7e0eaff500119523cf072e0f151fc865b 6b0880ed51c8ae374bc6179255803ee09378bc49 6c8cba0037fadac84f6f4f87807101b1d2585009 6f824fc35f730ca4942ac339d79b81268ce2ddb7 70ca2ff688c3f1c0e1bf2622abc8f11c7eb72b07 72abb105d066d7a27c0fa599e49777d67d48bd45 77c4d3b7939ef82422078dd0dbe571808178d0e1 782e6fdfbcf8ff4b89fca56b0ccc62acc69ee50b 89500a1dc3512b66a81f9b8e5332dd2c1e33bdfe 8b746096bca3df534230da7c1060f9e289a8ff10 8c4ac1a8734ee2e117fd95db46a3555c2b5d09c0 8e5b27ebbfdd4b78df172e694d5e94ea25994b68 8febb9d48c9299dd6b096be407db808227b1931c 950a88653af8aedf6f0e150703cd306440e1ce55 959e9d7723513454dee1545f5f266ae41068dc6e 97e878b94610bfedf1acd2e4f4966855c8756504 9b5b0e1022f8c7d50225b38451917a2261de69a1 9c5b97e2a413511a4e13edea10df47c1fa4fcb37 a3330c8de4d048044152418a3f9522d006158158 a49e526f6d51c06dc70b4ae39f82f53a2d4e29ff a97a7c2fb84dd48b47c6dc7a17079d163528e6b9 ad6ffdc3160c2f1f6c1c7b3a878c2f5a2305729a b5a5e5c530365a3caa1b2dc4393ebebe5fa713df bcc4b653b27a6fb5ad69607e9ec4eb27a1dfcf9c bdeb6f19e1541a9865061577ec9a8edc3fee0439 c294fc98504ff28d390f50885d6d77865a196686 c7011b457404b1fbca9a0f7df20ae98385a232cc c751e65df8cf246fd39ef046f197cc8bd9ed6d2c cde4fcc45667e6335f12b7581f777b110e8432a2 ce0758692af113a8f1838c436f882223e64a3d3f cf4a7b3dfe8d8809ba2642c6444edd1ffd7d8dd8 d00208b0474ea91bbf9d2c0a42f3c2e7960156fe d3537f6e94c7c67a2b2348ad66f172ed041b9973 d4d00047e0d6c682161387537a2693d4ca29d470 d6283f50a4704344b4bfc96b8a567a3c3b84313e d64859e0a6ffe27bfbfacb7ebd28323644cf2c11 d9a8419e68b546eb3287e1fe45db74d770f23b1e dcbc08b1180e764a5f017fa3aa6ce3ed2250118d ddfa914ee4fe48121aaf64d858bfba313dd2a817 e86da9091b3530e4fd5298efcbe0dc2757700f5e e9699b4fb5b827efca48a0ca0d479b4e27e5cc78 f113aacb0e8f77d8789723fa2918ccb65017deac f20f3114c8e0261c48a241172c5754b3f31ad1db f553555851bfe7c56f813738c52d33f82c1ad8a1 f7d5da231c04d6f37a2191f63fca8b8fba6f9b77 f922c2caf54e395fffa4f208a1bdb2ead5608182
+
+Package: qtdeclarative5-private-dev
+Source: qtdeclarative-opensource-src
+Version: 5.9.2-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3186
+Depends: qtdeclarative5-dev (= 5.9.2-3)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-private-dev_5.9.2-3_i386.deb
+Size: 342340
+SHA256: 425462117f8f0804f82f52fa595d19c6d46594fb7b8a3e1af387452bea9cbe33
+SHA1: 8e7855c25d8d673b6da1e05613153250cf621e0c
+MD5sum: 4e4fedf4a4e97fcb17139333aea8a3d6
+Description: Qt 5 declarative private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications using Qt 5 declarative private headers.
+ .
+ Use at your own risk.
+
+Package: qtlocation5-dev
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 248
+Depends: libqt5location5 (= 5.9.2+dfsg-3), libqt5location5-plugins (= 5.9.2+dfsg-3), qtbase5-dev, qtdeclarative5-dev
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-dev_5.9.2+dfsg-3_i386.deb
+Size: 24428
+SHA256: 848b34ad889fc46611df10963701462e0c77526a6c5f0d17e36d329d74d76897
+SHA1: 838bf35d3752a9ad3458ab51949a3004c32a172f
+MD5sum: 370394951f8cfb3c476b911f6df102f4
+Description: Qt 5 Location development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt Location library.
+
+Package: qtlocation5-doc
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3089
+Breaks: qtpositioning5-doc (<< 5.5.0~)
+Replaces: qtpositioning5-doc (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc_5.9.2+dfsg-3_all.deb
+Size: 2495468
+SHA256: 55f7defeb132a590af72741b46fa5d3737a2956b7752325daa21f7f1542eb319
+SHA1: 9fae86aaaab0d0cdf4d7046a9990fe3ef765995f
+MD5sum: d6f20f30249ef187eebb7fc3dc7605aa
+Description: Qt 5 Positioning documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Positioning
+ library and binaries.
+
+Package: qtlocation5-doc-html
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8917
+Breaks: qtpositioning5-doc-html (<< 5.5.0~)
+Replaces: qtpositioning5-doc-html (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc-html_5.9.2+dfsg-3_all.deb
+Size: 1878148
+SHA256: f8236dd4935a6f44f78ca802d48f8e24e94d7bebceb184c98f4f36bf43f9c68b
+SHA1: 4aeea29f288baafcce27b1705318f68927f5f83d
+MD5sum: fe5d1190b371287ee31b79be59aaf0c7
+Description: Qt 5 Positioning HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Positioning
+ libraries and binaries.
+
+Package: qtlocation5-examples
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3072
+Depends: libqt5location5-plugins (= 5.9.2+dfsg-3), libqt5positioning5-plugins (= 5.9.2+dfsg-3), qml-module-qtlocation (= 5.9.2+dfsg-3), qml-module-qtpositioning (= 5.9.2+dfsg-3), libc6 (>= 2.4), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.9.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: qtpositioning5-examples (<< 5.5.0~)
+Replaces: qtpositioning5-examples (<< 5.5.0~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-examples_5.9.2+dfsg-3_i386.deb
+Size: 1008552
+SHA256: c70c6a3931a9dbbf59c3c1795c3f1246b3539909b16315b70a582b3911716d49
+SHA1: b25b6a9147eb77bb4bbc677fe4dd76aa1fe9cb82
+MD5sum: 78429800c506f8ea69b7420b133ba992
+Description: Qt 5 Location and Positioning examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 Location and Positioning examples.
+
+Package: qtlocation5-examples-dbgsym
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2208
+Depends: qtlocation5-examples (= 5.9.2+dfsg-3)
+Breaks: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Replaces: qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-examples-dbgsym_5.9.2+dfsg-3_i386.deb
+Size: 2131396
+SHA256: b920b3598ebf15baa91830b04c380e6eb4fbcaee606f5a6ce24048e23619a5ee
+SHA1: 99184df17ea3cc10f1398b9e1fe3af56385f0df8
+MD5sum: 1ea42085da36314cfe6b0f545dedd174
+Description: debug symbols for qtlocation5-examples
+Build-Ids: 23ad77593211057c1052469dea02d10c8dc4a4eb 27aadcc58ec49ac7895ad01fceddf8d42ab6503c 352a12e94fd59a0af2a3d18d18b5b24d7ded9cda 57d817853db9998affc31c6c4e5033a77590dd32 7ed0c9959d8b4e546d84c2b823132322b4242b44 9e7b72f29f7216af1274a301c51d5f9349fc6d3e bbfc774ee5a289eda29ccdc8df98df3e8acd8a1f bc9896fc9a55d4017b53b98d20264994e84b02ae c8ca24b378c009dd8e8d5ba9a222310545e4819d dd3ae8257e1507624241c6392fc9ad30db2d3372
+
+Package: qtmultimedia5-dev
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 543
+Depends: libglib2.0-dev, libpulse-dev, libqgsttools-p1 (= 5.9.2-1), libqt5multimedia5 (= 5.9.2-1), libqt5multimediaquick-p5 (= 5.9.2-1), libqt5multimediawidgets5 (= 5.9.2-1), qtbase5-dev
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-dev_5.9.2-1_i386.deb
+Size: 45464
+SHA256: 7372ce6793d9fb45a1c9a07cd7fe91fac49d892df4235f75ee6e46d31358d05c
+SHA1: 497512d77be6d1c0e24b72a2c86d0991db8ec5a7
+MD5sum: 211692a41f05ee56daa285e0433c03e7
+Description: APIs for multimedia functionality - development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt applications
+ using Qt Multimedia libraries.
+
+Package: qtmultimedia5-doc
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3282
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.9.2-1_all.deb
+Size: 2434508
+SHA256: 19befd17c8a36e603383d248f55d5f40d9c50b1524c636a49f1720ee7327caeb
+SHA1: e1ac38c8834651865151247860c3a8cf0ab5267b
+MD5sum: af5c46654caf7e9884919d5874a798a1
+Description: Qt 5 multimedia documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 multimedia libraries.
+
+Package: qtmultimedia5-doc-html
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13817
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.9.2-1_all.deb
+Size: 1575632
+SHA256: 169e53e55a13a3c72cdd251136493af6572f9e959ba15d418b4ad4377e705951
+SHA1: 9e020a44562cdff6a06b0ddae4d83ba17e3f614f
+MD5sum: 80446cd39464819fd493285555dde24e
+Description: Qt 5 multimedia HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 multimedia
+ libraries.
+
+Package: qtmultimedia5-examples
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3439
+Depends: libqt5multimedia5-plugins (= 5.9.2-1), qml-module-qt-labs-folderlistmodel, qml-module-qtmultimedia (= 5.9.2-1), qml-module-qtquick2, libc6 (>= 2.4), libgcc1 (>= 1:7), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5multimedia5 (>= 5.9.0~rc), libqt5multimediawidgets5 (>= 5.6.0~beta), libqt5opengl5 (>= 5.9.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.2+dfsg~), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://qt.io/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-examples_5.9.2-1_i386.deb
+Size: 798140
+SHA256: 310768110000d256d6cfb115c1d7b07b90c99f25e46ab2b7fb09420e89bae019
+SHA1: 5bb80666904a03cbc3af83b29baa402348593487
+MD5sum: a5106ba1b7b2718a60a3bd03317d37e2
+Description: Examples for Qt 5 Multimedia module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the examples for Qt5 multimedia application
+ development.
+
+Package: qtmultimedia5-examples-dbgsym
+Source: qtmultimedia-opensource-src
+Version: 5.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 11176
+Depends: qtmultimedia5-examples (= 5.9.2-1)
+Breaks: qtmultimedia5-dbg (<< 5.7.0-1~)
+Replaces: qtmultimedia5-dbg (<< 5.7.0-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-examples-dbgsym_5.9.2-1_i386.deb
+Size: 11073464
+SHA256: edd815833ccbe2b29e3393575daa5c86824cf0ac3616becb2b154d57cdd32e96
+SHA1: 7b336fc1b61d1c8b9be3f68190be79517c6405a1
+MD5sum: b06f1b9b2e9f8b0b0d1cb9614f375ad4
+Description: debug symbols for qtmultimedia5-examples
+Build-Ids: 0b8dd1dd6e9a02626bfec9dbf902dae44eabd1d6 35c15abc7eea17384c689e99ba45e154ac77c39a 3c2f692bc725540f114ed1cd4c4a0f68d8ee1681 7397199ebb210f43f2d7b46cfc15bf977887c308 93548148854954aa139b21b4b94044c4305f5bc5 9f80812d0898b846d838239f7960d897b8a6e979 abc12432175145b26587c1b6b53317969e69f8ae bb21be347cd428399b0d7a8664bef048f19d9bef bcaa3febf6a70d755561bb04d6320ed4541df249 cd282d2fc56c34a19db435b55eea274e8407e7d8 d15368494734926bc5b448e9b23051bfe2c3a115 d5996dc7a71d381f1a202ec6c9410457070a3814 dc4b81a5bac0381137c7e0e876715f4d79fc4dac e4bc978e4d3fbbdc2b65cfbff28423f3c4a0577a e54c810582d2a91b5859e36dc798366cab756e40 e73b82216e82b505dfe83c44cd0a424503f76026 ea66be055c495a7dfd2b3160c87b320a0f9809d9 f0ae59456b8bffd8bbaad3f347bbd111f3c21b1c
+
+Package: qtpositioning5-dev
+Source: qtlocation-opensource-src
+Version: 5.9.2+dfsg-3
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 136
+Depends: libqt5positioning5 (= 5.9.2+dfsg-3), libqt5positioning5-plugins (= 5.9.2+dfsg-3), qtbase5-dev, qtdeclarative5-dev
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtlocation-opensource-src/qtpositioning5-dev_5.9.2+dfsg-3_i386.deb
+Size: 18412
+SHA256: 6b8e4f29d70adebdb812d09a944f9d6e4221ef17233b487c6db4af53501bf4be
+SHA1: 1d7dd643a5548c70a011597e414e32c0575f3c15
+MD5sum: 847ac8435fd6487e70a7cb98f7852e3e
+Description: Qt 5 Positioning development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt Positioning library.
 
 Package: simplelogin
 Version: 0.0.6+git20180314-1
