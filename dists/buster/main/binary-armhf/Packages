@@ -907,40 +907,40 @@ Description: Mobile telephony stack (test and maintenance script files)
  This package includes test and maintenance scripts.
 
 Package: plasma-phone-components
-Version: 0.7+git20180223-1
+Version: 0.7+git20180223-2
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 3739
-Depends: breeze-icon-theme, milou, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-qtquick-localstorage, fonts-oxygen, kpeople-vcard, kio, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
+Depends: breeze-icon-theme, milou, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-activities, qml-module-org-kde-people, qml-module-qtquick-localstorage, fonts-oxygen, kpeople-vcard, kio, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
 Homepage: https://plasma-mobile.org
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180223-1_armhf.deb
-Size: 1741916
-SHA256: bfb82bf5d73279bbcbf8af2dc561d42552f0309a6ab844fd819c38010bd41476
-SHA1: 303e31bd5639a6d9af34f5b0b13cf8954b25e657
-MD5sum: 48ad4aa2b80fe781865720e8f736538b
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180223-2_armhf.deb
+Size: 1741868
+SHA256: 8cad45a62585c70f189357487c8475879c1c0798674722ff6c31b9578fe89c4d
+SHA1: 31dc6137a9f664489bf86a730136240e04d6bbf6
+MD5sum: d728386f26b9cfa1c1d02ed4f891f87c
 Description: Plasma Phone Components
  Phone components for KDE Plasma.
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-components-dbgsym
 Source: plasma-phone-components
-Version: 0.7+git20180223-1
+Version: 0.7+git20180223-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3305
-Depends: plasma-phone-components (= 0.7+git20180223-1)
+Installed-Size: 3306
+Depends: plasma-phone-components (= 0.7+git20180223-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180223-1_armhf.deb
-Size: 3264056
-SHA256: ff5843aab5457533d7aad2be683d6488dd7dd00e675148436f34bf53da40299e
-SHA1: 04a68191ce7e4adbbf9a3049d8502167ab09068b
-MD5sum: 44e959d278c576b9abc712b7f2b0a00b
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180223-2_armhf.deb
+Size: 3263556
+SHA256: a3429bcbbd433dc94ba665f1257bb50a711a3704551d00015f0d6d79c4d9153b
+SHA1: b8dd5e32a9a1eeabbf06ef11f5934b4c87a51f75
+MD5sum: 048ae4721d0a28bd42046fc67bd827cf
 Description: debug symbols for plasma-phone-components
-Build-Ids: a8dea136d352af4cf8467702ed79d0893618b153 ac473f4185625a332b11cad874e408dd40b7e97b ace02134ce64514ed4df2d891281ec4e07e25c1c ce2b32fb5db8b4f021a1be3213ccb124a8a1a804 e0df4503f0c804b730ecb5510d7b03919062238d e35be1d464e84ff8980c72b83a0e08290667b3fa
+Build-Ids: 3f7c68c5832770c8ef3b692de14f97b6eb8af4d5 52499c7cf21083a7bce380eeb7fd74ad4af98187 c75086313fba89b013fc8e8a8aad6eaae800d647 cd849360bfdba005106c8ae967af7113735d74c4 ee091c320dfa14765f12d12487e4d19d66a08411 ef162b534a92340e6522021f70864f15baf0af16
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-settings
@@ -959,40 +959,40 @@ Description: Settings and artwork for Plasma Phone
  This package contains settings used by Plasma Phone.
 
 Package: plasma-settings
-Version: 0.0.1+git20180223-1
+Version: 0.0.1+git20180223-2
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 460
-Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-ubuntu-onlineaccounts, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-ubuntu-onlineaccounts, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
 Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180223-1_armhf.deb
-Size: 91420
-SHA256: 6035746bae2ea55e28ca58d096b699d4bd99253c7bea8eae45212875b4785b2a
-SHA1: 9e2ef2153b14c2ca066c55f7eafa196c0a3135a2
-MD5sum: 3f3aac07311fef0978a2fcbbb6461bee
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180223-2_armhf.deb
+Size: 91452
+SHA256: 4982e46a94272ab5c564a89db5bfd8a51aaa886af373d9e6c0af34a538141848
+SHA1: 41fccfc8dadf865a746038c9639d749b0ba2f6e4
+MD5sum: c1f5e0155c99e9d5cdc9b83872b1a4fd
 Description: Plasma phone settings application
  The settings application and a few modules for it.
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: plasma-settings-dbgsym
 Source: plasma-settings
-Version: 0.0.1+git20180223-1
+Version: 0.0.1+git20180223-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3606
-Depends: plasma-settings (= 0.0.1+git20180223-1)
+Installed-Size: 3605
+Depends: plasma-settings (= 0.0.1+git20180223-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180223-1_armhf.deb
-Size: 3538664
-SHA256: 4174915c431a1117ef8ae630414273fcb8ed3806fae66d8c3b802edac6ad2b0a
-SHA1: 047100e3e154603f6d02eac3020b616dcb24726d
-MD5sum: e9b91e4716c6fd91c5daa8fb69b09573
+Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180223-2_armhf.deb
+Size: 3537464
+SHA256: 4d5d4097a614221c658fec48971bf655f7fa58990ef79ca02864ee6333d0d153
+SHA1: 0358a6401252efb868ce8d188bc40916d21766e7
+MD5sum: 8fbeaf7818b3d5553143c4c69a1ec3b2
 Description: debug symbols for plasma-settings
-Build-Ids: 42d4c010fa6b5b2877f2e04343dd9952a1ebfd10 5d8efc5be08f114e2767a7682ceff10d2f4b354f 70fa9ef8c7c6135dc5b337618657146217a801c6 852f882402dc741d50c88d45491983261dd06ef1 a89d5fa16f49bb8bc1ebbb75ff6efb8cb342f272 d5faf91e3f5bf1b93d0d60488ac80be55710e7ea d95c3ced69defedc3ae24adf0d5c9aae4ed8da51 fa3602ba3ab911ea0f14bdf49cbc9d08737f4c94
+Build-Ids: 00b2ccb352af33a9415596158383c62096d5a9cf 2762eb20687392660512e04f70c65a39ac64881b 36060bccbd75711fe55ab3bb52b24580b64f7ada 57805902949a1ee7e51d1abd2427647001a1b8d4 81d6a62b12500f35640240667a627b0ca9eae260 a08b77f69d8c369dae03a54a9ddc53d29f5f60d5 ba011a504632014c7b404c433e8c017d7db2a43d dcf4b49623cebad2a6f21363cb9329bc974eee15
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: qmic
