@@ -369,17 +369,17 @@ Build-Ids: 1053923bfd028cbf2e5f711d370649819eed9c27 3ef61d9d229efd7ac92ecf9099ca
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-settings
-Version: 4+git20180223-1
-Architecture: all
+Version: 4+git20180223-2
+Architecture: amd64
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Installed-Size: 33
+Installed-Size: 35
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-phone-settings/plasma-phone-settings_4+git20180223-1_all.deb
-Size: 3836
-SHA256: 99226ff577ffbc20482a03c3b3cac336304aee971582a7e09ac22fb3fef89c19
-SHA1: d540135d4666654da80f5ed79aa626865df0ad50
-MD5sum: 24631f6cdecd1da01842ac181cb6586b
+Filename: pool/main/p/plasma-phone-settings/plasma-phone-settings_4+git20180223-2_amd64.deb
+Size: 4368
+SHA256: 28ce7cd94a866b5fb9ed7af456fc0646e7cd12d336b28643e38df88d7acd9644
+SHA1: 0a9ae47ae2ccb880078e97cc9c70f1aeb12813bb
+MD5sum: beb92a54e6337efef73aa25ebbef760c
 Description: Settings and artwork for Plasma Phone
  This package contains settings used by Plasma Phone.
 
