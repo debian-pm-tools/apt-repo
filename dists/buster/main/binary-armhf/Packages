@@ -1029,6 +1029,46 @@ MD5sum: c43a40af6f86f0dd66f8bbb8eefd371b
 Description: debug symbols for qmic
 Build-Ids: 0865bc97b07eaec22fc8509808339e2994cbe299
 
+Package: qml-module-qtquick-virtualkeyboard
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5)
+Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qml-module-qtquick-virtualkeyboard_5.9.2+dfsg-1.1_armhf.deb
+Size: 23444
+SHA256: ee8f7e3d0a3c11a515e96f8efd6e15cda185f166a859c5f4c33bf71e15e450cf
+SHA1: 635eb15ffc1a2105384155fcaafa8213ba2952c5
+MD5sum: 105beae364ac91c0f31861e11445c534
+Description: Qt virtual keyboard - QML module
+ The Qt Virtual Keyboard project provides an input framework and
+ reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
+ Desktop, and Boot2Qt targets.
+ .
+ This package contains the QML module.
+
+Package: qml-module-qtquick-virtualkeyboard-dbgsym
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 446
+Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qml-module-qtquick-virtualkeyboard-dbgsym_5.9.2+dfsg-1.1_armhf.deb
+Size: 433564
+SHA256: 04189d54d4103d12f088f9a13726d0eb31ac531cc2f97e41d2886e49feec8c0e
+SHA1: bc1788bcc1fadd17d35fe8e15f9566d06f98c686
+MD5sum: afbbc498ec6facee7de2a93c85bda014
+Description: debug symbols for qml-module-qtquick-virtualkeyboard
+Build-Ids: 433131e94c959308a1d326897ff696af6cd7fd20
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -1312,6 +1352,86 @@ Description: Qt 5 multimedia HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 multimedia
  libraries.
+
+Package: qtvirtualkeyboard-plugin
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 639
+Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhunspell-1.6-0, libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0), libstdc++6 (>= 5), libxcb-xfixes0, libxcb1, qtbase-abi-5-9-2
+Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard-plugin_5.9.2+dfsg-1.1_armhf.deb
+Size: 379260
+SHA256: cedcc6e19cc887655c57fabdbe17662c3a73dc0ee83b224f996fe522bc13ee09
+SHA1: d81b1d383afa9cd478f37d607f38a7c5d29274eb
+MD5sum: 667a84e84208610c2b0de242b2c341da
+Description: Qt virtual keyboard
+ The Qt Virtual Keyboard project provides an input framework and
+ reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
+ Desktop, and Boot2Qt targets.
+ .
+ This package contains the virtual keyboard plugin.
+
+Package: qtvirtualkeyboard-plugin-dbgsym
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5576
+Depends: qtvirtualkeyboard-plugin (= 5.9.2+dfsg-1.1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard-plugin-dbgsym_5.9.2+dfsg-1.1_armhf.deb
+Size: 5467152
+SHA256: a692195a0e19f44c13c5a72c72d054cfb6f7af8758fd00b117f0a609d9b7a218
+SHA1: c582e0e93b7cb4bec1c8b9690c95ac4718da635a
+MD5sum: cfe04a1d66c239ff8256f49c077b3377
+Description: debug symbols for qtvirtualkeyboard-plugin
+Build-Ids: 1da5f104c3aa2c626b56317c28a539f0037c292c
+
+Package: qtvirtualkeyboard5-examples
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 105
+Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1), qtvirtualkeyboard-plugin (= 5.9.2+dfsg-1.1), libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5quick5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard5-examples_5.9.2+dfsg-1.1_armhf.deb
+Size: 19348
+SHA256: f6e52fa7d5461807a10c4d610385dccf4c96b0033b4c16b820479e46bb156902
+SHA1: e924efebdafbaf0631703abe82fa2deb14b68433
+MD5sum: a50d63af7797341dd3513ed2abd872c3
+Description: Qt virtual keyboard examples
+ The Qt Virtual Keyboard project provides an input framework and
+ reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
+ Desktop, and Boot2Qt targets.
+ .
+ This package contains examples of using the virtual keyboard.
+
+Package: qtvirtualkeyboard5-examples-dbgsym
+Source: qtvirtualkeyboard-opensource-src
+Version: 5.9.2+dfsg-1.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 96
+Depends: qtvirtualkeyboard5-examples (= 5.9.2+dfsg-1.1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard5-examples-dbgsym_5.9.2+dfsg-1.1_armhf.deb
+Size: 85140
+SHA256: 078cee50e81c87060b6154f5a68bb8a948fdc4a4023f39812afef4ac72d3adbf
+SHA1: 5e2146bee1c15b1745ff70341a2b8918ce593d7e
+MD5sum: ec254baa1e88a08edc8370e73d32b7ea
+Description: debug symbols for qtvirtualkeyboard5-examples
+Build-Ids: be39139594f65f4826f5b5c35bd4275ff1905a87
 
 Package: rmtfs
 Version: 0.2+git20180323-1

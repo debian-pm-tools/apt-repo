@@ -4,13 +4,13 @@ Hash: SHA512
 Origin: Halium
 Label: Halium (local repository)
 Codename: buster
-Date: Sun, 25 Mar 2018 12:09:09 UTC
+Date: Sun, 25 Mar 2018 12:33:57 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Local apt repository for building halium rootfs
 MD5Sum:
- 23ed876809210efc1045b9d582db98f2 61741 main/binary-armhf/Packages
- 17277a5cbedfaf707df3deb7be9e3970 16734 main/binary-armhf/Packages.gz
+ 7685f1a2412b254588af2bff084e4482 67247 main/binary-armhf/Packages
+ 48d4bf4622c5680d70973f311841654a 17894 main/binary-armhf/Packages.gz
  d35cf24fd6f4d1281e2b037e8c3ba281 145 main/binary-armhf/Release
  bdfd523a0776fd98f4f08afe79e7f700 38111 main/binary-arm64/Packages
  33eaf2eeb737082ad92e6aad03c6f70e 10259 main/binary-arm64/Packages.gz
@@ -21,12 +21,12 @@ MD5Sum:
  b82b5d39ee3b97b5d75a8d01ae35a247 257814 main/binary-i386/Packages
  fa02b2e42ed5ad4f6760e3cb2c4389f5 61253 main/binary-i386/Packages.gz
  7024bc58d7bf10d9c441b839282c43fb 144 main/binary-i386/Release
- 3c4f803cc33febdf56e2a33174352eef 51981 main/source/Sources
- aaea9c688b100fd6972b26cbcb28bfdd 13741 main/source/Sources.gz
+ 614dacaf08074be811d74f4b15020692 54257 main/source/Sources
+ fdc8cdb31cf5e5e62a2475a534e60fd5 14201 main/source/Sources.gz
  3a2eb7037cb0b6b5d781f98e4fb5817d 146 main/source/Release
 SHA1:
- cf0f8443ed867ff156638253a8b132a19dcc06e4 61741 main/binary-armhf/Packages
- ce5bc5d510d83d139e283aa5593b4d9e3de09f86 16734 main/binary-armhf/Packages.gz
+ ca81804d8652d34a1323aa7afbe08bf7b6c8e899 67247 main/binary-armhf/Packages
+ 37eb9e1798d1805c023b23aa739a5f496f01b38b 17894 main/binary-armhf/Packages.gz
  2b98f92147c77a617c2f67d1f06ffc6fb64d277e 145 main/binary-armhf/Release
  c823dbdc8fafbe694a69d9541ecb3416d90ca549 38111 main/binary-arm64/Packages
  1aa6c72e45e5964e16f3b89325c109f830c82b07 10259 main/binary-arm64/Packages.gz
@@ -37,12 +37,12 @@ SHA1:
  f12294fd2bafc6cec307fbec5808b1778db15365 257814 main/binary-i386/Packages
  b59e7611617ada35878a43148d4299019ea6de20 61253 main/binary-i386/Packages.gz
  4f8c62a087dccccba9c9fb638a97af857cacece1 144 main/binary-i386/Release
- ce8ac38c38c4dfc6b5b7743941f0819c39602940 51981 main/source/Sources
- 336fef666a3b766ab15c4ee78ae2dc69de3ecfc1 13741 main/source/Sources.gz
+ c212b88101e48c10da717c6a3d01fc2dc8116dd2 54257 main/source/Sources
+ fef72571f7022e16891102503e42a795b9772ba4 14201 main/source/Sources.gz
  c4fa2b56c8a0aeb4b9a149a17f5dcd2dcf237be4 146 main/source/Release
 SHA256:
- 148fd5eb7d24ea8270e511cac5e88dc6e1466af3d71e3b3ab675558ec4984e19 61741 main/binary-armhf/Packages
- 4a0878e9181a6412821939c6447a94f336af99fc574a5463e8dfb33dabd27655 16734 main/binary-armhf/Packages.gz
+ f65126714cfb362d7a5e67a7e53873749474b7535f3a1ae4184abbabcd282518 67247 main/binary-armhf/Packages
+ b7cda421022cb1ddf1be2cab547c79ff30aff658a9045f11b557fb1e72cd5ee5 17894 main/binary-armhf/Packages.gz
  de5597ae0f860b6c6147f0adacc7318089847acb9e13d3e592745695c1ff5db2 145 main/binary-armhf/Release
  69bc289aed29875aa140dca705a60a00d2135905ad3be38ce02111284a0b3f9b 38111 main/binary-arm64/Packages
  ca3ad3c4c4e013d2e5e436eb5968920ade2f55ff90da9bfa90b55c85482e09b0 10259 main/binary-arm64/Packages.gz
@@ -53,22 +53,22 @@ SHA256:
  d7dc90adfcf477f155d6cd16b765e8f5617bbc4caef2b2d0cf88226dde68b98f 257814 main/binary-i386/Packages
  8bf2b770baf947a764018bf45ddc374fab353bfb3e5d4307d9e29450e3b4ee8e 61253 main/binary-i386/Packages.gz
  5860763d3a18878b99686ac9c1d774df721a0f8bf411aa2c29ba1555158c1a38 144 main/binary-i386/Release
- ef4afd471e1c4ca43ec173d7ad883b1fe3b61c4dbef2bd6b1464982362ab7e29 51981 main/source/Sources
- a121db75c8a30cb7773a1201c58626c0320f813eb1f3f52047c6966a7ff0b681 13741 main/source/Sources.gz
+ 367dad5e868287b313800766d64760e9a97d55dc2ed80d8769a973d3a609b9cc 54257 main/source/Sources
+ 1f21020697c6782f72b59b1a349dadfebbaaf9ab80986710af9e2cf8d5af5c89 14201 main/source/Sources.gz
  3c61ba3853952dd9910ba8d0ca5094d42591d788df8bede6938861c15bc17308 146 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlq3kWUACgkQqB4HWr7I
-Cn7FZRAAp91o6tfV+iBrwUg1JXhLs3bpqLN0fRbNB8REk5kKbhdYfwMF5p37C/I+
-XG0CzrK0kgpGnKrGID1hZW7OTrwBi1sxhH38lfqOoOb7XDttAfBjYmfkUjm+DSat
-XVw7vfzGGnbY/n/5jHKawqF4K/gK0AhHeDZoYryqW0EwkS2qLtqoroULWQ8XvV0h
-2MXzWsTG7Zr8YgNBc5G4tQsRcOFQA1FXvWqdlCWXbHnwKJ2YOOfRIecBx6aUW/+i
-SrRl5XgYJOHtFGGjtATdXOGKKg/9t7xd3GR0Z9tk8v101CV4JGVZCpjmV1HgV1O5
-uieaIZSqzwitBlUkDxocsHWH1bD+6WN8zwyX4oK4uFS4PR5oYdTcKrOgfxYwv1pt
-P8qdaizfQLULJNOJL52RVFExwXzzHk8OwBJQUDdCkAewqf8sMRrnEGXmQJOhT+XU
-dpuraCGjJ/AlOnETGsmESaTSqcQj6FPlwCsWRdWgrLeoUZuJW5adOuREZz9ISmIc
-LowQFIoYGQdiOG29UbNVwjo90f08XA8pl/9BNh+DmrWUdzH45DpP9ONsXbeYCc5D
-HLJJJ/ftzFwHMF2zHiD1cXYxeSNizbVzW5tTMkyC/au+b7BgzNjepMQ1uZzjI7XD
-w358NeEjU8c45WL+CFVFA123rZqrqc+Sgsc8Xlnf0ZpCDyRD0tw=
-=pDgf
+iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlq3lzUACgkQqB4HWr7I
+Cn7yuRAAsinn4JLi0Ht2MSOzDBN0rvfeHR+pWTF+0qdrx9vdhjZ1ALhgiCvT5Dxq
+/vFVAobLT3GsrtuTGtyZnt/FYTnqMCxTLlVw0i9VjrpTSpvnt9R9rqfqH1tB0/4N
+5Ic2FHFZxFOox/go3BzpF9bakbDDAAZY28IFuJ+539vYx35EJ1D+PX+O7CGAGJyl
+3eJBRTH/b/1coYsq2/mQm1nu1BxndB8rYUa/LE9ncDTXjCg5syHeHOV8R77zkpVa
+WD+eJpvTFnSpd+njX8BWnQs2HrKfFkgu4TCAcHYLMyB5pdatAihWyZNYtqaTd0pM
+DXpsILOI3JKcEFbS4g7UvbzrSekREJEqVs8o74W/G1lBAAm0N0icjueNpYYpHihR
+75CYxN0uPnHuGY1wrooadB05dbUUGxnnksbWsPugrFNsgoq6d1UtoZj1XQZJ0MiQ
+TXBcgXFpVcskjPzpStP3Jwtuv7DXpBFlSPc6JNHVLxCKtY2nh5LjgbRX7lpiVSM6
+lTBKIFv4MPx6NBM68iL59nRkCYqHog9ptbf7s8SXKoQT/RnPnP9WaAJbfESTcuV6
++zLcdiadtu2NErZHyuhKL3zlrW7/7zPun78xXWpTF907Z129tFDT2gOyqsI39CYn
+wP6ubXdzIDBdkVYahw/+//lEnBiKKiZ+zjGVyQafcItGo9fhkk4=
+=XGQ6
 -----END PGP SIGNATURE-----
