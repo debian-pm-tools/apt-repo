@@ -738,57 +738,59 @@ MD5sum: a7781e434c5fe9847b0a85a7ff89ffc9
 Description: debug symbols for libmedia1
 Build-Ids: cdd44cbd3ba12ed055c92c3d31451eb6cc9821c4
 
-Package: libqrtr
+Package: libqrtr-dev
 Source: qrtr
 Version: 0.3+git20180323-1
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 28
-Depends: qrtr, libc6 (>= 2.4)
-Homepage: https://github.com/andersson/qrtr
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 19
+Depends: libqrtr1 (= 0.3+git20180323-1)
+Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
-Section: unknown
-Filename: pool/main/q/qrtr/libqrtr_0.3+git20180323-1_armhf.deb
-Size: 6928
-SHA256: cc0ffa8caaf2ead3266c41487a12ac9a4aebc5b9351b73122184c3f5ec6c420b
-SHA1: 5de48b87b99fe78c955d9ac36add250dcbb35da4
-MD5sum: 3c87944e73f287abb9d398d175194eeb
-Description: Userspace reference for net/qrtr in the Linux kernel
+Section: libdevel
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_armhf.deb
+Size: 4128
+SHA256: 647bd4987278ad1bb43e324683b551d76dcf48eca213705035cef419d14c18c5
+SHA1: 9c0b34a91e452823f821b2d488c712d72acb7056
+MD5sum: 532e4a5a3951be5031f8a2568b15631f
+Description: QRTR development files
+ QRTR development files.
 
-Package: libqrtr-dbgsym
+Package: libqrtr1
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: armhf
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 28
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/andersson/qrtr.git
+Priority: optional
+Section: libs
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180323-1_armhf.deb
+Size: 7204
+SHA256: 1c26262fd8e730aa7b94e09fae149cd50a0bac0b3643d321b55027f2277c3fe4
+SHA1: 76bfda364dd16bd46da9776d8aa0cdf50aa4438f
+MD5sum: 922724cb6a75cfbc07b471813679ae45
+Description: QRTR library
+ QRTR library.
+
+Package: libqrtr1-dbgsym
 Source: qrtr
 Version: 0.3+git20180323-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 23
-Depends: libqrtr (= 0.3+git20180323-1)
+Depends: libqrtr1 (= 0.3+git20180323-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qrtr/libqrtr-dbgsym_0.3+git20180323-1_armhf.deb
-Size: 9640
-SHA256: a83c79dd85fda86116db8ff0c6a64aad788c154f3ffd8a4566f9c4ac782dcc4a
-SHA1: 18ba9bfc6e839b89ad5432dd6bc034552e934c5f
-MD5sum: 923e44964e5a1d883aab2eaa88566e9a
-Description: debug symbols for libqrtr
-Build-Ids: 817e2130094f931b396dc891890146e027b16de7
-
-Package: libqrtr-dev
-Source: qrtr
-Version: 0.3+git20180323-1
-Architecture: all
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 16
-Depends: libqrtr
-Homepage: https://github.com/andersson/qrtr
-Priority: optional
-Section: unknown
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_all.deb
-Size: 3816
-SHA256: e3f26737b2ed493f0b05debd32979c176ebe072ac06245f7379f813fdaa9c4a8
-SHA1: 68ebceaccc9656c5dde4983922b12ed6bd872cd7
-MD5sum: 5f954ba58424b8450890aacd858dde1d
-Description: Userspace reference for net/qrtr in the Linux kernel
+Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180323-1_armhf.deb
+Size: 9660
+SHA256: f70423f680d71da0bd6d1cdf8f6e0e1d312a260c2509e93318651f497177270b
+SHA1: cc2ba99b4da2d2adf93b409df8d73fb803dc17ea
+MD5sum: dbf23924165e63fcd63c60b8cbc7a286
+Description: debug symbols for libqrtr1
+Build-Ids: ce2838380e4c7984c3feead68ffcee713839ea7a
 
 Package: lxc-android
 Version: 0.1+git20180105-1
@@ -998,36 +1000,38 @@ Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 Package: qmic
 Version: 0.1+git20180323-1
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 28
 Depends: libc6 (>= 2.4)
-Homepage: https://github.com/andersson/qmic
+Multi-Arch: foreign
+Homepage: https://github.com/andersson/qmic.git
 Priority: optional
-Section: comm
+Section: utils
 Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_armhf.deb
-Size: 9140
-SHA256: 47cfa4727b095eb0164d881bcaca068a69898780d5dc5f6523f102b95ee3dadc
-SHA1: b01a321efeabde6742841a503dfb63c4ab521f65
-MD5sum: 12e8e449a9731c3efdf609d7427d053c
-Description: QMI IDL compiler
+Size: 9288
+SHA256: 3f637e591e49e09f6d7b9afe9ea29b488ca2698df1cf58d4ff05bc3b1636953f
+SHA1: eaca9b7965093388bc9aa64157ca5497d307ca7b
+MD5sum: ca0322dad666dbaa0afde7a57a3a6256
+Description: QMI Compiler
+ QMI compiler.
 
 Package: qmic-dbgsym
 Source: qmic
 Version: 0.1+git20180323-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 37
 Depends: qmic (= 0.1+git20180323-1)
 Priority: optional
 Section: debug
 Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180323-1_armhf.deb
-Size: 22684
-SHA256: f040f49e79f4b3b81d6ccef12221534bc6dcb58e542b0280ff48a50c4cb5d28a
-SHA1: 057c83bbe4a9243278392a5bacf5a83a7569d8a7
-MD5sum: c43a40af6f86f0dd66f8bbb8eefd371b
+Size: 22704
+SHA256: 2a755675cf6849c3f393ce3e2dffce40bce20468364ebe7d74e75bcf25fd6279
+SHA1: 50936c3e287929fc70d1c52c11bf2573bae6e522
+MD5sum: 8cc219b863cd78acb2e83e3006c9129c
 Description: debug symbols for qmic
-Build-Ids: 0865bc97b07eaec22fc8509808339e2994cbe299
+Build-Ids: 9b080c45af7fb40833bb305f91429a140afc4f77
 
 Package: qml-module-qtquick-virtualkeyboard
 Source: qtvirtualkeyboard-opensource-src
@@ -1113,36 +1117,37 @@ Build-Ids: d9a51355a4b194f84cb31c6cfc6306cbff60e41a
 Package: qrtr
 Version: 0.3+git20180323-1
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 40
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 48
 Depends: libc6 (>= 2.4)
-Homepage: https://github.com/andersson/qrtr
+Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
-Section: unknown
+Section: utils
 Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_armhf.deb
-Size: 10716
-SHA256: 565315843577034f43504f44c3e80448023dd61a63e2008f08d5f7c686bf3dac
-SHA1: 6d9c4a913909f199a5d997942173988e4b575aa7
-MD5sum: 84dac28a92a5be34c0833c4bbaef3b0b
-Description: Userspace reference for net/qrtr in the Linux kernel
+Size: 11812
+SHA256: ed4e0bc63962b9ab7291312167c4e5c2ff64e3f074692a84a87f95c1e67a8f76
+SHA1: a853a48dd2899947fc74cef078d0ee627635e234
+MD5sum: 5c110f1b3a4b12f4fc6940f4efdaed0e
+Description: QRTR applications
+ QRTR applications.
 
 Package: qrtr-dbgsym
 Source: qrtr
 Version: 0.3+git20180323-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 49
 Depends: qrtr (= 0.3+git20180323-1)
 Priority: optional
 Section: debug
 Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180323-1_armhf.deb
-Size: 22092
-SHA256: c433a180e4cf37d870e9b67156abcc53c083c3cc16559249909fb17468c1c3ba
-SHA1: d7dc08ce02173223b41ceecd3a55898a807fb989
-MD5sum: 2d3bc8c782db133f9ae5e83ce7c2606c
+Size: 22136
+SHA256: 999bfbd7af0625156c42e74dd4de3bc5347b7fdab04b7f5bc06e3bce62e25432
+SHA1: cade8d3baa163f815857e7be845d951479ee1947
+MD5sum: c34ed1dd169783336c6e79f698c4b9f3
 Description: debug symbols for qrtr
-Build-Ids: 108ec1bbba81f5af8d664c3f97b802ba066e9c71 3013eddcda3e05b1b44d0e48df3c3706b086ac09 c3f53798eafd21c333b7397da3c834cc76452431
+Build-Ids: 1adc9f984ed392b63fe82520bd54013137588a52 27841549b2beb28526699d482588cf78a151d5ec cd763a4a1249e92a70dff0d72119b88c1c211abc
 
 Package: qt3d5-doc
 Source: qt3d-opensource-src
@@ -1432,40 +1437,6 @@ SHA1: 5e2146bee1c15b1745ff70341a2b8918ce593d7e
 MD5sum: ec254baa1e88a08edc8370e73d32b7ea
 Description: debug symbols for qtvirtualkeyboard5-examples
 Build-Ids: be39139594f65f4826f5b5c35bd4275ff1905a87
-
-Package: rmtfs
-Version: 0.2+git20180323-1
-Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 25
-Depends: libc6 (>= 2.4), libqrtr, libudev1 (>= 183)
-Homepage: https://github.com/andersson/rmtfs
-Priority: optional
-Section: unknown
-Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_armhf.deb
-Size: 8780
-SHA256: ea593bce5bf6d48a4a38aceb2f956c742ce65f14300c5e07afa681e39d58f8f9
-SHA1: 8c61d026b1a2c6c0f1f6e4f8fadeef76d891e9a2
-MD5sum: b1a1a76184ca221f518ee15dbb71d952
-Description: Qualcomm Remote Filesystem Service Implementation
-
-Package: rmtfs-dbgsym
-Source: rmtfs
-Version: 0.2+git20180323-1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 38
-Depends: rmtfs (= 0.2+git20180323-1)
-Priority: optional
-Section: debug
-Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-1_armhf.deb
-Size: 23360
-SHA256: 0866abfd522a8b83f934169910ceed387ff6767a650170acc961d732e3fd5bbf
-SHA1: f9c45e5ae0238a1f9a4e7774e0e24d9a61ecdff7
-MD5sum: 7aada5df6bd7098b4672dc1e54603cce
-Description: debug symbols for rmtfs
-Build-Ids: 642f3570279d295ca1b3931c9dbd63527a0ff11a
 
 Package: simplelogin
 Version: 0.0.6+git20180314-1

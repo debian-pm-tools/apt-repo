@@ -243,23 +243,6 @@ Description: C++ jabber/xmpp library (API documentation)
  .
  This package contains API documentation for this library.
 
-Package: libqrtr-dev
-Source: qrtr
-Version: 0.3+git20180323-1
-Architecture: all
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Installed-Size: 16
-Depends: libqrtr
-Homepage: https://github.com/andersson/qrtr
-Priority: optional
-Section: unknown
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_all.deb
-Size: 3816
-SHA256: e3f26737b2ed493f0b05debd32979c176ebe072ac06245f7379f813fdaa9c4a8
-SHA1: 68ebceaccc9656c5dde4983922b12ed6bd872cd7
-MD5sum: 5f954ba58424b8450890aacd858dde1d
-Description: Userspace reference for net/qrtr in the Linux kernel
-
 Package: lxc-android
 Version: 0.1+git20180105-1
 Architecture: all

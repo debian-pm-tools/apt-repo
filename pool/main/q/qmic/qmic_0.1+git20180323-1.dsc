@@ -3,20 +3,20 @@ Source: qmic
 Binary: qmic
 Architecture: any
 Version: 0.1+git20180323-1
-Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
-Homepage: https://github.com/andersson/qmic
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Homepage: https://github.com/andersson/qmic.git
 Standards-Version: 4.1.3
 Vcs-Browser: https://github.com/debian-pm/qmic-packaging
 Vcs-Git: git://github.com/debian-pm/qmic-packaging.git
-Build-Depends: debhelper (>= 11)
+Build-Depends: cdbs, debhelper (>= 11)
 Package-List:
- qmic deb comm optional arch=any
+ qmic deb utils optional arch=any
 Checksums-Sha1:
- b7300d97812867144a92f6810fded33f8d6fe044 7556 qmic_0.1+git20180323.orig.tar.xz
- 2cfd358004bc2a952498a9bf87ea6ecd027c5c1f 1716 qmic_0.1+git20180323-1.debian.tar.xz
+ 84cc0f23586c76b084e76ebadaf184a6208746b8 7516 qmic_0.1+git20180323.orig.tar.xz
+ 716d5b710c7a63ce0a74f7cceabcf1c31c719ab9 1724 qmic_0.1+git20180323-1.debian.tar.xz
 Checksums-Sha256:
- e28747eb059bdb0d55ae5cfff7e7329ecb013151751487d9a1fdffd12c59cfee 7556 qmic_0.1+git20180323.orig.tar.xz
- 52ead1d4ee3321630893cee6be459f0d35a6be9d1ebd288de733a05f507f94bf 1716 qmic_0.1+git20180323-1.debian.tar.xz
+ edca13deea8552ff764ae9d67eb1ba867ee9708d04d71955253c3841e5a8aa65 7516 qmic_0.1+git20180323.orig.tar.xz
+ cba548ac025f98c160f8a6968a3588573a047718d9d543cc314ba3db41e964c5 1724 qmic_0.1+git20180323-1.debian.tar.xz
 Files:
- c56014a78fbcdcfb3154566f25b53ebd 7556 qmic_0.1+git20180323.orig.tar.xz
- 85e522caa88fe6f99d435abf53b53cd7 1716 qmic_0.1+git20180323-1.debian.tar.xz
+ 4e6364642098811c090836237cb17296 7516 qmic_0.1+git20180323.orig.tar.xz
+ 1d673798a25620ec68eda7d021e26cf8 1724 qmic_0.1+git20180323-1.debian.tar.xz
