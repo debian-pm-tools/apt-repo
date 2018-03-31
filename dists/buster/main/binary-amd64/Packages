@@ -244,18 +244,18 @@ Description: C++ jabber/xmpp library (API documentation)
  This package contains API documentation for this library.
 
 Package: lxc-android
-Version: 0.1+git20180105-1
+Version: 0.1+git20180331-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 305
+Installed-Size: 427
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180105-1_all.deb
-Size: 10752
-SHA256: 07315b51dedbf34b1351d9360335b8a0eda59ca2218243036c9283ee87783ed5
-SHA1: d1546d9da43ccdd30f3553363058fec8e0477720
-MD5sum: 9b1933a4d6c68a96e44355b493b27ac9
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180331-1_all.deb
+Size: 13312
+SHA256: 7713186741b46170e03e565c048ff0a0b316ade9dd37ea4a24222f046aac5a76
+SHA1: 2e8a681f97e5c44ce87f9a9ec7378043ee7503cb
+MD5sum: 4d72e5fb52b1e4647fda640a63742c76
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
