@@ -738,6 +738,65 @@ MD5sum: a2ff78ca2be84b02e7b725c5d28eaa66
 Description: debug symbols for libmedia1
 Build-Ids: 325b5d3cf90a02c2f47f8991b6dd0788b5832a80
 
+Package: libqofono-dev
+Source: libqofono
+Version: 0.92-1
+Architecture: armhf
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 182
+Depends: libqofono-qt5-0 (= 0.92-1)
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libdevel
+Filename: pool/main/libq/libqofono/libqofono-dev_0.92-1_armhf.deb
+Size: 18896
+SHA256: 0d38d6235835d6bb6e6423dc41d568a1fdc898ac8f212d85271f7af15633cb42
+SHA1: fad6c4b87d9f48e0939f058da04e3f748a4250e3
+MD5sum: 523dfc0f1524468a547f0ecaf34ed55c
+Description: Qt library for Ofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: libqofono-qt5-0
+Source: libqofono
+Version: 0.92-1
+Architecture: armhf
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 833
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5xmlpatterns5 (>= 5.0.2), libstdc++6 (>= 5)
+Suggests: ofono (>= 1.16)
+Multi-Arch: same
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libs
+Filename: pool/main/libq/libqofono/libqofono-qt5-0_0.92-1_armhf.deb
+Size: 231760
+SHA256: 7c4d141b0c6273e8c1c4034a7ae3a95f4844388f3be722b305819413094fac3c
+SHA1: a9740a0c489edbeca147bde83d18a0115672ee7e
+MD5sum: 5c63302ab3e7bbe7ed039cae309ebb10
+Description: Qt library for Ofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: libqofono-qt5-0-dbgsym
+Source: libqofono
+Version: 0.92-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 16860
+Depends: libqofono-qt5-0 (= 0.92-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libq/libqofono/libqofono-qt5-0-dbgsym_0.92-1_armhf.deb
+Size: 16310128
+SHA256: df5d1d88247e2b5e3ddf9227a12b228e7ea0b4a72548ac26d00e7b68b7a847ad
+SHA1: 42fafa8821d9a43c76e4a7bf020cbefe8d25c731
+MD5sum: f49a60423d94ce0666882737d719e596
+Description: debug symbols for libqofono-qt5-0
+Build-Ids: 975db617a8afa31ae0390a86d0b9b38ccf554bc3
+
 Package: libqrtr-dev
 Source: qrtr
 Version: 0.3+git20180323-1
@@ -1032,6 +1091,47 @@ SHA1: 50936c3e287929fc70d1c52c11bf2573bae6e522
 MD5sum: 8cc219b863cd78acb2e83e3006c9129c
 Description: debug symbols for qmic
 Build-Ids: 9b080c45af7fb40833bb305f91429a140afc4f77
+
+Package: qml-module-ofono
+Source: libqofono
+Version: 0.92-1
+Architecture: armhf
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 189
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqofono-qt5-0, libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: qtdeclarative5-ofono0.2, ubuntu-system-settings (<< 0.3+15.04.20150114)
+Replaces: qtdeclarative5-ofono0.2
+Multi-Arch: same
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libs
+Filename: pool/main/libq/libqofono/qml-module-ofono_0.92-1_armhf.deb
+Size: 39444
+SHA256: 8ddefe187d28ee6e90a10e59b000ac994404fc0de07da116c764a152f3387424
+SHA1: 6b06d2da73644b4e11e2fdff7769d14bcdec14fe
+MD5sum: bece2a02bd050690628bf6580927fadf
+Description: QML bindings for libqofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: qml-module-ofono-dbgsym
+Source: libqofono
+Version: 0.92-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 1044
+Depends: qml-module-ofono (= 0.92-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libq/libqofono/qml-module-ofono-dbgsym_0.92-1_armhf.deb
+Size: 968212
+SHA256: f27e76745a52d97c52b1edc9d8daf319ce4105749288d2d48ac09146c86b52bc
+SHA1: c9f66e6584a4dd1fd488f392a9051328bbd216ea
+MD5sum: 10fb978a2977969abdb3cc736c8e915b
+Description: debug symbols for qml-module-ofono
+Build-Ids: 2a47e1cd3c8eec15b8ea3d98ccb0842a8c2cbdce
 
 Package: qml-module-qtquick-virtualkeyboard
 Source: qtvirtualkeyboard-opensource-src
