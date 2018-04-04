@@ -740,18 +740,18 @@ Build-Ids: 325b5d3cf90a02c2f47f8991b6dd0788b5832a80
 
 Package: libofono-qt-dev
 Source: ofono-qt
-Version: 1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1
+Version: 1.5+git20120419+bcf0c04-1
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 101
-Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1)
+Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-1)
 Priority: optional
 Section: libdevel
-Filename: pool/main/o/ofono-qt/libofono-qt-dev_1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1_armhf.deb
-Size: 11868
-SHA256: 59f845d0c80194b232628749402a063d5966ad619d7514533dce2ffac3b29813
-SHA1: d53998d3b2a3bf552bb2cd9b3097bc412b3c42f4
-MD5sum: c83ef5ff77c50a653d96aca3f19954ca
+Filename: pool/main/o/ofono-qt/libofono-qt-dev_1.5+git20120419+bcf0c04-1_armhf.deb
+Size: 11952
+SHA256: 0be1d56a260d46b28c367690a90a02f4aba585bd7edb18414bef5eb63b72900f
+SHA1: cd659ddb51354c1d571b8f050c21bf8fc00b4b3a
+MD5sum: 12df1e2f21a24a536d2851888c3bb399
 Description: Qt oFono library (development files)
  This package contains development files for ofono-qt, a Qt-based
  library that provides bindings to oFono.
@@ -762,7 +762,7 @@ Description: Qt oFono library (development files)
 
 Package: libofono-qt1
 Source: ofono-qt
-Version: 1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1
+Version: 1.5+git20120419+bcf0c04-1
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 622
@@ -770,11 +770,11 @@ Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.5.0), libqt5dbus
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/o/ofono-qt/libofono-qt1_1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1_armhf.deb
-Size: 155244
-SHA256: bf19c1647bc98cfd0214842d9931f37abe8aad9c0c4591ac6a0cb374d5cb81a2
-SHA1: ce4be9659ee0f0b7994682113d67dd75464a6ed7
-MD5sum: 10d7869599be1f1c85cdca808dc604ca
+Filename: pool/main/o/ofono-qt/libofono-qt1_1.5+git20120419+bcf0c04-1_armhf.deb
+Size: 155240
+SHA256: 01c451b14944206b4b928e70ca136aaed75f445d871060f0293d5d02f8b3f520
+SHA1: 32cb50ec48cfc1cf9533b37ebff21c646a521aeb
+MD5sum: 39386c1c762e9a9a3a72b1fb6dd66f99
 Description: Qt oFono library
  This package contains ofono-qt, a Qt-based library that provides
  bindings to oFono.
@@ -785,20 +785,20 @@ Description: Qt oFono library
 
 Package: libofono-qt1-dbgsym
 Source: ofono-qt
-Version: 1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1
+Version: 1.5+git20120419+bcf0c04-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 5412
-Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1)
+Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/o/ofono-qt/libofono-qt1-dbgsym_1.5+git20120419+bcf0c04-0ubuntu8~gcc5.1_armhf.deb
-Size: 5354776
-SHA256: 2169523e494b9986a2ad1d46ca0c8e4c44e3e4f2f69814ff80acffb713aa1de5
-SHA1: 0bdec1070fb9ac25d39e30bf18e81f322ebccbc2
-MD5sum: 90a75f8b4495814bb28803adc491e083
+Filename: pool/main/o/ofono-qt/libofono-qt1-dbgsym_1.5+git20120419+bcf0c04-1_armhf.deb
+Size: 5354804
+SHA256: bdfb277023c5fd7a36752e060f43be8a44a3cae7e408cbea92897784bf403fe1
+SHA1: 7c3f01761a904e90d59eee419878a39f1640c8e8
+MD5sum: f485abef3c0aa4e425065b31828668ac
 Description: debug symbols for libofono-qt1
 Build-Ids: 8d9910e22853eb862ca82cb030106053ed0a9769
 
@@ -1677,19 +1677,19 @@ Build-Ids: 7eb39c6eaf63c9f52f75db1e7ab5fdf877108d09
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: telepathy-ofono
-Version: 0.2+17.04.20161109-0ubuntu1
+Version: 0.2.20161109-1
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 1559
+Installed-Size: 1560
 Depends: ofono, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libofono-qt1, libphonenumber7, libpulse0 (>= 0.99.1), libqt5core5a (>= 5.6.0~beta), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.7)
 Homepage: https://launchpad.net/telepathy-ofono
 Priority: optional
 Section: net
-Filename: pool/main/t/telepathy-ofono/telepathy-ofono_0.2+17.04.20161109-0ubuntu1_armhf.deb
-Size: 422580
-SHA256: c06660956da9f8aeff4b6954ee07426a11de754d568eda3770318c50072eeada
-SHA1: dd6f2fc4647b3bd5dffa2a68f7e2506c1db84e92
-MD5sum: 90cbc3f1cec977824b02e17e351054aa
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono_0.2.20161109-1_armhf.deb
+Size: 423016
+SHA256: b4d862b3c5cc27f2d902294ddc96ba84cca78a051719b4cd794f303461924b00
+SHA1: 8a7d6c30709955dd4976cd906f1ff528c607fec1
+MD5sum: 67839b694e651a9173d5a71858e00d55
 Description: telepathy oFono connection manager
  telepathy-ofono is a Telepathy connection manager that makes it possible for
  Telepathy clients to communicate using oFono modems, enabling features like
@@ -1697,56 +1697,57 @@ Description: telepathy oFono connection manager
 
 Package: telepathy-ofono-dbgsym
 Source: telepathy-ofono
-Version: 0.2+17.04.20161109-0ubuntu1
+Version: 0.2.20161109-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 5737
-Depends: telepathy-ofono (= 0.2+17.04.20161109-0ubuntu1)
+Depends: telepathy-ofono (= 0.2.20161109-1)
 Priority: optional
 Section: debug
-Filename: pool/main/t/telepathy-ofono/telepathy-ofono-dbgsym_0.2+17.04.20161109-0ubuntu1_armhf.deb
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-dbgsym_0.2.20161109-1_armhf.deb
 Size: 5146956
-SHA256: f68a3333a38eed6d3da84d96f19c0857cc907b1e56a49dddba92f9f401058d80
-SHA1: 4a0511256adede42180adf7b2abc02642c0a24e8
-MD5sum: 566ef292295ecf85ce750bac484855af
+SHA256: 9377a4804e066c0df99d94b69b4c35e22ecf99b0fa01f70fc505fe3850cc9e25
+SHA1: 5c3cf3b506078a2d7267aa626723c8ef31496637
+MD5sum: 9952e244e39fc72844a227ebdce38108
 Description: debug symbols for telepathy-ofono
-Build-Ids: 1b11e7653def0980f18bc82d777d0a13b2c1df3b
+Build-Ids: 5f8e6515b3f54e10aafa01b8e0b7f886216ef9d0
 
 Package: telepathy-ofono-ril-mc-plugin
 Source: telepathy-ofono
-Version: 0.2+17.04.20161109-0ubuntu1
+Version: 0.2.20161109-1
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 26
-Depends: telepathy-ofono, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmission-control-plugins0 (>= 1:5.13.0~), libstdc++6 (>= 4.1.1), libtelepathy-glib0 (>= 0.11.13), libhybris-utils
+Installed-Size: 27
+Depends: telepathy-ofono, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmission-control-plugins0 (>= 1:5.13.0~), libstdc++6 (>= 4.1.1), libtelepathy-glib0 (>= 0.11.13)
+Suggests: libhybris-utils
 Homepage: https://launchpad.net/telepathy-ofono
 Priority: optional
 Section: net
-Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin_0.2+17.04.20161109-0ubuntu1_armhf.deb
-Size: 11464
-SHA256: 69b496a1c350d7c728aca8981be10a19ada7456eae5f9189167d65592645ddc0
-SHA1: 076d60801edf3d48dc11df36e9ecaa51cd3aab51
-MD5sum: 9da2d4b10d2f0d37b96640e60507dd9c
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin_0.2.20161109-1_armhf.deb
+Size: 11588
+SHA256: 4ad0e9a23af7770feea3dccb2b39eff83c0d49d7ae5929d18598e6a01a54bcfe
+SHA1: d4b0db32203d1d9449447192a292385ed2b48832
+MD5sum: 36b9d180f4735af4b8bd9b4e08d83a3b
 Description: telepathy oFono mission control plugin for ril modems
  This telepathy mission-control plugin is used to automatically provision
  telepathy-ofono accounts for each available ril modem.
 
 Package: telepathy-ofono-ril-mc-plugin-dbgsym
 Source: telepathy-ofono
-Version: 0.2+17.04.20161109-0ubuntu1
+Version: 0.2.20161109-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 33
-Depends: telepathy-ofono-ril-mc-plugin (= 0.2+17.04.20161109-0ubuntu1)
+Depends: telepathy-ofono-ril-mc-plugin (= 0.2.20161109-1)
 Priority: optional
 Section: debug
-Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin-dbgsym_0.2+17.04.20161109-0ubuntu1_armhf.deb
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin-dbgsym_0.2.20161109-1_armhf.deb
 Size: 18820
-SHA256: e24cd1f194f807a4206f271491bd88161369fdf0b63b4c35aa0d9b30095e1750
-SHA1: 2a2d5a126381de025bd426597705fa4075971dc6
-MD5sum: c424b1c4bfe5942594f81ef464d0e105
+SHA256: 40f797d46a5d51f35a43ea76e75dfe3affdc1a3b5d55433449e6f0ea59ddc506
+SHA1: 212db98593a0148ff4cc7f9335076d0be2dce7fe
+MD5sum: e012f2c597b7bf1ccfcdf4805fb27602
 Description: debug symbols for telepathy-ofono-ril-mc-plugin
 Build-Ids: 5c39878ec31905fddaa3dd76e62162a9522865d9
 
