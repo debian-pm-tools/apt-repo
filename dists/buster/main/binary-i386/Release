@@ -1,5 +1,5 @@
+Archive: testing
 Component: main
 Origin: Halium
-Label: Halium (local repository)
 Architecture: i386
-Description: Local apt repository for building halium rootfs
+Description: Plasma Mobile, Halium and mainline support packages
