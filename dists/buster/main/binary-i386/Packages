@@ -1812,6 +1812,42 @@ Description: debug symbols for plasma-settings
 Build-Ids: 007030fd650a8e2e5b38091684b1352f5cf1e97b 367ff6f74d3b331eaa631bdc6b259c84e5bd086c 57b69867320a1119bfea25b97eb5330ca77bf586 688a3235ee9a956285cdd08e3cc9140f18357612 95fa49b5a72f387c26a51a24b889f32045078619 ba088e57d5f28b672edd038537b575296c1cf85e cbf71b2d4f019c4abe4dbb3836263087f701fdf0 e60c59ac548e2cc90ee87df6b741e2ba1350b581
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: qml-module-box2d
+Source: qml-box2d
+Version: 2.0.0
+Architecture: i386
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 432
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.2.0), libstdc++6 (>= 5)
+Priority: extra
+Section: libs
+Filename: pool/main/q/qml-box2d/qml-module-box2d_2.0.0_i386.deb
+Size: 127272
+SHA256: 3ef400cb87b05ea349959491eae599a91e5fbb10f4782d6390ae963a769230e4
+SHA1: 13b6160782a5e5e3df21049051ad63f54b5fb950
+MD5sum: 6b7c806ee94bd23741732d6902bf8eb5
+Description: Box2d physics for QML applications
+ The goal is to expose the functionality of Box2D as QML components,
+ in order to make it easy to write physics based games in QML.
+
+Package: qml-module-box2d-dbgsym
+Source: qml-box2d
+Version: 2.0.0
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 3237
+Depends: qml-module-box2d (= 2.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qml-box2d/qml-module-box2d-dbgsym_2.0.0_i386.deb
+Size: 3146636
+SHA256: 9d706b2156f642de9b00c35122e01477332baa1485eda5a7a472e24e101985e8
+SHA1: d99bd8f5f569343586742ec63a366a824719634a
+MD5sum: 8513c44fd32264734a6ab4a980c2f0b1
+Description: debug symbols for qml-module-box2d
+Build-Ids: ca6c8760d1d6f3ec3db94be4b8caba85fbec5890
+
 Package: qml-module-qtaudioengine
 Source: qtmultimedia-opensource-src
 Version: 5.9.2-1
