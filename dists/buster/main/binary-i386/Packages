@@ -1626,19 +1626,19 @@ Description: lxc configuration for starting android
 
 Package: ofono-dev
 Source: ofono
-Version: 1.21-1
+Version: 1.21-2
 Architecture: all
 Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
-Installed-Size: 179
+Installed-Size: 182
 Depends: libc6-dev | libc-dev
 Homepage: http://www.ofono.org/
 Priority: optional
 Section: admin
-Filename: pool/main/o/ofono/ofono-dev_1.21-1_all.deb
-Size: 38370
-SHA256: 75c0ce9b789d8795031620ea69639f4c2c09f0c5da1551bd6308463507e44366
-SHA1: 0fd59a74610c575deacccae162f5d51e4b50b99a
-MD5sum: 0ed269e6d5b720706b2aa77630f64fb3
+Filename: pool/main/o/ofono/ofono-dev_1.21-2_all.deb
+Size: 38856
+SHA256: 6b47fe158df4bec0fdf9e03da0bbb5779e947b6d86861f62b89363ec574bb7bf
+SHA1: 1ad7f0af83eca8e5b715e248ede76a91f6ac4b3a
+MD5sum: 5253d6a80b3161c7cdcda11c87cfd158
 Description: Mobile telephony stack (development files)
  oFono is a stack for mobile telephony devices on Linux.  oFono supports
  speaking to telephony devices through specific drivers, or with generic
@@ -1653,19 +1653,19 @@ Description: Mobile telephony stack (development files)
 
 Package: ofono-scripts
 Source: ofono
-Version: 1.21-1
+Version: 1.21-2
 Architecture: all
 Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
-Installed-Size: 183
-Depends: ofono (>= 1.21-1), python3, python3-dbus, python3-gi
+Installed-Size: 184
+Depends: ofono (>= 1.21-2), python3, python3-dbus, python3-gi
 Homepage: http://www.ofono.org/
 Priority: optional
 Section: admin
-Filename: pool/main/o/ofono/ofono-scripts_1.21-1_all.deb
-Size: 32558
-SHA256: 7808683c91b292406a0606a737c63a8d1b8446b129beb4146e9ffda9740f2327
-SHA1: 8181e93fc4a0c12c858caa688080f971a0e9de96
-MD5sum: a68e60b7a01ef165fb2ccb11789aa3fb
+Filename: pool/main/o/ofono/ofono-scripts_1.21-2_all.deb
+Size: 32696
+SHA256: 14a17ae7650831e80faf47d3e4366e5d20c67bf9b15657a770fccbf1a5c5902d
+SHA1: 43dff6d51836dc8cbb7d8384500bb742a9b66610
+MD5sum: a11d3c38be5917efd3e89060ef57fced
 Description: Mobile telephony stack (test and maintenance script files)
  oFono is a stack for mobile telephony devices on Linux.  oFono supports
  speaking to telephony devices through specific drivers, or with generic

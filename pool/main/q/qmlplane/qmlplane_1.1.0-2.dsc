@@ -13,10 +13,10 @@ Package-List:
  qmlplane deb games optional arch=any
 Checksums-Sha1:
  7acbc69019aef2fae185c968392aaeca075b5a82 3549919 qmlplane_1.1.0.orig.tar.gz
- d17eb218fe490bddb2811080e81a4b4f359d2cb1 1932 qmlplane_1.1.0-2.debian.tar.xz
+ 83e102e1ca7ef34596d9df3528a49f07fb8b36d4 1964 qmlplane_1.1.0-2.debian.tar.xz
 Checksums-Sha256:
  f080568f0be36a7a3436b0930bee5de6727d2b58e4df0e3d4fd5add2c99899be 3549919 qmlplane_1.1.0.orig.tar.gz
- cdbc02d4d746d06b6ee9ab29dd949003fd8d33f090237dde50b67c6edc850d3a 1932 qmlplane_1.1.0-2.debian.tar.xz
+ 72d46c554d43de3116671708ea61f6649fe09659f7319196222746d946a8120c 1964 qmlplane_1.1.0-2.debian.tar.xz
 Files:
  d99ed525add9d504f32ce23c189980c7 3549919 qmlplane_1.1.0.orig.tar.gz
- 0388d817c095c36e6d1013e582405cf6 1932 qmlplane_1.1.0-2.debian.tar.xz
+ 89494b80efc446860dbbc53c86717b82 1964 qmlplane_1.1.0-2.debian.tar.xz
