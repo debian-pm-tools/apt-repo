@@ -497,6 +497,42 @@ MD5sum: 0d0e3fdd44f3425ad5c0edba9a036a56
 Description: debug symbols for qml-box2d
 Build-Ids: c437c0ea4689dd53639765ed640af4b557aa5ba4
 
+Package: qml-module-box2d
+Source: qml-box2d
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 449
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.2.0), libstdc++6 (>= 5)
+Priority: extra
+Section: libs
+Filename: pool/main/q/qml-box2d/qml-module-box2d_2.0.0_amd64.deb
+Size: 128388
+SHA256: 29f58a39cc83d194cec9f96e7f0294bf47c397a0d611352cd77c206774547702
+SHA1: 7dff87da3b08b740d743fe4264f7e40d4be2b7db
+MD5sum: ccd3d8e7b99e1ab2777f8bb72da59a6e
+Description: Box2d physics for QML applications
+ The goal is to expose the functionality of Box2D as QML components,
+ in order to make it easy to write physics based games in QML.
+
+Package: qml-module-box2d-dbgsym
+Source: qml-box2d
+Version: 2.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 3328
+Depends: qml-module-box2d (= 2.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qml-box2d/qml-module-box2d-dbgsym_2.0.0_amd64.deb
+Size: 3236844
+SHA256: 14e4ee87cd071223a7698583c69042de4e48745ed1a118e071764f14299784b3
+SHA1: 911307c5134cc4c189ca0f0107d51d673603edf7
+MD5sum: c773dd57e475d329ec159cc5376ee5b2
+Description: debug symbols for qml-module-box2d
+Build-Ids: c437c0ea4689dd53639765ed640af4b557aa5ba4
+
 Package: qml-module-ofono
 Source: libqofono
 Version: 0.92-1
