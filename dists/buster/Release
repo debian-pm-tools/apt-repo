@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Thu, 05 Apr 2018 17:30:13 UTC
+Date: Thu, 05 Apr 2018 18:40:07 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -15,8 +15,8 @@ MD5Sum:
  63c6565d425d31662d95c3e320523671 34445 main/binary-amd64/Packages
  a816158653d1ce2b078c438a44a91290 9862 main/binary-amd64/Packages.gz
  5bb7a08b8bce3165214ed24d53a9354a 133 main/binary-amd64/Release
- 3fbd0c2d20ff32c5116c3838b9ae1c5c 102292 main/binary-i386/Packages
- b4e97c7b771b2e6f2e429602dac79314 24734 main/binary-i386/Packages.gz
+ 5ffe46e36f84a872b1b2a806d2eb4049 103849 main/binary-i386/Packages
+ 123ff99d9630b5fb0ff8030b1ce84ad8 25229 main/binary-i386/Packages.gz
  754c2ab74e8a7877c3b3928231355b1c 132 main/binary-i386/Release
  8433a7a35c33d68078b3693eb8d48b85 51279 main/source/Sources
  9893fa5c3ea62a9bccccdaa293ad0aa3 14560 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  e00a2082e640fd85b1d8e6a9c8198f972a5e139f 34445 main/binary-amd64/Packages
  f04d2a1d5753496b454541e1a1bd50ef492a35f7 9862 main/binary-amd64/Packages.gz
  6434fa282dcd21c250d444a22b52653ac6fdc070 133 main/binary-amd64/Release
- f5cfbe6fa0df99f41cdf3c0ad56c691d8ff69468 102292 main/binary-i386/Packages
- 6c8bb32155e2041b8e77fb17984a03473dcd656c 24734 main/binary-i386/Packages.gz
+ 7a1c2c24c83e6642589b5f34c5b6a2536be5d2fa 103849 main/binary-i386/Packages
+ 619c103e9a75451668098fd3cbd7a927daea7c30 25229 main/binary-i386/Packages.gz
  9094fa710c6d5609558084d2c273864ba6ca7919 132 main/binary-i386/Release
  74fad243c58ded43f509d9e4885e88252447d298 51279 main/source/Sources
  0552e380423c3551b969892f4727c99a7d1cd7cf 14560 main/source/Sources.gz
@@ -47,8 +47,8 @@ SHA256:
  c54a197622df352933bba280ae57593fd654805522719df85f6c262527c9fe0a 34445 main/binary-amd64/Packages
  3dbbac4cd68787e3e79c85fa6987760eee51eff877832d0a4168968088d8231b 9862 main/binary-amd64/Packages.gz
  a57a9e63381d12ca452b63812873b84aaadde8974b23670df65d93ffee1f6688 133 main/binary-amd64/Release
- 70640cbf83d315df9a9563966a058778cfd3ed3de7a4045d648f19d5a80a7478 102292 main/binary-i386/Packages
- 04496d127fde2091b73c6bccef89ef16a5aed8dd9eb0443c0e4f55beea1e490e 24734 main/binary-i386/Packages.gz
+ a11ef129c01064e2fb23f36deae104c299ccaa290a09662f21e7cb648e0727e8 103849 main/binary-i386/Packages
+ 93a634e3cbc76f71c875191f424d3892201994eeee721c709afd391b1dc8ac30 25229 main/binary-i386/Packages.gz
  bfef80aefae46a518708dddb9ae98392d67f37dce7701dc4e4858f1d0ef40e43 132 main/binary-i386/Release
  98a43c3b1f207e1d8a84f93891a62aa477d8be62259fa0b94d65983773252656 51279 main/source/Sources
  e765364d05bb0a7d2fb1248e47d2929b325784dc83c3535893bed72ce2312df3 14560 main/source/Sources.gz
