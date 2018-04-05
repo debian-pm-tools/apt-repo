@@ -462,6 +462,41 @@ Description: debug symbols for plasma-settings
 Build-Ids: 1466f3150786dab20c39f6b364d2f2eae20c18a5 5e0cbf8713544b5faf9ba595f5492527aaa9fd13 70bc84853870779bffb048086e6fc80dd6107f24 a9f7ba72b6d5389218d37892e64b2f7b78eb7c44 ae0f5de45c574f146c6b0934e6bca13941476fdc b7e31f10d6b7592d9da4b8899c04cb5fb5faf59d d58c8a22c2559856f1e7bd352e338fdf3d60fc42 e1d8d43cf29ea020eefb50ae9181db5169d26386
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: qml-box2d
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 449
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.2.0), libstdc++6 (>= 5)
+Priority: extra
+Section: libs
+Filename: pool/main/q/qml-box2d/qml-box2d_2.0.0_amd64.deb
+Size: 128372
+SHA256: 5ae8e2b5038adee65ba800db7ef7fa7fefed73c2eef0276287e1b2e42f551526
+SHA1: a117729f2156ac4fef03c4b5a6e5748d8e69348d
+MD5sum: 73cf73afa00e8615ddcad9131fb228c4
+Description: Box2d physics for QML applications
+ The goal is to expose the functionality of Box2D as QML components,
+ in order to make it easy to write physics based games in QML.
+
+Package: qml-box2d-dbgsym
+Source: qml-box2d
+Version: 2.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Installed-Size: 3328
+Depends: qml-box2d (= 2.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qml-box2d/qml-box2d-dbgsym_2.0.0_amd64.deb
+Size: 3236828
+SHA256: 7803a198aa019378e30db955a284942e99653fa1653be8a1fbb8adb3ff9df1fb
+SHA1: 36a2f877b92849fbebcae0a607a7265bc97494e7
+MD5sum: 0d0e3fdd44f3425ad5c0edba9a036a56
+Description: debug symbols for qml-box2d
+Build-Ids: c437c0ea4689dd53639765ed640af4b557aa5ba4
+
 Package: qml-module-ofono
 Source: libqofono
 Version: 0.92-1
@@ -543,6 +578,43 @@ SHA1: 3ce41a8ff81c89c2f7d488f2b997292cbae433f7
 MD5sum: 107fbb3d59450e543d77a427addafead
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: 8b3e92e3ca2e9a0da8f4f631e914ddd25ee8f5a2
+
+Package: qmlplane
+Version: 1.1.0-2
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 3346
+Depends: qml-box2d, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/olegyadrov/qmlplane
+Priority: optional
+Section: games
+Filename: pool/main/q/qmlplane/qmlplane_1.1.0-2_amd64.deb
+Size: 3178104
+SHA256: 7a62a6718df1325193987fb54b32c18ad45bab5e3f559d6354a734976a2f17da
+SHA1: d3600bf58ac58031d59457c4964708181f1d2374
+MD5sum: 25a61e403f07efd2c5e247ee1c34ac7d
+Description: demo game built with Qt Quick 2 and qml-box2d
+ This demo game showcases the capabilities of Qt Quick 2
+ .
+ The graphics in the game are entirely vector, so it will look good on any device.
+
+Package: qmlplane-dbgsym
+Source: qmlplane
+Version: 1.1.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 102
+Depends: qmlplane (= 1.1.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmlplane/qmlplane-dbgsym_1.1.0-2_amd64.deb
+Size: 89552
+SHA256: 8561ac86ccb73f97760a92c0dfa55fe4eca27b5b0bad8cbecb68c690bf162455
+SHA1: f0dd836f1545890acbc6660ff72973967a2e3d1d
+MD5sum: 0deedbd38f2f04adc1ce45855d877132
+Description: debug symbols for qmlplane
+Build-Ids: 1c5c9f275e0b78677373a3baf5fea09d99e3609a
 
 Package: qtmultimedia5-doc
 Source: qtmultimedia-opensource-src
