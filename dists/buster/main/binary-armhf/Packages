@@ -1526,6 +1526,42 @@ MD5sum: 5fbad68194dd5894b6f79f591eb9f0b3
 Description: debug symbols for rmtfs
 Build-Ids: 48fbf20768cea45b3e439cc02f6546317dbe45d7
 
+Package: rpmsgexport
+Version: 0.1+git20180405-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 16
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/andersson/rpmsgexport
+Priority: optional
+Section: unknown
+Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20180405-1_armhf.deb
+Size: 3968
+SHA256: 6595d736f940bbfd92472fd9600e30dba01e50aa7fde281e9cfe7091aaa87013
+SHA1: cf19e89ed577fc56389bc3bcced75a2e3f1b6326
+MD5sum: ccb5744744fb6d2a8633e97b592b332e
+Description: Tool to create endpoint devices for remoteproc devices
+ rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
+ to automatically create endpoint devices as remoteproc devices are booted.
+
+Package: rpmsgexport-dbgsym
+Source: rpmsgexport
+Version: 0.1+git20180405-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 18
+Depends: rpmsgexport (= 0.1+git20180405-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpmsgexport/rpmsgexport-dbgsym_0.1+git20180405-1_armhf.deb
+Size: 5232
+SHA256: 98aee67f4d3b8f48f6c374170d786a4fc8e740e1d331cc6ced4f78295a1f55af
+SHA1: 3acd81217a7f64df37d2f48520555f3f016289a0
+MD5sum: 5bfa0737203bd022ca9bebc0612a692d
+Description: debug symbols for rpmsgexport
+Build-Ids: 5d83c0cfd43a060a168b25ea6b7734f377b8aaac
+
 Package: simplelogin
 Version: 0.0.6+git20180314-1
 Architecture: armhf
