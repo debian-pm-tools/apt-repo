@@ -1490,19 +1490,19 @@ Description: debug symbols for qtvirtualkeyboard5-examples
 Build-Ids: be39139594f65f4826f5b5c35bd4275ff1905a87
 
 Package: rmtfs
-Version: 0.2+git20180323-1
+Version: 0.2+git20180323-2
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 33
-Depends: libc6 (>= 2.4), libqrtr, libudev1 (>= 183), qrtr
+Depends: libc6 (>= 2.4), libqrtr1, libudev1 (>= 183), qrtr
 Homepage: https://github.com/andersson/rmtfs.git
 Priority: optional
 Section: utils
-Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_armhf.deb
-Size: 10000
-SHA256: 4386d0fcc130d4111b644057868703f5db3e4e44d92b45ffb468075325f8e3bc
-SHA1: 67d018199aa0eb9263d48d736b0ba138ff0c0ead
-MD5sum: 7b923ed273a9075d0a9a0c29f0d754bf
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-2_armhf.deb
+Size: 9996
+SHA256: b509fcc1701ed0f6e14cd41074dedd4efd55eaad87ae5644db525276d42ca9db
+SHA1: 9c4da3a57a28e6a10f9f710d24302b110d1c7a7b
+MD5sum: e564d41dce8743ee9f6f7958cb637f29
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant
@@ -1510,19 +1510,19 @@ Description: RMTFS QMI service
 
 Package: rmtfs-dbgsym
 Source: rmtfs
-Version: 0.2+git20180323-1
+Version: 0.2+git20180323-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 38
-Depends: rmtfs (= 0.2+git20180323-1)
+Depends: rmtfs (= 0.2+git20180323-2)
 Priority: optional
 Section: debug
-Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-1_armhf.deb
+Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-2_armhf.deb
 Size: 23364
-SHA256: 290e87316f52f0d5a3c3c07adb3e7add781c7a8377e4885ce7558c83621d049e
-SHA1: 4ba0aa9a0330d22315afe898da1958df99d5abe9
-MD5sum: 5fbad68194dd5894b6f79f591eb9f0b3
+SHA256: 73348366dffc34cc9dfd2f95640da5f9de6e0f3066e647a7653ecf05ee8eb07a
+SHA1: b0e00ca152b63f992c410c3b509ebe72568c4707
+MD5sum: ce0292245439ba0df5deaa9ff95cd8ea
 Description: debug symbols for rmtfs
 Build-Ids: 48fbf20768cea45b3e439cc02f6546317dbe45d7
 
