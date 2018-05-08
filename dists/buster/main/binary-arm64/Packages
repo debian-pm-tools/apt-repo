@@ -44,6 +44,22 @@ Description: Android Platform Headers from AOSP releases
  This package provides the platform development headers for core components
  of LineageOS, for the 7.1 release.
 
+Package: debian-pm-archive-keyring
+Source: debian-pm-keyring
+Version: 20180408
+Architecture: all
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 54
+Recommends: gpgv
+Priority: optional
+Section: misc
+Filename: pool/main/d/debian-pm-keyring/debian-pm-archive-keyring_20180408_all.deb
+Size: 21232
+SHA256: d72d05c70e2643c3384c59ec8fd0aa553dd8d366e38715470b2f785e2cbd6dd0
+SHA1: db1d72d540eacd592f5b1c14de3571aca611c53c
+MD5sum: 9bbd084ff8483869d25c3dfff893c341
+Description: GnuPG keys of the debian-pm test archive
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
