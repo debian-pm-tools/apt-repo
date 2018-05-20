@@ -174,38 +174,38 @@ Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth
 
 Package: kpeople-vcard
 Source: kpeoplevcard
-Version: 0.0+git20170117-1
+Version: 0.0+git20180520-1
 Architecture: arm64
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 54
 Depends: libc6 (>= 2.17), libkf5contacts5 (>= 4:15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Priority: optional
 Section: kde
-Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20170117-1_arm64.deb
-Size: 12588
-SHA256: 37ae9cc1f1a3baf27483238243e70966cc826a6515086c4e67a5043027510b39
-SHA1: 8a7392308b91558a9b4062a1df8c784772068bdf
-MD5sum: e51f438a18a58c835e6692db24508850
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20180520-1_arm64.deb
+Size: 12640
+SHA256: c8a6c200911d89cc2fa1212bf5a9ba4d6be22a809b704d6b1934984a5695043a
+SHA1: 8966a5da3a859b625050ba8bdf5ae03f5a2bb65b
+MD5sum: a383427fd38fc5f2a6053f67c4c83aaa
 Description: kpeople plugin for vcard
  This plugin lets kpeople read the vcard format.
 
 Package: kpeople-vcard-dbgsym
 Source: kpeoplevcard
-Version: 0.0+git20170117-1
+Version: 0.0+git20180520-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 360
-Depends: kpeople-vcard (= 0.0+git20170117-1)
+Depends: kpeople-vcard (= 0.0+git20180520-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20170117-1_arm64.deb
-Size: 342672
-SHA256: 875cb16f23f4c0e2827b0cde7fe05ccf119233eb384efbe4a4c25febe4bd8bd5
-SHA1: ab40ecf8961d0c2a37a5f5aa225659c3b100590e
-MD5sum: 076fa776b3481c59c6c34175e585f3b6
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20180520-1_arm64.deb
+Size: 342824
+SHA256: da426738109058b440612033f57a4424a4e5062c1e217d55c344755224bb9b83
+SHA1: b5cb622b3e2edecb7fab7ef1ed138d4215d613ec
+MD5sum: e0e9554e664aa0d33daddc8cf63fd567
 Description: debug symbols for kpeople-vcard
-Build-Ids: 9a60108a93e8f330c07568a635299735ecc0017c
+Build-Ids: bb0f89840a6d1e8f6a4be5072da8c41d8f8718b5
 
 Package: kwin-common
 Source: kwin
@@ -1474,15 +1474,15 @@ Package: lxc-android
 Version: 0.1+git20180520-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 434
+Installed-Size: 429
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
 Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180520-1_all.deb
-Size: 14720
-SHA256: 560a91d1b862e256ec2dd1806f49f50b37d98aa2a7c7db54d0979b405adc0f3f
-SHA1: 1959ad8b824715b8ce07e511cb0962a08194ad53
-MD5sum: c4c4c74302d9df21b70d74dc489749a7
+Size: 14196
+SHA256: a8e20c28e6ef2dd7d440161c5cd0c11ba54a2b51a4dd7e7cc27b5d1f688aca7c
+SHA1: f9161ae5d190e673d27f354ff243c23a6ea816d3
+MD5sum: 836ec66c52ffbdd9aeddcce52abc7ec4
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc

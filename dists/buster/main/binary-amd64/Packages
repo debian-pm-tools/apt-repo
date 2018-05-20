@@ -760,15 +760,15 @@ Package: lxc-android
 Version: 0.1+git20180520-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 434
+Installed-Size: 429
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
 Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180520-1_all.deb
-Size: 14720
-SHA256: 560a91d1b862e256ec2dd1806f49f50b37d98aa2a7c7db54d0979b405adc0f3f
-SHA1: 1959ad8b824715b8ce07e511cb0962a08194ad53
-MD5sum: c4c4c74302d9df21b70d74dc489749a7
+Size: 14196
+SHA256: a8e20c28e6ef2dd7d440161c5cd0c11ba54a2b51a4dd7e7cc27b5d1f688aca7c
+SHA1: f9161ae5d190e673d27f354ff243c23a6ea816d3
+MD5sum: 836ec66c52ffbdd9aeddcce52abc7ec4
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc

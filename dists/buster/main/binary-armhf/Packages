@@ -216,38 +216,38 @@ Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth
 
 Package: kpeople-vcard
 Source: kpeoplevcard
-Version: 0.0+git20170117-1
+Version: 0.0+git20180520-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 41
-Depends: libc6 (>= 2.4), libkf5contacts5 (>= 15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 4:15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Priority: optional
 Section: kde
-Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20170117-1_armhf.deb
-Size: 12216
-SHA256: b96ab1a6422446de24c6a8c70b61fef8c90b19a0a7f432dbfbcf860ff8dabfa0
-SHA1: 2e155052d925144baffda69221b84da7cb0a74bc
-MD5sum: d001902f543231490b44404590254069
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20180520-1_armhf.deb
+Size: 12304
+SHA256: b9cb7a491d2ab83a012c55730d67776425fac4f907e8b4dd07fdf540ba15fd9b
+SHA1: 00e62e1ace08143b9008c7120b24424c16d3f0e7
+MD5sum: 99b507efd9d368c43293fcb7f7e50df4
 Description: kpeople plugin for vcard
  This plugin lets kpeople read the vcard format.
 
 Package: kpeople-vcard-dbgsym
 Source: kpeoplevcard
-Version: 0.0+git20170117-1
+Version: 0.0+git20180520-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 347
-Depends: kpeople-vcard (= 0.0+git20170117-1)
+Installed-Size: 357
+Depends: kpeople-vcard (= 0.0+git20180520-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20170117-1_armhf.deb
-Size: 331900
-SHA256: 1fbf1218c6f1774d5a3e6fdf544a26253ee0c0a466adfdc45f965bcfdd409faa
-SHA1: 718148607ec693a24ce7d848423a0f68cc29e2fa
-MD5sum: 56ca45ada4b0c7e052490e3cec3a160b
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20180520-1_armhf.deb
+Size: 342884
+SHA256: 4d22e1c8fe617e4d168bcbc8513405f58263151404a901b09cc8adc8fa36b1a5
+SHA1: 298255fc856e6feba88a3f0898a0b3c50d533e02
+MD5sum: fa81d320265d50a4d73392c142b3030f
 Description: debug symbols for kpeople-vcard
-Build-Ids: 79d95116b8d07d86d6540797011fc2c504017673
+Build-Ids: 96000ff944855ab2705ffd3a782cdf5c12a32917
 
 Package: kwin-common
 Source: kwin
@@ -1535,15 +1535,15 @@ Package: lxc-android
 Version: 0.1+git20180520-1
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
-Installed-Size: 434
+Installed-Size: 429
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
 Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180520-1_all.deb
-Size: 14720
-SHA256: 560a91d1b862e256ec2dd1806f49f50b37d98aa2a7c7db54d0979b405adc0f3f
-SHA1: 1959ad8b824715b8ce07e511cb0962a08194ad53
-MD5sum: c4c4c74302d9df21b70d74dc489749a7
+Size: 14196
+SHA256: a8e20c28e6ef2dd7d440161c5cd0c11ba54a2b51a4dd7e7cc27b5d1f688aca7c
+SHA1: f9161ae5d190e673d27f354ff243c23a6ea816d3
+MD5sum: 836ec66c52ffbdd9aeddcce52abc7ec4
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
