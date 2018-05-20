@@ -209,21 +209,21 @@ Build-Ids: 9b3cc3074eb32758d8042565d9f86d5e7a1d0b9e
 
 Package: kwin-data
 Source: kwin
-Version: 4:5.12.4-1
+Version: 4:5.12.5-1
 Architecture: all
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 12581
+Installed-Size: 12596
 Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-data_5.12.4-1_all.deb
-Size: 3999536
-SHA256: e2bf7b89abd4551db6b37dd677a8614d671119076745d218e3461a71cfce5997
-SHA1: e76bc2d526c4a1542117fa7f6145d114c39e17c2
-MD5sum: 3ca826ef39e10a52ebc191e684b9531b
+Filename: pool/main/k/kwin/kwin-data_5.12.5-1_all.deb
+Size: 4002968
+SHA256: b1bab11ae01e598e4f2aaa14ed55f9dfdbb9bd9869e164dc8b9b41ac32019d86
+SHA1: e42d1f729d052e0cccc63553b5f172abbf979f2a
+MD5sum: 3eb7696dea5602ff06a6664809fab01c
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
