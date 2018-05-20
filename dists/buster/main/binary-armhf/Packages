@@ -792,32 +792,6 @@ MD5sum: ee3163d11ea394f773853ac5700c0adb
 Description: debug symbols for libandroid-properties1
 Build-Ids: 1aafe47895500dad2a80ceb3e1f0003987a7b077
 
-Package: libgloox-dev
-Source: gloox
-Version: 1.0.20-2
-Architecture: armhf
-Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 3071
-Depends: libgloox17 (= 1.0.20-2), libgnutls28-dev, libidn11-dev
-Multi-Arch: same
-Homepage: http://camaya.net/gloox/
-Priority: optional
-Section: libdevel
-Filename: pool/main/g/gloox/libgloox-dev_1.0.20-2_armhf.deb
-Size: 555764
-SHA256: bf7303101ba3f3256aea0e24e153a18582a64ef668fb809916dd107c34132fcb
-SHA1: c80d54be68a4661c124e2a562d0287c8c2aac510
-MD5sum: 3f4647ce0c373de3bfd6fd923b22637d
-Description: C++ jabber/xmpp library (devel)
- A C++ Jabber/XMPP library that takes care of low level protocol stuff.
- Additionally, it offers high level interfaces for interaction with an
- XMPP server.
- .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
- those needed to implement a XMPP IM client.
- .
- This package contains files needed for development with this library.
-
 Package: libgloox-doc
 Source: gloox
 Version: 1.0.20-2
@@ -841,30 +815,6 @@ Description: C++ jabber/xmpp library (API documentation)
  those needed to implement a XMPP IM client.
  .
  This package contains API documentation for this library.
-
-Package: libgloox17
-Source: gloox
-Version: 1.0.20-2
-Architecture: armhf
-Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 818
-Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgnutls30 (>= 3.5.6), libidn11 (>= 1.13), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
-Multi-Arch: same
-Homepage: http://camaya.net/gloox/
-Priority: optional
-Section: libs
-Filename: pool/main/g/gloox/libgloox17_1.0.20-2_armhf.deb
-Size: 336320
-SHA256: cbc58514a2fa070c26fca1c7950244bfd46a074cd7dbd4c85f5c28aa751a1d5b
-SHA1: 42bd8ee9471b1b261c569c1995a9ad1ae84abd41
-MD5sum: 22875e0dfdd6db5300a1910cf56d0e1a
-Description: C++ jabber/xmpp library
- A C++ Jabber/XMPP library that takes care of low level protocol stuff.
- Additionally, it offers high level interfaces for interaction with an
- XMPP server.
- .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
- those needed to implement a XMPP IM client.
 
 Package: libgloox17-dbgsym
 Source: gloox
@@ -1899,46 +1849,6 @@ MD5sum: 10fb978a2977969abdb3cc736c8e915b
 Description: debug symbols for qml-module-ofono
 Build-Ids: 2a47e1cd3c8eec15b8ea3d98ccb0842a8c2cbdce
 
-Package: qml-module-qtquick-virtualkeyboard
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 172
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5)
-Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
-Priority: optional
-Section: libdevel
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qml-module-qtquick-virtualkeyboard_5.9.2+dfsg-1.1_armhf.deb
-Size: 23444
-SHA256: ee8f7e3d0a3c11a515e96f8efd6e15cda185f166a859c5f4c33bf71e15e450cf
-SHA1: 635eb15ffc1a2105384155fcaafa8213ba2952c5
-MD5sum: 105beae364ac91c0f31861e11445c534
-Description: Qt virtual keyboard - QML module
- The Qt Virtual Keyboard project provides an input framework and
- reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
- Desktop, and Boot2Qt targets.
- .
- This package contains the QML module.
-
-Package: qml-module-qtquick-virtualkeyboard-dbgsym
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 446
-Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1)
-Priority: optional
-Section: debug
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qml-module-qtquick-virtualkeyboard-dbgsym_5.9.2+dfsg-1.1_armhf.deb
-Size: 433564
-SHA256: 04189d54d4103d12f088f9a13726d0eb31ac531cc2f97e41d2886e49feec8c0e
-SHA1: bc1788bcc1fadd17d35fe8e15f9566d06f98c686
-MD5sum: afbbc498ec6facee7de2a93c85bda014
-Description: debug symbols for qml-module-qtquick-virtualkeyboard
-Build-Ids: 433131e94c959308a1d326897ff696af6cd7fd20
-
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -2033,127 +1943,6 @@ SHA1: cade8d3baa163f815857e7be845d951479ee1947
 MD5sum: c34ed1dd169783336c6e79f698c4b9f3
 Description: debug symbols for qrtr
 Build-Ids: 1adc9f984ed392b63fe82520bd54013137588a52 27841549b2beb28526699d482588cf78a151d5ec cd763a4a1249e92a70dff0d72119b88c1c211abc
-
-Package: qtmultimedia5-doc
-Source: qtmultimedia-opensource-src
-Version: 5.9.2-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3282
-Homepage: https://qt.io/
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.9.2-1_all.deb
-Size: 2434508
-SHA256: 19befd17c8a36e603383d248f55d5f40d9c50b1524c636a49f1720ee7327caeb
-SHA1: e1ac38c8834651865151247860c3a8cf0ab5267b
-MD5sum: af5c46654caf7e9884919d5874a798a1
-Description: Qt 5 multimedia documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the documentation for the Qt 5 multimedia libraries.
-
-Package: qtmultimedia5-doc-html
-Source: qtmultimedia-opensource-src
-Version: 5.9.2-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 13817
-Homepage: https://qt.io/
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.9.2-1_all.deb
-Size: 1575632
-SHA256: 169e53e55a13a3c72cdd251136493af6572f9e959ba15d418b4ad4377e705951
-SHA1: 9e020a44562cdff6a06b0ddae4d83ba17e3f614f
-MD5sum: 80446cd39464819fd493285555dde24e
-Description: Qt 5 multimedia HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 5 multimedia
- libraries.
-
-Package: qtvirtualkeyboard-plugin
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 639
-Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhunspell-1.6-0, libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0), libstdc++6 (>= 5), libxcb-xfixes0, libxcb1, qtbase-abi-5-9-2
-Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
-Priority: optional
-Section: libs
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard-plugin_5.9.2+dfsg-1.1_armhf.deb
-Size: 379260
-SHA256: cedcc6e19cc887655c57fabdbe17662c3a73dc0ee83b224f996fe522bc13ee09
-SHA1: d81b1d383afa9cd478f37d607f38a7c5d29274eb
-MD5sum: 667a84e84208610c2b0de242b2c341da
-Description: Qt virtual keyboard
- The Qt Virtual Keyboard project provides an input framework and
- reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
- Desktop, and Boot2Qt targets.
- .
- This package contains the virtual keyboard plugin.
-
-Package: qtvirtualkeyboard-plugin-dbgsym
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5576
-Depends: qtvirtualkeyboard-plugin (= 5.9.2+dfsg-1.1)
-Priority: optional
-Section: debug
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard-plugin-dbgsym_5.9.2+dfsg-1.1_armhf.deb
-Size: 5467152
-SHA256: a692195a0e19f44c13c5a72c72d054cfb6f7af8758fd00b117f0a609d9b7a218
-SHA1: c582e0e93b7cb4bec1c8b9690c95ac4718da635a
-MD5sum: cfe04a1d66c239ff8256f49c077b3377
-Description: debug symbols for qtvirtualkeyboard-plugin
-Build-Ids: 1da5f104c3aa2c626b56317c28a539f0037c292c
-
-Package: qtvirtualkeyboard5-examples
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 105
-Depends: qml-module-qtquick-virtualkeyboard (= 5.9.2+dfsg-1.1), qtvirtualkeyboard-plugin (= 5.9.2+dfsg-1.1), libc6 (>= 2.4), libqt5core5a (>= 5.9.2+dfsg~), libqt5gui5 (>= 5.9.2+dfsg~), libqt5quick5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
-Homepage: http://doc.qt.io/qt-5/qtvirtualkeyboard-index.html
-Priority: optional
-Section: libs
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard5-examples_5.9.2+dfsg-1.1_armhf.deb
-Size: 19348
-SHA256: f6e52fa7d5461807a10c4d610385dccf4c96b0033b4c16b820479e46bb156902
-SHA1: e924efebdafbaf0631703abe82fa2deb14b68433
-MD5sum: a50d63af7797341dd3513ed2abd872c3
-Description: Qt virtual keyboard examples
- The Qt Virtual Keyboard project provides an input framework and
- reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
- Desktop, and Boot2Qt targets.
- .
- This package contains examples of using the virtual keyboard.
-
-Package: qtvirtualkeyboard5-examples-dbgsym
-Source: qtvirtualkeyboard-opensource-src
-Version: 5.9.2+dfsg-1.1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 96
-Depends: qtvirtualkeyboard5-examples (= 5.9.2+dfsg-1.1)
-Priority: optional
-Section: debug
-Filename: pool/main/q/qtvirtualkeyboard-opensource-src/qtvirtualkeyboard5-examples-dbgsym_5.9.2+dfsg-1.1_armhf.deb
-Size: 85140
-SHA256: 078cee50e81c87060b6154f5a68bb8a948fdc4a4023f39812afef4ac72d3adbf
-SHA1: 5e2146bee1c15b1745ff70341a2b8918ce593d7e
-MD5sum: ec254baa1e88a08edc8370e73d32b7ea
-Description: debug symbols for qtvirtualkeyboard5-examples
-Build-Ids: be39139594f65f4826f5b5c35bd4275ff1905a87
 
 Package: rmtfs
 Version: 0.2+git20180323-2

@@ -1177,47 +1177,6 @@ MD5sum: 942e41db8e9097a0db9cfacb44939262
 Description: debug symbols for qrtr
 Build-Ids: 081c5ed7b1e542240139eb2c8e3c7e96d020ac5e 36973def5ab9045643271bd038b2dbc531eae6d6 a3c9774b7e7afed0c1b0b1fd3b2230cf7a034e7d
 
-Package: qtmultimedia5-doc
-Source: qtmultimedia-opensource-src
-Version: 5.9.2-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3282
-Homepage: https://qt.io/
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.9.2-1_all.deb
-Size: 2434508
-SHA256: 19befd17c8a36e603383d248f55d5f40d9c50b1524c636a49f1720ee7327caeb
-SHA1: e1ac38c8834651865151247860c3a8cf0ab5267b
-MD5sum: af5c46654caf7e9884919d5874a798a1
-Description: Qt 5 multimedia documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the documentation for the Qt 5 multimedia libraries.
-
-Package: qtmultimedia5-doc-html
-Source: qtmultimedia-opensource-src
-Version: 5.9.2-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 13817
-Homepage: https://qt.io/
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.9.2-1_all.deb
-Size: 1575632
-SHA256: 169e53e55a13a3c72cdd251136493af6572f9e959ba15d418b4ad4377e705951
-SHA1: 9e020a44562cdff6a06b0ddae4d83ba17e3f614f
-MD5sum: 80446cd39464819fd493285555dde24e
-Description: Qt 5 multimedia HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 5 multimedia
- libraries.
-
 Package: simplelogin
 Version: 0.0.6+git20180314-1
 Architecture: amd64
