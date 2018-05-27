@@ -1613,6 +1613,24 @@ Description: debug symbols for plasma-settings
 Build-Ids: 007030fd650a8e2e5b38091684b1352f5cf1e97b 367ff6f74d3b331eaa631bdc6b259c84e5bd086c 57b69867320a1119bfea25b97eb5330ca77bf586 688a3235ee9a956285cdd08e3cc9140f18357612 95fa49b5a72f387c26a51a24b889f32045078619 ba088e57d5f28b672edd038537b575296c1cf85e cbf71b2d4f019c4abe4dbb3836263087f701fdf0 e60c59ac548e2cc90ee87df6b741e2ba1350b581
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: pulseaudio-dev
+Source: pulseaudio
+Version: 11.1-5
+Architecture: all
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 573
+Depends: pulseaudio (= 11.1-5)
+Multi-Arch: foreign
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_all.deb
+Size: 109336
+SHA256: 64f1ad6541a2d3e234ebfe1f40793648f66c37593a2c4f8dd08cea6db9a9a821
+SHA1: 1eb2d6dcf523c6afad64fbf01b6ff6e841ce5116
+MD5sum: 606e87061e4f322b905b798f181b44bb
+Description: Pulsecore development headers
+
 Package: qmic
 Version: 0.1+git20180323-1
 Architecture: i386

@@ -1675,6 +1675,24 @@ Description: debug symbols for plasma-settings
 Build-Ids: 1b0bb20eaa234b11101146206a8347eec37be02b 73f4718f569be6281f09a6606cf519cea7905a78 8a4840fe593063915e95d7c77d42c8f131fd7b5d 984a682b6a6863aaeb5789600ffa5900e30355c3 98bd51449739d1a7d11ac335f7ab3df5bdb048c9 9bde4046b76e16a62be4dd40f0443500491b1ca0 eabc9a55649836f730ea88dcf4232df1167a406d
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: pulseaudio-dev
+Source: pulseaudio
+Version: 11.1-5
+Architecture: all
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 573
+Depends: pulseaudio (= 11.1-5)
+Multi-Arch: foreign
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_all.deb
+Size: 109336
+SHA256: 64f1ad6541a2d3e234ebfe1f40793648f66c37593a2c4f8dd08cea6db9a9a821
+SHA1: 1eb2d6dcf523c6afad64fbf01b6ff6e841ce5116
+MD5sum: 606e87061e4f322b905b798f181b44bb
+Description: Pulsecore development headers
+
 Package: qmic
 Version: 0.1+git20180323-1
 Architecture: arm64
