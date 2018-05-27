@@ -815,24 +815,24 @@ Build-Ids: c30536161fa54bb6435af851a9caa92034a53304
 
 Package: libgloox-doc
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.20-1
 Architecture: all
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 20227
+Installed-Size: 20226
 Homepage: http://camaya.net/gloox/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gloox/libgloox-doc_1.0.20-2_all.deb
-Size: 1846008
-SHA256: 3ddddc84c457f56d62649ea8d4584b4a3d2a81c85c1e567de0acde5405220da7
-SHA1: 43350c3e157b00ecc2ef06eb8c63146f9e3c04eb
-MD5sum: 368dbae93de2a5c05810ca874ca9979f
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1843188
+SHA256: 9d6e064b8a1897507fd00ce303ac7735a737942582da7bf5feb750d97a8414d7
+SHA1: c00726548fa1aab1c6bb564719d68e57dd4d321e
+MD5sum: fc9edb037b902045fbb0485c922e9c51
 Description: C++ jabber/xmpp library (API documentation)
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
  XMPP server.
  .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
  .
  This package contains API documentation for this library.

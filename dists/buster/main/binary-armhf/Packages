@@ -813,29 +813,106 @@ MD5sum: 74828eaf8f19131ca2c00fe163b56446
 Description: debug symbols for libandroid-properties1
 Build-Ids: 6681cb35a89541cda163ab85f51c94fd8f7a4b7d
 
+Package: libgloox-dbg
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 4639
+Depends: libgloox-dev (= 1.0.20-1)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: debug
+Filename: pool/main/g/gloox/libgloox-dbg_1.0.20-1_armhf.deb
+Size: 4448388
+SHA256: 6138f6088c2d96ffff8d9b91b8f87c713a4c707d605581a7c2207022c318fb33
+SHA1: 5da25ac0bab909d86eacbc64d73ca53049ae236d
+MD5sum: c3e07dc7af09486b1fed88555559639a
+Description: C++ jabber/xmpp library (debug symbols)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains symbols for debugging programs using this library.
+Build-Ids: 7fb025e06bb7e5d7c2b18d4371b1b9600475dabd
+
+Package: libgloox-dev
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 3071
+Depends: libgloox17 (= 1.0.20-1), libgnutls28-dev, libidn11-dev
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gloox/libgloox-dev_1.0.20-1_armhf.deb
+Size: 556136
+SHA256: c43bc454613461041576afb926d46b5301877a54c3e6992b22a6a6c5ad5bf6a2
+SHA1: 6601a44a1412fa404865668b845722fa1b735f56
+MD5sum: d8b53b689ff619ffca6bf5da85f63a0b
+Description: C++ jabber/xmpp library (devel)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains files needed for development with this library.
+
 Package: libgloox-doc
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.20-1
 Architecture: all
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 20227
+Installed-Size: 20226
 Homepage: http://camaya.net/gloox/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gloox/libgloox-doc_1.0.20-2_all.deb
-Size: 1846008
-SHA256: 3ddddc84c457f56d62649ea8d4584b4a3d2a81c85c1e567de0acde5405220da7
-SHA1: 43350c3e157b00ecc2ef06eb8c63146f9e3c04eb
-MD5sum: 368dbae93de2a5c05810ca874ca9979f
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1843188
+SHA256: 9d6e064b8a1897507fd00ce303ac7735a737942582da7bf5feb750d97a8414d7
+SHA1: c00726548fa1aab1c6bb564719d68e57dd4d321e
+MD5sum: fc9edb037b902045fbb0485c922e9c51
 Description: C++ jabber/xmpp library (API documentation)
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
  XMPP server.
  .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
  .
  This package contains API documentation for this library.
+
+Package: libgloox17
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 818
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgnutls30 (>= 3.5.6), libidn11 (>= 1.13), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gloox/libgloox17_1.0.20-1_armhf.deb
+Size: 336264
+SHA256: 38e89ecc1929706bca600467d29535cdc09bdc48346a5a10e87cb78bd1b7144e
+SHA1: 656e7949038c65fab0a8b1e6f6352d370ac24e0c
+MD5sum: 7fe8a8e690a4dd3f9fc0581ffcb4a8b4
+Description: C++ jabber/xmpp library
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
 
 Package: libgloox17-dbgsym
 Source: gloox
