@@ -160,6 +160,32 @@ Description: Simple, user-friendly Jabber/XMPP client for every device
  Kaidan is not finished: Don't expect it to work as well as a finished
  messenger will.
 
+Package: kaidan-data
+Source: kaidan
+Version: 0.3.2+git20180529-1
+Architecture: all
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 103
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180529-1_all.deb
+Size: 47344
+SHA256: e2a176865cc49218f99a9d0ff47e7a59a4dc5c611b53fd55c208643c01c4f8cc
+SHA1: 96a4b302ad8e017227e140c29ed0edad8caaf8a5
+MD5sum: 1d941ed5ce2d91f298f1f0b08c3753db
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
+
 Package: kaidan-dbgsym
 Source: kaidan
 Version: 0.3.2+git20180323-1
