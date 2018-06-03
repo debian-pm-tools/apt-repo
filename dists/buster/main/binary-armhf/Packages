@@ -2082,19 +2082,18 @@ Build-Ids: 063aa8d028745d67fc893042edd0c3c323a7ff72 098b9e99c21bce2f906c07044a93
 Package: pulseaudio-dev
 Source: pulseaudio
 Version: 11.1-5
-Architecture: all
+Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
 Installed-Size: 573
 Depends: pulseaudio (= 11.1-5)
-Multi-Arch: foreign
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_all.deb
-Size: 109336
-SHA256: 64f1ad6541a2d3e234ebfe1f40793648f66c37593a2c4f8dd08cea6db9a9a821
-SHA1: 1eb2d6dcf523c6afad64fbf01b6ff6e841ce5116
-MD5sum: 606e87061e4f322b905b798f181b44bb
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_armhf.deb
+Size: 109328
+SHA256: 95bb9f6396b85858ab8ae49aa89dc5ae643fea8a9bc1d4294f7031189140b8ea
+SHA1: f6f8bb189e0ad3e255acc675f74d387dbb16466d
+MD5sum: 28056017ea57fc1e605ac8c0d8cc6d8c
 Description: Pulsecore development headers
 
 Package: pulseaudio-equalizer
@@ -2232,35 +2231,54 @@ Build-Ids: 30ddf66dcb89aa06cc920d07633582fe762b7aa5 3f40f228a6408725f7b9b27efa8d
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
-Version: 11.1.67-2
+Version: 11.1.67-2.2
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 9
+Installed-Size: 222
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.67-2_armhf.deb
-Size: 2044
-SHA256: eaca0c0a1fb6d39bee5b07541d748cd13fb4791882407c52e0ef18db9d370888
-SHA1: 8526af89e9079831f766e8dc5e04ed450d659b3d
-MD5sum: 42ea9a09b31c7ddfd812a771c4f718c8
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.67-2.2_armhf.deb
+Size: 61448
+SHA256: 2e3a2e78e838f257350925dc17cf2341831ecadad1a2e8ddddbaa051746dd31b
+SHA1: 3b7ea781f75a9bfd06e942007d6005a2580d6952
+MD5sum: f9a5eb7493965d56027d8fb1f2c12b69
 Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
+
+Package: pulseaudio-module-droid-dbgsym
+Source: pulseaudio-modules-droid
+Version: 11.1.67-2.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 320
+Depends: pulseaudio-module-droid (= 11.1.67-2.2)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.67-2.2_armhf.deb
+Size: 248580
+SHA256: e7f73486cd7b9f5f24286872203044883deafe40b809f0fc49967068dedb9936
+SHA1: 270ac105e28ad5272d1e93bf721bce856f44ef58
+MD5sum: a4aac8ba6706f84f025448775593b1c0
+Description: debug symbols for pulseaudio-module-droid
+Build-Ids: 481804a630e6bc9d07d63a758b2dcc6ac2338465 9738f80d49d9558e3152bbf0ee57c45c9e5cdfed c79ae50c285894359a72ff416a85f705c8f86c94 d6aea68c5a2e827f8a9efd1149b74129c431280e f007cc21b15975bacec5f69a5c891d28e59cd95a f2b78f05fb09638b9a31aaa5ca9cded8473d6c3e f74c6e6fcfad8782ed1fcafdb8c78aea60b33f67
 
 Package: pulseaudio-module-droid-dev
 Source: pulseaudio-modules-droid
-Version: 11.1.67-2
+Version: 11.1.67-2.2
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 9
+Installed-Size: 78
 Depends: pulseaudio-modules-droid
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.67-2_armhf.deb
-Size: 2048
-SHA256: 9d92895f628ac6b95b6ab1e7ccd263b758ab315b9ec05c007f09698fef7ec4ac
-SHA1: 0ebec29028107cc19b23588f6fab9b7754b73dc3
-MD5sum: 51a6321b0e4d99e2389f242290368bae
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.67-2.2_armhf.deb
+Size: 10200
+SHA256: a49564c46199baf90ce9dfa93ed999e240af4af862e711347bb67044958f8446
+SHA1: 4ef7f17ab84cfa0032a44b1a913513a3b2415e67
+MD5sum: 7ab26836e2137403e70ef4d52d2669d6
 Description: PulseAudio Droid HAL module development headers.
 
 Package: pulseaudio-module-gconf
