@@ -2491,23 +2491,6 @@ MD5sum: 5a907530a7ed67804f216ea7678a3047
 Description: debug symbols for pulseaudio-module-zeroconf
 Build-Ids: 05a5cfa92abda365c9006c9e75d19e5495d239a1 4436b49e949498c173171031f97a1a5cd343752f c5d300a7bfd6dd8055565a3b93dffcd3e5b341a3
 
-Package: pulseaudio-modules-droid-dev
-Source: pulseaudio-modules-droid
-Version: 11.1.67-1.1
-Architecture: armhf
-Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 77
-Depends: pulseaudio-modules-droid
-Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
-Priority: optional
-Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-modules-droid-dev_11.1.67-1.1_armhf.deb
-Size: 10032
-SHA256: a93ed71f7e50c2ae29eb1f0556b3a3736b51304bcdfd328221fa0d8696e615ba
-SHA1: fe587a30f1b91e22225fe9aa28500371f360256f
-MD5sum: 07ce24d8142fd3a71974b6d8bdefc02b
-Description: PulseAudio Droid HAL module development headers.
-
 Package: pulseaudio-utils
 Source: pulseaudio
 Version: 11.1-5
