@@ -786,36 +786,36 @@ Build-Ids: 86929008a2c7b02c51c97e97f3f4c12191ebdf81 df53b07d08ddaaa71936eafb6943
 
 Package: libandroid-properties-dev
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 46
-Depends: libandroid-properties1 (= 0.1.0+git20180423-1)
+Depends: libandroid-properties1 (= 0.1.0+git20180423-1.1)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180423-1_i386.deb
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180423-1.1_i386.deb
 Size: 16672
-SHA256: e53e447325aa6d25ed8ef4e175c70ea17e8969a36ba119a48d47e0629e4bd2b7
-SHA1: c4e4a474ad117989611a087f30297baee550d675
-MD5sum: 52f718e1b96deb56d5cbe96889b3b553
+SHA256: c862a2e21202e617934eda41ff6da8243730991e43d41e5b857634420b2c25e3
+SHA1: 9981a38c939c9e029b57fabcb658ace9f892f16f
+MD5sum: ddcfd977a99fb96dab614d30c098fcde
 Description: Development headers files for libandroid-properties
  Contains the development files for use in applications that wants to get,
  set or list the Android properties.
 
 Package: libandroid-properties1
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 55
 Depends: libc6 (>= 2.17)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180423-1_i386.deb
-Size: 21300
-SHA256: 1bc06ff7151e668cfade55c2d6bdee09a5dbce05a6926d362dc5099187e73db8
-SHA1: 62b869991500497c665e8e3831b5f22f0c089ca8
-MD5sum: 8ff8d6fbf814997f246959f9fcba424b
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180423-1.1_i386.deb
+Size: 21304
+SHA256: 235e37d55961464fe5d0e27352af37da30db06bf5f8a0065e92c45b59b429cdd
+SHA1: 05cdce86785bc45006452ea1b3f8f294ec12163f
+MD5sum: 8d7728d0e68948dd64048fa96137a8f7
 Description: Library to provide access to get, set and list Android properties
  Contains a library that provides access to get, set and list Android
  properties, which can be used by any Ubuntu app that needs to probe
@@ -823,21 +823,21 @@ Description: Library to provide access to get, set and list Android properties
 
 Package: libandroid-properties1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 28
-Depends: libandroid-properties1 (= 0.1.0+git20180423-1)
+Depends: libandroid-properties1 (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180423-1_i386.deb
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180423-1.1_i386.deb
 Size: 14432
-SHA256: ce1a60798f881ef652341ff17312b9f0c8a6731458cfdfaba3a5d882318cdd3e
-SHA1: 05d4460eda3b2fa812ec23126c40d847b9c4a73a
-MD5sum: 5c31456eaf7152f11c8b869e2550e152
+SHA256: aef313c6ea26333301ab5bd3a372b94d3b2b3aa6fb4cc62dfe79b25818c1e286
+SHA1: 652d4be59b7176832fde2f1ecbaf567ef557376a
+MD5sum: af83472f468d6c65b9defac3f38a9f66
 Description: debug symbols for libandroid-properties1
-Build-Ids: c30536161fa54bb6435af851a9caa92034a53304
+Build-Ids: 1292be21b4a52a666f6750b50ffb1c33435d640d
 
 Package: libgloox-doc
 Source: gloox
@@ -884,20 +884,20 @@ Build-Ids: 365972b4f12d79a5e0dbd2eeeaffaf0cfcc9cc74
 
 Package: libhardware-dev
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 41
-Depends: libhardware2 (= 0.1.0+git20180423-1), android-headers (>= 4.4.2)
+Depends: libhardware2 (= 0.1.0+git20180423-1.1), android-headers (>= 4.4.2)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180423-1_i386.deb
-Size: 16204
-SHA256: 30a752ef8f2f3217a5d158584da3618f4e22df957ae60c374e4480531ef741ef
-SHA1: b7a05242915318aa07690daf1ac06a6acd9ea0d8
-MD5sum: 6c784cfe8fc29ff2ad3d0063a419d637
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180423-1.1_i386.deb
+Size: 16212
+SHA256: 782cc4809bbbdc3241592bd20b296adb1bc0d394b96f60f696f5c342702442d3
+SHA1: c0e784e269740539625f030368c8f241a1c458f4
+MD5sum: 3b379fe10fab5e69fdb6dabf4e16456c
 Description: Development files for libhardware
  Contains the development files for the Android libhardware HAL, which can
  be used to access a wide range of other HALs, such as audio, power,
@@ -908,7 +908,7 @@ Description: Development files for libhardware
 
 Package: libhardware2
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 47
@@ -917,11 +917,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180423-1_i386.deb
-Size: 17776
-SHA256: 5e83459340a1ffa8d91fa25768d5ebf4d114797df587bc0f24869b3f6e099466
-SHA1: 75d57137b7515f1dd45df909ddd2e080822a4198
-MD5sum: 54e3d32c9f082b628f73d3a3eab5fc63
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180423-1.1_i386.deb
+Size: 17772
+SHA256: 7b654c5d3ca7420c76094d60afb4e1937038b54aa5f0ad63b013752c6c1e3489
+SHA1: 9103c8f288447e2e2a4adf0151a2b977ca6b8d7a
+MD5sum: 5c1d7483ad68616d6032168a3cf5487c
 Description: Library to provide access to the Android libhardware HAL
  Contains a library that provides access to the Android libhardware HAL,
  which can be used to access a wide range of other HALs, such as audio,
@@ -932,55 +932,55 @@ Description: Library to provide access to the Android libhardware HAL
 
 Package: libhardware2-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 16
-Depends: libhardware2 (= 0.1.0+git20180423-1)
+Depends: libhardware2 (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 3784
-SHA256: 91c47507741a92fb67dcc74804c3384f824c02be502cd4d656e7828bb5ba23d2
-SHA1: 65fddd68b268c9a5ac39f9bafd283b713c52856e
-MD5sum: e387fe0b183c2abcd5ee4c3a7433839c
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 3776
+SHA256: 0ae0763889d66875a88320b13947149ae85d8529a3a75787462182d53bc86398
+SHA1: e3b51849095addc9dee20097cfcfb378260ee74d
+MD5sum: d55ead8ec45d91697854a6fef47e0b5a
 Description: debug symbols for libhardware2
-Build-Ids: d9698ecee6093fde4f5e68d3a650630b6e9c6f60
+Build-Ids: 94252cc743b47bf1b7df048bb84071e91215d702
 
 Package: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 543
-Depends: libandroid-properties1 (= 0.1.0+git20180423-1), libhardware2, libmedia1, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Installed-Size: 539
+Depends: libandroid-properties1 (= 0.1.0+git20180423-1.1), libhardware2, libmedia1, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180423-1_i386.deb
-Size: 105396
-SHA256: 1e15163e0a34391387c572f17b97f78079fe0fcb27ab7a386fbacf876529e384
-SHA1: ff21c3dea6e2e0a989a828f53692bf10ccc861cf
-MD5sum: 93173dd59051148a0d2b1a4143350c18
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180423-1.1_i386.deb
+Size: 105444
+SHA256: 97002015b53675c03da90eb2651ed2e3bcff2b14d62344e180e0480854da6844
+SHA1: f488f7b7c81f3dc8cff3931914fb7d2dbd083bd7
+MD5sum: 495350fa7b1ab9f3daa3a4ad00dda725
 Description: Allows to run bionic-based HW adaptations in glibc systems - libs
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
 
 Package: libhybris-common-dev
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 39
-Depends: libhybris-common1 (= 0.1.0+git20180423-1)
+Depends: libhybris-common1 (= 0.1.0+git20180423-1.1)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180423-1_i386.deb
-Size: 15964
-SHA256: fcb3e6870031c52ead10ae3d888b6a97aa054d241f8f2072f92b8c3b5854f93d
-SHA1: bbcd69fbab0228404b085d2ae1a6b3651ef9edf9
-MD5sum: f91f89e1489549a513a80254d1af42e8
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180423-1.1_i386.deb
+Size: 15968
+SHA256: 49a6767f389e52f2498433b4ebbac99a389aabf7ed283b1d283f4e86635e530c
+SHA1: 3eff7fc762e01ef5b2230f3b61ff1ad896417364
+MD5sum: 6b1c98ecfb07aa96ce0dff9f772cc3ff
 Description: Development files for libhybris-common
  Contains the development files for the common library that contains the
  Android linker, used to dynamically load and use symbols from Android
@@ -991,7 +991,7 @@ Description: Development files for libhybris-common
 
 Package: libhybris-common1
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 527
@@ -1000,11 +1000,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180423-1_i386.deb
-Size: 152660
-SHA256: a54e924d63891e5f844e4c46c6b5da2e267d59cd9b11ed640921582ee36478a1
-SHA1: 2e84f2f3e6f93f44d5f885fd94866ee6fe65a18d
-MD5sum: e57899e557e6ef798e5fa403e2c88fa1
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180423-1.1_i386.deb
+Size: 152828
+SHA256: d3c04129aeff6298d4fb1579dce6976ebecdb2a3d436dead233d185a6e118783
+SHA1: cc9a468f38ee74b41a97b28b430522a98c500569
+MD5sum: 0b5b713523b4d51a46b31bafdf5cfe38
 Description: Common library that contains the Android linker and custom hooks
  Contains a common library that contains the Android linker, used to
  dynamically load and use symbols from Android based libraries.
@@ -1014,54 +1014,54 @@ Description: Common library that contains the Android linker and custom hooks
 
 Package: libhybris-common1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 719
-Depends: libhybris-common1 (= 0.1.0+git20180423-1)
+Depends: libhybris-common1 (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 640824
-SHA256: 97c1d8749052ba37ba9f761bb77a737ff0d2eb4efb3773f7ab6e56da3882c694
-SHA1: 9c092c0208718f3af65ed3f1c37dcafbe6101f54
-MD5sum: 4aadb5966ab8bd3ba96af3d09fe58526
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 640816
+SHA256: b56600dabc2d08225012b03c296d39fde9c31d65c18f201b02e695ceafad6c19
+SHA1: 3bb7f1c7708bbd802c481c3744ab3af732fa8fe7
+MD5sum: 5443bfbed7975e0e3e06aae82726310e
 Description: debug symbols for libhybris-common1
-Build-Ids: 2ac7119c54ab9c80e132fc56349a17998d446efe 66557076bdab4f4879a874878421d9fefd5d9792 8a9dbe442e4769ac00ac5a335ce2b1f4045e91a4 aba370fe56942a2d678be270e32febbe2226ef33
+Build-Ids: 77423525406d5b60373bbfdb83c49da3b56df302 9dce938d386b40e53fb0ab2186f5b32d2987b37f a35d5bd79ad9e8ca301895f01e1f19e17b7c6e4e e27122fb9760a03a984284aa2fa1ad500e9b190d
 
 Package: libhybris-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 486
-Depends: libhybris (= 0.1.0+git20180423-1)
+Installed-Size: 489
+Depends: libhybris (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 333000
-SHA256: 4414315be25130da7d74cef51f4f8feef6a06ec43d745f399ec989eea20b2888
-SHA1: 0609aa5fa9df250632ead4f66393556fbd64fffd
-MD5sum: f4bfce2e414c6d240e05fd421b4789f7
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 333212
+SHA256: e75f47d4524f3d2b2627e5a92bfe32cc347d1a63384307dea017ac497824e7b7
+SHA1: 4f8cabdb6ab4f970bbf6418aacc196bcc57e86cd
+MD5sum: 090bb6d65b9a8b2a0c2bef34fff16c17
 Description: debug symbols for libhybris
-Build-Ids: 120fef29817edf44738d00f56c2a1b1eedce84b0 1248e7ff441ec109d74cd45056b75837076d8a43 48cc2ba0296fe25e77cdd43668411d088db0c2c4 49cf5a921cc2a4fde950564cc739d5db899ae843 4dbab8c496ae680c8e49362d189459710d678a5f 65d70b83809a7e7ddd142b0824ef2c91b736d03e 6be6149f8108caa793eb619ecb77f668827ce20a 75d5d3a2d1ebd442479e7c8b501972520981986a 7c773998a2ccc80ad8214902e90f997b71787170 7cb6703586026953e4d01433c800a452ee0ac448 7dd8fc656157f3b428abc25a3c53b954a450e5c3 7ed8da406d6cb9eb1b034997f1f4b917abdf7603 91ab4414d6af3c82d5bdf499318c74ef4ab0ca53 9fda7912c35e51b10686503f5076bcaf2bcf67b8 da5bd69ec9f6ee3335946ebe33c6c87f9bee045d dae936245d35e75c4ae783d80e6cb2f2da3f1cd7 f2c01a15c88cc2d456557610d178e93668a754ea fe8633642c65e16f2f4075107eb01248f7168bf4
+Build-Ids: 0a0da241170e1319800a60adcd6f1c3f3aa6964c 145624178ee96daf06eca4119fc0b1d0f33ec291 16a8e91f80e92b8c3d9cf857b8cb6346434299ed 1e6e858e68bec828f2c3d7fa3c40607e0f662110 2606e4c02548668140883c7214554e51f0ac2eb2 2e2b30d17b084ed72ecdce5e36941816773660ad 300725cfe245fd3bb0d34f4e7a62ff2d85ec48c5 5199fb3ebf128080a027405f5b9bb9dc7d7bd48a 570385eb2fd345ecc104a707fdd3b49d04ac495a 64057a966b3ffc4a9f1f1264feda7e7a75e01eda 6b1a204fcb0b25e2548b89eb5ca5dec8394d68d2 8a090a31204b6736082cf0a23ce710986dd4bb0c 8c29da17a416509cb0dd2bdefd5409eb63ad0438 8df19696d07fdd129c0b070c87e304aeddbd3db6 d2ac999e141db976c5781f3113d1b343185b3bb3 d8538e79564a053b3a1ea670b730086a87933ca7 e33e105b9dfbbe1e2589de7c25e39f1f521e7778 fdcae1631b37589b084150b3b456c895d3990d4a
 
 Package: libhybris-dev
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 181
-Depends: libhybris (= 0.1.0+git20180423-1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180423-1), libhardware-dev (= 0.1.0+git20180423-1), libmedia-dev (= 0.1.0+git20180423-1), libhybris-common-dev (= 0.1.0+git20180423-1), libgles2-mesa-dev
+Depends: libhybris (= 0.1.0+git20180423-1.1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180423-1.1), libhardware-dev (= 0.1.0+git20180423-1.1), libmedia-dev (= 0.1.0+git20180423-1.1), libhybris-common-dev (= 0.1.0+git20180423-1.1), libgles2-mesa-dev
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180423-1_i386.deb
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180423-1.1_i386.deb
 Size: 34776
-SHA256: 582381e5d3d2f6d07d7f87acb5571f781e32c1f60906a6aa39f160b7aa008dd7
-SHA1: 6a1b4173af0533aff672652405d48a5a6d264328
-MD5sum: f6b605eb9f0050c82b249a9adc080bfc
+SHA256: 27c57df9269630f70fb1225a82dda5e4901fed82664027f7ed7f4b7c7d2a6441
+SHA1: 710d26a2c97364ff741ca2b24d45ca4ec658ff68
+MD5sum: 26b8d2df1ab9af7a6ec72a0c34ed025c
 Description: Development headers and libraries for libhybris
  Contains the header files for use in developing applications that use
  the libhybris library.
@@ -1071,18 +1071,18 @@ Description: Development headers and libraries for libhybris
 
 Package: libhybris-test
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 223
-Depends: libhybris (= 0.1.0+git20180423-1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.0), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
+Depends: libhybris (= 0.1.0+git20180423-1.1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.0), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
 Priority: extra
 Section: devel
-Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180423-1_i386.deb
-Size: 53640
-SHA256: 088a4d1044097d29f35ff414f753ba12680beab6f6233fee062aee26682ad478
-SHA1: ab43f45dbe4a262f513be7f54390e5ab5ccd0064
-MD5sum: 6ef6ab13b3daacd1266f2e0547eb8b37
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180423-1.1_i386.deb
+Size: 53644
+SHA256: af2ab8d28f5fb8f8c90e6d6dd2fc8e09dff33b74d1cb8065377226422f2f438d
+SHA1: 9d5fa7229308da93058e56dc12b9a7a245ec4ac8
+MD5sum: 451e8fd8080607dfa5e034040928f315
 Description: Allows to run bionic-based HW adaptations in glibc systems - tests
  Contains the test applications used to validate libhybris (needs Android
  libraries or container).
@@ -1092,36 +1092,36 @@ Description: Allows to run bionic-based HW adaptations in glibc systems - tests
 
 Package: libhybris-test-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
-Installed-Size: 235
-Depends: libhybris-test (= 0.1.0+git20180423-1)
+Installed-Size: 236
+Depends: libhybris-test (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 129908
-SHA256: 3fbf6864c61b54800d3ef320f34dedf0d9b068d85227b4a9809194fd0145100c
-SHA1: 3e3c7440a5095a4aed20709ab2366f204a4fc6c2
-MD5sum: cedc15a3ea0fa6ec9d46287f42a8e8b1
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 129920
+SHA256: 456f512ee9e833b1b8e5c47b397e162c405f43ecf4a003c676d78a608b4ae2db
+SHA1: f18d076d0e3aea4ba45431016a698497604f69bc
+MD5sum: 76693990937b200369bc4759ad442850
 Description: debug symbols for libhybris-test
-Build-Ids: 247b268346b908f6765223a3c08a4b4df47b4439 313d0aa6d1b95a2700c2fef51f4f7523a8391a0b 3802bb63821b6d32003bbd72be69c2c4c28685f5 5b853e39174c50011c476b974fac5cc072050b0c 70a41898f0f5c2d54fd77bd5f03e49912af03796 73cced15363dea828cf64876bfa3986baa61cacd 775e4fd2ec7c67a714021d9233cfc950f0ccec5c 7faeeeb811f801693771703f30f1b25999cb2077 857e72badc11ae248096a78f7f3f0a1dff1b26d8 85e89fab48f7163f96e574f21dc3802aa2bbeae5 8b607fe6fa5dbf1994a2fed7b8f2fbfb4c658017 940a6c056700e5517d5614d73c6b04bd01f9f34f aa642ef7809cb6394692a6348cbbdd73b28810ff c4f1b5b3b7ea09a9e06fd9df984b366de3570cec c509d3c234b8c0139ded91150b903c28aa550b5d e2c3ba392f8d0a0bfed4cd85db6e507d4ce0e067 fe3bc0ed822ee41b89c6b8c24aba0fe0a83a02ff
+Build-Ids: 014c44e658866cdd867bc0bb654a78cc23576fd9 06f47e7c005c214dbb2b90b92151551883b1d46e 0b00d2d24fcf996845d526f77eddcf0b4c423f53 1014ce6df3a4f9eff6ce86526da58d59583ced77 1bd10eb488fb4c4faaa69692a0226ced9a7b6525 20765205807e508d65d7db05f5774d444e4b3e6d 370d482531f428788a4dbee303b3fa67c76d1d44 5737f9d403a7dbf37b8044c1e3e53cf29b374c34 70c451656508e9ee85deb181145a69064d104861 7a53230e01c34d3b984fb4bcc3fc87ba979f9e68 7b4298ce4505113d27e945c21d9a7e844cb66351 826aa44be582b847c743ccf0e6839d3e3ee09160 9296a9e3bc3047bd4dba83162d22394d08c9fd43 9f2dba128d58685aea44e5f445be57cd07fb8603 a0ddcd7c3833c69ee90fb722d6fa20fc2b25fd36 d2cb66de2ad5b51d3d3101d381dee727167c28eb d4ea558c901f2c96003dd78ee3db082a7fe8d05a
 
 Package: libhybris-utils
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 59
-Depends: libhybris (= 0.1.0+git20180423-1), libandroid-properties1, libc6 (>= 2.4)
+Depends: libhybris (= 0.1.0+git20180423-1.1), libandroid-properties1, libc6 (>= 2.4)
 Priority: extra
 Section: utils
-Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180423-1_i386.deb
-Size: 20924
-SHA256: c1a430eed50302453149789d3640753db8f22a1da2e7cb778bbffe9a7d3841e3
-SHA1: 7f1a0847cbd3b9714b2b937a828bb42283fdede2
-MD5sum: abef84dace497cbb4754b9e046f8d28d
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180423-1.1_i386.deb
+Size: 20932
+SHA256: 14d7da95a03563c4df77da5b0eda0cbbd92cfc85a4f7a7b44f6b9c4a2721f119
+SHA1: 331f74e5e82d84a1535b585bac4b6e3e349cbeda
+MD5sum: 4d3009756cbbe5485342e7c370799f15
 Description: Utilities to help working with the Android HW abstraction layer
  Contains utilities used to help working with Android HW abstraction layer.
  .
@@ -1130,21 +1130,21 @@ Description: Utilities to help working with the Android HW abstraction layer
 
 Package: libhybris-utils-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 24
-Depends: libhybris-utils (= 0.1.0+git20180423-1)
+Depends: libhybris-utils (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 7128
-SHA256: 2f2d9c2cf4cfe4eb8e71ec92b3279cac1729c54ca15c94220731646e48b7bfb4
-SHA1: 0fce08cb2cf95967ecd8c9bb97df7e9fe03be21a
-MD5sum: 14e5605671fccf73a166677ec9bafd06
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 7160
+SHA256: da2d0ecca66a141ed34c2e4a092ba774105d677fbb8e344eee2f25488501a91c
+SHA1: c328496dc96a2520424f855adaa235ab039d8602
+MD5sum: a1902a1b1b3a5c73184c887b125c8fc1
 Description: debug symbols for libhybris-utils
-Build-Ids: 18a0ce968b7796dd80c5cba6146671ba9171e6d1 4918e8dbf03aedcfcbff47389539a9a86dc373be
+Build-Ids: 9c76ae6e6cd5f9f322f01f00c682d9a84b0f71f5 cb02fbea979e9ac8e5fc22d2f552c392eae18d7b
 
 Package: libkwin4-effect-builtins1
 Source: kwin
@@ -1338,20 +1338,20 @@ Build-Ids: 0e917be10165bc2da8a068fa068bce539d38cc8b
 
 Package: libmedia-dev
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 85
-Depends: libmedia1 (= 0.1.0+git20180423-1), android-headers (>= 4.4.2)
+Depends: libmedia1 (= 0.1.0+git20180423-1.1), android-headers (>= 4.4.2)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180423-1_i386.deb
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180423-1.1_i386.deb
 Size: 21320
-SHA256: ff49fb244ec9e9ea1633b9236d4af2c94373ecbeb14af6747da04adf87e3094e
-SHA1: e59e288b333ce4d371145f035e263a53c08d59f2
-MD5sum: fab21fa86ee32631d7bb62e473b36eb3
+SHA256: 21e9c5ae9b9c295d7992040b30edbfa302d61db16a7ae22cd171875f621e2bff
+SHA1: 2b3df22b3b6f26fe64e068efe3853700d6d3baad
+MD5sum: 42859d680fa42a91bf32e6e58b78fd5b
 Description: Development files for libmedia
  Contains the development files for the Android Media HAL, which
  abstract the access to the Android libstagefright based decoders.
@@ -1361,7 +1361,7 @@ Description: Development files for libmedia
 
 Package: libmedia1
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 99
@@ -1370,11 +1370,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180423-1_i386.deb
-Size: 25820
-SHA256: be7267a52776e95f4bbf43a631f3f98be0db8359a3b1be77033e948a333a2ed5
-SHA1: 680951b38eabe59c91a353c2f055312a2c878bd1
-MD5sum: 4a823b9cdd467452d3c222a730cfeb06
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180423-1.1_i386.deb
+Size: 25828
+SHA256: 04bb06febdd4da0b0bb09a177c68fddb9a81f087cb6c67e5ddf4f2fa77c87933
+SHA1: 09f61bf47807e997dcdeff8b4e8530b923ba26a1
+MD5sum: c919501931334fc94b3fdc065152a095
 Description: Library to provide access to the Android Media HAL
  Contains a library that provides access to the Android Media HAL,
  which abstract the access to the Android libstagefright based
@@ -1385,21 +1385,21 @@ Description: Library to provide access to the Android Media HAL
 
 Package: libmedia1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180423-1
+Version: 0.1.0+git20180423-1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 41
-Depends: libmedia1 (= 0.1.0+git20180423-1)
+Depends: libmedia1 (= 0.1.0+git20180423-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180423-1_i386.deb
-Size: 20284
-SHA256: 1a3db0b6bc2f31f722f939dd96bbbfbccfb2144a9f538e98ad9690f6f041a869
-SHA1: a7d82f44dde77b894b2e9c96bcbc76983ef2dc2b
-MD5sum: 795953bf12440e86696a191626756012
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180423-1.1_i386.deb
+Size: 20280
+SHA256: 7207ac2fb20a1077fae34df7938709ed38aca3671bbf062b17c6db6fcb87741d
+SHA1: 0a2b787b739277b432de0799acb6edf6df41caec
+MD5sum: 1eb6bd02d1af72ceda1c3f5f7dcfba22
 Description: debug symbols for libmedia1
-Build-Ids: e806d88cb8415a2fd1718aacffb878acb974138b
+Build-Ids: 82af4709ec652c5d33aff62f329d1d00362442ff
 
 Package: libqrtr-dev
 Source: qrtr
@@ -1454,6 +1454,429 @@ SHA1: ab7ec231a12df356143967e2df8b2bea3f9c93bb
 MD5sum: cdfc46aacc86066889d218c14c54c21a
 Description: debug symbols for libqrtr1
 Build-Ids: dad634b8ab8da1bddc2dcf5d2f0ca20287251fe0
+
+Package: libqt5concurrent5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 173
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5concurrent5_5.10.1+dfsg-7_i386.deb
+Size: 56228
+SHA256: 60d4e0b31e22aae6d15c7c00f9a7c3d786606ac3c81e39cbe44b610dab1112df
+SHA1: 2badc19ab72effcb826b3de207430570b1856b12
+MD5sum: 0108e9aec7e41b566affb1a2ca137635
+Description: Qt 5 concurrent module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtConcurrent module contains functionality to support concurrent execution
+ of program code.
+
+Package: libqt5core5a
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10942
+Depends: libc6 (>= 2.25), libdouble-conversion1 (>= 2.0.0), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.22.0), libicu60 (>= 60.1-1~), libpcre2-16-0 (>= 10.31), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: qttranslations5-l10n
+Suggests: libthai0
+Breaks: libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~)
+Provides: qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5core5a_5.10.1+dfsg-7_i386.deb
+Size: 2490976
+SHA256: 6745fe9a4bfa6111e3121c294e1fb89c585c49a87c24347b3ba053c87cb26b72
+SHA1: a3610052097367357cadb934de5adeb93ccd8982
+MD5sum: c8586134e8cc86331178e5efaa3cc410
+Description: Qt 5 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.
+
+Package: libqt5dbus5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 836
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5dbus5_5.10.1+dfsg-7_i386.deb
+Size: 245676
+SHA256: 922f4e63fbcb7f082624d593a27529aa15e631100af1cef296d1fc14781f4f98
+SHA1: f78aff6aff35e09a4a59385465718d8daf913b22
+MD5sum: 01dd1fca317dd486b303cc851f99d88e
+Description: Qt 5 D-Bus module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDBus module is a Unix-only library that you can use to make Inter-Process
+ Communication using the D-Bus protocol.
+ .
+ Applications using the QtDBus module can provide services to other, remote
+ applications by exporting objects, as well as use services exported by those
+ applications by placing calls and accessing properties.
+
+Package: libqt5gui5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 17301
+Depends: fontconfig, libc6 (>= 2.11), libdrm2 (>= 2.4.30), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc1 (>= 1:7), libgles2, libharfbuzz0b (>= 1.2.6), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xkb1, libxcb1 (>= 1.8), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1, qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Recommends: libqt5svg5, qt5-gtk-platformtheme
+Suggests: qt5-image-formats-plugins, qtwayland5
+Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Replaces: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5gui5_5.10.1+dfsg-7_i386.deb
+Size: 4644500
+SHA256: e3e47a6da089c9ec691ee85855d7fc9d801b9568731f30ccc1941668eec8d832
+SHA1: 8aa9f1159b809f8dcbbbda3b538b868165441184
+MD5sum: 516bc1eef0b2501e97e0f969e48cdaad
+Description: Qt 5 GUI module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtGui module extends QtCore with GUI functionality.
+
+Package: libqt5network5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2908
+Depends: libssl1.1, libc6 (>= 2.10), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5network5_5.10.1+dfsg-7_i386.deb
+Size: 751032
+SHA256: d33d9f26b1ba7315c9d014d42edad484c37c705716e4293645d1aa9a0b11116c
+SHA1: 3630bd5a4a66f8a67e6c28dedebdcc830189bbae
+MD5sum: 95fef488384f06a8b480ae671a997c00
+Description: Qt 5 network module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtNetwork module offers classes that allow you to write TCP/IP clients and
+ servers. It provides classes to make network programming easier and portable.
+
+Package: libqt5opengl5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 547
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5_5.10.1+dfsg-7_i386.deb
+Size: 165412
+SHA256: 9295022f6d12b3bde939629e186ae74da45963eccb050890fb15a1847c325509
+SHA1: f73efd3c700d52bbbfc392732a06b6d7c6f6c74d
+MD5sum: 77c52cb25b474ab2942f806ff4ecc729
+Description: Qt 5 OpenGL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtOpenGL module offers classes that make it easy to use OpenGL in Qt
+ applications.
+ .
+ OpenGL is a standard API for rendering 3D graphics. OpenGL only deals with 3D
+ rendering and provides little or no support for GUI programming issues.
+
+Package: libqt5opengl5-dev
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 279
+Depends: libqt5opengl5 (= 5.10.1+dfsg-7), qtbase5-dev (= 5.10.1+dfsg-7)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5-dev_5.10.1+dfsg-7_i386.deb
+Size: 61732
+SHA256: bf0b460db46917ebfbfa733dc648f3281d323acf0343595309de6db10b3e7e2c
+SHA1: 58cdb51f66f7c5aa7a9c4030c34c5f25691664b0
+MD5sum: 37639f00042ebadd4ca9fce49a55801a
+Description: Qt 5 OpenGL library development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtOpenGL library.
+
+Package: libqt5printsupport5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 722
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.10.0), libqt5widgets5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5printsupport5_5.10.1+dfsg-7_i386.deb
+Size: 220280
+SHA256: f9b601b40451f7be2d8442ae2d0fb76beb8ec8d2437956b84fe457168669c893
+SHA1: 4b58d5877243a900eeb1087c374fc6adcba00202
+MD5sum: a7f762669e1d4babc8062922e81cd88b
+Description: Qt 5 print support module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtPrintSupport module provides classes to make printing easier and
+ portable.
+
+Package: libqt5sql5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 519
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-tds | libqt5sql5-ibase
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5_5.10.1+dfsg-7_i386.deb
+Size: 154332
+SHA256: 777c5926ff8cfc8008cdef1da7463f7ce4dc05ac6d751fe9fcd0643c90e18ddf
+SHA1: fb90884f37d808e71fc2189c2cb2d52efebfb797
+MD5sum: a26db711fb4ec0d4773e7496f4501bfc
+Description: Qt 5 SQL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSql module helps you provide seamless database integration to your Qt
+ applications.
+
+Package: libqt5sql5-ibase
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 259
+Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-ibase_5.10.1+dfsg-7_i386.deb
+Size: 83684
+SHA256: 4e778c519d23554213a62021a7fc76e016b9cd00a14324cad09d7bea5f684838
+SHA1: 150f9b6d56e3806f4a683a22a729cbd0b00052e3
+MD5sum: f76f8fc1dfc9113f214d76a7b6435bf7
+Description: Qt 5 Firebird database driver
+ This package contains the Firebird plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ Firebird/InterBase DB.
+
+Package: libqt5sql5-mysql
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 223
+Depends: libc6 (>= 2.4), libmariadbclient18 (>= 10.1.28), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-mysql_5.10.1+dfsg-7_i386.deb
+Size: 72756
+SHA256: be329e22c99b2ff84fb8a9ec5dfeadf81b4f412fecefcf1ef1b352e63ac07e5e
+SHA1: e685fd7bafcf15e5b5f965236a0e6187b2bb6250
+MD5sum: 87e4d7cde7b2b14d733e8c0e5fd2c821
+Description: Qt 5 MySQL database driver
+ This package contains the MySQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MySQL DB.
+
+Package: libqt5sql5-odbc
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 247
+Depends: libc6 (>= 2.4), libodbc1 (>= 2.3.1), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-odbc_5.10.1+dfsg-7_i386.deb
+Size: 82380
+SHA256: 8e96d87103da120ee4f9a655bcaa498731b2d83a9ebce6f795c4cca55e586da2
+SHA1: 392dfe44c8ac6701a0595baa5d9f10b53f056ef9
+MD5sum: 0a7cccb7f3963b764b5dbe7af51f9c63
+Description: Qt 5 ODBC database driver
+ This package contains the ODBC plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ ODBC DB.
+
+Package: libqt5sql5-psql
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 227
+Depends: libc6 (>= 2.4), libpq5, libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-psql_5.10.1+dfsg-7_i386.deb
+Size: 74488
+SHA256: eb6e63ef3839adb68639e0354babfaa134bfa3a6cab2ee33a10d9e529d2e4edd
+SHA1: 931477b5e83eaade20cedb85a430bb33fffe9a5d
+MD5sum: f3f569a15d01ebc82cd09be11666b03d
+Description: Qt 5 PostgreSQL database driver
+ This package contains the PostgreSQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ PostgreSQL DB.
+
+Package: libqt5sql5-sqlite
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 219
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-sqlite_5.10.1+dfsg-7_i386.deb
+Size: 72404
+SHA256: bb73d2e22bd9b9ed91956c4fd35018deaa875b4bb4634fe32d0ee5700aa5a176
+SHA1: ef36ba0024cb2c6529888dccc60a556fe1c75a15
+MD5sum: eedf4300887f657f6f3fa7f3c825c831
+Description: Qt 5 SQLite 3 database driver
+ This package contains the SQLite 3 plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ SQLite 3 DB.
+
+Package: libqt5sql5-tds
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 203
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), libsybdb5 (>= 0.63), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-tds_5.10.1+dfsg-7_i386.deb
+Size: 66548
+SHA256: db0027ffcbf45f440a450dda0a1393c36ace25459595d5fc2ec27d9bbe7555ba
+SHA1: ad398bb4dae3688f899044ae613363359765600e
+MD5sum: ead916ac290c9b8bab94517a7a93a9b1
+Description: Qt 5 FreeTDS database driver
+ This package contains the FreeTDS plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MS SQL or Sybase SQL server.
+
+Package: libqt5test5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 374
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5test5_5.10.1+dfsg-7_i386.deb
+Size: 129424
+SHA256: 7ec515b276948356fb5236bada7623414db75d8485356feb802702b0fb1629fd
+SHA1: 1554a7665b44bfd021f12b40ded84c5ac9e1ba0b
+MD5sum: 7ea59ced1f6b6f3c225001ae1d711652
+Description: Qt 5 test module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtTest module provides classes for unit testing Qt applications and
+ libraries.
+
+Package: libqt5widgets5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7920
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5widgets5_5.10.1+dfsg-7_i386.deb
+Size: 2519556
+SHA256: 96de8761540fc49c8de19c286f0ae7dc7aab68478faa81357b12c0f0fc340960
+SHA1: b6c8ea7779486719a1bca4984000d7024c7b9aec
+MD5sum: e96c2053d9fcda09e53717616d694695
+Description: Qt 5 widgets module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtWidgets module extends QtGui with C++ widget functionality.
+
+Package: libqt5xml5
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 438
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/libqt5xml5_5.10.1+dfsg-7_i386.deb
+Size: 136004
+SHA256: 63ae3c43a442fd91355bd2da832bf8f6a4f03baa8bfc0cee901950ccb33f2a8d
+SHA1: 069ecf4cabafb99665ca22c0f53410904ca858c4
+MD5sum: 010f82c4252aee4be8e39314a65a8da7
+Description: Qt 5 XML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtXml module provides a stream reader and writer for XML documents,
+ and C++ implementations of SAX and DOM.
 
 Package: lxc-android
 Version: 0.1+git20180527-1
@@ -1844,4 +2267,256 @@ SHA1: 809965c1ec447cd7cb172e84822674567d03d0f4
 MD5sum: 8c53288bd531da173a3fc1c9282e6717
 Description: debug symbols for qrtr
 Build-Ids: 18dfc4c0f3a5042f1d2d51722ed7251ceb5a9941 885cc7ac1a5584cce4ba0a15a49a3eaaeb51af2a a459297917cc354fcf20874bfb5ac3f67572a87b
+
+Package: qt5-default
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 143
+Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~)
+Suggests: qt5-qmake, qtbase5-dev-tools
+Conflicts: qt4-default
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qt5-default_5.10.1+dfsg-7_i386.deb
+Size: 46452
+SHA256: 334f25b85afc1f42d7875ebdafc99e5591a0ea14e0178dcef568af572887bb9e
+SHA1: b79c53d1e4b0e26c82b46c50bde9984567b446fc
+MD5sum: f3bd13a3730d47fb93619a7ce0f5021d
+Description: Qt 5 development defaults package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake. It provides a default
+ configuration for qtchooser, but does not prevent alternative Qt
+ installations from being used.
+ .
+ This package should not be used for building Debian packages. Take a
+ look at http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html for
+ more information.
+
+Package: qt5-gtk-platformtheme
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 556
+Depends: libqt5gui5 (= 5.10.1+dfsg-7), libc6 (>= 2.4), libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.5.18), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-10-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.10.1+dfsg-7_i386.deb
+Size: 154984
+SHA256: 5141583f13eb3e71e5a89ed7d16b1611fb8aa8718f47e5d6a17bda1402a3a9d9
+SHA1: c2b6bc07f612d1d1574a51e02c4a8079272574ca
+MD5sum: ea4bc743c78b4ac70a419e3b2e85adec
+Description: Qt 5 GTK+ 3 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the GTK+ 3 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
+
+Package: qt5-qmake
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1481
+Depends: qt5-qmake-bin (= 5.10.1+dfsg-7), qtchooser (>= 55-gc9562a1-1~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake_5.10.1+dfsg-7_i386.deb
+Size: 216892
+SHA256: 38ecce9833cfccff470817743e840385cc1d3c77a5f82078c9d981d58edbb75f
+SHA1: 40b6d8ec4af371d09b5a9ee51d2542b3f27be2da
+MD5sum: 7f09230ab49b5ad8b433f4bc00d8510f
+Description: Qt 5 qmake Makefile generator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 qmake, a tool that helps simplify
+ the build process for development project across different platforms.
+ qmake automates the generation of Makefiles so that only a few lines of
+ information are needed to create each Makefile. qmake can be used for any
+ software project, whether it is written using Qt or not.
+ .
+ Qt 5 qmake requires a platform and compiler description file which contains
+ many default values used to generate appropriate Makefiles.
+ .
+ This package contains also these platform specifications.
+
+Package: qt5-qmake-bin
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3141
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.9)
+Breaks: qt5-qmake (<< 5.9.1+dfsg-12~)
+Replaces: qt5-qmake (<< 5.9.1+dfsg-12~)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake-bin_5.10.1+dfsg-7_i386.deb
+Size: 1056484
+SHA256: d6c6429139632d941d3681de8282f55288325f3e708821ae58675d95fc592f3a
+SHA1: d12804d3c40432c3ae6fbd700af72ae94a4e7929
+MD5sum: f4a0031ce0a90649e918f12bb5d56954
+Description: Qt 5 qmake Makefile generator tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the binary file for qmake buildsystem. Do not
+ install this package directly, use qt5-qmake instead.
+
+Package: qtbase5-dev
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12268
+Depends: libgles2-mesa-dev | libgles2-dev, libqt5concurrent5 (= 5.10.1+dfsg-7), libqt5core5a (= 5.10.1+dfsg-7), libqt5dbus5 (= 5.10.1+dfsg-7), libqt5gui5 (= 5.10.1+dfsg-7), libqt5network5 (= 5.10.1+dfsg-7), libqt5printsupport5 (= 5.10.1+dfsg-7), libqt5sql5 (= 5.10.1+dfsg-7), libqt5test5 (= 5.10.1+dfsg-7), libqt5widgets5 (= 5.10.1+dfsg-7), libqt5xml5 (= 5.10.1+dfsg-7), libxext-dev, qt5-qmake (= 5.10.1+dfsg-7), qtbase5-dev-tools (= 5.10.1+dfsg-7), qtchooser
+Recommends: libqt5opengl5-dev (= 5.10.1+dfsg-7)
+Suggests: default-libmysqlclient-dev, firebird-dev, libegl1-mesa-dev, libgl1-mesa-dev, libpq-dev, libsqlite3-dev, unixodbc-dev
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev_5.10.1+dfsg-7_i386.deb
+Size: 952008
+SHA256: 33772880988871d8cb44b0b990fb6ab8a2872a807fc556336c959112a3a1c658
+SHA1: 42d7be5e1b67aee6e68633b053c49afed29490d7
+MD5sum: 519644dfe5beb231cb23673ed1e23ef5
+Description: Qt 5 base development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html
+
+Package: qtbase5-dev-tools
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3895
+Depends: qtchooser (>= 55-gc9562a1-1~), perl:any, libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev-tools_5.10.1+dfsg-7_i386.deb
+Size: 830280
+SHA256: a982fcc1b514d02ee20ff0c4aaf9ba885578c265a2842245ad54b489565c9d93
+SHA1: a36dbf44a046fb4d932738e2b230f3a06286a0fa
+MD5sum: aa42bd4e83d55cc70702b52151526954
+Description: Qt 5 base development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
+ syncqt and uic.
+
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 38737
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.10.1+dfsg-7_all.deb
+Size: 30029084
+SHA256: f2cd0da9d7e178c6e4313dbda67f88df9dbda8cc58794e8444b3a8f14f02375c
+SHA1: dc76a5b24df865650612523e7aca75f7c2d847ce
+MD5sum: 859d365b348c9d41b9d4b19ef2afa191
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 165442
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.10.1+dfsg-7_all.deb
+Size: 23444024
+SHA256: 6c51af03a8122cb3487c1ab3d1f685ca663f1f6552e87b8021b8e244b7bfcb26
+SHA1: bf77e5464244b66f171bee2c58b2e2bd1566785a
+MD5sum: bb00416a07f7834f0c89c4ef3713e59c
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtbase5-examples
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 19746
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.8.0), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.10.0), libqt5test5 (>= 5.10.0), libqt5widgets5 (>= 5.10.0), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-examples_5.10.1+dfsg-7_i386.deb
+Size: 4176168
+SHA256: d7b02f4f4ad5f4b4d7dbc6053cbdc87088f453e42bfbf29449a4bca3ca7964db
+SHA1: c2b585f8ce3a6753b7d6e0cd00d06e8d502460f6
+MD5sum: 93f0037779ef3e12c388ab4d928abb1a
+Description: Qt 5 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt base 5 examples.
+
+Package: qtbase5-private-dev
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9164
+Depends: libinput-dev, libxkbcommon-dev, qtbase5-dev (= 5.10.1+dfsg-7)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-private-dev_5.10.1+dfsg-7_i386.deb
+Size: 1179964
+SHA256: dc3ceebe5bff0cd6fe78774dd1e3816f60ddd28d5d3bd7d95c949143a134af23
+SHA1: 197e4107c57999f36c18af8a5d4c5b4fe865d721
+MD5sum: aa45b044e1eccd5ec28f5bbdfcfcd78f
+Description: Qt 5 base private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications like Qt Creator QML Designer plugin.
+ .
+ Use at your own risk.
 

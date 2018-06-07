@@ -1224,6 +1224,47 @@ MD5sum: 942e41db8e9097a0db9cfacb44939262
 Description: debug symbols for qrtr
 Build-Ids: 081c5ed7b1e542240139eb2c8e3c7e96d020ac5e 36973def5ab9045643271bd038b2dbc531eae6d6 a3c9774b7e7afed0c1b0b1fd3b2230cf7a034e7d
 
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 38737
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.10.1+dfsg-7_all.deb
+Size: 30029084
+SHA256: f2cd0da9d7e178c6e4313dbda67f88df9dbda8cc58794e8444b3a8f14f02375c
+SHA1: dc76a5b24df865650612523e7aca75f7c2d847ce
+MD5sum: 859d365b348c9d41b9d4b19ef2afa191
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 165442
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.10.1+dfsg-7_all.deb
+Size: 23444024
+SHA256: 6c51af03a8122cb3487c1ab3d1f685ca663f1f6552e87b8021b8e244b7bfcb26
+SHA1: bf77e5464244b66f171bee2c58b2e2bd1566785a
+MD5sum: bb00416a07f7834f0c89c4ef3713e59c
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
 Package: simplelogin
 Version: 0.0.6+git20180314-1
 Architecture: amd64
