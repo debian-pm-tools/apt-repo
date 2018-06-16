@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sat, 16 Jun 2018 08:19:40 UTC
+Date: Sat, 16 Jun 2018 08:48:23 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -58,17 +58,17 @@ SHA256:
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlskyBwACgkQqB4HWr7I
-Cn57dxAApS/l3svkuYm0199dpvr9Ef9rrV4plKTDTvlKstjPZIhSJsBVZzMg/1Xe
-DJZyhjZpJjJ0PWFIzZ8M6RtcSVtNkKLqgzX5jvfZFk+V0k/GIr9mosCPDYY3tP3e
-2Cv1V0WWBHVdh3PcuSLRqrla4/26ZOTgkdLsQsCb4F+jN7vj8GTLsrrnsbd2VOI0
-Qsuy8JKrwu8gSF9ozg0tMmV35dr9k/m+H1D9852LIYgsLIiEBETTFXcHpm6OjH7C
-II7Q68MvqF4JKRC/JV8UDDz9EzY4xQbPNgGnvpofO2XqEmFYOivNemAMPd7/dphK
-Om5+OhJlTCmLJIZ/bfh5jL6jPlxl9BIh/Vvaw+goHS7bn2w0dWg1saiNearfT59g
-kVShqk9lT4jEx4k+oVTLqNT/X/gs2OoYsUdmu/Pr9ZtzWjSQ4gq/+6OMq2mqGxT6
-FMcBJVix1zDUMAe59bcaTGgd8ttbMdPoXlBgFhf6/xj1TAKFAzfgIWI+qmF8JTYT
-QLKS3z27BzaGDBTlfxscLvdk37kI1vBtS0DQGsJyZmaMu+bp3uLxJF9f9lh9TENy
-ImwX9IugnXcgrMVIHVgUoQMYoNPpNo0hH16KRBrAa9VXXpwx/owtLA7/P54Owbcv
-Fg0V2gwbvR+H3XH+ROluzQci7Ehbw/gn4IKaOJjaEhY25ZGt2AE=
-=fwGD
+iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlskztoACgkQqB4HWr7I
+Cn5XyA/+IOufAfD8IZoFfbLdIPn7Mn5nP5eGbYMLZk1+qV7q+Kjdjste6Jc64k2g
+r8rl37q+FGthHjJitFnw2Sr401gFKrxLYbX3xmTjvt4EvJOpuotHz3a9e4nkQEC0
+kVRHOf3Ld2qhcAaisRlp3R6ZZ1oevgmVGyODmAf0DcPhmdoUVtqJpjrTVw6zYWVl
+njupwyuoBMR5+jw5Noj6shUGf1yVWl3HQF3NzqQV1W011/Qm9eOqD/VteICsmDaT
+h5zG8vM98g6V5dv2HDsHFLw17lquxb/YjCRGD8kUq4/OiD1Y5qvxNWNyhRQFC5CP
+vK7PTm48RGGIky0Jdg9slAWYLPCfSeD8SewFOIaDRvNVdugdtA9hPExlQbj0T+EL
+s0b14v3gxP2GGu2nX9qIXSw4b7LDw873xXBeFVmlyyirNg5AahFUkWcBVLN2vu4P
+vFcWFWhbPv5jta4JvBTWtFa8cFJ4XGZYIb3ttBHrdg3n2azmvO7+6wexVjXcDdtw
+YVCKkmWps5YN9omozwFiQHAI49WvRkcsjg5Yhe7jE5gXjCCUL2eewjDa52tJUAwb
+7TR3FaKTcjWk0yku7pIzq+YytZTeBDdKdRkmyYmpPh3tmZemvhedMcI5nwds1Wvu
+2Qikwn4TY/zshoPkB8/XFW6QNkeB8qjbsgxIexBD9Xg0MB/lKmk=
+=eaqS
 -----END PGP SIGNATURE-----
