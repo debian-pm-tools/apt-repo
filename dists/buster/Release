@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sat, 16 Jun 2018 06:43:31 UTC
+Date: Sat, 16 Jun 2018 07:10:49 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -9,8 +9,8 @@ MD5Sum:
  ffc5aff9825d6e87b5235a69c44e8654 140166 main/binary-armhf/Packages
  4a98a59cc4e105f11ab3947ed412efec 36677 main/binary-armhf/Packages.gz
  6f58e2596a9d84815f6531547a5ab58e 133 main/binary-armhf/Release
- 30502b0277f8d38d7bc56e3a697f5447 94651 main/binary-arm64/Packages
- b48a7a2ec21b92f76a57825ad61fbd8e 23920 main/binary-arm64/Packages.gz
+ f775751d24ebd09006cf806687dc9736 94651 main/binary-arm64/Packages
+ 176519f23e4600c10a36c32b0608f53c 23917 main/binary-arm64/Packages.gz
  45bb3257049ac2ea6e11884d432ec423 133 main/binary-arm64/Release
  9094cec9e1d78c2bfca7a5740c319770 57315 main/binary-amd64/Packages
  1b5de3dd326a9498e8e8ce2a365b01c6 16310 main/binary-amd64/Packages.gz
@@ -25,8 +25,8 @@ SHA1:
  6993d99add419ec0a6f1f2c8d5c29b7a5b711588 140166 main/binary-armhf/Packages
  2768ebbae19e8eaf58ba9e778e629818dedc74e7 36677 main/binary-armhf/Packages.gz
  a3d8916917b38f90e9f548bed4334aa3a17833a4 133 main/binary-armhf/Release
- 63ca4914a7299bc307550003c6a626a67760f4d9 94651 main/binary-arm64/Packages
- 0b35d9239f26a95f3e0c527e75711d6667c163e7 23920 main/binary-arm64/Packages.gz
+ 1df69eabf1411ae173a325565a0f7285f0922b22 94651 main/binary-arm64/Packages
+ fa4f2640489a36c0a291021a10619283bd0e3f0d 23917 main/binary-arm64/Packages.gz
  3edabd733cccb0fd3cf25e0fa4168451384984c4 133 main/binary-arm64/Release
  8d405b7085da828ceccb178b100f9ed69bc707b2 57315 main/binary-amd64/Packages
  945ae6e270e43fdd0bd6a18882b051ac72655e9b 16310 main/binary-amd64/Packages.gz
@@ -41,8 +41,8 @@ SHA256:
  1b78a8532f53efdf3c23a1d90a6d21ef0556a8c3b05825f2633556002b5e5233 140166 main/binary-armhf/Packages
  4e37bce2b25c3d868235582ff32632cdd1acca8ac2c36c56f13852cd4f07a49a 36677 main/binary-armhf/Packages.gz
  50fa0337602dced97488abcf7199bff3a0beebdb07cb5cdce33ce60bea2fe606 133 main/binary-armhf/Release
- 403f234d3daf8ed5eaaeaeb6a4ca68cd761aabc84ecc335e8ef3ec9582dab4a8 94651 main/binary-arm64/Packages
- e53b7f1f12d7c886fa4c8b0feb921504ce9c6968e112d15079d611922e19441b 23920 main/binary-arm64/Packages.gz
+ cbc12582d4b3aa28ba1d73d2d3fb83d45c718ec23d15f080613bb0865a55d608 94651 main/binary-arm64/Packages
+ cdd3b01c301027e303552b7eb870e4eda6b0fa747a8fc8f540106661441cb083 23917 main/binary-arm64/Packages.gz
  d5b83a5a96717759d823a5dabb867659e50db32aadd0faa40f012dff1a1f0333 133 main/binary-arm64/Release
  b97be06cab4bf5e7700710a69c8513ac7ed55681553fc868beaa3ae062e68570 57315 main/binary-amd64/Packages
  5e090e455953f6df2aac635346431110db0e850d583a0d8994a3cc858dda38b6 16310 main/binary-amd64/Packages.gz
