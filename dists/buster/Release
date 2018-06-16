@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sat, 16 Jun 2018 07:20:25 UTC
+Date: Sat, 16 Jun 2018 08:19:40 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -15,8 +15,8 @@ MD5Sum:
  9094cec9e1d78c2bfca7a5740c319770 57315 main/binary-amd64/Packages
  1b5de3dd326a9498e8e8ce2a365b01c6 16310 main/binary-amd64/Packages.gz
  5bb7a08b8bce3165214ed24d53a9354a 133 main/binary-amd64/Release
- 37ebb70a0006d6d66f5635b06dca6e53 117048 main/binary-i386/Packages
- 897530ccfde8da7f4ca292a43dc54fe9 28734 main/binary-i386/Packages.gz
+ 0743ae3b4d8c866db590ecdf80182559 147297 main/binary-i386/Packages
+ 997a05ae237b627d7f2770c09146f28f 37520 main/binary-i386/Packages.gz
  754c2ab74e8a7877c3b3928231355b1c 132 main/binary-i386/Release
  864048f27d4cda0954bd596636aa771f 43439 main/source/Sources
  68587f90d0c29f9bd870bfa777df67aa 13034 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  8d405b7085da828ceccb178b100f9ed69bc707b2 57315 main/binary-amd64/Packages
  945ae6e270e43fdd0bd6a18882b051ac72655e9b 16310 main/binary-amd64/Packages.gz
  6434fa282dcd21c250d444a22b52653ac6fdc070 133 main/binary-amd64/Release
- 8d47307e25545c4f33112617e53abfbc8c004845 117048 main/binary-i386/Packages
- 148af3dbbeb08004e9b5204f81f96d5533e6ce7c 28734 main/binary-i386/Packages.gz
+ 2db450c06616d436a0ab9749bc1c646c4c7e2676 147297 main/binary-i386/Packages
+ be41c865fa868277dacaa3e4611c84d1e83c3cfa 37520 main/binary-i386/Packages.gz
  9094fa710c6d5609558084d2c273864ba6ca7919 132 main/binary-i386/Release
  1d568dab104325704c1bc6ef4ebd920cb7fdd05d 43439 main/source/Sources
  191e9601db8c3e5e3c7c8b0b317484b13b16ef67 13034 main/source/Sources.gz
@@ -47,8 +47,8 @@ SHA256:
  b97be06cab4bf5e7700710a69c8513ac7ed55681553fc868beaa3ae062e68570 57315 main/binary-amd64/Packages
  5e090e455953f6df2aac635346431110db0e850d583a0d8994a3cc858dda38b6 16310 main/binary-amd64/Packages.gz
  a57a9e63381d12ca452b63812873b84aaadde8974b23670df65d93ffee1f6688 133 main/binary-amd64/Release
- 588c2a74cc7c7c0778114bfea5f631d6ea341cc04f4ede838556d86f0ab7b110 117048 main/binary-i386/Packages
- 3765696ae6ffe547a2a18bf12dac7d7155643a74bb862e66f4b4246e224990de 28734 main/binary-i386/Packages.gz
+ 0a1f81efdf7401ba78a466f3c30febbc6e91f004b3625647b421452956798057 147297 main/binary-i386/Packages
+ 14e75599b29f53bd1debc16d7243a8aefcf0a0257277f91c0e34d02a272243a1 37520 main/binary-i386/Packages.gz
  bfef80aefae46a518708dddb9ae98392d67f37dce7701dc4e4858f1d0ef40e43 132 main/binary-i386/Release
  7d99be8cad4db62735fc4a4c9e3c197438fcd703a4d8cbcadbb0a4d8f371d9b0 43439 main/source/Sources
  62e3ba23fb31ffad08d826b146eebbe4543d7e9ffcd827e058c5eca3ba0c1fa9 13034 main/source/Sources.gz
