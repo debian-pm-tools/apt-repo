@@ -3079,38 +3079,38 @@ Description: debug symbols for telepathy-ofono-ril-mc-plugin
 Build-Ids: 5c39878ec31905fddaa3dd76e62162a9522865d9
 
 Package: xserver-xorg-video-hwcomposer
-Version: 0.3.8-2
+Version: 0.3.8+git20180622-1
 Architecture: armhf
-Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 31
-Depends: libc6 (>= 2.4), libegl1, libepoxy0 (>= 1.0), libgles2, libhardware2, libhybris, xorg-video-abi-23, xserver-xorg-core (>= 2:1.18.99.901)
-Provides: xorg-driver-video
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 44
+Depends: libc6 (>= 2.4), libegl1, libepoxy0 (>= 1.0), libgles2, libhardware2, libhybris
+Homepage: https://github.com/gemian/xf86-video-hwcomposer
 Priority: optional
 Section: x11
-Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer_0.3.8-2_armhf.deb
-Size: 10208
-SHA256: 1130319331c47ca4e80661a6639671717838b12e29ca497bbb9625ba1060c815
-SHA1: aef3d3c429f94ab0ce820f0aa35e505a9be70eb3
-MD5sum: 14a2117f48e5a3c0bfd572f34ee73807
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer_0.3.8+git20180622-1_armhf.deb
+Size: 19748
+SHA256: 413c16d600bef639e152da2f6c16e50096cec68efff96c25b2d75b532e667f28
+SHA1: c3f0f5f690844bb16ff471cd6649e30151d821ae
+MD5sum: 2e973ef284efbc71cdcd72f32396c7a2
 Description: X.Org X server -- hwcomposer driver
  frame buffer driver for the Xorg X server,
  utilizing Android HWComposer API through libhybris for rendering.
 
 Package: xserver-xorg-video-hwcomposer-dbgsym
 Source: xserver-xorg-video-hwcomposer
-Version: 0.3.8-2
+Version: 0.3.8+git20180622-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 307
-Depends: xserver-xorg-video-hwcomposer (= 0.3.8-2)
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 371
+Depends: xserver-xorg-video-hwcomposer (= 0.3.8+git20180622-1)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer-dbgsym_0.3.8-2_armhf.deb
-Size: 297076
-SHA256: 2e226153536a231bf57c242f1f007ca4eaa9ac5cd4b3c34634c47e2dfcfa1efc
-SHA1: 925fa14feb07e28fd12f62714dc0e5407bbb5199
-MD5sum: 414b8ca444f23364098721a51a0ad8dc
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer-dbgsym_0.3.8+git20180622-1_armhf.deb
+Size: 362940
+SHA256: f74050cc73ea770bb98d016426220da349c5abe831343a6675ccc813db1b1302
+SHA1: 3593913c25b0229340389437e0d2582d01010371
+MD5sum: 43cd41e0d1827d1cbe79ebcc9dd873bf
 Description: debug symbols for xserver-xorg-video-hwcomposer
-Build-Ids: ec285d8164148e02e35571a1a4e75c6757c686b7
+Build-Ids: ba5434e9c4a5aec549925c06e7546421a76817bd
 
