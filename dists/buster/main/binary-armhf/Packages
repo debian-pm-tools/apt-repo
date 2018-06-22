@@ -1948,6 +1948,60 @@ Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
 
+Package: nemo-gstreamer1.0-interfaces
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: armhf
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libs
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces_0.20150126.0-1_armhf.deb
+Size: 5468
+SHA256: 9c0f64d948d18028d0991d1bce0933b6b1b24712d1e93146578bcf9576ab4487
+SHA1: a121c2d7bc424f5186dfc80fa83725f17b8f2534
+MD5sum: f3bc25986f2b1f3b9f1ee2cf7f9ad814
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
+Package: nemo-gstreamer1.0-interfaces-dbgsym
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 37
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dbgsym_0.20150126.0-1_armhf.deb
+Size: 18328
+SHA256: e3e29c531c58dda5e5b65ce6ec8f8b6d3169801f32b0ef4dcbff33db8940cbee
+SHA1: da37eae4c7c65162dc4acd2288e1fbc82af2a4a2
+MD5sum: 00619feaecc938e5672109dd9310022b
+Description: debug symbols for nemo-gstreamer1.0-interfaces
+Build-Ids: 519a8c9f32e190e9d94d145851a8fb12a5950c10 c248d8152e165c667e16a350dc6bd255b9da0be5
+
+Package: nemo-gstreamer1.0-interfaces-dev
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: armhf
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 28
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dev_0.20150126.0-1_armhf.deb
+Size: 4164
+SHA256: 4ccef321dd10daa305c3692d672763a016025abf4de86c031fec8c90bbaac0e4
+SHA1: c1baf4564225dffae61ae1005eb6c96f75da5cb1
+MD5sum: 08a6776237e2e844bb888c404738f46d
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
 Package: ofono
 Version: 1.21-2
 Architecture: armhf

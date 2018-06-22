@@ -1,13 +1,13 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Fri, 22 Jun 2018 23:09:20 UTC
+Date: Fri, 22 Jun 2018 23:25:50 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
 MD5Sum:
- a481b629c2cd2d346a42a293f36492d6 144298 main/binary-armhf/Packages
- fc12b42d942d94c3af00468c94ea64f4 37792 main/binary-armhf/Packages.gz
+ 4c0885b66888bf38a3470f47574b2bea 146470 main/binary-armhf/Packages
+ dd9f68c51ccc751874615b8e293ba3af 38322 main/binary-armhf/Packages.gz
  6f58e2596a9d84815f6531547a5ab58e 133 main/binary-armhf/Release
  ba7b0c0452c40c7952603334254d8347 98741 main/binary-arm64/Packages
  1aa978c0d4adab587ffdcd3a9b414781 25076 main/binary-arm64/Packages.gz
@@ -18,12 +18,12 @@ MD5Sum:
  73b06340af7be25438b0afdbd2838b74 150109 main/binary-i386/Packages
  bcfe557c3a65d2a764f56af675a79946 38443 main/binary-i386/Packages.gz
  754c2ab74e8a7877c3b3928231355b1c 132 main/binary-i386/Release
- 1d68be11f78e1a6eadbd7a423e063d16 48092 main/source/Sources
- 3e49417337a1b5658457630b90f0493e 14274 main/source/Sources.gz
+ c23afd0301adb0ec582091bf5b90fa70 49747 main/source/Sources
+ 09e4dd3ded1f471430597bf8804a2812 14702 main/source/Sources.gz
  994bd563d7b0e4d56018b8ebb34998bd 134 main/source/Release
 SHA1:
- 852b88b151074e5ef3b29457273adcdc8d992403 144298 main/binary-armhf/Packages
- b2bf81f48e0d324a7a28076b15f133f102b2ff10 37792 main/binary-armhf/Packages.gz
+ f0805e47ae5e15aed2a90539f0a9db6155c9d4e9 146470 main/binary-armhf/Packages
+ bce2cf3fe07620a877bf65e84f7f2343c2588b34 38322 main/binary-armhf/Packages.gz
  a3d8916917b38f90e9f548bed4334aa3a17833a4 133 main/binary-armhf/Release
  194cc9b11fa6be513d5401a3b5ff4d364be19444 98741 main/binary-arm64/Packages
  772bb618287ee5fb75d6c82175ef73ae8290c1df 25076 main/binary-arm64/Packages.gz
@@ -34,12 +34,12 @@ SHA1:
  a8ebb75befa6f73263ccf11bb152c4bee1bee2ba 150109 main/binary-i386/Packages
  c60332ca842c6c08f46faa998f79f8967bd9d750 38443 main/binary-i386/Packages.gz
  9094fa710c6d5609558084d2c273864ba6ca7919 132 main/binary-i386/Release
- 591ab7dff4da94853056d38f2b40e08290b6c413 48092 main/source/Sources
- 5f97ef04719e69e05d58695611bea02c65897c6d 14274 main/source/Sources.gz
+ c6e99e314f4f0da46e0d22991a8805fe8579979f 49747 main/source/Sources
+ e6f306f61dff6a3738db6f6e39076bed5b0b300d 14702 main/source/Sources.gz
  04a03b0035e430b0b9ca23a1506bab7a35b07f42 134 main/source/Release
 SHA256:
- 53cb9b0e66ccbd5520c39b96e268a5546e8305533eec05d7e5f30fcb0650e0d8 144298 main/binary-armhf/Packages
- 54338b01d4c590d4e8d8cd611d2c3dfe8514248c1d958f2c440730a202ec3586 37792 main/binary-armhf/Packages.gz
+ 2ae0a482db77f53f096fb729662e9b1f7039a660515fa3234924b5e580bd96bf 146470 main/binary-armhf/Packages
+ 3364598b5f1b88cd3c551afe65a79001deb94d08718220f9be7b81ba0d611557 38322 main/binary-armhf/Packages.gz
  50fa0337602dced97488abcf7199bff3a0beebdb07cb5cdce33ce60bea2fe606 133 main/binary-armhf/Release
  ef2d91e7fcdda11f6c72fd3284c9271ab272b0b7ece62de48d8da311b85573d6 98741 main/binary-arm64/Packages
  60279e0f94915d5797e3939c591eaef3fda81ac31b591ff30a07ece2c5535b60 25076 main/binary-arm64/Packages.gz
@@ -50,6 +50,6 @@ SHA256:
  25086e8baa9f6d4c1933f0dfef67ceec9242016b502df8aa8a53d39ca3e204c8 150109 main/binary-i386/Packages
  199e009db36149b5755d7e0adf0fb414943348bf5b606327362b1c5fa39e85ad 38443 main/binary-i386/Packages.gz
  bfef80aefae46a518708dddb9ae98392d67f37dce7701dc4e4858f1d0ef40e43 132 main/binary-i386/Release
- 6fe3491c006cc90dcc928ccbb9ca0099c794a1904767957a7bbf93298620fd5d 48092 main/source/Sources
- 9570c30a9d99a3ad7123252804dc5a3ddf05c9cb2a35e2e792ecc450c61369c4 14274 main/source/Sources.gz
+ f7f7535c4ca1260863c563b0f72fce828efceb1e97132f41303540a932e10167 49747 main/source/Sources
+ c36039402265674e1f31d299ba0454772b44b8ede793a10c7f91a57431ca9438 14702 main/source/Sources.gz
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
