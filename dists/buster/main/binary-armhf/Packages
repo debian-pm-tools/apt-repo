@@ -81,6 +81,57 @@ SHA1: db1d72d540eacd592f5b1c14de3571aca611c53c
 MD5sum: 9bbd084ff8483869d25c3dfff893c341
 Description: GnuPG keys of the debian-pm test archive
 
+Package: drihybris
+Version: 0.1.0+git20180622-1
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 24
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/gemian/drihybris
+Priority: extra
+Section: libs
+Filename: pool/main/d/drihybris/drihybris_0.1.0+git20180622-1_armhf.deb
+Size: 6244
+SHA256: 848663f93fe14d4247a624b7ea330d793690e3d1b088ac6425088bff03ddb4bb
+SHA1: 665671ca40eb1800cba7a1d0845d72b107a33b71
+MD5sum: 883b07ad2154d947ff368af9953f895c
+Description: custom DRI3-based Xorg extension for use with libhybris.
+
+Package: drihybris-dbgsym
+Source: drihybris
+Version: 0.1.0+git20180622-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 56
+Depends: drihybris (= 0.1.0+git20180622-1)
+Priority: optional
+Section: debug
+Filename: pool/main/d/drihybris/drihybris-dbgsym_0.1.0+git20180622-1_armhf.deb
+Size: 42228
+SHA256: 0dc9a6a0e99740bd4960539788a70f855498d729817a037d4ddc03188cdcb096
+SHA1: 17a6a4c3fc43a7f9e5af46dab43853062e198eb4
+MD5sum: 537d491cc369539e24e6c9dc9e7672d8
+Description: debug symbols for drihybris
+Build-Ids: 0271bb9f91463c6c26d02137c918bdaefd6ad3f3
+
+Package: drihybris-dev
+Source: drihybris
+Version: 0.1.0+git20180622-1
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 22
+Homepage: https://github.com/gemian/drihybris
+Priority: extra
+Section: libdevel
+Filename: pool/main/d/drihybris/drihybris-dev_0.1.0+git20180622-1_armhf.deb
+Size: 4072
+SHA256: 5afab1b55a9107744751e859b5fbbaf496b272c7f055a2ab66ded555ee7c3f64
+SHA1: d0ae839138e372ecacd4f86b70ef684eddf081cf
+MD5sum: 6eaed712f5de173aafa5e39b38944278
+Description: Development headers files for drihybris
+ Contains the development files.
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
