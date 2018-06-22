@@ -132,6 +132,57 @@ MD5sum: 6eaed712f5de173aafa5e39b38944278
 Description: Development headers files for drihybris
  Contains the development files.
 
+Package: glamor-hybris
+Version: 0.1.0+git20180622-1
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 146
+Depends: libc6 (>= 2.26), libepoxy0 (>= 1.0)
+Homepage: https://github.com/gemian/glamor-hybris
+Priority: extra
+Section: libs
+Filename: pool/main/g/glamor-hybris/glamor-hybris_0.1.0+git20180622-1_armhf.deb
+Size: 67432
+SHA256: de5f4f1b16a3b37cfa643f90ad6b82626f2e2e6467ccc5534079e18fc9c06732
+SHA1: 30b88a8f2f5961ecdf828dced9ea6ece24c5003f
+MD5sum: f36879ebd2abe889c71a85ce3b7eb1d4
+Description: glamor Xserver 2D acceleration modified to work with libhybris drivers.
+
+Package: glamor-hybris-dbgsym
+Source: glamor-hybris
+Version: 0.1.0+git20180622-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 1965
+Depends: glamor-hybris (= 0.1.0+git20180622-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glamor-hybris/glamor-hybris-dbgsym_0.1.0+git20180622-1_armhf.deb
+Size: 1956592
+SHA256: e506e19221831fcb58bcb6b5e1393bbad6f520345c4f0625e88256845ba6cbc3
+SHA1: 58d54bda27ef5d3d4ff42fa0f9a3a2bb9b1a2eed
+MD5sum: d7d22cf810bc1a2fffc24c1b070e1bc0
+Description: debug symbols for glamor-hybris
+Build-Ids: f960d0b011269124359b000ac1d2d0e971eaf86d
+
+Package: glamor-hybris-dev
+Source: glamor-hybris
+Version: 0.1.0+git20180622-1
+Architecture: armhf
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 27
+Homepage: https://github.com/gemian/glamor-hybris
+Priority: extra
+Section: libdevel
+Filename: pool/main/g/glamor-hybris/glamor-hybris-dev_0.1.0+git20180622-1_armhf.deb
+Size: 6092
+SHA256: 1305430d8b46b7cf0b5d0fcb35b7dda80bac614ccc81746cad6cb1dcce990300
+SHA1: 6940a63927a3529a4f7f086bcc9992cba14e6a36
+MD5sum: 727dcbf4bc7402d11a1bc55709a62378
+Description: Development headers files for glamor-hybris
+ Contains the development files.
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
