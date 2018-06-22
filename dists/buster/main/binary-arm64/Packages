@@ -132,6 +132,23 @@ MD5sum: 531c9f273a09719d4e8422cbea60d74f
 Description: Development headers files for drihybris
  Contains the development files.
 
+Package: droidmedia
+Version: 0.20180406.1-1
+Architecture: all
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 51
+Multi-Arch: foreign
+Homepage: http://github.com/sailfishos/droidmedia
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/droidmedia/droidmedia_0.20180406.1-1_all.deb
+Size: 7848
+SHA256: 24baffa815b56f4072d9046879eee0bb22a93f4f584c1f670e7bfb91d959a1f5
+SHA1: 4309da58cc13a89db9da19b0037cc7d82bae99bd
+MD5sum: b8e57925572c2e82eed3fc97916ef7c8
+Description: Android media wrapper library
+ Android media wrapper library
+
 Package: glamor-hybris
 Version: 0.1.0+git20180622-1
 Architecture: arm64
