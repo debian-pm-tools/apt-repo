@@ -200,6 +200,96 @@ MD5sum: 27e1fde9135238b86193d28b254d5315
 Description: Development headers files for glamor-hybris
  Contains the development files.
 
+Package: gstreamer1.0-droid
+Source: gst-droid
+Version: 0.20180503.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 286
+Depends: libc6 (>= 2.17), libegl1, libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-bad1.0-0 (>= 1.14.1), libgstreamer-plugins-bad1.0-0 (<< 1.15), libgstreamer-plugins-base1.0-0 (>= 1.4.0), libgstreamer1.0-0 (>= 1.6.0), libhybris-common1, liborc-0.4-0 (>= 1:0.4.25), nemo-gstreamer1.0-interfaces
+Homepage: https://github.com/sailfishos/gst-droid/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid_0.20180503.0-1_arm64.deb
+Size: 70088
+SHA256: 1689f8d110d03304eb09814979782b8dd4a524b60a5e3bdb6863ca169695da48
+SHA1: e4b08feab7c2757f670590740d25d3d188c35cca
+MD5sum: 5b08fec3eb7d4fc2b7f2081fa82ce229
+Description: GStreamer droid plug-in.
+ GStreamer droid plug-in contains elements using the Android HAL.
+
+Package: gstreamer1.0-droid-dbgsym
+Source: gst-droid
+Version: 0.20180503.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 454
+Depends: gstreamer1.0-droid (= 0.20180503.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-dbgsym_0.20180503.0-1_arm64.deb
+Size: 385996
+SHA256: fcfd5d66353f8e4e7cc27484e35f052dd8c30e541aa21bb900f1a4e7430cb332
+SHA1: 72b0d7053dbdabc3a844ca17e639f2441d6b72d4
+MD5sum: f3fb253dc228247e58d4980376c40a56
+Description: debug symbols for gstreamer1.0-droid
+Build-Ids: 033bc2dd79cecbb342e76d0c779cd05f4c8c4217 c142a6cd95811d9ac914515b96262226c8a527b7
+
+Package: gstreamer1.0-droid-dev
+Source: gst-droid
+Version: 0.20180503.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 30
+Depends: gstreamer1.0-droid (= 0.20180503.0-1)
+Homepage: https://github.com/sailfishos/gst-droid/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-dev_0.20180503.0-1_arm64.deb
+Size: 4552
+SHA256: 3645f52a04808a19c1c074369040a55fcc16ec89e613025c832e08caac82fa9b
+SHA1: 956228f2ca05cb87ff83f7e93308f5c45ddf8c4f
+MD5sum: 5c78250b3f47205dc3052f092e87d234
+Description: GStreamer droid plug-in.
+ GStreamer droid plug-in contains elements using the Android HAL.
+
+Package: gstreamer1.0-droid-tools
+Source: gst-droid
+Version: 0.20180503.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 67
+Depends: gstreamer1.0-droid (= 0.20180503.0-1)
+Homepage: https://github.com/sailfishos/gst-droid/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-tools_0.20180503.0-1_arm64.deb
+Size: 11276
+SHA256: 7c68492f97b85fb0a424eb97639b484d7d336a21f8719413bd15e50b16b1e99b
+SHA1: 24e6bfb7f41c45d85b939604b1f3cac523d72d6c
+MD5sum: ef4115b72c831aad30089ea87e2ffc8e
+Description: GStreamer droid plug-in.
+ GStreamer droid plug-in contains elements using the Android HAL.
+
+Package: gstreamer1.0-droid-tools-dbgsym
+Source: gst-droid
+Version: 0.20180503.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 90
+Depends: gstreamer1.0-droid-tools (= 0.20180503.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-tools-dbgsym_0.20180503.0-1_arm64.deb
+Size: 56084
+SHA256: 49f6bafd2e9d0a1203835de0deae7f5b10b711168b28c0194a5939016aed0521
+SHA1: 6443540a2b3ad470c8325d42596106271d839a8b
+MD5sum: f4158edadde76474fa5a5d4e641c3323
+Description: debug symbols for gstreamer1.0-droid-tools
+Build-Ids: 306bf5bd12604afd1bb1d7304b996ed558af0e42 591ab3cefe192a21aa9ae40f6d67f5f69b3a22c2 b8e5d1b84a3efc4e756c64db189fd0cc8c3db63f
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
@@ -1523,6 +1613,162 @@ MD5sum: bf7728a308097a4df3053e5602b9449e
 Description: debug symbols for libofono-qt1
 Build-Ids: 4dd84c1b54ea244371f0e6f103b5edc19c2baec4
 
+Package: libpulse-dev
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 501
+Depends: libpulse0 (= 11.1-5), libpulse-mainloop-glib0 (= 11.1-5), libglib2.0-dev
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/libpulse-dev_11.1-5_arm64.deb
+Size: 105644
+SHA256: badbe64e9312aab963a884a70c72c8573259f6e2d407063898ee4f9a8e8b765f
+SHA1: 77d31b1d5b83d870e5a5e89ebc5456a76f769037
+MD5sum: 95f50921bfa94809ce1027e021bc9877
+Description: PulseAudio client development headers and libraries
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Headers and libraries for developing applications that access a PulseAudio
+ sound server via PulseAudio's native interface.
+
+Package: libpulse-mainloop-glib0
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 108
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.16.0), libpulse0 (= 11.1-5)
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0_11.1-5_arm64.deb
+Size: 45320
+SHA256: 37789b47fd6495db752921f92d0eb0cbfe2990bd136a9bfab5c624cf5b3744aa
+SHA1: 69a9103b52fab03faf3fc037abd867b51f9cdf2e
+MD5sum: 8009b0b19893632755109b0435a345b0
+Description: PulseAudio client libraries (glib support)
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Client libraries used by applications that access a PulseAudio sound server
+ via PulseAudio's native interface.
+ .
+ This package adds support for glib2 client applications.
+
+Package: libpulse-mainloop-glib0-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 33
+Depends: libpulse-mainloop-glib0 (= 11.1-5)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0-dbgsym_11.1-5_arm64.deb
+Size: 18056
+SHA256: 5f40fa3c52c8ca8781317d417fd1d48e463e6b58c68d8293ab9ec71669bbfe29
+SHA1: 5fb6b26e6883c096d0f45ded998c601505716fb8
+MD5sum: b6d9eb2a9893174e264252e4ee18dcaa
+Description: debug symbols for libpulse-mainloop-glib0
+Build-Ids: 2b00b859365d5bfd4e1047f1c02bf5018549cfdf
+
+Package: libpulse0
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 857
+Depends: libasyncns0 (>= 0.3), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libice6 (>= 1:1.0.0), libsm6, libsndfile1 (>= 1.0.20), libsystemd0, libwrap0 (>= 7.6-4~), libx11-6, libx11-xcb1, libxcb1, libxtst6
+Suggests: pulseaudio
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libs
+Filename: pool/main/p/pulseaudio/libpulse0_11.1-5_arm64.deb
+Size: 229504
+SHA256: b7519af97e2975b5bd4e4503cf42e26fd532b278ff473bac49ca82d16224c7dd
+SHA1: c612f119a5d544b6918a3840efae8147948482a2
+MD5sum: 970415b6b9e34a4a60346b0756d600d9
+Description: PulseAudio client libraries
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ Client libraries used by applications that access a PulseAudio sound server
+ via PulseAudio's native interface.
+
+Package: libpulse0-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 921
+Depends: libpulse0 (= 11.1-5)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/libpulse0-dbgsym_11.1-5_arm64.deb
+Size: 733136
+SHA256: 784adcf36629e7153a9209cb630593be9f74c27cd20d695873c7389e43c7b660
+SHA1: 0928d8039f053892f72318cbea0b6edfcb49c586
+MD5sum: bec04a89c6fa78733ab14c01d687bbbe
+Description: debug symbols for libpulse0
+Build-Ids: 32a5c0a534eb3471e2c1d84a0f12b94f079b823c 674418a79b95c4bf1f37654dbf81078c5b293e30 f782b0d0847b1178b3a686c12532d38d879b98d5
+
+Package: libpulsedsp
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5)
+Multi-Arch: same
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/libpulsedsp_11.1-5_arm64.deb
+Size: 53704
+SHA256: 7f318ced67b04eb56e2b8bdfe516319212bff779c167080acd53b66d822b95e6
+SHA1: 220da427df7076a8ba64876b944b57e645276e45
+MD5sum: 5d0e544a600bac81a6439ee0d291cf44
+Description: PulseAudio OSS pre-load library
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package provides the pre-load library used to redirect applications
+ using OSS through pulseaudio.
+
+Package: libpulsedsp-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 64
+Depends: libpulsedsp (= 11.1-5)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/libpulsedsp-dbgsym_11.1-5_arm64.deb
+Size: 45356
+SHA256: 198b34a0d583284fe630b2e527101875fee9f15ccd3e74b6e4adf5fbd6ddfd7b
+SHA1: b4ccf496234e61b6edc290248caacbe81b6ab194
+MD5sum: 0f49115d5bf7c47c632f398c8be1e7ac
+Description: debug symbols for libpulsedsp
+Build-Ids: 1d1d4ae7dae8217dfe41a33726e2f2f4bef08c76
+
 Package: libqofono-dev
 Source: libqofono
 Version: 0.92-1
@@ -1652,6 +1898,60 @@ MD5sum: e7816efdcd15cb7f88b7ca05ec50c19c
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
+
+Package: nemo-gstreamer1.0-interfaces
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 31
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.14.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libs
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces_0.20150126.0-1_arm64.deb
+Size: 5660
+SHA256: afb1e522267503baa9992fa13f51e4f6e14b95802e560ecb115197ea95dde7fd
+SHA1: e9460c96190bf2590d2a23bf148093cd36624e43
+MD5sum: a5cf0983591e5bbfdde81ed9af995bd3
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
+Package: nemo-gstreamer1.0-interfaces-dbgsym
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 39
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dbgsym_0.20150126.0-1_arm64.deb
+Size: 18752
+SHA256: eb49654e4dbd63769306a9f1d8adaeab145bc246edca8dcafa94e37d1630b646
+SHA1: eeb68d89dd872a7fab9378cac08be92b9bc72113
+MD5sum: 6409c218a9926963297ae9fa8b49dc2d
+Description: debug symbols for nemo-gstreamer1.0-interfaces
+Build-Ids: 8c03d6f068c4c8386b1dc2f0702b03d43524f5ad eb042916dfea6cb5db1620d49f5ba18ed4ae1ca5
+
+Package: nemo-gstreamer1.0-interfaces-dev
+Source: nemo-gst-interfaces
+Version: 0.20150126.0-1
+Architecture: arm64
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 28
+Depends: nemo-gstreamer1.0-interfaces (= 0.20150126.0-1)
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/nemo-gst-interfaces/nemo-gstreamer1.0-interfaces-dev_0.20150126.0-1_arm64.deb
+Size: 4156
+SHA256: bd2b3eaef92ad7a223605105733c32951c02d22edbf6775ea4f2a7a473688045
+SHA1: ea5cc0f0cc960e785bc4ce59b1c621eb04c01b5e
+MD5sum: 5779cc147dc5a67adba56e72e9f5e51b
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
 
 Package: ofono
 Version: 1.21-2
@@ -1840,6 +2140,531 @@ MD5sum: 25c976c33b2260c0e5dfc88c4b7b54dd
 Description: debug symbols for plasma-settings
 Build-Ids: 1b0bb20eaa234b11101146206a8347eec37be02b 73f4718f569be6281f09a6606cf519cea7905a78 8a4840fe593063915e95d7c77d42c8f131fd7b5d 984a682b6a6863aaeb5789600ffa5900e30355c3 98bd51449739d1a7d11ac335f7ab3df5bdb048c9 9bde4046b76e16a62be4dd40f0443500491b1ca0 eabc9a55649836f730ea88dcf4232df1167a406d
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 5828
+Depends: libasound2 (>= 1.0.24.1), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc1 (>= 1:3.0), libice6 (>= 1:1.0.0), libltdl7 (>= 2.4.6), liborc-0.4-0 (>= 1:0.4.25), libpulse0 (= 11.1-5), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 4.1.1), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing1, libx11-6, libx11-xcb1, libxcb1, libxtst6, adduser, lsb-base (>= 3.2-13), libasound2-plugins, pulseaudio-utils
+Recommends: rtkit, libpam-systemd, dbus-user-session
+Suggests: udev, pavumeter, pavucontrol, paman, paprefs
+Multi-Arch: foreign
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio_11.1-5_arm64.deb
+Size: 958780
+SHA256: b01aaa180b5c4e9bdaa19d383c0d04893ea1cff3abb7a0c6f984585ab0edfe35
+SHA1: 9bc498148c4a8cc65fdb086f9fc46dd7b995cb19
+MD5sum: 6e8b96fdb3520814d407939b9ca01c86
+Description: PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These are some of PulseAudio's features:
+ .
+   * High quality software mixing of multiple audio streams with support for
+     more than one sink/source. May be used to combine multiple sound cards
+     into one (with sample rate adjustment).
+ .
+   * Wide range of supported client libraries. ESD, ALSA, oss, libao and
+     GStreamer client applications are supported as-is. Native PulseAudio
+     plug-ins are also available for xmms and mplayer.
+ .
+   * Good low latency behaviour and very accurate latency measurement for
+     playback and recording. Ability to fully synchronize multiple playback
+     streams.
+ .
+   * Network transparency, allowing an application to play back or record
+     audio on a different machine than the one it is running on.
+ .
+   * Extensible plug-in architecture with plug-ins for jackd, multicast-rtp
+     lirc and avahi, just to name a few.
+ .
+ This package contains the daemon and basic module set.
+
+Package: pulseaudio-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 4189
+Depends: pulseaudio (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-dbgsym_11.1-5_arm64.deb
+Size: 3187936
+SHA256: 625e3b188ecd8700c31e0d5f371aec3d21836842020ad58fe758eb3d53c9d2e5
+SHA1: b7b7ab00516c62caa2c2ad09edbd3cdfb8249b79
+MD5sum: 6c060130511162b4b25fd431eba492b1
+Description: debug symbols for pulseaudio
+Build-Ids: 00db3f3fc53fb975d12edd46e3ead8383fdc0142 0806eabcb4a75173f1e415dcfb6374fb9e56d52f 0b393c778c4be3f10e707c7ab7a63494f90fad04 0bd3dd8cc45f474ce475f0648c2a3f348c3cfe3e 108aaea78edd47b342e820a33167baf1b184c0c6 13b976ebc388d0e0c07d345cf3a9c707c84cd920 18b1535bcf41c7ddb175ef22b61d5487d43b2570 18d0262fe8dc0317e1b1f2dccde98679cb2b67c3 1a5ee6772edfe37198d8c5970fe76ae9d5b06f10 22deab93cf6b37cd9b536b3d636da6099f55fa2a 272c02fece13603a1e6c15df68187330d097f9e0 27f58cdbb1b6de1a3fc9d978a7acfaff66a80103 2bf7485648e0f5c4b0944516d03823bdfd007e38 2c88c2b3222074766fce41edaf3058791e37bf18 31a17723856a62b922065aadc82a2e2c7d2b2f02 35d08c76e12ad8ebe535de040abd9679e0d9819d 35fb6b4627839e778cbaffa1444eec6f25bab9b3 37db22899c428e89025efceb986626cbe3879ec1 3cbdd3082bd91f8914bc12f1d953a08603411931 3d22c1183ab342db1a4326ff7a23c2b0b1be911a 3f7fc90d7af469c9c91f013e8f11405c4bdc323c 4058737740f199894e65f766f4c2c75f2d654c84 4089c816aafbd5bb4d22beac311e6c0bc5cabf58 43794d9496e9dfa227e29034635f12d7543da6f5 45f1087f6751ded6bc15782068880b37dfe83ae9 4c00086d283e789cfafd7a0af5858111ccfdf4ac 531f6034baf30aead6783dcebac67e7f01412e63 54fc9306ce3d8e3ace44297015e9de5f25c542d0 5c2045dbef47a417c6e1e0158e6a5f9ddaa5a64e 5c69c184a386a45aaef1168d00acecc4e34013ef 5d754c838531742c3ae369c278fb0ac616282bae 5ed562d4d60d6e131964fe11e0e5112d34607570 6884def9aaff7682520e63bd29decbdef45dffe0 68b8cd5bfadd87805b2150bb6030493af76905bf 6b93dabe6e5aea55c5b94650bb880d0016a0969e 6bbfcabb588f99be10da30fcd9bdc53c773490cc 7358be8e9687afdacb914dc64c4d51ceb78552a0 7f06af1697b2704aa30e24d1cc9de2a97d1dfeb5 825eb59abd036b6c6960a022be0c4652d1257680 8d143fed8f56baad9e55c5c760c46da7ff8c21d3 8e17d196e6c6f476926831a78631b14623683779 8ea69d6a09b7860c9138c667077c546e2d09a5d0 8f04c31d84a32044605ed1fdd085b13d0cd5efea 9216da3122eeed0b5876d4699c5f8708a9130d56 939efa2366dc86880e35fdafc3362f58c76e4e87 96d516481503bb20dd1893334079467714a2281e 99a0f2ae9f66c347842ad5aab10fbc8001685905 9c18fa0127dbf579861b6c1b1677b227efbfd5f1 9d1c9e2425cf0889fea52c7d4cdec573fc59d7d0 a475aeec0c61a8499d75a317218053a209a6a813 a5d68a7a042bd3bff0aa367d1f0c195a9eee98e1 a605241220cbc682913d98416a9a2a4b0270bd33 a663e60791626f9c880c4170475e80c13f66d9c5 a9efac0440144c2ee8ab212577efbe37c119971b b55842cfc47c6becb4412bd585ab39ac419424b9 b6f1f456cae9d039453301f99a1c899615f35c1a b6f9fa65a01471500ecf2a6644af76664cc9ac64 b871747ae0508eb3b8980558416c33c94be11328 b995a9bc96af4606dfa05662229aaa9cc0dec1c3 be526ae73cfb8dd733fcf2899799382a13a4b3a1 c6087b8a4310774d2e4ff2223f464469ece3e937 cf9aa9a7ae72bfc609d90f5df887ef70c243dd02 d1ac37b67a134541e0816912deb7a9c856080b86 d5f982fab2df6dc22187b97f9d6518e46b693a16 d8014afaf61304d81f88955b9b577f3f1086fd0f dad9c97d38605cfdd187b103b514e0c31cb9e793 dd8160f86c1a3b510fe2d3b43769652a57d3208c de231bfd5879025a4ff85c16ca83f100ee00db86 df9443f00a8549b7d5e9c0ef9da09c0da8fa87e2 e6d20205d72feab22b19cb6c717e999146177f3f e6d57f5717704ef48e8524fba98ea4cf94565391 e860cd830724590d05f8d99916d5e5830e6dd390 efb5f07cf022f6e6dc4ee02e1de8cc83058df62f f3a87c487dd5090b1db6757744f9f21c31a00f1c f5647642b12ceb2a5fb14802e5a5e522daa116e7 fb79cefbc02b870fe78b1c37e133a6c34b2ab3d1 fca504e49f9d3b5c784300523a1652ea931e3713 fdee0a643ee5f74b6883483ae6a167aac54c8d5c ff4a1b50cbad9fac849dffafd6dc9d7d19f6e6e4
+
+Package: pulseaudio-dev
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 573
+Depends: pulseaudio (= 11.1-5)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_arm64.deb
+Size: 109332
+SHA256: 4647961db32c8be91c6493525fcfc7da92afe5b3d7b1e5024105e3372f1163e5
+SHA1: b28b11659221722a2e8b07e95e02f34c04736d22
+MD5sum: a702929c390a5946fcce1e46c76dad93
+Description: Pulsecore development headers
+
+Package: pulseaudio-equalizer
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 181
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libfftw3-single3 (>= 3.3.5), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5), python, python-pyqt5, python-sip, python-dbus.mainloop.pyqt5, python-dbus
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-equalizer_11.1-5_arm64.deb
+Size: 63820
+SHA256: 87590012105dea4df2573fedb5a2d8af58cb30f599103489d33c15ecbe46df51
+SHA1: 8344bd4fff672a9a23204e4a01f6a7c7e5593a21
+MD5sum: f9bc80ad8d631982e83b94fa10b88865
+Description: Equalizer sink module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package provides an equalizer sink and an interface to configure the
+ equalizer, qpaeq.
+ .
+ The module is called module-equalizer-sink.
+
+Package: pulseaudio-equalizer-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 82
+Depends: pulseaudio-equalizer (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-equalizer-dbgsym_11.1-5_arm64.deb
+Size: 57948
+SHA256: f1f33571152530f78841dbb1b88afd6b638b421e276e6414971ff15d38e7cb84
+SHA1: 8fdb34f035eb0b44c7c11f30215afcb6be1e2040
+MD5sum: 8904ed858233cb59a2fe26eaf43e003f
+Description: debug symbols for pulseaudio-equalizer
+Build-Ids: 7ad949b2b34e35fea4267aa4985db679ef44a89e
+
+Package: pulseaudio-esound-compat
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 191
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Conflicts: esound
+Breaks: pulseaudio (<< 0.9.7)
+Replaces: esound
+Provides: esound
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-esound-compat_11.1-5_arm64.deb
+Size: 61024
+SHA256: c7d647f07d3f9a02bbfcef7477463b4a8e3cf5082f3abfcfdea9f3e3dfcd789e
+SHA1: 25bb1fc2931a3c10b4d7f31400a9fa7ea2e51523
+MD5sum: 51837c66471eca191df96681075a0691
+Description: PulseAudio ESD compatibility layer
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package contains the ESD compatibility components used by some
+ older versions of complete desktop environments, e.g., GNOME, and
+ many useful applications. It enables a PulseAudio sound server to
+ fully replace ESD.
+
+Package: pulseaudio-esound-compat-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 166
+Depends: pulseaudio-esound-compat (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-esound-compat-dbgsym_11.1-5_arm64.deb
+Size: 116412
+SHA256: f4f4fd838a0114ddaa9bc7390c0acb7343416ad7f14e6ac6fb08623f794779fa
+SHA1: f9c6ac020220e586dcbdb902e9dba8b6c1bd337c
+MD5sum: 022a35e2f05b345d70fbc1a1744d4abb
+Description: debug symbols for pulseaudio-esound-compat
+Build-Ids: 2860b0086a277501ce239be1b8499878dd45c59c 2ab511bc3ca2bc7b5ab0b385e17a61e17aff70c0 58a44a08a8b846dbfe5e3d49d15aef2b3f9066d9 8eda538a467f8852f3d86b59ca12594ef2d8acf2 ef3c04bca3d5520320a11c447e1ae96cc189c182
+
+Package: pulseaudio-module-bluetooth
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 257
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 11.1-5), libsbc1, pulseaudio (= 11.1-5), bluez (>= 5.23)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth_11.1-5_arm64.deb
+Size: 83268
+SHA256: 6be3a376e108b6330d1d7f14aff85d9df0f64d1c22c62b713c2792cec8727f52
+SHA1: 2cfbba411f2a8c81c3460ea99e2f492dbc2e2b72
+MD5sum: 99791ac2558f6b0665d78c277a0f3114
+Description: Bluetooth module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to work with bluetooth devices, like headset
+ or audio gateway.
+ .
+ The module is called module-bluetooth
+
+Package: pulseaudio-module-bluetooth-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 247
+Depends: pulseaudio-module-bluetooth (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth-dbgsym_11.1-5_arm64.deb
+Size: 186620
+SHA256: 29a1f8ec39fcb57ad6170fe5d1dfe77c65f8d7903e6695880a72b00d4ee516a1
+SHA1: 3f2da80bd87330ac324f5db6a8f9830c56180911
+MD5sum: 7d9d0a39752ed9e704c3efb6c04fa4ce
+Description: debug symbols for pulseaudio-module-bluetooth
+Build-Ids: 2785371776da7317f5b37d309d67d5cfa46b8d8d 2faa2aa73caa3360fe9494b3c6068b5d611849d2 61dc9574d3b76a748f6dc7330327f4eb5f03f9f1 bf5c65b022916720da5004da3b547aa2621ddc3a e95f3d61f2fcf4b57595bb10693ebcf1a0c4f1e6
+
+Package: pulseaudio-module-droid
+Source: pulseaudio-modules-droid
+Version: 11.1.68-1
+Architecture: arm64
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 295
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
+Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.68-1_arm64.deb
+Size: 56472
+SHA256: cf3ab0fbdc6425732ea288014d622859307ac3defd49f79551e82f0fb6950724
+SHA1: 94818177b69b6259d253320304a172506305d13b
+MD5sum: 74b47da71483da3898da14f18676fe79
+Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
+
+Package: pulseaudio-module-droid-dbgsym
+Source: pulseaudio-modules-droid
+Version: 11.1.68-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 334
+Depends: pulseaudio-module-droid (= 11.1.68-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.68-1_arm64.deb
+Size: 252912
+SHA256: b277935c2a722a1fb654b2aecdfdc5aec2dab5dadf2e493613027729c64d538e
+SHA1: 0bbac693f8bd72b9730d754f6ee8c6887c68f750
+MD5sum: 4d6b519d18f106b9ea9cb3c94c856f2b
+Description: debug symbols for pulseaudio-module-droid
+Build-Ids: 00100a457f1bbfb7954340c6fff84988fecc8768 58603e3f24ffe3489413eaaf6c858dd69c6ff5ae 599d2374940a8ff6bf826ebb17cac15789376892 5bb70bfb35f62d78bd8e128212b2df248934237a 70e3a0bf86087b9ffa5a41e96d1b29c88614244c 8d8c7a863722a1f3c6f75e002b1530cf655dba0d a2b4ef93f160df2bfe97e6637a3a4b0faacf9793
+
+Package: pulseaudio-module-droid-dev
+Source: pulseaudio-modules-droid
+Version: 11.1.68-1
+Architecture: arm64
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 78
+Depends: pulseaudio-modules-droid
+Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.68-1_arm64.deb
+Size: 10264
+SHA256: 4326c86b0c97af36c087d58fefda8d4d00e4cb1a9147f8144db64fdce8576672
+SHA1: ae4f85c0111398328525bc7e049973d995e975c0
+MD5sum: 7c3be25fbff18bc6053f813da6615580
+Description: PulseAudio Droid HAL module development headers.
+
+Package: pulseaudio-module-gconf
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 117
+Depends: gconf-service, libc6 (>= 2.17), libcap2 (>= 1:2.10), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.16.0), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gconf_11.1-5_arm64.deb
+Size: 46164
+SHA256: 69db88e3abfd31c94c0e9ce6e451ffde33eed8d60ebb78f40447f3c972af68a8
+SHA1: a032cd0972543d912da1967ae1e9f6983d63469f
+MD5sum: c55acc1451cfafff78a1ff0cc560b5d1
+Description: GConf module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to store additional configuration in GConf.
+ .
+ The module is called module-gconf.
+
+Package: pulseaudio-module-gconf-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 52
+Depends: pulseaudio-module-gconf (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gconf-dbgsym_11.1-5_arm64.deb
+Size: 29700
+SHA256: b04a1abe40fa7c758a280eb81ede99bfc1a8e5d0e317e4eb6fff36a7881c2a2f
+SHA1: c763d75751fc0aca6a71686a283878b4f1ef0379
+MD5sum: d41904afc0561676315684c93b530d19
+Description: debug symbols for pulseaudio-module-gconf
+Build-Ids: 43ac9a07b909b9a9993fd365f76aa4a1e419f9e0 9d01f53ff7482d824b9bf4fcd491ee987fda10d3
+
+Package: pulseaudio-module-jack
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 149
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-jack_11.1-5_arm64.deb
+Size: 52400
+SHA256: 8d6733060b54dacf32da9372fbb888dbe6fa40349451d44e8a51745852db1b4d
+SHA1: f83bac049a1ed86464dbef69474dc68d2b2b2d1d
+MD5sum: 0efcb4add3099dec9d6ada82eca84884
+Description: jackd modules for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These modules enables PulseAudio to connect to a jackd daemon.
+ .
+ The modules are called module-jack-sink, module-jack-source.
+
+Package: pulseaudio-module-jack-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: pulseaudio-module-jack (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-jack-dbgsym_11.1-5_arm64.deb
+Size: 70872
+SHA256: f10e9bf4fbb757ab0eeb5219f47b801a1803e586f11fd3f72b487ac7217a442a
+SHA1: 82597c5dbcf5c213cc691c114e3ff6c8693d714b
+MD5sum: 649230b003d557a41921a3d6ccb3377b
+Description: debug symbols for pulseaudio-module-jack
+Build-Ids: 03cc600afad6df29cadb42714859a67794b26007 1da0b0b47e29f8c77cbc0ed1da5413344a0678e5 7b313ca968ab6757a3db4cb429bc213cce94c4a2
+
+Package: pulseaudio-module-lirc
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), liblirc-client0, libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc_11.1-5_arm64.deb
+Size: 44040
+SHA256: f56e2bacd02bd6e9b01346d2c5a63953637f9283b3f5250cceb1058525183386
+SHA1: 2f681647f388528d7c8bf9167eaefe243073b5ab
+MD5sum: f2ba6239546de99d26fd58a764f4571a
+Description: lirc module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables the volume of a PulseAudio sink to be controlled when
+ buttons of an infrared remote control are pressed (through LIRC).
+ .
+ The module is called module-lirc.
+
+Package: pulseaudio-module-lirc-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: pulseaudio-module-lirc (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc-dbgsym_11.1-5_arm64.deb
+Size: 20460
+SHA256: 9b2f91cc11222f78133fd1247f1ed847528788eeff5af7023531992a6e5b7618
+SHA1: 2fdce439d9eba407bd28368a73e076137abb6c5c
+MD5sum: 4002f92e3eb825cfa42cd741bc308c2c
+Description: debug symbols for pulseaudio-module-lirc
+Build-Ids: c549042df5308dbe8c4f0d5309ce9a67f4dca1d8
+
+Package: pulseaudio-module-raop
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 173
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5), libssl1.1 (>= 1.1.0), pulseaudio (= 11.1-5), pulseaudio-module-zeroconf
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-raop_11.1-5_arm64.deb
+Size: 63592
+SHA256: f0da76b6c34b90c4c3a72a4f2b1a7e51c947ef72c10951c0d712298f694b42ac
+SHA1: 723ec25ac5796ae3805d7579e888fabeeaf59072
+MD5sum: 024b1687b67c1d3b55365f188404a157
+Description: RAOP module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to stream audio to an Apple Airport Express.
+
+Package: pulseaudio-module-raop-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 146
+Depends: pulseaudio-module-raop (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-raop-dbgsym_11.1-5_arm64.deb
+Size: 109904
+SHA256: 518f6b9829cc99e383200cf72914b808efac5af556793b128e32b2338401897b
+SHA1: 98529d0ff50c00e51534addf9f345d8423c90127
+MD5sum: c5d58f7e258bfa4e8a244e2992b04ab7
+Description: debug symbols for pulseaudio-module-raop
+Build-Ids: 1e1069813e9c2f6b6985114f71ce9f69d58b1fa1 92e6a7e39ebf32346d1f5ddfb28d199c1e6df6dd c8132669587d309bd4efd9961306fbcbfc04af1c
+
+Package: pulseaudio-module-zeroconf
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 149
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5), avahi-daemon
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf_11.1-5_arm64.deb
+Size: 53756
+SHA256: dcc56ebc63c4e70bf8d12349bb9960827adc05e05d4d52b4dacf611abb7d4b0d
+SHA1: ce0ecc0911ae4d7bc589e0a7b6c74555b717a35e
+MD5sum: bf7006c9d1fbc33376c08ea29538926b
+Description: Zeroconf module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to publish available sinks and sources via
+ zeroconf (aka. Avahi, mdns).
+ .
+ The module is called module-zeroconf-publish.
+
+Package: pulseaudio-module-zeroconf-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 99
+Depends: pulseaudio-module-zeroconf (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf-dbgsym_11.1-5_arm64.deb
+Size: 65172
+SHA256: 45cfa8ff92ba1c19c81fb89cb47fc3c7ee1a4f7a3f9d3442178f615e5cf20ea6
+SHA1: 3728045fa61fed32e6d7a2be696139e271f8eb54
+MD5sum: 31079d9088bd759117f0a338210f8009
+Description: debug symbols for pulseaudio-module-zeroconf
+Build-Ids: 3d0a896f1667740c2ca79638635ddee106359979 6735183ea8ed33afc54c8ad555b5439c7046c73b 74920980e1ed80baa18a48b012dc5e0b86bab4ef
+
+Package: pulseaudio-utils
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 258
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libice6 (>= 1:1.0.0), libpulse0 (= 11.1-5), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libxtst6, libpulsedsp
+Suggests: avahi-daemon, pulseaudio
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-utils_11.1-5_arm64.deb
+Size: 82544
+SHA256: 97475d4213327c5c38955434b1380032f23e4591e8c229f54ee5621fa496bf5b
+SHA1: c131b59cd2de67964b9d17dbc8d22abec8264320
+MD5sum: f37baf8d95dc2f71e9c7ea39f3602c48
+Description: Command line tools for the PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These tools provide command line access to various features of the
+ PulseAudio sound server. Included tools are:
+ .
+   paplay - Playback a WAV file via a PulseAudio sink.
+   pacat - Cat raw audio data to a PulseAudio sink.
+   parec - Cat raw audio data from a PulseAudio source.
+   pacmd - Connect to PulseAudio's built-in command line control interface.
+   pactl - Send a control command to a PulseAudio server.
+   padsp - /dev/dsp wrapper to transparently support OSS applications.
+   pax11publish - Store/retrieve PulseAudio default server/sink/source
+                  settings in the X11 root window.
+
+Package: pulseaudio-utils-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 159
+Depends: pulseaudio-utils (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-utils-dbgsym_11.1-5_arm64.deb
+Size: 92992
+SHA256: 0c76cbb51ace89e14907417015e7ee7601703d5a0a3acc2e794ccb4565a71a33
+SHA1: 32095240ee462e707bafdba029f5a2fd891252ca
+MD5sum: 2b6d00276d709a9cd5f8ec063f486cb5
+Description: debug symbols for pulseaudio-utils
+Build-Ids: 4f7cd95607018f78602b1ffa543d9199c9ee664b 738892af1c9c754a15296d55679ee99e9b873a25 8abe25356d6beae16e1b9970f932e53627503f35 db9d6a9eb2e522f7f2322e952ad5fe835ae40720 fb6d2ddfe0fbf93d3de7423b826392b4368e7f5d
 
 Package: qmic
 Version: 0.1+git20180323-1
