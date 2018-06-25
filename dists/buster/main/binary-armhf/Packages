@@ -46,17 +46,18 @@ Description: Android Platform Headers from AOSP releases
 
 Package: audioflingerglue-dev
 Source: audioflingerglue
-Version: 0.0.7-1
+Version: 0.0.8-1
 Architecture: all
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 14
+Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.7-1_all.deb
+Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.8-1_all.deb
 Size: 2344
-SHA256: f1afe86d76b7fb4ad4e34b5973d52bf54690b223a192d28f4d4cd0a126cea538
-SHA1: 0df55273712f9bed1cc079bc9de2d0d26bb59e70
-MD5sum: 95991d2a506ca78d74e6ccb78b831fa9
+SHA256: 0608338b442c1371391a82b1ecb5faa5caea9a9793a8295840c04e8132500083
+SHA1: f546ec8173a76538cc9a0fa32db3002fdf7eced4
+MD5sum: fc6bcd0a97d768534e4e22eddfe756b3
 Description: Audioflinger glue
  Simple service that replaces AudioFlinger
  and library for forwarding calls made to custom AudioFlinger to client
@@ -1820,26 +1821,26 @@ Build-Ids: e34d9b5c49d10eff463513f551917b73925b0155
 
 Package: libqofono-dev
 Source: libqofono
-Version: 0.92-1
+Version: 0.94-1
 Architecture: armhf
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
 Installed-Size: 182
-Depends: libqofono-qt5-0 (= 0.92-1)
+Depends: libqofono-qt5-0 (= 0.94-1)
 Homepage: https://github.com/nemomobile/libqofono
 Priority: extra
 Section: libdevel
-Filename: pool/main/libq/libqofono/libqofono-dev_0.92-1_armhf.deb
-Size: 18896
-SHA256: 0d38d6235835d6bb6e6423dc41d568a1fdc898ac8f212d85271f7af15633cb42
-SHA1: fad6c4b87d9f48e0939f058da04e3f748a4250e3
-MD5sum: 523dfc0f1524468a547f0ecaf34ed55c
+Filename: pool/main/libq/libqofono/libqofono-dev_0.94-1_armhf.deb
+Size: 18952
+SHA256: e5b15f9f000f46b2cc5ec1422b9c8f1beb4422f3ce43225b93eb1007735ff858
+SHA1: 237bf407732514e7f986f09cc592e7a6920d03e7
+MD5sum: 9537724b6daeb88cc0a87191c1a0da7c
 Description: Qt library for Ofono
  A library for accessing the ofono daemon, and a declarative plugin for
  it. This allows accessing ofono in qtquick and friends.
 
 Package: libqofono-qt5-0
 Source: libqofono
-Version: 0.92-1
+Version: 0.94-1
 Architecture: armhf
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
 Installed-Size: 833
@@ -1849,33 +1850,33 @@ Multi-Arch: same
 Homepage: https://github.com/nemomobile/libqofono
 Priority: extra
 Section: libs
-Filename: pool/main/libq/libqofono/libqofono-qt5-0_0.92-1_armhf.deb
-Size: 231760
-SHA256: 7c4d141b0c6273e8c1c4034a7ae3a95f4844388f3be722b305819413094fac3c
-SHA1: a9740a0c489edbeca147bde83d18a0115672ee7e
-MD5sum: 5c63302ab3e7bbe7ed039cae309ebb10
+Filename: pool/main/libq/libqofono/libqofono-qt5-0_0.94-1_armhf.deb
+Size: 232028
+SHA256: b9cd91e4cea04dd7afadfb5e147142c59f560fa838bb96cb9fdbb477a525e227
+SHA1: 5e5c516cf3093addd8dcac65962914f2c89f1b2f
+MD5sum: e7ce1a55ddee8b6277d829a319b58c2d
 Description: Qt library for Ofono
  A library for accessing the ofono daemon, and a declarative plugin for
  it. This allows accessing ofono in qtquick and friends.
 
 Package: libqofono-qt5-0-dbgsym
 Source: libqofono
-Version: 0.92-1
+Version: 0.94-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
-Installed-Size: 16860
-Depends: libqofono-qt5-0 (= 0.92-1)
+Installed-Size: 17995
+Depends: libqofono-qt5-0 (= 0.94-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libq/libqofono/libqofono-qt5-0-dbgsym_0.92-1_armhf.deb
-Size: 16310128
-SHA256: df5d1d88247e2b5e3ddf9227a12b228e7ea0b4a72548ac26d00e7b68b7a847ad
-SHA1: 42fafa8821d9a43c76e4a7bf020cbefe8d25c731
-MD5sum: f49a60423d94ce0666882737d719e596
+Filename: pool/main/libq/libqofono/libqofono-qt5-0-dbgsym_0.94-1_armhf.deb
+Size: 17457328
+SHA256: e50d466bc4e4902649fc40d27ffd128679b2045f111596a0c5f749e46f5e3415
+SHA1: 56105d6f79e67e7e391d658bcb871c5220a33925
+MD5sum: 6d862c3f756fd2c6b74c8af6531805cf
 Description: debug symbols for libqofono-qt5-0
-Build-Ids: 975db617a8afa31ae0390a86d0b9b38ccf554bc3
+Build-Ids: 1456f2864b51fcff5ef6d48a2c308ecfe1e07564
 
 Package: libqrtr-dev
 Source: qrtr
@@ -2789,10 +2790,10 @@ Build-Ids: 436503a01895f72fef74d73c1b4cbca3c9f96f17
 
 Package: qml-module-ofono
 Source: libqofono
-Version: 0.92-1
+Version: 0.94-1
 Architecture: armhf
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
-Installed-Size: 189
+Installed-Size: 256
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqofono-qt5-0, libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
 Breaks: qtdeclarative5-ofono0.2, ubuntu-system-settings (<< 0.3+15.04.20150114)
 Replaces: qtdeclarative5-ofono0.2
@@ -2800,33 +2801,33 @@ Multi-Arch: same
 Homepage: https://github.com/nemomobile/libqofono
 Priority: extra
 Section: libs
-Filename: pool/main/libq/libqofono/qml-module-ofono_0.92-1_armhf.deb
-Size: 39444
-SHA256: 8ddefe187d28ee6e90a10e59b000ac994404fc0de07da116c764a152f3387424
-SHA1: 6b06d2da73644b4e11e2fdff7769d14bcdec14fe
-MD5sum: bece2a02bd050690628bf6580927fadf
+Filename: pool/main/libq/libqofono/qml-module-ofono_0.94-1_armhf.deb
+Size: 44828
+SHA256: 68394b844f3f4bfa6a96b53393d0149653616618345f7fa03a2a1851853e6431
+SHA1: 878974cfb08472cd7774b2122744622058edcfa7
+MD5sum: e0c658f7f97090f40ae393e4cee1a79d
 Description: QML bindings for libqofono
  A library for accessing the ofono daemon, and a declarative plugin for
  it. This allows accessing ofono in qtquick and friends.
 
 Package: qml-module-ofono-dbgsym
 Source: libqofono
-Version: 0.92-1
+Version: 0.94-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
-Installed-Size: 1044
-Depends: qml-module-ofono (= 0.92-1)
+Installed-Size: 1101
+Depends: qml-module-ofono (= 0.94-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libq/libqofono/qml-module-ofono-dbgsym_0.92-1_armhf.deb
-Size: 968212
-SHA256: f27e76745a52d97c52b1edc9d8daf319ce4105749288d2d48ac09146c86b52bc
-SHA1: c9f66e6584a4dd1fd488f392a9051328bbd216ea
-MD5sum: 10fb978a2977969abdb3cc736c8e915b
+Filename: pool/main/libq/libqofono/qml-module-ofono-dbgsym_0.94-1_armhf.deb
+Size: 1025688
+SHA256: 3ced53eb14002ddac4b07e7c72c926d4b4abfaf511c9ca7b6d3d3b6467a36f43
+SHA1: 7e70d61f2d93521d6453f56886b1a88cc4af1561
+MD5sum: 23e373c4b169c38bc082c59cc52406f8
 Description: debug symbols for qml-module-ofono
-Build-Ids: 2a47e1cd3c8eec15b8ea3d98ccb0842a8c2cbdce
+Build-Ids: 4ce7415ada1b9654b52824c1ca0e42ef2e66621e
 
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module

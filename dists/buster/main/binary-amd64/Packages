@@ -46,17 +46,18 @@ Description: Android Platform Headers from AOSP releases
 
 Package: audioflingerglue-dev
 Source: audioflingerglue
-Version: 0.0.7-1
+Version: 0.0.8-1
 Architecture: all
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 14
+Multi-Arch: foreign
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.7-1_all.deb
+Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.8-1_all.deb
 Size: 2344
-SHA256: f1afe86d76b7fb4ad4e34b5973d52bf54690b223a192d28f4d4cd0a126cea538
-SHA1: 0df55273712f9bed1cc079bc9de2d0d26bb59e70
-MD5sum: 95991d2a506ca78d74e6ccb78b831fa9
+SHA256: 0608338b442c1371391a82b1ecb5faa5caea9a9793a8295840c04e8132500083
+SHA1: f546ec8173a76538cc9a0fa32db3002fdf7eced4
+MD5sum: fc6bcd0a97d768534e4e22eddfe756b3
 Description: Audioflinger glue
  Simple service that replaces AudioFlinger
  and library for forwarding calls made to custom AudioFlinger to client
