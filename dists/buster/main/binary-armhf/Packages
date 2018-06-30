@@ -134,7 +134,7 @@ Description: Development headers files for drihybris
  Contains the development files.
 
 Package: droidmedia
-Version: 0.20180406.1-1
+Version: 0.20180626.0-1
 Architecture: all
 Maintainer: Bhushan Shah <bhush94@gmail.com>
 Installed-Size: 51
@@ -142,11 +142,11 @@ Multi-Arch: foreign
 Homepage: http://github.com/sailfishos/droidmedia
 Priority: optional
 Section: libdevel
-Filename: pool/main/d/droidmedia/droidmedia_0.20180406.1-1_all.deb
-Size: 7848
-SHA256: 24baffa815b56f4072d9046879eee0bb22a93f4f584c1f670e7bfb91d959a1f5
-SHA1: 4309da58cc13a89db9da19b0037cc7d82bae99bd
-MD5sum: b8e57925572c2e82eed3fc97916ef7c8
+Filename: pool/main/d/droidmedia/droidmedia_0.20180626.0-1_all.deb
+Size: 7624
+SHA256: f62d3d96a72513e5afa25d5a57d62ffd5c87aed00f214844e895a166ce99c341
+SHA1: e44fac3275a5b135400b00166732eb09186a3078
+MD5sum: a54f3e4a491ca6af902f2667b46bdbe8
 Description: Android media wrapper library
  Android media wrapper library
 
@@ -907,36 +907,36 @@ Build-Ids: 4e124e84d49037e33e639470f65fb18fa2fea53f 60686f620c22aea250457e2311c1
 
 Package: libandroid-properties-dev
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 46
-Depends: libandroid-properties1 (= 0.1.0+git20180616-1)
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180616-1_armhf.deb
-Size: 16688
-SHA256: dda95fd021d090a93fbbc8d7663af80e121bdb2bbb719d86964c41a1af01e2e5
-SHA1: d5288461e8eb51905f4624de96e863e34d5eb9f1
-MD5sum: 90996b02ae5edfb9bd8b7ee380b41ba1
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180625-1_armhf.deb
+Size: 16668
+SHA256: 4949b69c6d0dd9ac4e5c507ca1877356dc64524f31dd2d3844d39525ffcd39e7
+SHA1: 9e8f195b49b178e0c1093d0e0049469c60354655
+MD5sum: 2a08ff8e462ecbf14019572805fa8b12
 Description: Development headers files for libandroid-properties
  Contains the development files for use in applications that wants to get,
  set or list the Android properties.
 
 Package: libandroid-properties1
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 51
 Depends: libc6 (>= 2.17)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180616-1_armhf.deb
-Size: 19992
-SHA256: 696e68e639e7e52027bef83b26a8b370faa9a8c44b5fcf1466627ed88fbac18f
-SHA1: d68bf5d8dbf65985dcbf032682d1a5c0d121ee7f
-MD5sum: 259672e92577f7f34153931832bb8efd
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180625-1_armhf.deb
+Size: 19972
+SHA256: 1de3a8eb625926f0bb7b026aa7d13f10e6d7dc2c4f62c0d93250b48326774508
+SHA1: 076faa2ec436d96af4a9bfc3e90313502c074b39
+MD5sum: b9219ccb730ea99077537778a72269d0
 Description: Library to provide access to get, set and list Android properties
  Contains a library that provides access to get, set and list Android
  properties, which can be used by any Ubuntu app that needs to probe
@@ -944,21 +944,21 @@ Description: Library to provide access to get, set and list Android properties
 
 Package: libandroid-properties1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 30
-Depends: libandroid-properties1 (= 0.1.0+git20180616-1)
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 15600
-SHA256: 56a65e23f8f3241f6cd22f300963d12e9310eacd6500aeccf87038edcd4a47da
-SHA1: 2056cb3c0abb7708b7e4b60dc60ba8f08984e772
-MD5sum: e8b0ffdcfa519c12ca78e30b83fc8b0f
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 15604
+SHA256: 1d78a8f6296598ca8ab57fd379045138845b8b7930d5c8f33e3e92ae36a066b4
+SHA1: c45bf0a528c6f42796f8432df31c9d8cd8a0741d
+MD5sum: 22f423858d051d72d121f2849aacd2c4
 Description: debug symbols for libandroid-properties1
-Build-Ids: 769ddc4e7078de39402d3ec57c2e349df85c2c25
+Build-Ids: 18b342f1e83d95189f0618e1b3033fa4ecf2585a
 
 Package: libgloox-dbg
 Source: gloox
@@ -1082,20 +1082,20 @@ Build-Ids: 473d8cbad902a91030c6ba9e0026a5451efef33c
 
 Package: libhardware-dev
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 41
-Depends: libhardware2 (= 0.1.0+git20180616-1), android-headers (>= 4.4.2)
+Depends: android-headers (>= 4.4.2), libhardware2 (= 0.1.0+git20180625-1)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180616-1_armhf.deb
-Size: 16228
-SHA256: ade60e0e96ad0c0764ff5919dba6eb7d1aa719145cfbbcfe87fa87d91db3d4ec
-SHA1: e3439e1adf7f94b3424d9ce75cfa08adcdab0088
-MD5sum: 9f66b3cc3953b08d7030525dc527a247
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180625-1_armhf.deb
+Size: 16212
+SHA256: 3d7eb95d7d244e8c5a0e39acf5ee8cc2ee7ad2db490885a23cf7141c9723ee7a
+SHA1: 3c2f804ce96d314dbdbcbdceec53ff876848152f
+MD5sum: 058108dfc60376257efa9b98f4abf693
 Description: Development files for libhardware
  Contains the development files for the Android libhardware HAL, which can
  be used to access a wide range of other HALs, such as audio, power,
@@ -1106,7 +1106,7 @@ Description: Development files for libhardware
 
 Package: libhardware2
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 47
@@ -1115,11 +1115,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180616-1_armhf.deb
-Size: 17592
-SHA256: 919dde308d2131f0e686e44b463cf3cf7dbb5faf5cda3cc62605ca4ef9b54d52
-SHA1: ec8ecd9196a3f95ccd251fe5f5ae4ba1d39726ff
-MD5sum: 51ea836bdc4157a6e9e35ca77a6ef69f
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180625-1_armhf.deb
+Size: 17568
+SHA256: f5872612f0337b2f35920dd8ba476d42a63735dd1bc38fab0b95bfbc12920ffe
+SHA1: 48620296aa67cbdf53a52c234b25c5b3bd08a5fb
+MD5sum: 24ad07da605a30e9d22dbd9a7089c9d7
 Description: Library to provide access to the Android libhardware HAL
  Contains a library that provides access to the Android libhardware HAL,
  which can be used to access a wide range of other HALs, such as audio,
@@ -1130,55 +1130,55 @@ Description: Library to provide access to the Android libhardware HAL
 
 Package: libhardware2-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 16
-Depends: libhardware2 (= 0.1.0+git20180616-1)
+Depends: libhardware2 (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180616-1_armhf.deb
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180625-1_armhf.deb
 Size: 4208
-SHA256: 111ea55425f99f2adaa740b9e21ad3739d3299f8beb5b0283894ef858a16ca63
-SHA1: 36f0e43162f564d65cb6cdaf5dfe5ed728026fd5
-MD5sum: 7258fde79500cf643b47ba4738b5d5e5
+SHA256: 94b98cc48c497019605f0744b1ffdf4301833b5f764f56e9437bf6d510e3a0fc
+SHA1: b1c5bfd5ec93a56ce25f640082824da4f2546d28
+MD5sum: 08577f9165c88aeff9b46befb0f522b6
 Description: debug symbols for libhardware2
-Build-Ids: 547923015da014b8f9ea93c1e307f1770ba38f3e
+Build-Ids: ec46a224d3f388a73f790e83604db3273d81a2ee
 
 Package: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 399
-Depends: libandroid-properties1 (= 0.1.0+git20180616-1), libhardware2, libmedia1, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1), libhardware2, libmedia1, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180616-1_armhf.deb
-Size: 89640
-SHA256: 88de135458e1e13af1620a459b9278ee95cbd555d140f932b14e3a5fa95be9fc
-SHA1: 08cf097b48e6be1797364f0bdf171b337e4dfea3
-MD5sum: d7ff4916823f8ad60911f301c1c36364
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180625-1_armhf.deb
+Size: 89756
+SHA256: 0935e9cb3ae6759c8e7e31b5eb4401d70361dd862497edb24e2b5a9c75365424
+SHA1: 54ebc0c7f71bc0d0d57efeeae44e1e900a73c0e5
+MD5sum: c40d81c609909ae504b8f35462e95ffe
 Description: Allows to run bionic-based HW adaptations in glibc systems - libs
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
 
 Package: libhybris-common-dev
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 39
-Depends: libhybris-common1 (= 0.1.0+git20180616-1)
+Depends: libhybris-common1 (= 0.1.0+git20180625-1)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180616-1_armhf.deb
-Size: 15980
-SHA256: 420299f1f083c8fe4c732b569c6728904c1a06428bf64bda37b2510a0b986900
-SHA1: 5d751621b203e88060e6b63f76f623cde653680d
-MD5sum: 0d682f98955df0cdddd4a983af342dfd
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180625-1_armhf.deb
+Size: 15972
+SHA256: 8c2f212993202ed76ee87b778476434da1c55b3ec05d3ab493861f11970c2d4c
+SHA1: 5585b78228e402b5faae94c16bc8ea6df4e09bee
+MD5sum: 739953ea43db5c369b2ec559c6b18fb8
 Description: Development files for libhybris-common
  Contains the development files for the common library that contains the
  Android linker, used to dynamically load and use symbols from Android
@@ -1189,7 +1189,7 @@ Description: Development files for libhybris-common
 
 Package: libhybris-common1
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 368
@@ -1198,11 +1198,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180616-1_armhf.deb
-Size: 126576
-SHA256: 24ce4dec82d50fc18c620d4f8c6ead8add81607fadddc7a07c2226aaac98fee2
-SHA1: 1176d432cc6d3ddb0e0e68c350c87c436c0227d5
-MD5sum: ce569043a02513d6619088c692792f05
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180625-1_armhf.deb
+Size: 126472
+SHA256: e7202131d993f8344b3f4a9bb6418431eccb787300d10e72b4bfb2423fbad92b
+SHA1: fca9b340f32cb7158fc85c5f39bd8b10999cf176
+MD5sum: 967cd49c880f88d1051e177f76d6cfc1
 Description: Common library that contains the Android linker and custom hooks
  Contains a common library that contains the Android linker, used to
  dynamically load and use symbols from Android based libraries.
@@ -1212,54 +1212,54 @@ Description: Common library that contains the Android linker and custom hooks
 
 Package: libhybris-common1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 771
-Depends: libhybris-common1 (= 0.1.0+git20180616-1)
+Depends: libhybris-common1 (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 669428
-SHA256: e99532778281b6ceab640904d2400a4f50d2ce9ef9ede26901c8bf9fc217ee15
-SHA1: 20380bb6a4c741ac780c414d3ad784bf36b64490
-MD5sum: 3e9b5fbd11398890ccab29c5ce972079
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 669432
+SHA256: 76f6842e169ed7893c69e1a5e2d478d9755782ee554568d6a133833ffc30f552
+SHA1: a4fd70f4aae2558960cb5f12390123dde8f6dc48
+MD5sum: 1fd7ad92f14ef44fb72ce8f68f128c01
 Description: debug symbols for libhybris-common1
-Build-Ids: 518a8eb39ee07212e968d2463cef5c2f50c5ae0b 95dde168f605dc050846ff1a6e4c839e3f910bc8 b36d8d8bad829835d34bc53821cb4475102457c0 df5b6a37f6ca776aafbf6c2f2d16a75f938ea971
+Build-Ids: 504125e39abaf1676c111ea0e5c334f7204b0102 669f34f4ad4133ae11d9b8b7b95d8e0ae4aecc63 a37f753953c47147cda0e82d22640e442ca292cc ee79839bf412696c0f80ce9bf88a3f93182c56e2
 
 Package: libhybris-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 602
-Depends: libhybris (= 0.1.0+git20180616-1)
+Depends: libhybris (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 394808
-SHA256: d0952d7c5f8177c3238610b674d9e1d1ffbe891d337d90ba2c6befcbff3acf7c
-SHA1: 932c0137161aeb60b108a8afbc025550fdcf1414
-MD5sum: c788e6066590d403bca62da024c7ac5f
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 395040
+SHA256: 577f4b13b4d6a23d417186abb7ec994fa31346d67e7190436eaec919b1b0a79a
+SHA1: 49e1be6ab3e4233a02e43104882e106cd3516d96
+MD5sum: 9c0b60ecd2cfb13566a2fd3e485cfd10
 Description: debug symbols for libhybris
-Build-Ids: 0323d73fad9a302a7f6ba764e480c4c5a51c1c85 113eee4960110126e907f0454fcd6977b5f1e839 158f5951a7b8e1e22bf5b95419af7d5f469b4494 2afae10c71a9f5d42f044b063fa9ca11a92bc4b5 30b67620809efb2edbab37603cab6122fb964a0d 37aa42995b25777ecbb9c50b398f6a4bb00f3b06 3b5bbe009a6e3edff48932d616150f9a13ec61a7 3f2d02bb53455fa7d16ad13c99cec74daac01232 475a3e08cb10b646ba7f2afb8ed20ef147bf4405 55a6420aeb76c50cbe278db12c514198bf81ef73 589843ebe53b886ae51a78b82ce48da0295d4c3a 71a93981685220e84962b558168aafa1242cfd0d 79f66777565a06c7d73558d0945c6480979efd05 8b2a0334d87310324bd61d940e0f8d1a05980d06 ad3f8210cae0ce0ab6a79cf243bd61b829fe0295 d05986052cdb13d1584b2c3b699e97e2876f4b5c daf4a519e7075e6f6ef1f887d043dc5ae018907c dcbbaa42e6935664a5e49ae33258b649b6d21e05
+Build-Ids: 143882ab9d4bcb4fef324271537a9edbf44edba7 17001563a3c14da89e53a58744117d7b151db3ce 1e1ea38cd020ae85a918b98e82db12e00bdeac99 1f6132900bd19934ee4ba218b92bf779eb77bf36 23a0eeaf7c8ca4c41b1544f5f1c7c5dd558cf937 2b559777968a9ed6a72252ba9a7bc266870fd769 4b555c2d3f32ebf1fd123d476510ab159c89b63e 4f599b058d0525f12f9f340dcd9b9df58a9db1ac 56280fbfc232fee16ced37f098112792090b270e 58cea00ef4cd92c7f65967be467eb9a8c01d5e51 6c7bc73a40813063ee7124b37678c063b27588fb 7f13502e592ed4021098c8f61aac41e366474adc 8560242fd6ce8cb7bd70f9f36674f5b5b4e97d75 b3134dfef7265ec66abf7c010bf03559d4d12229 d0df0bbf9bc3290731f68e22d32751edb7658143 d3b97075f1fabbbd4cff03fadb2595061a418c95 d6451e1a03c566495add16a178a9052f8ee42e36 f7dd79dfe1130a1ac65729c55bbdaa4bbe7d4471
 
 Package: libhybris-dev
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 181
-Depends: libhybris (= 0.1.0+git20180616-1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180616-1), libhardware-dev (= 0.1.0+git20180616-1), libmedia-dev (= 0.1.0+git20180616-1), libhybris-common-dev (= 0.1.0+git20180616-1), libgles2-mesa-dev
+Depends: android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180625-1), libgles2-mesa-dev, libhardware-dev (= 0.1.0+git20180625-1), libhybris (= 0.1.0+git20180625-1), libhybris-common-dev (= 0.1.0+git20180625-1), libmedia-dev (= 0.1.0+git20180625-1)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180616-1_armhf.deb
-Size: 34788
-SHA256: 7eb210fdfd90632b3b576a63d0ceec9a5dde98d69d54063b10f096c858767fbf
-SHA1: 81745ad40a80ef7f5db98a9109c5ed85a3782445
-MD5sum: 55040f39bb3c798d8d12c88b5ee351d5
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180625-1_armhf.deb
+Size: 34776
+SHA256: 3a28747951ac84d62f69db943b5673b8a350f1a217f5056a45897f217d106163
+SHA1: 7901408b4a36a85b3d4ba17f684f9bcc693b6701
+MD5sum: 6cdf00667e2a03114474aefa8da7a145
 Description: Development headers and libraries for libhybris
  Contains the header files for use in developing applications that use
  the libhybris library.
@@ -1269,18 +1269,18 @@ Description: Development headers and libraries for libhybris
 
 Package: libhybris-test
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 207
-Depends: libhybris (= 0.1.0+git20180616-1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.5), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
+Depends: libhybris (= 0.1.0+git20180625-1), libc6 (>= 2.4), libegl1, libgcc1 (>= 1:3.5), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
 Priority: extra
 Section: devel
-Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180616-1_armhf.deb
-Size: 50528
-SHA256: 4830da2bb85d062981d63d32503477a542c0cf95ef0b1e334aca6058182d524a
-SHA1: 6fe9489abcbcd89d3a68d517f535855345b79f73
-MD5sum: c5ac09716fd41ba8446e96e88974b20b
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180625-1_armhf.deb
+Size: 50484
+SHA256: 7f5bee496d89de5069bb4b974cde7f199d3e2026f06f7c51d6790c526f365ef0
+SHA1: 75af9620416a45b71876b56d4213f4296a2d8e32
+MD5sum: 843c07cddfa21834c6a1df06ba809697
 Description: Allows to run bionic-based HW adaptations in glibc systems - tests
  Contains the test applications used to validate libhybris (needs Android
  libraries or container).
@@ -1290,36 +1290,36 @@ Description: Allows to run bionic-based HW adaptations in glibc systems - tests
 
 Package: libhybris-test-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 266
-Depends: libhybris-test (= 0.1.0+git20180616-1)
+Depends: libhybris-test (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 140960
-SHA256: 906f93aef5045c013f5ed0f39cb7338733cd740b58e8b080b0c99609a123c571
-SHA1: 3f4d91bf26fbf8c5b7f96d62404aba0096730958
-MD5sum: c3bb208fe2bcee4ad4ccb0ada7bb5a8a
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 140840
+SHA256: 8b2607b4b03edcb95dd230a6779e87a98eb86f09b83df45fdb9e85a5047d350d
+SHA1: 737204c8d0aadb060500bed637f96a0d74a5ef1d
+MD5sum: d974f4f35f8788007b30d1a3edae89d1
 Description: debug symbols for libhybris-test
-Build-Ids: 0069146e922944828ae5237f2c55e7ab6bd5d9c8 1ce2860927b78f45d4777d47be747d57fb52c735 4a4e8aae81573dd8333500bd1cf966adb165969b 4b2c222b0e67944e43976a7a18d2a44e4c54ef7b 4e3144188dd1f1e7999295685b019e5e06aad3e1 5a0f7f49939444b882b6e8c13f4534651f7b25b7 6c9f1b7555b558868ea28e6eb276c8d88d239de9 70947494e2923d138b09a55a6089a9144c01e119 827c7c27167e2f94984578675eeaafd27ce0741b 83a95f0284884480affeb21bfecbefa84b88310d 9445731b20704a5e3774fcc86c8afc44f04ba314 a97764eec51df0add22434528ca0aafebba8eaee c0989636306ffcb06d9b1128f1e0e67f8af3f5b7 c62f44a7954ba572133097344c5262205e47eaaf cc0a71517dd71e8767f7ab720e29c431129331e6 d0a3a19babc2b1da65ee36029c8ff3272dcb54b1 e2ef166e8179242040a379fe0781046a6e412458
+Build-Ids: 1633c9be08d6a71bd7c7961a3ba915a16c7d9742 2a4587d72d1632a5459908b3c982c97bd94295da 2c386e40c7e87dd10f4e0689b62d126c7fce32bd 4c64134acebf4969130f13c461fadb33811f6412 57a1fc22bc0ae0207e9d58d17f04acb29324f923 6d1c520f24b7e901f8ad6150f82691c910f69bf6 6e82720b18a725d0f2a3810b3191ff3c215982ec 778a80e715de683aa34e605a93746cac80c5bf39 7eb11f197890ffd58dd94144f22e2e67e35f34b4 89f2af42cbe04859420d444a0c6eb0e192935ad7 9cf1fcc8f9c56abc7aac1bceb020802b7b4e4457 9ee79de0007034687c4651f9c1b083aa870baaf2 d2cf50983e8d41360da59684428f167552630dca d47dbdad8f1d68c4d52e66b146642e5d812b407f d81014c984a79eeb1f0decc13881765a2969489f e6bde94ce8b47aa5d9cb7d770d3dcd15b9f35b01 ed9f2441c30a14a3001719177033ed40da2294c2
 
 Package: libhybris-utils
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 59
-Depends: libhybris (= 0.1.0+git20180616-1), libandroid-properties1, libc6 (>= 2.4)
+Depends: libhybris (= 0.1.0+git20180625-1), libandroid-properties1, libc6 (>= 2.4)
 Priority: extra
 Section: utils
-Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180616-1_armhf.deb
-Size: 20528
-SHA256: 7f50d0f046c4436f481ca40330d8349ae32a051d643cf84eaac875e084528283
-SHA1: 87bf1cc00f84b27929b7f25369e226388b6f238e
-MD5sum: 3713756fa88bfc795ee49d9308f8a403
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180625-1_armhf.deb
+Size: 20508
+SHA256: 25fe9db4dddc1c24f0c4b2edd1f27154a4107f8f1e2eb529eda23b7fba650d7f
+SHA1: 4870460fd4d09afe367771b7420ea593fb590a25
+MD5sum: cf738916abe1a99e99039ceda6e1bb4e
 Description: Utilities to help working with the Android HW abstraction layer
  Contains utilities used to help working with Android HW abstraction layer.
  .
@@ -1328,21 +1328,21 @@ Description: Utilities to help working with the Android HW abstraction layer
 
 Package: libhybris-utils-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 26
-Depends: libhybris-utils (= 0.1.0+git20180616-1)
+Depends: libhybris-utils (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 7852
-SHA256: e072bdb4c7d50745b105492b477c62fb157939da7b4e065848410d1d2638a132
-SHA1: 3f51b35c92e11333e1402584ab27a74375b39970
-MD5sum: 9d83a2ecab4d42ed843e9614d6329fad
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 7848
+SHA256: add6d7da5055682b101d62dc87fff7f04ac6c24f964935d6433a3116951c6fb5
+SHA1: cb1aeb26e4087e0aebfbec12c81220e238d98e1a
+MD5sum: 32ea7ff43b0b2641be6512164af10dac
 Description: debug symbols for libhybris-utils
-Build-Ids: 103df49e4b03d1743f2db7057c18acf2e446cc65 a52432e189795f934bb88d634c5012293ad1a214
+Build-Ids: 51a345e8932f5c119bd4867ea40df26cbd6c8257 77da19c85ff18d1561d6896d821acdf65f02044e
 
 Package: libkwin4-effect-builtins1
 Source: kwin
@@ -1536,20 +1536,20 @@ Build-Ids: ab5bb884c83247c239d378f4a40676448e3d94e3
 
 Package: libmedia-dev
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 85
-Depends: libmedia1 (= 0.1.0+git20180616-1), android-headers (>= 4.4.2)
+Depends: android-headers (>= 4.4.2), libmedia1 (= 0.1.0+git20180625-1)
 Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libdevel
-Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180616-1_armhf.deb
-Size: 21336
-SHA256: bf86d655849f67c1465d9655f38766c097cd77b6e59da3cec471e4ee9c4d12f0
-SHA1: 84ad27e8b850c81ae1de9771c4b32f525ec648a1
-MD5sum: 505dc5d4e3cac0db0c88276fc8484a98
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180625-1_armhf.deb
+Size: 21324
+SHA256: c364de3e4a50a4bb5b876fb3be9acd185ea91a618e2cb3be70c10697692a87d4
+SHA1: c63773838bac5f79ae6fd465489ecc05ca5d1b93
+MD5sum: 3a086687240dbc9ba3006183089c0dab
 Description: Development files for libmedia
  Contains the development files for the Android Media HAL, which
  abstract the access to the Android libstagefright based decoders.
@@ -1559,7 +1559,7 @@ Description: Development files for libmedia
 
 Package: libmedia1
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 79
@@ -1568,11 +1568,11 @@ Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
 Priority: extra
 Section: libs
-Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180616-1_armhf.deb
-Size: 24452
-SHA256: 66dd40add125611fb19e311f071b87c6c7ef89d330e7ed17c03016ee95018179
-SHA1: 584ffc716a1c2eb0ca41d767321892564a8a9476
-MD5sum: d6ec3274186b38bb7b5b9eb0e202a46a
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180625-1_armhf.deb
+Size: 24440
+SHA256: f0687aa4bb82dece80282ae8d2e529360a7fd97ac15d4c95f998f3de2d19a6d6
+SHA1: 38a33f61a83f05e1c3195d6015dedd0ec4a94367
+MD5sum: c36a527602e85654d031b22962452980
 Description: Library to provide access to the Android Media HAL
  Contains a library that provides access to the Android Media HAL,
  which abstract the access to the Android libstagefright based
@@ -1583,21 +1583,21 @@ Description: Library to provide access to the Android Media HAL
 
 Package: libmedia1-dbgsym
 Source: libhybris
-Version: 0.1.0+git20180616-1
+Version: 0.1.0+git20180625-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Halium Developers <admin@halium.org>
 Installed-Size: 56
-Depends: libmedia1 (= 0.1.0+git20180616-1)
+Depends: libmedia1 (= 0.1.0+git20180625-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180616-1_armhf.deb
-Size: 28700
-SHA256: 36434c6ec13a4ea36893acc0627bdeded759bdfc29be93542473e4dbc3ad344d
-SHA1: 51225be65df084b9cb3c389e37caa3bf20ed0e80
-MD5sum: b6199548ac5d3a96358183d741225d96
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180625-1_armhf.deb
+Size: 28720
+SHA256: 975d2c6569e4d8f05d0287d08704f0dddcd44b45e466f4b2e84f707d2ac870df
+SHA1: 5a52b71dfdfb375aa28249f33b5a28cbbf0abd98
+MD5sum: 8cf397029b2029f241670bdb317e515d
 Description: debug symbols for libmedia1
-Build-Ids: d49f4215b81ff83e27f47ab76f60a472a2a4ce2b
+Build-Ids: 4fd489b1f795c880eb150e3cd98a1d456bb388d2
 
 Package: libofono-qt-dev
 Source: ofono-qt
