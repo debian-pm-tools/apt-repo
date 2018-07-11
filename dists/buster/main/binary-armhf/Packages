@@ -419,23 +419,23 @@ Build-Ids: 96000ff944855ab2705ffd3a782cdf5c12a32917
 
 Package: kwin-common
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5625
-Depends: kwin-data (= 4:5.12.5-1.1), libkf5globalaccel-bin, libkwineffects11 (= 4:5.12.5-1.1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.8), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private5v5 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.28.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.9.0~beta), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
-Recommends: libqt5multimedia5-plugins, plasma-desktop
-Suggests: kwin-addons
-Breaks: kwin (<= 4:5.3.1-0ubuntu3), plasma-workspace (<< 4:5.12), plasma-workspace-dev (<< 4:5.12)
+Installed-Size: 5685
+Depends: kwin-data (= 4:5.13.1-1), libkf5globalaccel-bin, libkwineffects11 (= 4:5.13.1-1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.8), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private6 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.35.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.9.0~beta), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
+Recommends: libqt5multimedia5-plugins, plasma-desktop (>= 4:5.13)
+Suggests: kwin-addons (>= 4:5.13)
+Breaks: kwin (<= 4:5.3.1-0ubuntu3), plasma-workspace (<< 4:5.13), plasma-workspace-dev (<< 4:5.13)
 Replaces: kwin (<= 4:5.3.1-0ubuntu3)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-common_5.12.5-1.1_armhf.deb
-Size: 1458116
-SHA256: 8e09b93c455b8c127afdfcf41df9de4467289f45db23b70cca42218f986ea8cb
-SHA1: 3206f3f7c4c49180d954f7cef38a7da90cf5de87
-MD5sum: 87e14ac6bbb8b4d33ab86d5c684543cf
+Filename: pool/main/k/kwin/kwin-common_5.13.1-1_armhf.deb
+Size: 1472200
+SHA256: 76327558f2acb42357cb9d36f264ee540ff68552187121b4c1bb9cf974ae5ef5
+SHA1: c7ae65bc4e4dd3e5aa4864c973bbc8130b5e15da
+MD5sum: 9edab35092a84f7bd79ac0d2ab8985c2
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -449,41 +449,41 @@ Description: KDE window manager, common files
 
 Package: kwin-common-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 55296
-Depends: kwin-common (= 4:5.12.5-1.1)
+Installed-Size: 55607
+Depends: kwin-common (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-common-dbgsym_5.12.5-1.1_armhf.deb
-Size: 53376272
-SHA256: 54ab2dae8b80f503092e4b59c0e3dcd35e3de03e812bae3a8ba159e99c1f3a35
-SHA1: a811ebda04c4c3f668b4ff4e7aa081db6c2ab531
-MD5sum: dc94111f6e766087af640b58fb644520
+Filename: pool/main/k/kwin/kwin-common-dbgsym_5.13.1-1_armhf.deb
+Size: 53693368
+SHA256: 027c8aa8c55d0d4b5fd6ec271e3555500a0d3cebf6265217fd01569dfaaf324d
+SHA1: 196c30cb0741232a523388e6c2bbf5679b5260e3
+MD5sum: ad6d1c0a062ebf6c6dc3f3c9036bed32
 Description: debug symbols for kwin-common
-Build-Ids: 05a1eeafd89c77daf676ed96c9605fd45f144e35 0ee6598e71d9590212aa0622381e130ccc6aed03 1d6012b6cbad8e2c5b21f667c509f12afd0368c7 1f09955e232e1650bde37876c5e7d03de7b2530e 21152eb0311f801829941b969ca7d3ba066c0d06 2bcefec94abfc1cb5c1383102513e922377f9866 34d07e3c2dd06de7d6fd7b549203563fe327158b 350d23e1c5e3b705f43c2156133b7e8b89c39467 35d4a62e5680400f161667dc75ad924487cd6add 39a4e8461b7f008cc797f06b50a24bc9f21f1108 3a887b5d289df4b83d7831ba216e2d790f3ef287 3d6c973af6eced5e8e06a22a9e2310c1f815c974 44b1a075ec037c3b123a632a974c6c99df148496 46d96b2e1b1c4311131123758e393e5b673a9add 5602b392013a839a2071026b4eeb81eef026f559 5af80b5356f2df9e2a176528865615ebd6c3e752 5b39d2a43876c3ae42073fe7a7585f2d294bc03d 5b8b0db27be0f6df3e3e03b2bc09d4635be5f842 5da2416a34ada74298ff3716e1b0453352c56988 623ce5b429c986e76ff47feceb48f6568f6ed707 65f055e85a69d742e47d9b11a4157211a31c5422 690bd8f1156156e2a8ef87ce4ae09e44518fa38e 6991e42bcd63842a7dad429eaeb242a312016465 707da2153876c1b1338351f7fce6db8e625d6ea1 740e0a2fcf9070078a2f43c3283534144210f132 785ee56961ec9a651ed41999725ff59c55fc31c1 8220470bfb7832e1612f50aee70384ce90a7636d 878cbf98afdefbd09d3955df1a8a225b4cbd8bb8 881fb366897b338c605891179ebfbc5b1fc788a6 8929fb10b38af29b551da470961f8b847f7bc641 91f05f52bddc0c565d0d4e70615dd5c3df193a9c 9ac22afb2c41fd13d79f9d7d74f03a3ec3b8e9b4 9c762dc63c7fa78dcc988176b487aae44155e7b6 9e7f2a8d60b5fdc080f3feddf27ec4578cb73b70 a4283599ff7bc7d31446479308dffb128ca21893 a920cb22e6ea2c723bef9a7707b20b37899d09d0 b26a872ef85f6f7a15280ff10b99d22e970c277f b909cdcd9bfd34a2ae31c460450727dc5b50c70d b98f7be14b8a13b40fd101a4c41e8f5e58bfd571 b993d9a2dac9e7e94a9da1a73c542ab44870b012 c1c0a42fc185efc21bfa5e6ce881babeffb87d7a c34ecf30d811ad02c01c1f32a08e0e411fa87df4 d57e80cac7f965c7e3c8191d6fa759886399d8c9 d64845cf47490a9d1b34c32bea61a2cd121c397e e10ade38adabe246273cf35430dab1a63653d0dc e976ea35b3fa9293a3e3caf41777b0992abf251d eccee2bac505cb306e88a3326d28b0b6006bb5fd efa42c49a743f1e72f6f754274315c977a079b21 f03281d2ef521fd97837575e64ab3f0685e10315 f78dded1ef4bff8249ada28b1054f71c00bbcf27 faecee8e59a4dcd62c849ede99220e2ae5cd9bf5
+Build-Ids: 04473be3960596271cf315ab9a338f528daf9480 04c2da86f24639d67fd2091f9574dfb707bce4f1 0cd412360443546a441ae05af35142ab333d508c 0f55d9266145031fdee0857c0d8a90f147f312eb 165ece3d7ac2483be989c584f3a22e2de38114d9 1d58b520e4eb969e79f0f60221d596ee7f2871cf 1fbd5115d8b1ee7b13f33f7faea33c96b5a8e7aa 25319a752b27b0ec63b1076af11c6ce26c601386 2563967a7327f17ed46fdff1fba2c608e9ce39f8 28fd89e8a264c6268fd7ca70a338976a1fb765d6 350e79661e0123b73e2403b9748a2075b8fc1947 35f247b12f6c2805c4766a58be8c5dba0f8174ad 391bb2581a92f7a726858854069563af6a08b805 433ffa4ab73aebb45498a59da199e06e3461400d 4d2662d290081438072f51d9cd05c2c6ebd2f94b 4e1efed25177a8a889f0ae900ec9541b02a00c6e 541a38df54c604c76feafb67bb16a427aa7ed023 5a45b6eaa8fd6d8dfb6468b3c18e41544f773758 64666640a5c4fa69c3fdab7ef29c81540f95fcf0 68f5cc96294ed6d09f184ccd67932446d98a630f 6a42c019be4cb7b275b49f53fd517e8814fbb7f7 75185d5565fb37949bccf113379ba35636a1de4f 785555beb3485a15f1be8ea18b1ebdb11c3a8c14 7a391abdb2075930c28ebd42e346cd65eee2a99b 7b3a9df511a4ccf8f99855af7a37f6efd11c62b7 81303f2901945b1a371dd7a050f2c0ca8c406f8d 84bce6a7bece006136bf3b7cf6178059be349498 872ff2818717b461e57e71c7e34424fd006ece74 8770c1fbca8f198a5b943cab2605cf294a335d9c 8cd38a58381aa35410e555c345ea2d5651f85875 8eab95200df142a0511ccbc5d8c35850a91cfd11 93e6b3d69e65c87cd3bb47fe005cf3a11b8691fd 975a42c5031d4498ca159ee3d6ba7b97073ba177 a2bc647005f09ca3047ca2030326a97aa541cd28 a8f92ce858e58b9feaf974f0e6d1c4779524479c acc1ffc9f4eee207a720a83237b59ac826073b41 ae7eb87ed7ff14be359fc082fc772472e3fc5bb7 b24a900529b3b9ec8f966ef41bd9bbe30426584b b4fe5be5affa3ae49f8230e5612422c3182c57a9 c23f8afea0d8f3612e6a5d425c5a9dfdb94185d8 c25bce7aff46d7bf7416af0549aa25b11126a9f9 c4ddf614f395809185e9f7e32526ed24c01c973c d86b59e7a029d611f71ca491d45699c424bc7bc5 e13e8d23782716ebec6ed14200b3f85ca66afd72 e1be3189b5be58cda813466656916d641c46d5e1 e2ba4588ff2df0d6841dd0f9a9a97011afec3287 e7b39f44fa09a053270fb554a31e8acb0a3fcb04 e8cd16cb795dbbf665e55b45612a6f70eef5f01a f15c2cbd113584f10a229781b28a12f9ce2c081c febc542bab44708264aa8da0e2e5415709160fdf fef0c00f1a4cf4cfbd3e4b495c537f6cab5d9da4
 
 Package: kwin-data
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: all
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 12596
+Installed-Size: 12860
 Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-data_5.12.5-1.1_all.deb
-Size: 4002872
-SHA256: 00f6ef7afc6361bd5fd040ed853af4c2fad40bff011b35266dce96e04ea148d5
-SHA1: 689043aa3c550c2bd65e474b60f6bd0a588261a9
-MD5sum: 13ca376965ff63614d1a5ebbe4d5cf4f
+Filename: pool/main/k/kwin/kwin-data_5.13.1-1_all.deb
+Size: 4153820
+SHA256: e835bbfea1f873bd19e21798dd6de4a7a3158380ea4a339300b1f592f7fbde7b
+SHA1: c267e810386e99917ab1b7c7395c28b6b9dc9a76
+MD5sum: b445d823d07e8c653722b4f38fb48b46
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -497,21 +497,21 @@ Description: KDE window manager data files
 
 Package: kwin-dev
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 251
-Depends: kwin-common (= 4:5.12.5-1.1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.42.0~), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
+Depends: kwin-common (= 4:5.13.1-1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.42.0~), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
 Breaks: kde-workspace-dev
 Replaces: kde-workspace-dev
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kwin/kwin-dev_5.12.5-1.1_armhf.deb
-Size: 54852
-SHA256: 9b3f4607e2060e3111bbd5debadb23e03b2beb251bd4f9a4a2b83ae8487457fa
-SHA1: 7f5c98be6dce70d75b5241de179246602086826e
-MD5sum: 7ac9b200621bda52fa3b70c0d414d72c
+Filename: pool/main/k/kwin/kwin-dev_5.13.1-1_armhf.deb
+Size: 54996
+SHA256: 9f534aef80ef641aa63a4affc44419f75836139210a087051174e55555145e56
+SHA1: a849530b65c2344cd5b8b5ba30a454145f5cf2bd
+MD5sum: d9b40b6cffabae620f71985ee1d0fb0d
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -525,21 +525,21 @@ Description: KDE window manager - devel files
 
 Package: kwin-wayland
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 414
-Depends: kwayland-integration, kwin-common (= 4:5.12.5-1.1), kwin-wayland-backend-drm (= 4:5.12.5-1.1) | kwin-wayland-backend-fbdev (= 4:5.12.5-1.1) | kwin-wayland-backend-x11 (= 4:5.12.5-1.1) | kwin-wayland-backend-virtual (= 4:5.12.5-1.1) | kwin-wayland-backend-wayland (= 4:5.12.5-1.1), libcap2-bin, xwayland, libc6 (>= 2.4), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgcc1 (>= 1:3.5), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.1), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0), libxcb1, qtbase-abi-5-10-0
-Breaks: plasma-workspace-wayland (<< 4:5.12)
+Depends: kwayland-integration (>= 5.13), kwin-common (= 4:5.13.1-1), kwin-wayland-backend-drm (= 4:5.13.1-1) | kwin-wayland-backend-fbdev (= 4:5.13.1-1) | kwin-wayland-backend-x11 (= 4:5.13.1-1) | kwin-wayland-backend-virtual (= 4:5.13.1-1) | kwin-wayland-backend-wayland (= 4:5.13.1-1), libcap2-bin, xwayland, libc6 (>= 2.4), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgcc1 (>= 1:3.5), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.1), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0), libxcb1, qtbase-abi-5-10-0
+Breaks: plasma-workspace-wayland (<< 4:5.13)
 Provides: kwin
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-wayland_5.12.5-1.1_armhf.deb
-Size: 145480
-SHA256: acb039a6a4fba986f8133e05a780642967828052a0c185485ff3c115c09690c6
-SHA1: c2cf5bb7abcfc6307cdfd80fff0a4122f1fe9271
-MD5sum: 74440a3ab4a79b905674dc8538b6e775
+Filename: pool/main/k/kwin/kwin-wayland_5.13.1-1_armhf.deb
+Size: 146372
+SHA256: 574c16a13ed7c1d4825c77a44dadb818ebff9918caa16331ddc7897758968e3b
+SHA1: 4cd1a82ea0103aee6697b3b4eae42326f130731a
+MD5sum: ee39ed0aa2c7a05cea845e7210def6da
 Description: KDE window manager, wayland version, PREVIEW release
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -555,20 +555,20 @@ Description: KDE window manager, wayland version, PREVIEW release
 
 Package: kwin-wayland-backend-drm
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 184
-Depends: kwin-common, libc6 (>= 2.4), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Installed-Size: 188
+Depends: kwin-common, libc6 (>= 2.4), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.45.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.12.5-1.1_armhf.deb
-Size: 74532
-SHA256: f5e0d02f31ddf6e05613457582ea9e4241cf0fb454d06ba568f73d797d6ac583
-SHA1: 6111cef3bd3dbf493e5f887e4e7ace0f948c5930
-MD5sum: b11b1168858477eea677ae23af537099
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.13.1-1_armhf.deb
+Size: 75856
+SHA256: ff212b0d9f385a70f481894c7d89a6629d55259a4545288bf49eca8752f8eded
+SHA1: d24aca3bd5eb1c99496825389cd10b839274c44f
+MD5sum: 069f5547c421fa3142564c7402015ec0
 Description: KDE window manager drm plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -582,27 +582,27 @@ Description: KDE window manager drm plugin
 
 Package: kwin-wayland-backend-drm-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2806
-Depends: kwin-wayland-backend-drm (= 4:5.12.5-1.1)
+Installed-Size: 2920
+Depends: kwin-wayland-backend-drm (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-drm-dbgsym_5.12.5-1.1_armhf.deb
-Size: 2795156
-SHA256: 83e18626faa88990cd55d66d6355b6e4536d817b9512b9dbc9e5c73a26de4c22
-SHA1: ab6cc6f421486a74a0c8a26c0ff1c52c733c8bb5
-MD5sum: bca256c59affdf529db4c1568a5e4b0d
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm-dbgsym_5.13.1-1_armhf.deb
+Size: 2908324
+SHA256: 7411f9f99f2ca1a0e133434505f45cf61b3890de737db7bd1ce3db15f7f79b4e
+SHA1: 495b0eb6b109076266f10d0904962341eb468f1a
+MD5sum: c325107e91b5bdc9fe539720e9483ebc
 Description: debug symbols for kwin-wayland-backend-drm
-Build-Ids: 62ecde63b960f98a2b777d9356a2813d54f9ad63
+Build-Ids: e2d1a094b5653ddcd38a1f81b90ae4a51eaa5a4f
 
 Package: kwin-wayland-backend-fbdev
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 62
@@ -611,11 +611,11 @@ Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.12.5-1.1_armhf.deb
-Size: 22168
-SHA256: 19dbf76d30b3bfca98bab40a9020335235d46e9dd374d9b3a0e0dee5fbe6db54
-SHA1: a976d4ac6484428ea6b80878ec00cb656975975b
-MD5sum: 32a06fb192b44dab8ebc9ae0bf58a508
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.13.1-1_armhf.deb
+Size: 22712
+SHA256: 15ce9b7bea88b9e972e3adf7eb993ff866f53d30521af4b36fdefb20818517a2
+SHA1: 9cf4ea34ae4f019ac0beb2688130f1fce652f2ff
+MD5sum: 8bd072d80711706a27f8547a28441520
 Description: KDE window manager fbdev plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -629,27 +629,27 @@ Description: KDE window manager fbdev plugin
 
 Package: kwin-wayland-backend-fbdev-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 694
-Depends: kwin-wayland-backend-fbdev (= 4:5.12.5-1.1)
+Installed-Size: 701
+Depends: kwin-wayland-backend-fbdev (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev-dbgsym_5.12.5-1.1_armhf.deb
-Size: 685980
-SHA256: fc64a71e6afd536cf82647ba59bf5946860c78c06913ca62d33d530d51f82f18
-SHA1: 9fe91c2fa9a81b39df7178e6e0fdbdc4a59f5943
-MD5sum: 3c687fa4dabbd8821306a67df9271e24
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev-dbgsym_5.13.1-1_armhf.deb
+Size: 695408
+SHA256: 0f95b3cdc4e002421b5ff7b11c6e1707f2c17c6c3dbed60df7aaccc1d50a1a5e
+SHA1: 6de68c3e25df1f3ad89779da8053220fcb0ef0e2
+MD5sum: 9fc6ed4b98f62be73b47fc5e30831dec
 Description: debug symbols for kwin-wayland-backend-fbdev
-Build-Ids: 2a081186a33a802574382c252735b1293e73e730
+Build-Ids: f9519dc5020d29f3a200ba166feb165a988fbb83
 
 Package: kwin-wayland-backend-hwcomposer
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 99
@@ -658,11 +658,11 @@ Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.12.5-1.1_armhf.deb
-Size: 36680
-SHA256: 93385f12132a3deeae229920564c6e53f6da5273fac7543067f982c21e7e4f5f
-SHA1: fe7575610cdf2d3a14d09f8c6f0df22880f43ac1
-MD5sum: 88f80cfa508565ea3f07f4922d3b215d
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.13.1-1_armhf.deb
+Size: 36940
+SHA256: ce05d57fa822470f2d6fa52bbea6fec2b1b24e4cc839d4b9e555b83e8023c311
+SHA1: 1ec520dd0bc7fde416b40152b583f8ba6a0f2475
+MD5sum: 53c62e02bf9b3028e5320e46b5022a84
 Description: KDE window manager hwcompositor plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -676,40 +676,40 @@ Description: KDE window manager hwcompositor plugin
 
 Package: kwin-wayland-backend-hwcomposer-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1368
-Depends: kwin-wayland-backend-hwcomposer (= 4:5.12.5-1.1)
+Installed-Size: 1370
+Depends: kwin-wayland-backend-hwcomposer (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer-dbgsym_5.12.5-1.1_armhf.deb
-Size: 1359580
-SHA256: 7d3260190e06ef4a0ef13e365d3b3ab4f2497158dfe6ff4142915b904f3d19cb
-SHA1: 0211f22538ca8ec5acf90b66b068ec46607b8a02
-MD5sum: 03d6269077176e06b26aaa5aad868582
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer-dbgsym_5.13.1-1_armhf.deb
+Size: 1360956
+SHA256: 728284a9cc3a50fe0b0a61b67d9028a7a7188d2c4cc04afb2b66a5aee1c0edd6
+SHA1: c9a408a37e2061274aa65c25691c8ac56f41d2d1
+MD5sum: 0f3beee4a9f85de1af0d2847be64cf8c
 Description: debug symbols for kwin-wayland-backend-hwcomposer
-Build-Ids: 3eb3a2628de72aff7b3340a4555792c8a5e29bb8
+Build-Ids: bd742e043abc82396e356da24b45f94ae07bb2dd
 
 Package: kwin-wayland-backend-virtual
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 99
-Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.2), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Installed-Size: 103
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.12.5-1.1_armhf.deb
-Size: 38552
-SHA256: 5b6dc871f1a857ddf11246a0a1862b345acb8decd8b9e945e651902d5e73d0ef
-SHA1: ab06ffeee5233d59aecd17c5c216cde0af081edc
-MD5sum: 0467b5e6b6db70603f720fd82dbaa1e3
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.13.1-1_armhf.deb
+Size: 38616
+SHA256: 5e8f2f5c426e5ca4bd52d0a70e70b7ec8ceec68cdae0ae6c6a002ec3a7fc8124
+SHA1: 26404d7af22f596be12eb6ea174d226e6a45eff4
+MD5sum: cf76aeee449ce8735cb8cf5454ebd8ba
 Description: KDE window manager virtual plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -724,40 +724,40 @@ Description: KDE window manager virtual plugin
 
 Package: kwin-wayland-backend-virtual-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1621
-Depends: kwin-wayland-backend-virtual (= 4:5.12.5-1.1)
+Installed-Size: 1590
+Depends: kwin-wayland-backend-virtual (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-virtual-dbgsym_5.12.5-1.1_armhf.deb
-Size: 1616348
-SHA256: 617d5865f38352ba1a4bad264c62b8cd692fe07fca56d6ee2e0721338f1cbb20
-SHA1: bb8d49f9f9b23e0cbe350ea58a61e319cb56b9c8
-MD5sum: 303aaac4755b84c29567f5c3e5207566
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual-dbgsym_5.13.1-1_armhf.deb
+Size: 1583200
+SHA256: e65c071035d678ffeb8726fcf1b927b16058f946e496993c4a8cb13f9fe2fd67
+SHA1: cba62477ce7555307d1efe588dc3f9e291083329
+MD5sum: 979e12c8999957a23f6accff99101d89
 Description: debug symbols for kwin-wayland-backend-virtual
-Build-Ids: 121779cc965da6d88ab80d0a429042ff9e30637b
+Build-Ids: 643b270c2a8d91056c2ebc33b538efcadff4466f
 
 Package: kwin-wayland-backend-wayland
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 120
+Installed-Size: 124
 Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.35.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.12.5-1.1_armhf.deb
-Size: 43884
-SHA256: 978b2c6e7ca834b5d35cb7c9806a4b904778c041c3a56c33d716d04fc0cac11e
-SHA1: 0afd3441559a739e281f40ecaaa83f2351342321
-MD5sum: 2d98d751efd8e453cba2fac1ded7b208
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.13.1-1_armhf.deb
+Size: 44136
+SHA256: 117d7d3e4d324c16192c1842a8070317dbcfa4c15088d7a0f7149a5ede7deb23
+SHA1: 5c22fdc8e171cd8437251349b78bec33427ac62f
+MD5sum: 9d3a37c3951b4dffd34bc0a40611b437
 Description: KDE window manager nested wayland plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -771,27 +771,27 @@ Description: KDE window manager nested wayland plugin
 
 Package: kwin-wayland-backend-wayland-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1582
-Depends: kwin-wayland-backend-wayland (= 4:5.12.5-1.1)
+Installed-Size: 1584
+Depends: kwin-wayland-backend-wayland (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-wayland-dbgsym_5.12.5-1.1_armhf.deb
-Size: 1561100
-SHA256: 6e41b829579f6a6fa3db5e2839b7cab0a4de0ebcb122b2ea8f984e2968142507
-SHA1: e03a50781313cc42c3f4c19e101a734ec7cce596
-MD5sum: 2e6d750d515e1c218fda8daf0a9b8d5b
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland-dbgsym_5.13.1-1_armhf.deb
+Size: 1562228
+SHA256: 7d99fc0801d6b5e9635af1c5ca39d0e58eb040ee28433399c6075658e83120d4
+SHA1: 0495c6d3f828f3f85f580e0b6efeb65d27028979
+MD5sum: f756e75cb4e06192b2186295e4ef26a1
 Description: debug symbols for kwin-wayland-backend-wayland
-Build-Ids: b11bb78e88b15a0d8270e3c30b52aaeb7de3d9fc
+Build-Ids: 1743af718cb01d8277fb9ca3fadb203a61179acc
 
 Package: kwin-wayland-backend-x11
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 119
@@ -800,11 +800,11 @@ Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.12.5-1.1_armhf.deb
-Size: 47300
-SHA256: a5f5a4037cc486dbd5831042dabdfc62dd6909203ef635c9c886a25b7607118d
-SHA1: 8299fcc1214d2e68c11a4eb204e7746e3267f4a1
-MD5sum: 0225ae8b5e70d690090ed5b55fb44288
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.13.1-1_armhf.deb
+Size: 47592
+SHA256: a67f6deafa89c8821454839bc9a4222cdc911760194cfdd086ce8f077b7bd571
+SHA1: a7279c115856c77f8a647788c47e1faa03ed34e1
+MD5sum: bc63a04a5855581146472e123b752747
 Description: KDE window manager x11 plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -818,62 +818,62 @@ Description: KDE window manager x11 plugin
 
 Package: kwin-wayland-backend-x11-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1739
-Depends: kwin-wayland-backend-x11 (= 4:5.12.5-1.1)
+Installed-Size: 1741
+Depends: kwin-wayland-backend-x11 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-backend-x11-dbgsym_5.12.5-1.1_armhf.deb
-Size: 1733380
-SHA256: 43e0d123835f0a74804bad490fbe875b1214bdc67bd867d07778b3ef80d4083e
-SHA1: 25b176530fb6e0454a21f6ebbdf37cfed290d07c
-MD5sum: 0fedf3a056b051214b26c0eea6b575e3
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11-dbgsym_5.13.1-1_armhf.deb
+Size: 1734708
+SHA256: c08eb31a0a56a209610abaf09dae9794f8928ea6848d1f004502d6b8e73452ba
+SHA1: 84a1c8f08b69b8a66d3b7ab6b4a7680f01b01a1a
+MD5sum: 2756cd213a95efda762befb92a0560c8
 Description: debug symbols for kwin-wayland-backend-x11
-Build-Ids: 093a19546a2aa355cc22fe76aa21cf4c0824d2e5
+Build-Ids: 53cca8b20f33d7ac586720999c561d1ba081e7fd
 
 Package: kwin-wayland-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2308
-Depends: kwin-wayland (= 4:5.12.5-1.1)
+Installed-Size: 2314
+Depends: kwin-wayland (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-wayland-dbgsym_5.12.5-1.1_armhf.deb
-Size: 2168352
-SHA256: 1478e73ba57e7338b46be9a8400d7b53a51af4fdd67ddbcd7929b66f668bf8ea
-SHA1: 608e066252af5c68033a8ceed4e2afe6e1aca1e4
-MD5sum: f0298e19b5b717d0e94070421049be1b
+Filename: pool/main/k/kwin/kwin-wayland-dbgsym_5.13.1-1_armhf.deb
+Size: 2172708
+SHA256: 1f253d7609bb297536d2b0c1adbe26098a971f9e3723b659fe9f69523f8333d4
+SHA1: 359abf8066d2c17009b9ba179d2ca8c53f432f2b
+MD5sum: 3f3d648c690b9f26b74e3c15d3859fa2
 Description: debug symbols for kwin-wayland
-Build-Ids: 50f2bce64a3cd143836432b7642aa7da5417020c ad4584822a5dec76c45cd1b25ada5ba460304dea e7091ebe37a753b4cd56562986cb480325e5867e
+Build-Ids: 8cb97ec338278bd4c9466b087e1344ad540973ad ccbbfe0b741ca802ba25d92b30b47602b7165a7c de25b7b66f3c6b8e3770626ddb076c7f7028cca8
 
 Package: kwin-x11
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 285
-Depends: kwin-common (= 4:5.12.5-1.1), libkwinglutils11 (= 4:5.12.5-1.1), libkwinxrenderutils11 (= 4:5.12.5-1.1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
-Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.12)
+Depends: kwin-common (= 4:5.13.1-1), libkwinglutils11 (= 4:5.13.1-1), libkwinxrenderutils11 (= 4:5.13.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.13)
 Replaces: kde-window-manager (<< 4:5)
 Provides: kwin, x-window-manager
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-x11_5.12.5-1.1_armhf.deb
-Size: 108080
-SHA256: 7fb60775a0292360c42f42ee71a648a16d3d1a3abe7c7bb89283fddec9cd992a
-SHA1: b21fd59324c09a3a24a28ec7a8bdbad98da7827e
-MD5sum: 9531485db1c0543b24f7d6488f73d803
+Filename: pool/main/k/kwin/kwin-x11_5.13.1-1_armhf.deb
+Size: 108268
+SHA256: a2452dcac3f8992d653d063ccae6015ff07fc3a1e6c22ed1f6db5a36966f68c5
+SHA1: 137e515b392bd5f510a9ef7068217e4311b39ca5
+MD5sum: ee24ec4cb17744d66999a7600fac4e88
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -887,23 +887,23 @@ Description: KDE window manager, X11 version
 
 Package: kwin-x11-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3713
-Depends: kwin-x11 (= 4:5.12.5-1.1)
+Installed-Size: 3714
+Depends: kwin-x11 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/kwin-x11-dbgsym_5.12.5-1.1_armhf.deb
-Size: 3676888
-SHA256: 53edb04739527c81f1586c5d6e12c56c099aba98173e7b9f1ca78948d5461071
-SHA1: 25464cf40bbe2af6cd43d026b90bb6b9b5e0a180
-MD5sum: df4b54d498ba31fdac4cb7e47ec74acf
+Filename: pool/main/k/kwin/kwin-x11-dbgsym_5.13.1-1_armhf.deb
+Size: 3677052
+SHA256: e74bd5a58e533b9a5de7dbac70227af33ec658cf2d23091f6ed0b1752ab6cebf
+SHA1: 9d854f5299820a34a88f5725331ff4cc0fd9453f
+MD5sum: b3d945c526423ea8d3cf544bd5790bd6
 Description: debug symbols for kwin-x11
-Build-Ids: 4e124e84d49037e33e639470f65fb18fa2fea53f 60686f620c22aea250457e2311c1c3897c080fd1 7f22afb88291a83129de4f2d730d4d0c7317f467
+Build-Ids: 186fd606ef08796b1dd0312ed9201882b93d353e 49a66b42217cba1c8e675b84d1ff8dd10ae45794 5799ef84309a4236d0f67164214254369a1d69ab
 
 Package: libandroid-properties-dev
 Source: libhybris
@@ -1346,19 +1346,19 @@ Build-Ids: 51a345e8932f5c119bd4867ea40df26cbd6c8257 77da19c85ff18d1561d6896d821a
 
 Package: libkwin4-effect-builtins1
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 718
-Depends: libkwineffects11 (= 4:5.12.5-1.1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
+Installed-Size: 734
+Depends: libkwineffects11 (= 4:5.13.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.13.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.12.5-1.1_armhf.deb
-Size: 271136
-SHA256: ed5e3f80a2bee916a18a9f47138549a2c0eae72fcbb7df109e5a657a845d61e8
-SHA1: 1ee5ad00a9d80cf3ba121de0045e51bcc6b18b64
-MD5sum: 744328455f67944e91c7b0309d36c469
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.13.1-1_armhf.deb
+Size: 275728
+SHA256: 538603004d5f1e0e283d68c387d93c79367abac4a74eca1279cb7eb6294ec859
+SHA1: b82fe30ed53a37198c273769828ed0a55706b9ec
+MD5sum: f7d58d5b3b84f2df9a350b6f083c9d2d
 Description: KDE window manager effect builtins library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1372,27 +1372,27 @@ Description: KDE window manager effect builtins library
 
 Package: libkwin4-effect-builtins1-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 11003
-Depends: libkwin4-effect-builtins1 (= 4:5.12.5-1.1)
+Installed-Size: 11076
+Depends: libkwin4-effect-builtins1 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/libkwin4-effect-builtins1-dbgsym_5.12.5-1.1_armhf.deb
-Size: 10887832
-SHA256: 6ccc7a14a468a4c8404ae5f9a8755da8fbc8c8d9aa27c5f8ebd091a3da8027d0
-SHA1: 3ad17234567532c805b3579115151b8ff62ecc60
-MD5sum: 44afcbb4a35b1cdc1409d6512b3cb091
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1-dbgsym_5.13.1-1_armhf.deb
+Size: 10958404
+SHA256: f324945f68d029076ea10b14a96c0747f27b1a6491b6dc5873c6772466ae6cf4
+SHA1: 83a7b7c9b78f047626d80ba763e5757431383fa7
+MD5sum: 4647f6866ab11ae50386310891697470
 Description: debug symbols for libkwin4-effect-builtins1
-Build-Ids: bf6209661b5a8d6b0fa49ffe877d36cbe8e478e7
+Build-Ids: 3c34bf4195d261b440e225ab53174b21eef2e896
 
 Package: libkwineffects11
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 204
@@ -1402,11 +1402,11 @@ Replaces: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwineffects11_5.12.5-1.1_armhf.deb
-Size: 68524
-SHA256: af6af21720433cb94563ea15132ca058ab177ba82acf70f94f125d9e2cd257d4
-SHA1: 5c3dd429ae9fd363edf9e8c157d1411bcd62f2d2
-MD5sum: e3bad23114d632700676e1d43066cbb8
+Filename: pool/main/k/kwin/libkwineffects11_5.13.1-1_armhf.deb
+Size: 68508
+SHA256: 0a85defeaeb5ebe6609a72a3b4fb65fc3fefc50665b35f4418980eac0048da48
+SHA1: 938d205f171a9ea15e362bdfaddfa9bcd4323787
+MD5sum: 5012ec7413bb004b59c6804db2312acc
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1420,27 +1420,27 @@ Description: KDE window manager effects library
 
 Package: libkwineffects11-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 968
-Depends: libkwineffects11 (= 4:5.12.5-1.1)
+Depends: libkwineffects11 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/libkwineffects11-dbgsym_5.12.5-1.1_armhf.deb
-Size: 932668
-SHA256: 02800c571535606f7fad47d9692ce496ce6dfa021cb07b5a7bc48087b1887b6c
-SHA1: 33e3cbcc724194ca5480edb6b8685ca1a7ab780f
-MD5sum: f175abfb9d8f89b87c279a487d07b920
+Filename: pool/main/k/kwin/libkwineffects11-dbgsym_5.13.1-1_armhf.deb
+Size: 932640
+SHA256: 54f8c924c3b878e2fdc8475a650477cdac6bf986598e93fa3eba6ca0d9c6ee4a
+SHA1: 4bbb5049d870ee68242e5ca181a7382669b0776c
+MD5sum: 9b09bb3ea880824d711ab2d0584b21fb
 Description: debug symbols for libkwineffects11
-Build-Ids: d9aeb720e6857bf1f8b003460e7b66355220ac66
+Build-Ids: f5ad5c7d8640e8f3942ce2a169882f333e495749
 
 Package: libkwinglutils11
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 155
@@ -1450,11 +1450,11 @@ Replaces: libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwinglutils11_5.12.5-1.1_armhf.deb
-Size: 57228
-SHA256: 5c7909396ac1259c7c816a9839a33cbaf7101727f70b3eecc1fc0422eea38af2
-SHA1: 9cb162ccc6a0af7f23072131028aac5d6a2ed7f5
-MD5sum: 13eb526c447ca20593edb95283c32e24
+Filename: pool/main/k/kwin/libkwinglutils11_5.13.1-1_armhf.deb
+Size: 57736
+SHA256: c91fb94e04845d1d685d0d586ce1b10d9823adc4999e9ef9adb74410b582be08
+SHA1: b0a3e0bc95564c5e1cec5f6ba9468e0c1abc4cee
+MD5sum: eeb1aecb8aaa2e8293d0c8b557b5370e
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1468,27 +1468,27 @@ Description: KDE window manager gl utils library
 
 Package: libkwinglutils11-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 917
-Depends: libkwinglutils11 (= 4:5.12.5-1.1)
+Installed-Size: 921
+Depends: libkwinglutils11 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/libkwinglutils11-dbgsym_5.12.5-1.1_armhf.deb
-Size: 887360
-SHA256: 5a05c1431e5eff62207cb46e767d305b79facaf210a6068e605ad2b7fd19cca2
-SHA1: 7cbce422c56e7540f702f07ab1097d62826d1c32
-MD5sum: 82e328a4b3828f4ce6306f46bec12e7c
+Filename: pool/main/k/kwin/libkwinglutils11-dbgsym_5.13.1-1_armhf.deb
+Size: 891016
+SHA256: 0263b67f6aaabfa13b6c8692dfa9b33e93adc3cc0191204b88d609521f06df99
+SHA1: 6b32688c40ea3a6242c3857e4422160d7fa3c2b0
+MD5sum: 1fbd35badf6fd01168bc9f374f2d222a
 Description: debug symbols for libkwinglutils11
-Build-Ids: 518f2e0e40fa176ea5d81c8f69ba715bc132674f
+Build-Ids: 7f0539fb5d10ac9a32e361110dd59dfb6ee8df31
 
 Package: libkwinxrenderutils11
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 56
@@ -1498,11 +1498,11 @@ Replaces: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwinxrenderutils11_5.12.5-1.1_armhf.deb
-Size: 20904
-SHA256: 98ca4fcf2cb1497831b47e2d49c8761fcb54d52d327af9583ccc13216454fd9c
-SHA1: 084544667a943bc90173bd6d95196d7199614ddc
-MD5sum: a8365d468194f70659c9dcc3908109dc
+Filename: pool/main/k/kwin/libkwinxrenderutils11_5.13.1-1_armhf.deb
+Size: 20940
+SHA256: 4ba4fdd24c8eeedb13930ad6dabbc1956a4a84263a9cae2f5d96391aafb2da2c
+SHA1: 9124dec42cc403659ef6c235291661e4c01431ac
+MD5sum: 7dd45b58e178e0cc0272c6bdd9bfdddd
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1516,23 +1516,23 @@ Description: KDE window manager render utils library
 
 Package: libkwinxrenderutils11-dbgsym
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.13.1-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 282
-Depends: libkwinxrenderutils11 (= 4:5.12.5-1.1)
+Depends: libkwinxrenderutils11 (= 4:5.13.1-1)
 Breaks: kwin-dbg (<= 4:5.5.5-1~~)
 Replaces: kwin-dbg (<= 4:5.5.5-1~~)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kwin/libkwinxrenderutils11-dbgsym_5.12.5-1.1_armhf.deb
-Size: 270536
-SHA256: cdafd31b8c89a87f0711d5bca589694bfa3b8194ff42f6cb4b843fa43ffc2a44
-SHA1: 3291918d4d3c8c2f20ef34b4dcdf4011820410d2
-MD5sum: 392bc1fea1afd6fb8c2f5749bcf18a8d
+Filename: pool/main/k/kwin/libkwinxrenderutils11-dbgsym_5.13.1-1_armhf.deb
+Size: 270532
+SHA256: 66afef3d4da852a5b45befae40af85f82e5fe905bfc2bec0f989a6c0b136e60f
+SHA1: df5a6d248858b79141e5340d81dd6c33443eac22
+MD5sum: 681e967a8be355e9b915bf638561f291
 Description: debug symbols for libkwinxrenderutils11
-Build-Ids: ab5bb884c83247c239d378f4a40676448e3d94e3
+Build-Ids: 28c0e002469656cb3d713b338ccf42a97c8b86dc
 
 Package: libmedia-dev
 Source: libhybris
