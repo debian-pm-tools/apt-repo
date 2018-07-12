@@ -1880,57 +1880,57 @@ Build-Ids: 1456f2864b51fcff5ef6d48a2c308ecfe1e07564
 
 Package: libqrtr-dev
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 19
-Depends: libqrtr1 (= 0.3+git20180323-1)
+Installed-Size: 21
+Depends: libqrtr1 (= 0.3+git20180712-1)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_armhf.deb
-Size: 4128
-SHA256: 647bd4987278ad1bb43e324683b551d76dcf48eca213705035cef419d14c18c5
-SHA1: 9c0b34a91e452823f821b2d488c712d72acb7056
-MD5sum: 532e4a5a3951be5031f8a2568b15631f
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180712-1_armhf.deb
+Size: 4280
+SHA256: 2a0f9f4c6de5d3a3ad214cae35bcd55b64fbe52be507bb0a8bf03ca13d5c379a
+SHA1: 1e2c0ebb092da91d0904cf8f4fc18a6b37f2a2af
+MD5sum: f77c9de4f3f7fbdedf47824ffc169f34
 Description: QRTR development files
  QRTR development files.
 
 Package: libqrtr1
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 28
+Installed-Size: 30
 Depends: libc6 (>= 2.4)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libs
-Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180323-1_armhf.deb
-Size: 7204
-SHA256: 1c26262fd8e730aa7b94e09fae149cd50a0bac0b3643d321b55027f2277c3fe4
-SHA1: 76bfda364dd16bd46da9776d8aa0cdf50aa4438f
-MD5sum: 922724cb6a75cfbc07b471813679ae45
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180712-1_armhf.deb
+Size: 7448
+SHA256: bc2af293b223c342e29c02955c71f8db958750a3eb4d6d9b034b480e511518ad
+SHA1: a51409ef83bb037d309fc04e7b843c5e09dc61a4
+MD5sum: bc052be0e33807afc8ca2371bf42aa72
 Description: QRTR library
  QRTR library.
 
 Package: libqrtr1-dbgsym
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 23
-Depends: libqrtr1 (= 0.3+git20180323-1)
+Installed-Size: 24
+Depends: libqrtr1 (= 0.3+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180323-1_armhf.deb
-Size: 9660
-SHA256: f70423f680d71da0bd6d1cdf8f6e0e1d312a260c2509e93318651f497177270b
-SHA1: cc2ba99b4da2d2adf93b409df8d73fb803dc17ea
-MD5sum: dbf23924165e63fcd63c60b8cbc7a286
+Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180712-1_armhf.deb
+Size: 10504
+SHA256: 63d5e0ddc10597baa5247bb0e937cc07975e76840ed3edb862b328910a29eebd
+SHA1: cb2bc5df721e86caad5ff191f7f9ba14233513ec
+MD5sum: 6f19184882b35d7a7d33c6b04e58d343
 Description: debug symbols for libqrtr1
-Build-Ids: ce2838380e4c7984c3feead68ffcee713839ea7a
+Build-Ids: 8e8c867860f385b62d49784bc48710bbbc8dfb47
 
 Package: lxc-android
 Version: 0.1+git20180527-1
@@ -2718,7 +2718,7 @@ Description: debug symbols for pulseaudio-utils
 Build-Ids: 677d3243bccfbdcad13130f9abfd4bdb5d084d80 9222fd386f70633ee0e69a02ee315b8e00150869 9723f497c32e164cd264e294df7161b1e4bfec90 e857159cfe5cc6f36ae65f8f90415e8a9979f056 ff5fe44c19b17aa3f6f6240d8dc95e8ac13c497d
 
 Package: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20180712-1
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 28
@@ -2727,31 +2727,31 @@ Multi-Arch: foreign
 Homepage: https://github.com/andersson/qmic.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_armhf.deb
-Size: 9288
-SHA256: 3f637e591e49e09f6d7b9afe9ea29b488ca2698df1cf58d4ff05bc3b1636953f
-SHA1: eaca9b7965093388bc9aa64157ca5497d307ca7b
-MD5sum: ca0322dad666dbaa0afde7a57a3a6256
+Filename: pool/main/q/qmic/qmic_0.1+git20180712-1_armhf.deb
+Size: 9408
+SHA256: 57488a494f5df75dc2e8c02ad8225362ffaed5ea1995fdaf32545aa545118dcc
+SHA1: 0a3393fa3706dbb1caadc5488763f68a04b2b842
+MD5sum: da9da66aa1c20f79702c3bd2e0390b86
 Description: QMI Compiler
  QMI compiler.
 
 Package: qmic-dbgsym
 Source: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 37
-Depends: qmic (= 0.1+git20180323-1)
+Depends: qmic (= 0.1+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180323-1_armhf.deb
-Size: 22704
-SHA256: 2a755675cf6849c3f393ce3e2dffce40bce20468364ebe7d74e75bcf25fd6279
-SHA1: 50936c3e287929fc70d1c52c11bf2573bae6e522
-MD5sum: 8cc219b863cd78acb2e83e3006c9129c
+Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180712-1_armhf.deb
+Size: 22952
+SHA256: edb75ae367c99735b50bca16e4521a65bb0689a8156c65b5af7c091f549a8ff6
+SHA1: 97758096541db6d672f21041fd2aa4162d104769
+MD5sum: 66945299584225fb9ff47c83c4bbb2f8
 Description: debug symbols for qmic
-Build-Ids: 9b080c45af7fb40833bb305f91429a140afc4f77
+Build-Ids: f1b145eac7d4b065ad81fb132df3648ab66ae833
 
 Package: qml-module-box2d
 Source: qml-box2d
@@ -2891,39 +2891,39 @@ Description: demo game built with Qt Quick 2 and qml-box2d
  The graphics in the game are entirely vector, so it will look good on any device.
 
 Package: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 48
+Installed-Size: 54
 Depends: libc6 (>= 2.4)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_armhf.deb
-Size: 11812
-SHA256: ed4e0bc63962b9ab7291312167c4e5c2ff64e3f074692a84a87f95c1e67a8f76
-SHA1: a853a48dd2899947fc74cef078d0ee627635e234
-MD5sum: 5c110f1b3a4b12f4fc6940f4efdaed0e
+Filename: pool/main/q/qrtr/qrtr_0.3+git20180712-1_armhf.deb
+Size: 12900
+SHA256: 36c85b82f64cbbacecaa8048ad7c828f51d86e02870a88ea2df81295db8fba3b
+SHA1: 9a309eda3aabb159f6b24a3e481428680a08ad72
+MD5sum: fd2017329128567200d0f061555b993f
 Description: QRTR applications
  QRTR applications.
 
 Package: qrtr-dbgsym
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 49
-Depends: qrtr (= 0.3+git20180323-1)
+Installed-Size: 56
+Depends: qrtr (= 0.3+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180323-1_armhf.deb
-Size: 22136
-SHA256: 999bfbd7af0625156c42e74dd4de3bc5347b7fdab04b7f5bc06e3bce62e25432
-SHA1: cade8d3baa163f815857e7be845d951479ee1947
-MD5sum: c34ed1dd169783336c6e79f698c4b9f3
+Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180712-1_armhf.deb
+Size: 27752
+SHA256: 164ad23fe23cac5869e0e0c335f30dd7b6d7688e5b835464d6abfb256628c65a
+SHA1: 136aa6ddda05b9a1289838833d9dc5e49dbc2235
+MD5sum: d2f6d86e711e821ee1b02c07fa5c47b8
 Description: debug symbols for qrtr
-Build-Ids: 1adc9f984ed392b63fe82520bd54013137588a52 27841549b2beb28526699d482588cf78a151d5ec cd763a4a1249e92a70dff0d72119b88c1c211abc
+Build-Ids: 1b32d42720d81cc6c4c666217893e96b3bb12093 7fa4dabc415c5868b450fe3ae33261b6a7092c19 a2d64d2cb3862bbde4447d74444ebc7f69981a5c
 
 Package: qtbase5-doc
 Source: qtbase-opensource-src
