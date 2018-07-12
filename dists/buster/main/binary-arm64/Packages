@@ -3015,3 +3015,78 @@ Description: debug symbols for simplelogin
 Build-Ids: 5226e062b3fcd4a255708f22b2b54fe4b5370840
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
+Package: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2303
+Depends: ofono, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libofono-qt1, libphonenumber7, libpulse0 (>= 0.99.1), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.7)
+Homepage: https://launchpad.net/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono_0.2.20161109-1_arm64.deb
+Size: 467888
+SHA256: bd770f64446c97c56f22c453a0edc67ae4188476dedf87825273558e81f1e50c
+SHA1: 588c27164f383628efa3de5294a7617f158b6bbc
+MD5sum: fe17ad66e5115f222b8c1553529d6ed8
+Description: telepathy oFono connection manager
+ telepathy-ofono is a Telepathy connection manager that makes it possible for
+ Telepathy clients to communicate using oFono modems, enabling features like
+ real phone calls and send and receive SMSs.
+
+Package: telepathy-ofono-dbgsym
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4674
+Depends: telepathy-ofono (= 0.2.20161109-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-dbgsym_0.2.20161109-1_arm64.deb
+Size: 4113076
+SHA256: 196bf4da4aaefc5dc5b257cd73f4d4ca38f32d1be1b0f1cc6631311ee4b3cdca
+SHA1: 644cc89c5d8525506410b5ac760013b79b9fe641
+MD5sum: 3733a7785e0016a59da48dd3cca84521
+Description: debug symbols for telepathy-ofono
+Build-Ids: a3b87fc8c8f7df5eac9a9719b4b96365153aa54c
+
+Package: telepathy-ofono-ril-mc-plugin
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 34
+Depends: telepathy-ofono, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libmission-control-plugins0 (>= 1:5.13.0~), libstdc++6 (>= 4.1.1), libtelepathy-glib0 (>= 0.11.13)
+Suggests: libhybris-utils
+Homepage: https://launchpad.net/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin_0.2.20161109-1_arm64.deb
+Size: 12128
+SHA256: 694b8118429ab01438d4fc1645e53290629bbad6a1ce9e4c8809aeaac95b681b
+SHA1: 683ce9fd9c68576ad6567cc951e440b660425ec2
+MD5sum: 72fcbafc33eec0a291ae7b8bb11fecdc
+Description: telepathy oFono mission control plugin for ril modems
+ This telepathy mission-control plugin is used to automatically provision
+ telepathy-ofono accounts for each available ril modem.
+
+Package: telepathy-ofono-ril-mc-plugin-dbgsym
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 35
+Depends: telepathy-ofono-ril-mc-plugin (= 0.2.20161109-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin-dbgsym_0.2.20161109-1_arm64.deb
+Size: 19520
+SHA256: 07363e0abde548e131877f5f99952b2b7e93b4a87bdbbfa1fee58a20f950c5ca
+SHA1: 746a0d7af63140c66e60ffd5e05e3bcc794bcfd6
+MD5sum: 0f83981fc36d2fd1d6d9787b5b139365
+Description: debug symbols for telepathy-ofono-ril-mc-plugin
+Build-Ids: 60a433bcc8303a6717f362d7ba7c41ad49758ea4
+
