@@ -3151,6 +3151,49 @@ MD5sum: e012f2c597b7bf1ccfcdf4805fb27602
 Description: debug symbols for telepathy-ofono-ril-mc-plugin
 Build-Ids: 5c39878ec31905fddaa3dd76e62162a9522865d9
 
+Package: umtp-responder
+Version: 0.8.6-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 50
+Depends: libc6 (>= 2.4)
+Homepage: https://github.com/viveris/uMTP-Responder
+Priority: optional
+Section: net
+Filename: pool/main/u/umtp-responder/umtp-responder_0.8.6-1_armhf.deb
+Size: 16060
+SHA256: e858a2f8e52a4a28e52e2630bac82f6f0126bb4c086443826734f6257bffeaca
+SHA1: 700d7572a1858a28b1b2fe8a5c2c6a0c64bd84a1
+MD5sum: 784d8de0b721f484cb575185aa4ab7c9
+Description: Ligthweight Media Transfer Protocol (MTP) responder daemon
+ The uMTP-Responder allows files to be transferred to and from devices through device USB port
+ .
+ Main characteristics and features
+   * Implemented in C.
+   * Lightweight implementation.
+   * User space implementation.
+   * As less dependencies as possible.
+   * Hook to the Gadget FS Linux layer.
+   * (Optional) Syslog support.
+
+Package: umtp-responder-dbgsym
+Source: umtp-responder
+Version: 0.8.6-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 56
+Depends: umtp-responder (= 0.8.6-1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/umtp-responder/umtp-responder-dbgsym_0.8.6-1_armhf.deb
+Size: 39376
+SHA256: d5afe3b9d6a6db5d58f72d94908691f9f68af8b14bcba1a911dcf62ca116b2e1
+SHA1: 76b2ba651fb7ff945136166541acbe7f5a1cae04
+MD5sum: 244fe8eed64a172d781ea51b5dbf081d
+Description: debug symbols for umtp-responder
+Build-Ids: 91a6772d46cc6cc5e39bbed5d0a550a2bde7a01a
+
 Package: xserver-xorg-video-hwcomposer
 Version: 0.3.8+git20180622-1
 Architecture: armhf
