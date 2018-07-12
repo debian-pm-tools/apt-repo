@@ -134,7 +134,7 @@ Description: Development headers files for drihybris
  Contains the development files.
 
 Package: droidmedia
-Version: 0.20180626.0-1
+Version: 0.20180709.0-1
 Architecture: all
 Maintainer: Bhushan Shah <bhush94@gmail.com>
 Installed-Size: 51
@@ -142,11 +142,11 @@ Multi-Arch: foreign
 Homepage: http://github.com/sailfishos/droidmedia
 Priority: optional
 Section: libdevel
-Filename: pool/main/d/droidmedia/droidmedia_0.20180626.0-1_all.deb
-Size: 7624
-SHA256: f62d3d96a72513e5afa25d5a57d62ffd5c87aed00f214844e895a166ce99c341
-SHA1: e44fac3275a5b135400b00166732eb09186a3078
-MD5sum: a54f3e4a491ca6af902f2667b46bdbe8
+Filename: pool/main/d/droidmedia/droidmedia_0.20180709.0-1_all.deb
+Size: 7680
+SHA256: 480417ab7090913fd4efa310b404450d777abce9fb3f72caf2c7d29b23cf9b67
+SHA1: 4463cde14faa361813dedf47c41181fdba1bcebd
+MD5sum: 10be545de0b78f0d50e2fdc075c098f0
 Description: Android media wrapper library
  Android media wrapper library
 
