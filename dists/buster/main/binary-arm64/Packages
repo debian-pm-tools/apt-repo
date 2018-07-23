@@ -1927,19 +1927,19 @@ Description: debug symbols for libqrtr1
 Build-Ids: 4e706b21cce95b34b8d5021b36261ce7867f46b1
 
 Package: lxc-android
-Version: 0.1+git20180723-1
+Version: 0.1+git20180723-2
 Architecture: all
 Maintainer: Bhushan Shah <bshah@kde.org>
 Installed-Size: 484
-Depends: lxc, adduser
+Depends: adduser, cpio, lxc
 Homepage: https://github.com/Halium/lxc-android
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180723-1_all.deb
-Size: 14488
-SHA256: 7377dd4a35c84decfe9634db691e21c5fa80908396b1eb537347122250b5fe3c
-SHA1: 8a8c444394cad5ad1d4ea45ab43d820390447085
-MD5sum: 8c478f7c06711aae7bbbde26ab0097aa
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180723-2_all.deb
+Size: 14520
+SHA256: 4c8440959bd9b7e55abc6580ed2b10c9909409603bc781b437530bb4ee8cf402
+SHA1: ecb69036696992c23c561de7df02a344c84eebcc
+MD5sum: ad2ac6d583337863dfeca38b5635d969
 Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
