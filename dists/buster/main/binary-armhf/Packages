@@ -2926,6 +2926,46 @@ MD5sum: d2f6d86e711e821ee1b02c07fa5c47b8
 Description: debug symbols for qrtr
 Build-Ids: 1b32d42720d81cc6c4c666217893e96b3bb12093 7fa4dabc415c5868b450fe3ae33261b6a7092c19 a2d64d2cb3862bbde4447d74444ebc7f69981a5c
 
+Package: qt3d5-doc
+Source: qt3d-opensource-src
+Version: 5.10.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 20462
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc_5.10.1+dfsg-5_all.deb
+Size: 19134176
+SHA256: 3ba0ade275a4ca1c923dcc18a6566238f53a03c9a588c8b225d6d296f0913dd4
+SHA1: 5b2d778d4addfde67bd17a948c1cb902a8b45e2b
+MD5sum: ea758be28127ac45ab4baf8079e88771
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Source: qt3d-opensource-src
+Version: 5.10.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 32522
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc-html_5.10.1+dfsg-5_all.deb
+Size: 17405144
+SHA256: 63b528ed8f4a09dedde09be95e3f03e9c43850eba5ffd543dc5aa5c6153b4215
+SHA1: b90a3b3c246b075ab5f94f4b8e053d7d50be70b3
+MD5sum: 0c2cbe1782541490f54deb5da69a4b84
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.
+
 Package: qtbase5-doc
 Source: qtbase-opensource-src
 Version: 5.10.1+dfsg-7
@@ -2965,6 +3005,134 @@ Description: Qt 5 base HTML documentation
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtdeclarative5-doc
+Source: qtdeclarative-opensource-src
+Version: 5.10.1-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 17172
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc_5.10.1-5_all.deb
+Size: 15007364
+SHA256: 4daee6f7712f2c4268c9ac66dbf8343fccea6897bd360412a72ec3a85e250453
+SHA1: 1a8cf0a994cd19b071b30fd7f3de3bd980a8b250
+MD5sum: 4c72b57f661c3f245457cb8764c30bd0
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-doc-html
+Source: qtdeclarative-opensource-src
+Version: 5.10.1-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 43923
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc-html_5.10.1-5_all.deb
+Size: 12499872
+SHA256: 806e20274a2ef94d88673fd12a38d7aa7f02a8fc8b71ac846019554e01cef0d0
+SHA1: c334888d8935b780f33eb1837387f36bb265e310
+MD5sum: be231b1d6ffc2c2c372f0560997f3a42
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
+
+Package: qtlocation5-doc
+Source: qtlocation-opensource-src
+Version: 5.10.1+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4039
+Breaks: qtpositioning5-doc (<< 5.5.0~)
+Replaces: qtpositioning5-doc (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc_5.10.1+dfsg-3_all.deb
+Size: 3452808
+SHA256: 9164944069e08681c630837b530fbe5583050c63b81697ab0d4805d1a4984130
+SHA1: 2ba01b993a434fa58c24350adbecfa850f209af2
+MD5sum: f76e6aa41deb440bb831347b35a3c7ad
+Description: Qt 5 Positioning documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Positioning
+ library and binaries.
+
+Package: qtlocation5-doc-html
+Source: qtlocation-opensource-src
+Version: 5.10.1+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10033
+Breaks: qtpositioning5-doc-html (<< 5.5.0~)
+Replaces: qtpositioning5-doc-html (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc-html_5.10.1+dfsg-3_all.deb
+Size: 2724436
+SHA256: 5edf36855c72187ccd58d5b580e5d013864c23e860968b38a30ce9082e468320
+SHA1: ebae87ec59a4e6e78f9375017a1c0855e7ab2e7b
+MD5sum: 6586a0074e17015669812346c78fa76c
+Description: Qt 5 Positioning HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Positioning
+ libraries and binaries.
+
+Package: qtmultimedia5-doc
+Source: qtmultimedia-opensource-src
+Version: 5.10.1-2
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3278
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.10.1-2_all.deb
+Size: 2440636
+SHA256: a168cecbc86597f81b831590f09b38b471ef1ed99291c6cb76439a116f365fc1
+SHA1: 9023ab9da34b4c19d17198adc4bea00b0fc5540a
+MD5sum: de5ea869278742297b4ec915e3e86bf5
+Description: Qt 5 multimedia documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 multimedia libraries.
+
+Package: qtmultimedia5-doc-html
+Source: qtmultimedia-opensource-src
+Version: 5.10.1-2
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13751
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.10.1-2_all.deb
+Size: 1581704
+SHA256: 1fadec568236e2372f958bcace974baaccdb3e38822e0ffcac3d87af68492364
+SHA1: e9e186195c095bdbb53eeab3ba82608a89b178e3
+MD5sum: 45300e630a8b23c8e9ef855dab0bcb5a
+Description: Qt 5 multimedia HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 multimedia
  libraries.
 
 Package: rmtfs
