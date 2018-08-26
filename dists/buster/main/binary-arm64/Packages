@@ -2401,54 +2401,54 @@ Build-Ids: 2785371776da7317f5b37d309d67d5cfa46b8d8d 2faa2aa73caa3360fe9494b3c606
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
-Version: 11.1.68-1
+Version: 11.1.71-1
 Architecture: arm64
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 295
+Installed-Size: 245
 Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.68-1_arm64.deb
-Size: 56472
-SHA256: cf3ab0fbdc6425732ea288014d622859307ac3defd49f79551e82f0fb6950724
-SHA1: 94818177b69b6259d253320304a172506305d13b
-MD5sum: 74b47da71483da3898da14f18676fe79
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.71-1_arm64.deb
+Size: 56584
+SHA256: d4f47b0874d66f8302f4d34df6a6667b951420f16bd907c06c5bad7729325d15
+SHA1: b3719bd0e064f709a5f2c7fb5583d13896ae94c4
+MD5sum: a0dddf30994c5b536a4db6cd7ca588c6
 Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
 
 Package: pulseaudio-module-droid-dbgsym
 Source: pulseaudio-modules-droid
-Version: 11.1.68-1
+Version: 11.1.71-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 334
-Depends: pulseaudio-module-droid (= 11.1.68-1)
+Installed-Size: 353
+Depends: pulseaudio-module-droid (= 11.1.71-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.68-1_arm64.deb
-Size: 252912
-SHA256: b277935c2a722a1fb654b2aecdfdc5aec2dab5dadf2e493613027729c64d538e
-SHA1: 0bbac693f8bd72b9730d754f6ee8c6887c68f750
-MD5sum: 4d6b519d18f106b9ea9cb3c94c856f2b
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.71-1_arm64.deb
+Size: 271796
+SHA256: c18cefd5721169a605cff0a60fe1d7e850dbd3cb060bba11d820f45bc976fbba
+SHA1: 074db2b0b8d791d332a37e616a3cebedbcb4347c
+MD5sum: 525d98ee5bdf060be468529baf0d8527
 Description: debug symbols for pulseaudio-module-droid
-Build-Ids: 00100a457f1bbfb7954340c6fff84988fecc8768 58603e3f24ffe3489413eaaf6c858dd69c6ff5ae 599d2374940a8ff6bf826ebb17cac15789376892 5bb70bfb35f62d78bd8e128212b2df248934237a 70e3a0bf86087b9ffa5a41e96d1b29c88614244c 8d8c7a863722a1f3c6f75e002b1530cf655dba0d a2b4ef93f160df2bfe97e6637a3a4b0faacf9793
+Build-Ids: 027394aef767925ec54d6ba6e7aa390bb77ae7a3 0e570644d5c51b88266637a2547c7e773c880b34 10826c4315348a43aef283a0594e893f9cb94cd1 2e19a64b3d3c837d60427a7b64919f09af44a920 5c081a34844dd0fc613b74283a20bcff9183bc71 d2fd85806925cc91c8759c3c4d340adcfc2141ed fe4a97c9bf655808d18a7a996d439db41a530d25
 
 Package: pulseaudio-module-droid-dev
 Source: pulseaudio-modules-droid
-Version: 11.1.68-1
+Version: 11.1.71-1
 Architecture: arm64
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 78
-Depends: pulseaudio-modules-droid
+Installed-Size: 86
+Depends: pulseaudio-module-droid
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.68-1_arm64.deb
-Size: 10264
-SHA256: 4326c86b0c97af36c087d58fefda8d4d00e4cb1a9147f8144db64fdce8576672
-SHA1: ae4f85c0111398328525bc7e049973d995e975c0
-MD5sum: 7c3be25fbff18bc6053f813da6615580
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.71-1_arm64.deb
+Size: 11176
+SHA256: b611a9c0cc86e1acfac8f449edc95a11fe96e23d020adb8ef74935cdba233ec1
+SHA1: 632adb77cc137193565ccde9f71041e4fdc8c444
+MD5sum: 5caee48d3f8a68d5db00d4feb95fdb8d
 Description: PulseAudio Droid HAL module development headers.
 
 Package: pulseaudio-module-gconf
