@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: pulseaudio-modules-droid
 Binary: pulseaudio-module-droid, pulseaudio-module-droid-dev
 Architecture: any
-Version: 11.1.71-1
+Version: 11.1.72-1
 Maintainer: Marius Gripsgard <marius@ubports.com>
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Standards-Version: 4.1.4
@@ -13,11 +13,11 @@ Package-List:
  pulseaudio-module-droid deb sound optional arch=any
  pulseaudio-module-droid-dev deb sound optional arch=any
 Checksums-Sha1:
- 837492d933672668d732a5349d2091913a7b0d5e 77037 pulseaudio-modules-droid_11.1.71.orig.tar.gz
- 0c2c45859424d6e71a604196549dc38be4e351e4 2752 pulseaudio-modules-droid_11.1.71-1.debian.tar.xz
+ b07b30b7ca760332154866bf7370b601141d5fb2 78426 pulseaudio-modules-droid_11.1.72.orig.tar.gz
+ 02d171114d531eb3fb7bdb02f55f90e7d7552757 2776 pulseaudio-modules-droid_11.1.72-1.debian.tar.xz
 Checksums-Sha256:
- 94d7f02c4efb1917f81609d0ed37871da04db9b65426342dbe0a1e33fee1d314 77037 pulseaudio-modules-droid_11.1.71.orig.tar.gz
- 66492ef1c164a864c69a0dc9010e363a2ad09305c4c6289f8b986c3e04749fe8 2752 pulseaudio-modules-droid_11.1.71-1.debian.tar.xz
+ 4f2400b941c3f2d61803f67d84b6c1da3316caca6de1a97b3422bc253b52bf86 78426 pulseaudio-modules-droid_11.1.72.orig.tar.gz
+ 411af86463195e7f269a86d421fed1d3a0c9af6099f96e968a01c140588a48a1 2776 pulseaudio-modules-droid_11.1.72-1.debian.tar.xz
 Files:
- 900e236af333deaf7b9b6ae35871c7f4 77037 pulseaudio-modules-droid_11.1.71.orig.tar.gz
- 3b1c43a7c2a0d84a53091d276aea14a3 2752 pulseaudio-modules-droid_11.1.71-1.debian.tar.xz
+ 8b1cad1f6da7b1055e34b86907082b09 78426 pulseaudio-modules-droid_11.1.72.orig.tar.gz
+ 29423a72c3a9b2c0e2003bc5b73577c3 2776 pulseaudio-modules-droid_11.1.72-1.debian.tar.xz

@@ -201,6 +201,45 @@ MD5sum: 727dcbf4bc7402d11a1bc55709a62378
 Description: Development headers files for glamor-hybris
  Contains the development files.
 
+Package: glosbit
+Version: 1.1-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 133
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/dimkard/glosbit
+Priority: optional
+Section: tools
+Filename: pool/main/g/glosbit/glosbit_1.1-1_armhf.deb
+Size: 84676
+SHA256: 6db67ca5c42ab8598833f1c0a5c594ec32012159bb7ee07c3dddf1da1ce93178
+SHA1: f0bc0c191aac57c33ec40765581edac1d0aa069c
+MD5sum: bdd6bb89398c6a8f884aaf43a34e5880
+Description: Touch friendly dictionary application using glosbe.com API
+ Glosbit is a translation tool powered by https://glosbe.com/.
+ You may translate a single word or a phrase using the top glosbe.com dictionaries.
+ Moreover, a set of examples of usage of the word or phrase are presented.
+ Glosbit is a touch friendly and has been created for plasma mobile.
+ Nevertheless, it may run as a desktop application as well
+
+Package: glosbit-dbgsym
+Source: glosbit
+Version: 1.1-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 404
+Depends: glosbit (= 1.1-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glosbit/glosbit-dbgsym_1.1-1_armhf.deb
+Size: 388652
+SHA256: 79c6ec9c06419625424bd91185f92a4b1da931cfd8cd82be6754ebf3cfd8e51d
+SHA1: a1467a9d0c23c0eb5b664bfc6eaa43926c0242e7
+MD5sum: 590078b718803071038ef20e5e374053
+Description: debug symbols for glosbit
+Build-Ids: 4440925437ea9cb0a4b7af3c6a6158b1083ded37 f2eeb07e56fac4be18ae4dd194fabe5ee09200d0
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
@@ -2103,6 +2142,40 @@ Description: Mobile telephony stack (test and maintenance script files)
  .
  This package includes test and maintenance scripts.
 
+Package: plasma-angelfish
+Version: 0+git20180828-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 159
+Depends: kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.100.0), libkf5declarative5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.1.0), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.7.1), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: net
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish_0+git20180828-1_armhf.deb
+Size: 31512
+SHA256: 55803be7f2c9eb2faecfccb57c699b4d5bd2339165142c09ed70997da9efc4ea
+SHA1: baf262c71adfc5ee5362d90645064b7c269ab0c2
+MD5sum: 3afa216331d7b5a29212168ad977a7c3
+Description: Small webbrowser for mobile devices
+ Webbrowser based on QtWebEngine and QtQuickControls2
+
+Package: plasma-angelfish-dbgsym
+Source: plasma-angelfish
+Version: 0+git20180828-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 802
+Depends: plasma-angelfish (= 0+git20180828-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish-dbgsym_0+git20180828-1_armhf.deb
+Size: 785776
+SHA256: 4a07db6ddbb15bc6e8af8836d85be019b5165b4af896f5b9f56e2306ca33581e
+SHA1: 61e0fbc7143f46db7c2750f6f030f78606f952ca
+MD5sum: 96f3a9590851f463fe77db87688161b3
+Description: debug symbols for plasma-angelfish
+Build-Ids: 2369bce5ba251abffbe345f24e793f3340e1daac
+
 Package: plasma-phone-components
 Version: 0.7+git20180711-1
 Architecture: armhf
@@ -2407,54 +2480,54 @@ Build-Ids: 30ddf66dcb89aa06cc920d07633582fe762b7aa5 3f40f228a6408725f7b9b27efa8d
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
-Version: 11.1.71-1
+Version: 11.1.72-1
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
 Installed-Size: 181
-Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 5.99.1)
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.71-1_armhf.deb
-Size: 58900
-SHA256: d73b892d4018da0a996b93fce0663722a4cd7b85a1d3d48e15a4f490fcde7b5d
-SHA1: da9c7275e70162a1b5f35da7d33bffe62ca16414
-MD5sum: 5c461fe007697fa6cf0868d9671dfad6
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.72-1_armhf.deb
+Size: 59548
+SHA256: e34047f1fa3c3e17ffb76125b5d2e3304efe8f4c5db6e1a341c4989367c2b128
+SHA1: aeed137dc642962ec5d65e57be22544059e80a32
+MD5sum: 23a78892e0f5703aa0e4ca5ebb1ad83e
 Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
 
 Package: pulseaudio-module-droid-dbgsym
 Source: pulseaudio-modules-droid
-Version: 11.1.71-1
+Version: 11.1.72-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 342
-Depends: pulseaudio-module-droid (= 11.1.71-1)
+Installed-Size: 343
+Depends: pulseaudio-module-droid (= 11.1.72-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.71-1_armhf.deb
-Size: 273304
-SHA256: 0051fe73dbda83be4b708eb6c0bfc585b5da9d2be83fd07815cd8be062cfcf9a
-SHA1: de52c28440137eebd35b8f682ddb97f111316cac
-MD5sum: 19fe22d7b765317e68e91ee44ab891a8
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dbgsym_11.1.72-1_armhf.deb
+Size: 273480
+SHA256: 266b335fb71ccaa7d056cd73362243ae81bec976034e6d9d157f2f73ad8f00e3
+SHA1: 4f54d13b4635adb78b097f65613205325265d2c6
+MD5sum: bf735cab48ac3f7a3e3aed6a8ca172f0
 Description: debug symbols for pulseaudio-module-droid
-Build-Ids: 1725319c866af88d50c9e2bffbcb035b69065852 567ff1da899e393938799db3f8f8c08762885dc8 66f976b61decd913baafd989a87764b74ff1c74f 7573d074026dbdc7df7fafd2c656020cbb7d3c9b 75d0002eca2ad3a357220e47596fcc37d125c4d3 8e62cc391b41bfc47e85147347173b01035eec69 e98fa30a78fe9591791517b699c39f1d5ebb4a0a
+Build-Ids: 089ef4add7277b5cd3fb739aa2b34122eba82466 2c8f6e87f7ea64e42db00fa79990b894f5da8a0e 661c6ccb2132f87e36403af5e2a909e158e2256a 8d1359a34e19cab7734b7504853edd443cc78602 9b382979bba3b54e21e69c3c50b99807f62808bd c038d7d12e646e667f29f68ee3970bf204deeab5 c53bbdf555cbc765dffa50adf856028e095ed7eb
 
 Package: pulseaudio-module-droid-dev
 Source: pulseaudio-modules-droid
-Version: 11.1.71-1
+Version: 11.1.72-1
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 86
+Installed-Size: 85
 Depends: pulseaudio-module-droid
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.71-1_armhf.deb
-Size: 11188
-SHA256: 7cbaba0551d06f026770676004e62e53619f601af35b6843fcdaa3689514f38b
-SHA1: da76fff9ed640f578803422704daaff389be72eb
-MD5sum: 05c6fa239f8190ee61562fb38858f9a4
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.72-1_armhf.deb
+Size: 11076
+SHA256: d5bcfb46ebb4b700c8a525653bcaf7f9a18c2f7547d78daf3de5dc6118916cd4
+SHA1: aa2a776e9466ff5e388fb6795e31d7e57447d5da
+MD5sum: 9ae6432ba363214c857af12094bcb503
 Description: PulseAudio Droid HAL module development headers.
 
 Package: pulseaudio-module-gconf
