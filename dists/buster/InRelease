@@ -4,13 +4,13 @@ Hash: SHA256
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sun, 02 Sep 2018 11:34:05 UTC
+Date: Thu, 30 Aug 2018 15:33:46 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
 MD5Sum:
- cc4867917f91c3e9a70088330d894235 159180 main/binary-armhf/Packages
- c92dab61d8c9b22f482a4893334342ef 41474 main/binary-armhf/Packages.gz
+ da7bad7c7116957e5363867f3f27a16f 159185 main/binary-armhf/Packages
+ 4919579f7b1a2d805d6403fe7091bb16 41486 main/binary-armhf/Packages.gz
  6f58e2596a9d84815f6531547a5ab58e 133 main/binary-armhf/Release
  65558bd7c8e83f335deb574d1e9a29a7 152424 main/binary-arm64/Packages
  cfbdb2b89e18c6ceddc42ee85f434ef0 39599 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ MD5Sum:
  52a0ca12a5a94a87e9158781cdcf8f12 17956 main/source/Sources.gz
  994bd563d7b0e4d56018b8ebb34998bd 134 main/source/Release
 SHA1:
- 2283f02239043ce05a36e5041404e20c9884c454 159180 main/binary-armhf/Packages
- 9e15bfe2a7a3fd9b81cfc999022203a33a99be9e 41474 main/binary-armhf/Packages.gz
+ 07430811ac3850c97ac5702f573b6964eeae7bb8 159185 main/binary-armhf/Packages
+ 5de402f42f605cb01b4761c2a042a16f4ec98851 41486 main/binary-armhf/Packages.gz
  a3d8916917b38f90e9f548bed4334aa3a17833a4 133 main/binary-armhf/Release
  9166ed5ce1c7fd9300d7cfb2e33782374803e73b 152424 main/binary-arm64/Packages
  1d1830876356325bb63c434a7ef99fff44c89c66 39599 main/binary-arm64/Packages.gz
@@ -41,8 +41,8 @@ SHA1:
  501b363b59560e14cf2431650d85280b1e42bc02 17956 main/source/Sources.gz
  04a03b0035e430b0b9ca23a1506bab7a35b07f42 134 main/source/Release
 SHA256:
- ce9cbb2a60cb5aa16749420a421bfefa184189ee1982ae807a0919bc79a79c27 159180 main/binary-armhf/Packages
- 146f7f982307d53b11315f364fb3e0d34a4142569c60dbda1ace283b3e22fa9e 41474 main/binary-armhf/Packages.gz
+ 3eeb09d0a917b7cb877bca06e2b880df842aff342bf1f2e68f355988b5f8238d 159185 main/binary-armhf/Packages
+ a1c81dd0f226e9f91d2c161af8ecff9321313c5e4ab41c30266dfd0edcbb0da1 41486 main/binary-armhf/Packages.gz
  50fa0337602dced97488abcf7199bff3a0beebdb07cb5cdce33ce60bea2fe606 133 main/binary-armhf/Release
  278a14620360903f95d953f41c3b8c0d22817656b3e0797f31bceab73d416869 152424 main/binary-arm64/Packages
  7af8a1bf11ea4c9bd372919b375cd15b762533124c7bfe289ce8f17d9f2bb904 39599 main/binary-arm64/Packages.gz
@@ -58,17 +58,17 @@ SHA256:
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAluLyq0ACgkQqB4HWr7I
-Cn6YHw/+IzsKDkGaAZynOX6AheBJwXM5J8ubihKT26L1RZaz8t51qwbfV98KBnqw
-0YL/6YK/prWftjFDz+lISS4pO5Kd9lkO4+E743zYjfn65w6B5OrcF/4aobZcxDUD
-tEFTlJEBR+Ylp/FyGVK0aUArtMwPNtlNdFxR6QTfd2nyY5xABLSjpaLEbQlZQl6K
-wBVKaECE3xQBxbsQSYZIdoNudEBpeZ8+lyhlBYhICGYPzTht7/4CPEhFLSusE43T
-eP4ycI/EhgomylXVRnKZ0Bsgb9IunQ1DLNHg1TAD1ZeXK09753kYG0pvTjNCWzN6
-dCgOaHT68HIpC5Q6uaJAaNiSAkzfSYC+P0nce6wbfL/xym79feWKmxytP3WDvoWU
-JwspUtFIPYzqkrStYCLuRlHHJzza8t1CdMsCN3/dvjCTu7kKmuf5zAtCKrvstECG
-u3FHzbyISBnUjIjjlmDc/uHAhLHYXkvu0CDhj5RB7rQzM0wuLqdrfdJgOcKFJ8Xd
-KCYGrDVA9xJ76r7u1LwpQ6JR2jTRO6sSYwyV6oWMCZZR5RkP60okT3705lDORosG
-MjPhEPH3svCopc0hwrG4K3vbR0y3saa0bqPssw1sedTV+q9QPTo+a72iZVo81D2i
-eouW8mST+4c/TzXuj0pSNqtW84tOnQmc2Fx2rXwW64F/myR+uHY=
-=zmPA
+iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAluIDloACgkQqB4HWr7I
+Cn7+Gw/+MYghwQd2XjKPwEgIE7HGdKZgIcO2tkOGNw0nrluEOHW8s5vCb2QI3VXv
+ie7gmlYpAmW0vOWNwwqO5BFJjyPtH9eIhzmPcr4d5rE3xkEr5H5g7QAROFp3rdOi
+b2vGuW4nfeJskojvwdgKHz7ovjYYlITuecQdowCy6fVp3qrlOsxNfy5vZ8cTFrrO
+qFmev1/gMApa8wn6u2AfTAASVonJ5ZJDRCqhI/TRUL0TbztGOWEJHxEWKk/JRo2y
+v1TMjXxlZM9I7TbTnDb0AJUOl1YYYsohUn7R4oPnG2HcuvqDON9H75VSC2wPu2xD
+L8rtqjRl+nc0s75NptddpnMvgyDJlzacfw0WAeeEfddpExFNWLtNQkoOctOipS5m
++s1VEmukpKhCzqo43dZVsf3enxiBc6hg5GfSRzbdqSoKu8nEF8fTwjZdgXzJXyp5
+CrNKv+fck6y7pqBjPWwQRiehY8fg1QvmxyRJ9zH66KVEQOBJLvFcLzdGUVGr1nY+
+gQfBsV8GTmu4b1tXRBYm0XwZcYRb8pv1E5lvaLjb0Ev59DwFiC2k469QB5omN/9c
+i7UxabhzUCYwo/NmWddaERKBeHtlJjYXSlaG1icC1rhQsP2aXwcY+w7zlnh6Nk7a
+XC4D/Z1B2wyC/VFKODDo38O+7hO2CFv5zLlfioSiOfNm7JqpQUs=
+=4Ylh
 -----END PGP SIGNATURE-----
