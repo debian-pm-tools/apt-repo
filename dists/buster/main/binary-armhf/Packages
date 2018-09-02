@@ -2230,40 +2230,40 @@ Description: Settings and artwork for Plasma Phone
  This package contains settings used by Plasma Phone.
 
 Package: plasma-settings
-Version: 0.0.1+git20180505-1
+Version: 0.0.1+git20180828-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 381
-Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-ubuntu-onlineaccounts, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Installed-Size: 441
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, qml-module-ubuntu-onlineaccounts, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
 Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180505-1_armhf.deb
-Size: 73416
-SHA256: 0e8a8ae68fc0466ec9c9c6ffe781e7263df7235580c717911d0cd64ab9dfb404
-SHA1: c1264c189add0ca5b2a33c2e42e49139926ac603
-MD5sum: de8179cb8ecdb06d49ee730507af3510
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180828-1_armhf.deb
+Size: 90296
+SHA256: 2710e29803209b8e83bbb1f708ee2eee6179e8e9fc12c94415f06878fc1461ec
+SHA1: e33174be2c194fb5124124945abfd3fb4c9bdaef
+MD5sum: bb640d3660cb903ddee390a07a2a0bac
 Description: Plasma phone settings application
  The settings application and a few modules for it.
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: plasma-settings-dbgsym
 Source: plasma-settings
-Version: 0.0.1+git20180505-1
+Version: 0.0.1+git20180828-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2878
-Depends: plasma-settings (= 0.0.1+git20180505-1)
+Installed-Size: 3636
+Depends: plasma-settings (= 0.0.1+git20180828-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180505-1_armhf.deb
-Size: 2821704
-SHA256: 61a986b5dc85b91874c49b2f0863573981254c8e4a5e61ff18c9b8224cf7490f
-SHA1: 6c69305112cca778b96b85b9dc74bbc263408077
-MD5sum: 933a222e91c580e55989b9a946b90711
+Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180828-1_armhf.deb
+Size: 3594700
+SHA256: f5ce5cdf4ffee1719dc27f82c70e9eae3885d1087416f0fcbc68181d4fcd286f
+SHA1: 8298a06480f905bdeeb45ad05ba10dcbdb66bb52
+MD5sum: 0c6c20a712902919d806712332eaa4da
 Description: debug symbols for plasma-settings
-Build-Ids: 26ed41db1a64045e5742d06277cf03b17db530de 3b82b0f458f6b3dd0b618aa5028c1ad620ac3605 3e4d0f0c35d53321d3ede0e8efe78cc1fb43b607 7eaa72189e3ba97b1178fde9d7acf6bfd3572bef a09be57e7ef399feadb254f35df4ea43aea321b1 bda5aad5187439fc6293178d719383791fbf2402 c6e2a29f2bc6d5d332f7424e54e222946bb214bb
+Build-Ids: 08645f199c44fb6f5e037d653eb47fc886e4fab8 2b44e6e263a0b8ebfac60a1ad4706d6eaf442790 4a87d443d9641f5da54bc76834d9426a6215463c 4c5f2872c3e46e951bee1b0b3597feba980ba0b4 8fa2d94c1ac796eebe29b85ac1069ac157f76d30 c618352318a6646f6813ed8ec7698e0e869fd540
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: pulseaudio
