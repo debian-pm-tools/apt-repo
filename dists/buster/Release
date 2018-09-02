@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sun, 02 Sep 2018 16:17:43 UTC
+Date: Sun, 02 Sep 2018 16:22:44 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -9,8 +9,8 @@ MD5Sum:
  cf31f707291741d1e7cb4039d451619a 160671 main/binary-armhf/Packages
  12b721b7621cc75ff702839fa0e32303 41949 main/binary-armhf/Packages.gz
  6f58e2596a9d84815f6531547a5ab58e 133 main/binary-armhf/Release
- fcc4920ed787445c06de27ecfbaba655 50984 main/binary-arm64/Packages
- c6a57d1a962a01b179a7da398df8687e 11672 main/binary-arm64/Packages.gz
+ 3b67090ca1787f8b241f7bee5219d32e 50984 main/binary-arm64/Packages
+ ce68eacb316f1e7a8bc3929319c25092 11675 main/binary-arm64/Packages.gz
  45bb3257049ac2ea6e11884d432ec423 133 main/binary-arm64/Release
  9812e920bf8e6a81641b3dc55be06aa8 5136 main/binary-amd64/Packages
  fa35aea4c15806b83d882cdd4f90a40c 1281 main/binary-amd64/Packages.gz
@@ -25,8 +25,8 @@ SHA1:
  0ba38f811b0626c9bd2e7a814d5ba2c5163cc9d3 160671 main/binary-armhf/Packages
  27abaa537d47c1be98fe9485fd48b1b882983323 41949 main/binary-armhf/Packages.gz
  a3d8916917b38f90e9f548bed4334aa3a17833a4 133 main/binary-armhf/Release
- 1919df361457a7c9fd536dea30ebbfb14ef9b38c 50984 main/binary-arm64/Packages
- b2e2af3514da7f1da630268bcd354d85c0dba6ec 11672 main/binary-arm64/Packages.gz
+ 8299c34bcf26e0c3e8bfd80070e42cbd370a040f 50984 main/binary-arm64/Packages
+ f38eec4561d685d338cc459caea5d08219f99505 11675 main/binary-arm64/Packages.gz
  3edabd733cccb0fd3cf25e0fa4168451384984c4 133 main/binary-arm64/Release
  756ce32d43d88ebd81656370a8ea77d90ff6f539 5136 main/binary-amd64/Packages
  02df984947db7b28bb8bbf1b2ceda5a2b31c8aa0 1281 main/binary-amd64/Packages.gz
@@ -41,8 +41,8 @@ SHA256:
  7195a943768bc8bcdedda305b3b096644f9636fe4a4dae786b0ca33da81ae71d 160671 main/binary-armhf/Packages
  92dbabc1c20cbff4953ae5ac3f9e4ac8123b762ba97696cc5a72938fab1b5525 41949 main/binary-armhf/Packages.gz
  50fa0337602dced97488abcf7199bff3a0beebdb07cb5cdce33ce60bea2fe606 133 main/binary-armhf/Release
- 56d960740d7b522bec9fe1a3e72f2b267f4321f25b30a7659d2e133e596faf13 50984 main/binary-arm64/Packages
- 0d928cb30df42f08a671c8af19d29aaeae4f2f0e370fb4fad87c04b9301b6f08 11672 main/binary-arm64/Packages.gz
+ 47cb52af84dd0315877acaf215363ddd06537d813041f03d9bb8305e3593ed7b 50984 main/binary-arm64/Packages
+ 0ea212c0102c33c248cc7e16d7ba52372470f01fb69a4a484118bbb8407b7d92 11675 main/binary-arm64/Packages.gz
  d5b83a5a96717759d823a5dabb867659e50db32aadd0faa40f012dff1a1f0333 133 main/binary-arm64/Release
  43c59deebbca5388d137e6f25f734f20c7de129efc9ff06e91aa48589aa189b0 5136 main/binary-amd64/Packages
  032ffb485fa1032b14d7784be6e01c462c888f48d2d711b38d78e0c9938db563 1281 main/binary-amd64/Packages.gz

@@ -21,7 +21,7 @@ Description: Audioflinger glue
  The other half of audioflingerglue is build into the android image.
 
 Package: glosbit
-Version: 1.1-1
+Version: 1.2-1
 Architecture: arm64
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 147
@@ -29,11 +29,11 @@ Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), lib
 Homepage: https://github.com/dimkard/glosbit
 Priority: optional
 Section: tools
-Filename: pool/main/g/glosbit/glosbit_1.1-1_arm64.deb
-Size: 85808
-SHA256: 4ab9533bdf5e176cd028c2d3e47c8bc2a9d03847f31c09bc66b3096a8fc0bf1a
-SHA1: b23411623b937432b8a1b865e48503e5ad6c666a
-MD5sum: 29cd0637b916447589aa4f3b0f9be045
+Filename: pool/main/g/glosbit/glosbit_1.2-1_arm64.deb
+Size: 85824
+SHA256: 814acef991db1a011ddebb229dab9004eab7ab84a7e7b5091ad54e73a03b998f
+SHA1: ced64825fcb17ee02056a47b06260ce46d8546de
+MD5sum: b84e18630f844ed6c66a8c06995aa6d2
 Description: Touch friendly dictionary application using glosbe.com API
  Glosbit is a translation tool powered by https://glosbe.com/.
  You may translate a single word or a phrase using the top glosbe.com dictionaries.
@@ -43,21 +43,21 @@ Description: Touch friendly dictionary application using glosbe.com API
 
 Package: glosbit-dbgsym
 Source: glosbit
-Version: 1.1-1
+Version: 1.2-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 407
-Depends: glosbit (= 1.1-1)
+Depends: glosbit (= 1.2-1)
 Priority: optional
 Section: debug
-Filename: pool/main/g/glosbit/glosbit-dbgsym_1.1-1_arm64.deb
-Size: 387700
-SHA256: 37bb778c0be65792caa5270dd253c0c066faf9e52435a0dc3a9f71ae2550c349
-SHA1: 69bba4cc4056c91d5b706c9f4b3b9c5ca56a7dee
-MD5sum: 9eff4d845b7b65c36394ee76622edc16
+Filename: pool/main/g/glosbit/glosbit-dbgsym_1.2-1_arm64.deb
+Size: 387876
+SHA256: bcd06e42cfb07c2a31fa23243873f5be74f7c847bfbab6d4fd091d76f503a6b8
+SHA1: e5c181edd74bb74c650fcc27d0cbc1a8b29bcd40
+MD5sum: f15d92967d98262b43c796154364caff
 Description: debug symbols for glosbit
-Build-Ids: 22b23aa81b2ead0a21170b0d131d492e953195fa 9ad10c6b9ac5c182618fdd53921c5075d5b57f78
+Build-Ids: 00d520247a1c85034ac3b84f34cd6a966cd8e7b4 9065ff2f4e82164deace09d9fdb891d1f8ce7574
 
 Package: kwin-common
 Source: kwin
