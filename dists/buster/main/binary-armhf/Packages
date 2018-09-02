@@ -1950,40 +1950,40 @@ Description: debug symbols for libqrtr1
 Build-Ids: 8e8c867860f385b62d49784bc48710bbbc8dfb47
 
 Package: llsvplayer
-Version: 0.3+git20180828-1
+Version: 0.3+git20180828-2
 Architecture: armhf
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Installed-Size: 84
-Depends: libqt5core5a, libqt5multimediaquick-p5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-org-kde-kirigami2, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit
+Depends: libqt5core5a, libqt5multimediaquick5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-org-kde-kirigami2, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit
 Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
 Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
 Priority: optional
 Section: video
-Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20180828-1_armhf.deb
-Size: 20488
-SHA256: 22a3faf3f38027cc14b9722644479166ac75134c3904f6b4f046586946b4668b
-SHA1: cc50b0c3847b130c8aa86f530d02427e60988070
-MD5sum: e9d1938ca222f59e82416a17676a34f0
+Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20180828-2_armhf.deb
+Size: 20536
+SHA256: b6a087675e57a2c9a7381c6a7c2cbd189b27d1a4f3918a394da8c7dd077525dc
+SHA1: 7b7a5fc429383f8b8ae10fd0734c26777a311907
+MD5sum: 0a0200cbd852591946eaa33f3c77303c
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
 
 Package: llsvplayer-dbgsym
 Source: llsvplayer
-Version: 0.3+git20180828-1
+Version: 0.3+git20180828-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Installed-Size: 170
-Depends: llsvplayer (= 0.3+git20180828-1)
+Depends: llsvplayer (= 0.3+git20180828-2)
 Priority: optional
 Section: debug
-Filename: pool/main/l/llsvplayer/llsvplayer-dbgsym_0.3+git20180828-1_armhf.deb
-Size: 160040
-SHA256: 43f08803c5192e7c012bc954c9b60ec10ac01efdc1fccebce7c379e7e106919d
-SHA1: 09ee9ed3c3eed7a525bb816a9f433c41ef1a52fc
-MD5sum: 51261abbb8f931291d721ebb17e3b5c1
+Filename: pool/main/l/llsvplayer/llsvplayer-dbgsym_0.3+git20180828-2_armhf.deb
+Size: 159960
+SHA256: 947ec5318d5bc442ad1bf8f337ea6cf04f8be93ed02b6609f7d9d5577bb8b727
+SHA1: dd2845239dea2b5564740506943a596228066d8e
+MD5sum: 11d04f2264d1f875bc22b7d5728375b1
 Description: debug symbols for llsvplayer
-Build-Ids: 9e5e769eafa5774e1e9ca364c3ea6ee50d3af95c
+Build-Ids: 3ed3c3ba15276eb7ca75e1e85ee754e9f92ea24d
 
 Package: lxc-android
 Version: 0.1+git20180723-2

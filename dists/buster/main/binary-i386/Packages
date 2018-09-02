@@ -48,3 +48,39 @@ Description: KDE window manager data files
  .
  This package contains the data files
 
+Package: llsvplayer
+Version: 0.3+git20180828-2
+Architecture: i386
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 92
+Depends: libqt5core5a, libqt5multimediaquick5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-org-kde-kirigami2, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit
+Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
+Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
+Priority: optional
+Section: video
+Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20180828-2_i386.deb
+Size: 21400
+SHA256: c55baa305e9ab778f460ef04736ea7c8f7758ad219f0a7e35cd720ea84068636
+SHA1: dc6adc6b18a8ea8ae96229e2ed01ce283e46f08d
+MD5sum: 3414c639c50c6f85245777e03ec60f11
+Description: Simple media player based on the Gstreamer Framework and
+ Plasma aswell as QtQuick.
+
+Package: plasma-settings
+Version: 0.0.1+git20180828-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 588
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, qml-module-ubuntu-onlineaccounts, kpackagetool5, libc6 (>= 2.4), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180828-1_i386.deb
+Size: 111480
+SHA256: 1b763657fe70320100e1609a683858fca4b2e932152a97c7b4d3b2e780af8bad
+SHA1: 434fb7543d3304b19151be702979a9493b5ca69f
+MD5sum: 2f8fb313011cb24b64da738531f676d5
+Description: Plasma phone settings application
+ The settings application and a few modules for it.
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
