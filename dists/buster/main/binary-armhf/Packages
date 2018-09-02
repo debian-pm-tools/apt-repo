@@ -202,7 +202,7 @@ Description: Development headers files for glamor-hybris
  Contains the development files.
 
 Package: glosbit
-Version: 1.1-1
+Version: 1.2-1
 Architecture: armhf
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 133
@@ -210,11 +210,11 @@ Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libq
 Homepage: https://github.com/dimkard/glosbit
 Priority: optional
 Section: tools
-Filename: pool/main/g/glosbit/glosbit_1.1-1_armhf.deb
-Size: 84676
-SHA256: 6db67ca5c42ab8598833f1c0a5c594ec32012159bb7ee07c3dddf1da1ce93178
-SHA1: f0bc0c191aac57c33ec40765581edac1d0aa069c
-MD5sum: bdd6bb89398c6a8f884aaf43a34e5880
+Filename: pool/main/g/glosbit/glosbit_1.2-1_armhf.deb
+Size: 84700
+SHA256: 9a5874b9d99dd033d91c173dc97184cd9ab3f9079a14602e6bdc691315212e31
+SHA1: 5afbe4c8296a021a5c86063d2b07cce811ef6f35
+MD5sum: 953f159657e0725b400674593ba1745c
 Description: Touch friendly dictionary application using glosbe.com API
  Glosbit is a translation tool powered by https://glosbe.com/.
  You may translate a single word or a phrase using the top glosbe.com dictionaries.
@@ -224,21 +224,21 @@ Description: Touch friendly dictionary application using glosbe.com API
 
 Package: glosbit-dbgsym
 Source: glosbit
-Version: 1.1-1
+Version: 1.2-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 404
-Depends: glosbit (= 1.1-1)
+Depends: glosbit (= 1.2-1)
 Priority: optional
 Section: debug
-Filename: pool/main/g/glosbit/glosbit-dbgsym_1.1-1_armhf.deb
-Size: 388652
-SHA256: 79c6ec9c06419625424bd91185f92a4b1da931cfd8cd82be6754ebf3cfd8e51d
-SHA1: a1467a9d0c23c0eb5b664bfc6eaa43926c0242e7
-MD5sum: 590078b718803071038ef20e5e374053
+Filename: pool/main/g/glosbit/glosbit-dbgsym_1.2-1_armhf.deb
+Size: 388992
+SHA256: 46c6216ec6546a8f5f9b076a407ba69c91fa4f980aa59e53b36aa1dd7899c473
+SHA1: 4c3f0cf16a84fe8c36b7e71c6fdb0925769d0760
+MD5sum: 241184df2738f790706505477a05cbc7
 Description: debug symbols for glosbit
-Build-Ids: 4440925437ea9cb0a4b7af3c6a6158b1083ded37 f2eeb07e56fac4be18ae4dd194fabe5ee09200d0
+Build-Ids: c66c3eb4bfad0ebddc496deac3d0d9ac6fa9d580 e273f75223a3a544efb536adf72f120f824068ab
 
 Package: halium-tool
 Source: halium-install
