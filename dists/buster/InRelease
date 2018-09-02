@@ -4,13 +4,13 @@ Hash: SHA256
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sun, 02 Sep 2018 16:22:44 UTC
+Date: Sun, 02 Sep 2018 16:26:56 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
 MD5Sum:
- cf31f707291741d1e7cb4039d451619a 160671 main/binary-armhf/Packages
- 12b721b7621cc75ff702839fa0e32303 41949 main/binary-armhf/Packages.gz
+ bf046c2fcf530cc0bef64e7700445f1d 159734 main/binary-armhf/Packages
+ a41b9e341ec25a4cc01391397c525238 41583 main/binary-armhf/Packages.gz
  6f58e2596a9d84815f6531547a5ab58e 133 main/binary-armhf/Release
  3b67090ca1787f8b241f7bee5219d32e 50984 main/binary-arm64/Packages
  ce68eacb316f1e7a8bc3929319c25092 11675 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ MD5Sum:
  5fa2dd1d2a876b5189604c7bac7f0b8b 4937 main/source/Sources.gz
  994bd563d7b0e4d56018b8ebb34998bd 134 main/source/Release
 SHA1:
- 0ba38f811b0626c9bd2e7a814d5ba2c5163cc9d3 160671 main/binary-armhf/Packages
- 27abaa537d47c1be98fe9485fd48b1b882983323 41949 main/binary-armhf/Packages.gz
+ 8cf74c0a91a912965cebb1f096f762e475f71ef5 159734 main/binary-armhf/Packages
+ 2ef8dfb9f6aed98b36345a9a8097c1dac8d21ebd 41583 main/binary-armhf/Packages.gz
  a3d8916917b38f90e9f548bed4334aa3a17833a4 133 main/binary-armhf/Release
  8299c34bcf26e0c3e8bfd80070e42cbd370a040f 50984 main/binary-arm64/Packages
  f38eec4561d685d338cc459caea5d08219f99505 11675 main/binary-arm64/Packages.gz
@@ -41,8 +41,8 @@ SHA1:
  b73007005163cb5bdd645dc6f132c799cc9ed08d 4937 main/source/Sources.gz
  04a03b0035e430b0b9ca23a1506bab7a35b07f42 134 main/source/Release
 SHA256:
- 7195a943768bc8bcdedda305b3b096644f9636fe4a4dae786b0ca33da81ae71d 160671 main/binary-armhf/Packages
- 92dbabc1c20cbff4953ae5ac3f9e4ac8123b762ba97696cc5a72938fab1b5525 41949 main/binary-armhf/Packages.gz
+ bacd2df95e41df249438881f4efbd1875aa762ff4183e99b5a5ba637e1345c6c 159734 main/binary-armhf/Packages
+ 563ee9bb58061364c3e98dfa3f4cc098c37f8044f9a64ef217779df3d08df7da 41583 main/binary-armhf/Packages.gz
  50fa0337602dced97488abcf7199bff3a0beebdb07cb5cdce33ce60bea2fe606 133 main/binary-armhf/Release
  47cb52af84dd0315877acaf215363ddd06537d813041f03d9bb8305e3593ed7b 50984 main/binary-arm64/Packages
  0ea212c0102c33c248cc7e16d7ba52372470f01fb69a4a484118bbb8407b7d92 11675 main/binary-arm64/Packages.gz
@@ -58,17 +58,17 @@ SHA256:
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAluMDlUACgkQqB4HWr7I
-Cn5kWw/+PqnmUBKqMCaH9xrshxuFVWDuH0tVeBPQPiroL6MJdA0FtOKASB+VYw1/
-iUO+8NHW9JXeevYdHkKkwmLnQ/V1B+Cj9YKBXuxF57ibWBnM2Q335yAWaoih74lv
-Trgt2DOKwz+Ol5y14kyUteXwpWGq1gRqZQqZHOHU7GfPm2EvDXnfOUyJzpb9p8iD
-ggPSptnae9GYf+OsY5LNyI5TFdXbTHXCsM93fZDe3qUerWWniKl+gAYi1ouXcZRQ
-/lpsrGQJHDmUWP14aKhuWeENrpXg2CjVY6CuF3vMcW8j7i6m5SCZFzVm7zOJcw/g
-t0KaYZ+mEBAgJcZCugNgm+Ou+wdElq3oegsyJNuMAPnS+csV2bfVSoJ6U98dg8Id
-a0ayq553EuikHBtbdwKcQE7D20pp1CzejqPoPyNzA4LMbGhDrlVi3e6weRQ31OvH
-Nwsc9jQt7J2FpjsSBFjXntUscrm6ZglGAwdViepL+JkNlZ6llSEl/KmYLjfsTb7K
-QlENU+ONkRc+rFp3dr23rOoUFJDEhSZslYvYzlzL67NxOcgSepr7rA9Y3eL6t91V
-glDlpk8aGoGKZ7UD4r8bI+6GoF3DMRmsKDPRt0BmCVHQemDHgvWeWq0b3RMvHHwV
-pzTyHbOFSEidCYY1NoLTEL9Ht8t+BQ3kBy7SVFMRecZQyhgGbCc=
-=qeIl
+iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAluMD1AACgkQqB4HWr7I
+Cn6qkBAAj/6X1FpC5XbAgDtcbdYW12H2ttzz0m7mtNqW0t+1sF6LxwXOMwQEfUJb
+CIR5YKk4gwzaRyRdsf6aGF+vCCNNTrgcXcxLQqu1aXF7+xk2aaHntyyhUgS2hhrG
+my3bOTg3DCHDbkWV2LnUd5GDE6M8lTYlU7oNLt7C4Q7NOKGvTlNJd6Ltvf/y19Dp
+pRWy1z3twLYe8P14I5Z99l9vH4m2FX9IEknKUxsuG7kDuW9aGQpvA4CKN2lthrMV
+kMFAZ86bLiyiULkHipf9/JOAqObd2UFvdhyhSD52pQu2XSufldPVEMGci9OFywMp
+fOY95t7oy41/skZqeq9Po60icqwQNZtlNwGvxqHn5kro6qIKZCDFeHv05cJ+xX9L
+18K8k7BLt+MW6ux1LApdXHm6YTBGEG8utr/rDtT+w0voL8GXBFHXLgkrLGMJ/pPq
+BkJ2LVXt/Jx/SctX/423eYBN6Q8V/33tiDu4BWUb6QVqAm8/DWHKn0NEojOStfVx
+J2CTJuLzBgaSwNfzenoIUhhzvk7SFkbv7rOPAetOZZkeiT7zIWuWrYT374mYxSmZ
+EicAD4EAbhZAm4QqaYhcKQ03mvG1gTI4uHpbwN7C7+5zHfOx65gQm0dZ/dVim7t1
+C8nK5D7GVuaftvI4VCqL/iHVLQFoaM38AHL1GFbDtrv3eb7WP3Q=
+=eO0b
 -----END PGP SIGNATURE-----
