@@ -1971,6 +1971,42 @@ MD5sum: 6f19184882b35d7a7d33c6b04e58d343
 Description: debug symbols for libqrtr1
 Build-Ids: 8e8c867860f385b62d49784bc48710bbbc8dfb47
 
+Package: llsvplayer
+Version: 0.3+git20180828-1
+Architecture: armhf
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 84
+Depends: libqt5core5a, libqt5multimediaquick-p5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-org-kde-kirigami2, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit
+Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
+Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
+Priority: optional
+Section: video
+Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20180828-1_armhf.deb
+Size: 20488
+SHA256: 22a3faf3f38027cc14b9722644479166ac75134c3904f6b4f046586946b4668b
+SHA1: cc50b0c3847b130c8aa86f530d02427e60988070
+MD5sum: e9d1938ca222f59e82416a17676a34f0
+Description: Simple media player based on the Gstreamer Framework and
+ Plasma aswell as QtQuick.
+
+Package: llsvplayer-dbgsym
+Source: llsvplayer
+Version: 0.3+git20180828-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 170
+Depends: llsvplayer (= 0.3+git20180828-1)
+Priority: optional
+Section: debug
+Filename: pool/main/l/llsvplayer/llsvplayer-dbgsym_0.3+git20180828-1_armhf.deb
+Size: 160040
+SHA256: 43f08803c5192e7c012bc954c9b60ec10ac01efdc1fccebce7c379e7e106919d
+SHA1: 09ee9ed3c3eed7a525bb816a9f433c41ef1a52fc
+MD5sum: 51261abbb8f931291d721ebb17e3b5c1
+Description: debug symbols for llsvplayer
+Build-Ids: 9e5e769eafa5774e1e9ca364c3ea6ee50d3af95c
+
 Package: lxc-android
 Version: 0.1+git20180723-2
 Architecture: all
@@ -2230,40 +2266,40 @@ Description: Settings and artwork for Plasma Phone
  This package contains settings used by Plasma Phone.
 
 Package: plasma-settings
-Version: 0.0.1+git20180505-1
+Version: 0.0.1+git20180828-1
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 381
-Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-ubuntu-onlineaccounts, qml-module-org-kde-kirigami2, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Installed-Size: 441
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, qml-module-org-kde-kaccounts, qml-module-org-kde-kcm, qml-module-org-kde-kirigami2, qml-module-ubuntu-onlineaccounts, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5auth5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kdelibs4support5 (>= 4.96.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5quickaddons5 (>= 5.11.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
 Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180505-1_armhf.deb
-Size: 73416
-SHA256: 0e8a8ae68fc0466ec9c9c6ffe781e7263df7235580c717911d0cd64ab9dfb404
-SHA1: c1264c189add0ca5b2a33c2e42e49139926ac603
-MD5sum: de8179cb8ecdb06d49ee730507af3510
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1+git20180828-1_armhf.deb
+Size: 90172
+SHA256: b04b846e5c9b772be64ca7cc9d27eb28a232056216420bfad3bea4a98b6f44e8
+SHA1: f34e692eab3e00806d73fa7031d133e713090fb2
+MD5sum: f319623e07487a4b853460ad94acd802
 Description: Plasma phone settings application
  The settings application and a few modules for it.
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: plasma-settings-dbgsym
 Source: plasma-settings
-Version: 0.0.1+git20180505-1
+Version: 0.0.1+git20180828-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2878
-Depends: plasma-settings (= 0.0.1+git20180505-1)
+Installed-Size: 3636
+Depends: plasma-settings (= 0.0.1+git20180828-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180505-1_armhf.deb
-Size: 2821704
-SHA256: 61a986b5dc85b91874c49b2f0863573981254c8e4a5e61ff18c9b8224cf7490f
-SHA1: 6c69305112cca778b96b85b9dc74bbc263408077
-MD5sum: 933a222e91c580e55989b9a946b90711
+Filename: pool/main/p/plasma-settings/plasma-settings-dbgsym_0.0.1+git20180828-1_armhf.deb
+Size: 3594352
+SHA256: e7b270eb4901b7d463e0cfa3e58d4eb4ad18724a51e72c3ccf5e650eda16f6ec
+SHA1: 7541fdadfbca7c7e0015ef543e09e05f505552a4
+MD5sum: 6a99c0be7f4c9c3cffa479e2782646fd
 Description: debug symbols for plasma-settings
-Build-Ids: 26ed41db1a64045e5742d06277cf03b17db530de 3b82b0f458f6b3dd0b618aa5028c1ad620ac3605 3e4d0f0c35d53321d3ede0e8efe78cc1fb43b607 7eaa72189e3ba97b1178fde9d7acf6bfd3572bef a09be57e7ef399feadb254f35df4ea43aea321b1 bda5aad5187439fc6293178d719383791fbf2402 c6e2a29f2bc6d5d332f7424e54e222946bb214bb
+Build-Ids: 019b99af41c1f7013d1d5743c5013084a4e12a23 03b1d00e0358f5177df6b92ca3e900279ebf54c7 26614b7c25505811cabe62d666fe3182cbacd99b 80e2e61fdd9089c9586930d918489139e048fbc0 bac53cf175c7f0850d01af00e63f24dc3a91c5dd f1d566cad3d6d8a54879734668050b2166204b4d
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: pulseaudio
@@ -2535,16 +2571,16 @@ Source: pulseaudio-modules-droid-glue
 Version: 11.1.3-1
 Architecture: armhf
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 24
+Installed-Size: 22
 Depends: libc6 (>= 2.4), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid-glue
 Priority: optional
 Section: sound
 Filename: pool/main/p/pulseaudio-modules-droid-glue/pulseaudio-module-droid-glue_11.1.3-1_armhf.deb
-Size: 5872
-SHA256: b7d7cb25214294ae04a68c78bd1cc90db033efd8bbaed47cc1b363a50fcd9b94
-SHA1: c604fbba7d03dea6b42cc19241ef79d69440051b
-MD5sum: 1729c38606108c9b321ed22d3c918eb3
+Size: 5436
+SHA256: db9eccf8931600c53c477412d7af31f4cbf93396d224d453bc74e7bcb400cd52
+SHA1: 859c8a1c0caa4a9ee929eda8c0fa85965ea80805
+MD5sum: c236198f7cb1a64ace325cb08a4f0832
 Description: PulseAudio Droid HAL glue module.
 
 Package: pulseaudio-module-droid-glue-dbgsym
