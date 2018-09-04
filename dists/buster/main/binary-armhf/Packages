@@ -2953,6 +2953,42 @@ MD5sum: 23e373c4b169c38bc082c59cc52406f8
 Description: debug symbols for qml-module-ofono
 Build-Ids: 4ce7415ada1b9654b52824c1ca0e42ef2e66621e
 
+Package: qml-module-qmltermwidget
+Source: qmltermwidget
+Version: 0.1+git20180903-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 547
+Depends: qml-module-qtquick2, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgles2, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Homepage: https://github.com/Swordfish90/qmltermwidget
+Priority: optional
+Section: lib
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget_0.1+git20180903-1_armhf.deb
+Size: 178368
+SHA256: e1ccec90badab4982d7681d2f78da2b662f2c5bdc126fcb862c95c638a8b2a27
+SHA1: 37cfa84a65bf79d42ef946219e20ca380bfb8109
+MD5sum: 3288dfc18d70d6188f4ed20fb0f01010
+Description: QML port of qtermwidget
+ Qmltermwidget allows building terminal applications using qml
+
+Package: qml-module-qmltermwidget-dbgsym
+Source: qmltermwidget
+Version: 0.1+git20180903-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 4554
+Depends: qml-module-qmltermwidget (= 0.1+git20180903-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget-dbgsym_0.1+git20180903-1_armhf.deb
+Size: 4505652
+SHA256: a102595599ca05505e315325fd086dc639fc6f700aefb140d13da9706cf114be
+SHA1: 461c40308544b18387865bafa6e0b7c222806137
+MD5sum: 952c8403abc9d5e5cfe741533690e258
+Description: debug symbols for qml-module-qmltermwidget
+Build-Ids: ed4f2e01c77fc82de7b056bff44fe469271e2902
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
