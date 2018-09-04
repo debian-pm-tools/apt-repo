@@ -2876,6 +2876,24 @@ MD5sum: 3414c639c50c6f85245777e03ec60f11
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
 
+Package: llsvplayer-dbgsym
+Source: llsvplayer
+Version: 0.3+git20180828-2
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 169
+Depends: llsvplayer (= 0.3+git20180828-2)
+Priority: optional
+Section: debug
+Filename: pool/main/l/llsvplayer/llsvplayer-dbgsym_0.3+git20180828-2_i386.deb
+Size: 159088
+SHA256: 5d02b0b8a5bdf2ed12d51fd96c1adeee3d755b2910e23938aa2a4ccbb80ad676
+SHA1: 37b256c5ff3aebd45da5c06daecd257640ba7363
+MD5sum: 9144939153f5d5a8a7b1b051cabd4f26
+Description: debug symbols for llsvplayer
+Build-Ids: 86ba4717f53f550efb4207eba3d8cbb36cbcde19
+
 Package: lxc-android
 Version: 0.1+git20180723-2
 Architecture: all
@@ -3068,21 +3086,21 @@ Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-components-dbgsym
 Source: plasma-phone-components
-Version: 0.7+git20180223-1
+Version: 0.7+git20180711-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3248
-Depends: plasma-phone-components (= 0.7+git20180223-1)
+Installed-Size: 3358
+Depends: plasma-phone-components (= 0.7+git20180711-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180223-1_i386.deb
-Size: 3217492
-SHA256: cad6c5e5c5cec161f4d0402b0faa6b22af9eacd8747da593a86c22e0cfc0eb02
-SHA1: bac68a48258f9f4d535e8b50151727ff973e97e2
-MD5sum: 84bbdf4f60c3babc1187c1aff3cf12ee
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180711-1_i386.deb
+Size: 3328132
+SHA256: 28b52c8b66b06afa0a3c139cf40f291f5428e9dc83204c6859d4c0b0b3d79489
+SHA1: f2107a9d78abd4f58273d55e6eceb81b545be0f3
+MD5sum: 67a7b461121025ead88cbcbaf4db0d28
 Description: debug symbols for plasma-phone-components
-Build-Ids: 2d68b2a5c330b64dff8967a781c8201eec1de8b0 6a445593001ea12c3309f563506c47e1d5972653 8c1e749989d7eb3fbfada83b1fcb27a4e3e70e52 a80eaa408a6a2d308d40b159d0d8f0138208a79c a99b521d1277470efe1caa9757a5288467fe3696 f1287892db0dc57eadfc382ede4e7ab21f6177ba
+Build-Ids: 361f0a62ce17e5aae14499550c2965e5f47cad5b 4e25a453254628a9796ab566a700275a2cebaeeb 6be90a349dbf525646adaf716d7090fce9a3150e b31a5edc2f74301600656404ad65557855d9c911 d3d9a6b09bb47f0ea60cdae4c16e0dd20baa60bb f40f135890956732634f1c515bed78d2379b9486
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-settings
@@ -3778,6 +3796,42 @@ MD5sum: 0fc587d10b83d6f0d9a7ad85554e1c17
 Description: QML bindings for libqofono
  A library for accessing the ofono daemon, and a declarative plugin for
  it. This allows accessing ofono in qtquick and friends.
+
+Package: qml-module-qmltermwidget
+Source: qmltermwidget
+Version: 1.0+git20180903-1
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 766
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Homepage: https://github.com/Swordfish90/qmltermwidget
+Priority: optional
+Section: lib
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget_1.0+git20180903-1_i386.deb
+Size: 229012
+SHA256: 9263b4a6efc7f11f88d1b79814d281be1b42cfb926030d7a222a3a9c7a782cba
+SHA1: 5851f66f71a6283e75ce7514ba312c159bccc9b2
+MD5sum: a6bcfc087e700010f925ed2d5058c81f
+Description: QML port of qtermwidget
+ Qmltermwidget allows building terminal applications using qml
+
+Package: qml-module-qmltermwidget-dbgsym
+Source: qmltermwidget
+Version: 1.0+git20180903-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 4489
+Depends: qml-module-qmltermwidget (= 1.0+git20180903-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget-dbgsym_1.0+git20180903-1_i386.deb
+Size: 4456548
+SHA256: 82f4c7331e65cc98b5923f6316b647cd7725cc8556e4b7c2885e2839debeeacb
+SHA1: 6a08812483d0a38f5212fac73398436c04971826
+MD5sum: 9e7a5923a2130c302932bd31965f3e19
+Description: debug symbols for qml-module-qmltermwidget
+Build-Ids: 722ec6e343ba61fdedcdb70827c2c4113101a804
 
 Package: qml-module-qt-labs-folderlistmodel
 Source: qtdeclarative-opensource-src
