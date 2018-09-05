@@ -1551,6 +1551,49 @@ MD5sum: 681e967a8be355e9b915bf638561f291
 Description: debug symbols for libkwinxrenderutils11
 Build-Ids: 28c0e002469656cb3d713b338ccf42a97c8b86dc
 
+Package: libmauikit
+Source: mauikit
+Version: 0+git20180904-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 194
+Depends: kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/libmauikit_0+git20180904-1_armhf.deb
+Size: 67776
+SHA256: df375754457d7d7012f60969cedb69d67e4c5c50430bf5a955233bd19941d5d0
+SHA1: fe1aa3a53999565ac703951609aa1fbe758e5634
+MD5sum: e5ca7cf12b959fcc71da017d8e868141
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit shared library
+
+Package: libmauikit-dbgsym
+Source: mauikit
+Version: 0+git20180904-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 1923
+Depends: libmauikit (= 0+git20180904-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mauikit/libmauikit-dbgsym_0+git20180904-1_armhf.deb
+Size: 1903160
+SHA256: b80f4bf3a2bb00251b6f1f326a99ce766c37e877c1156381f98f2cd2512f0142
+SHA1: 9f299a417b0b812bf961eeff42edf0a86dd7f96a
+MD5sum: 963ceafbc407ab7c8efd61f5e798dafc
+Description: debug symbols for libmauikit
+Build-Ids: 9d0e96222f4388dde2f21ee2fa83e0e1d98479da
+
 Package: libmedia-dev
 Source: libhybris
 Version: 0.1.0+git20180625-1
@@ -2003,6 +2046,31 @@ Description: lxc configuration for starting android
  .
  This package provides the configuration for starting android in lxc
 
+Package: mauikit-dev
+Source: mauikit
+Version: 0+git20180904-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 56
+Depends: libmauikit, qml-module-org-kde-mauikit
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/mauikit-dev_0+git20180904-1_armhf.deb
+Size: 9952
+SHA256: 36b7fe0bd41cc8dac3d9de6810cb6c666c04cc6f34ac86fb30c7066e96e2e8d3
+SHA1: bb4b8bcb3d0978043dfd94ee418c4d45ddd4a24b
+MD5sum: 2f66bc1349fd5ef2339cac35ce56d620
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains mauikit development files
+
 Package: nemo-gstreamer1.0-interfaces
 Source: nemo-gst-interfaces
 Version: 0.20150126.0-1
@@ -2155,6 +2223,44 @@ Description: Mobile telephony stack (test and maintenance script files)
  3GPP TS 27.007 "AT command set for User Equipment (UE)."
  .
  This package includes test and maintenance scripts.
+
+Package: pix
+Version: 0+git20180905-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 646
+Depends: kio, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgles2, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.3.0)
+Homepage: https://github.com/maui-project/pix
+Priority: optional
+Section: graphics
+Filename: pool/main/p/pix/pix_0+git20180905-1_armhf.deb
+Size: 317732
+SHA256: 8ac3d109e8426dd16ce0bc2baab54c9be2ac7619d73348a94a516ecf0babe73f
+SHA1: 201f330c37ac8ba2cd1586a5a14816ddcdfc90eb
+MD5sum: 35fe897dc090115e64f1794124d6ff93
+Description: Image gallery manager built with MauiKit
+ Pix is an image gallery manager made for Maui
+ .
+ Pix is a convergent and multiplatform app
+ that works under Android and GNU Linux distros
+
+Package: pix-dbgsym
+Source: pix
+Version: 0+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2191
+Depends: pix (= 0+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pix/pix-dbgsym_0+git20180905-1_armhf.deb
+Size: 2175724
+SHA256: 03e961db2a1043d688720ff9f35d1333dd410eabc017241553bacf483bfc5b94
+SHA1: cc80f66af3033b8fb4a2f5cc1ada40dd19cab719
+MD5sum: 44a3dd64e694de491a15c9cade7a0da8
+Description: debug symbols for pix
+Build-Ids: 41dbc8b577d26caea212ff70408e8a1778ef25df
 
 Package: plasma-angelfish
 Version: 0+git20180828-1
@@ -2953,6 +3059,49 @@ MD5sum: 23e373c4b169c38bc082c59cc52406f8
 Description: debug symbols for qml-module-ofono
 Build-Ids: 4ce7415ada1b9654b52824c1ca0e42ef2e66621e
 
+Package: qml-module-org-kde-mauikit
+Source: mauikit
+Version: 0+git20180904-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 310
+Depends: libmauikit, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit_0+git20180904-1_armhf.deb
+Size: 84000
+SHA256: 23249479e8f1b7abbb42e8a48ceed20bf8126328db284f690eb9469c6fab8ece
+SHA1: ab7f6f2e91204cec47829b0f44b261659c4d87af
+MD5sum: 7d29f6b6c5c954507969f02fe9b824f4
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit qml module
+
+Package: qml-module-org-kde-mauikit-dbgsym
+Source: mauikit
+Version: 0+git20180904-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 1923
+Depends: qml-module-org-kde-mauikit (= 0+git20180904-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit-dbgsym_0+git20180904-1_armhf.deb
+Size: 1903188
+SHA256: ce4dff7d50460a6e986021c6c1c4fac055a6f5f8b40b3bd05b9cce06f8211b3f
+SHA1: ae4b719be718c4106ffc5ec7e00c99ad6ee395b3
+MD5sum: 2644d6d4ea6ea47edc1d968277f9df38
+Description: debug symbols for qml-module-org-kde-mauikit
+Build-Ids: 9d0e96222f4388dde2f21ee2fa83e0e1d98479da
+
 Package: qml-module-qmltermwidget
 Source: qmltermwidget
 Version: 0.1+git20180903-1
@@ -3520,6 +3669,53 @@ SHA1: 76b2ba651fb7ff945136166541acbe7f5a1cae04
 MD5sum: 244fe8eed64a172d781ea51b5dbf081d
 Description: debug symbols for umtp-responder
 Build-Ids: 91a6772d46cc6cc5e39bbed5d0a550a2bde7a01a
+
+Package: vvave
+Version: 1.2+git20180905-1
+Architecture: armhf
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 962
+Depends: qml-module-org-kde-mauikit, youtube-dl, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.5.0~), libqt5webengine5 (>= 5.7.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~)
+Homepage: https://github.com/milohr/vvave-qt
+Priority: optional
+Section: sound
+Filename: pool/main/v/vvave/vvave_1.2+git20180905-1_armhf.deb
+Size: 491676
+SHA256: 9b8b347501e321b22817d2e98b91f87a209c3cebbbcdc8e1a219067ecf6c6383
+SHA1: 942d938529326d24cc893e8cdcdf5ce345833144
+MD5sum: fd7d797aa27260b84c2fed7ae6f98c0f
+Description: Tiny Qt VVave Music Player
+ VVave is a tiny Qt music player to keep your favorite songs at hand
+ .
+ VVave will handle your whole music collection, letting you create
+ custom playlists to organize your music.
+ .
+ You can also filter your music by artist, title, album, genre,
+ date and location. VVave lets you vvave-mark your favorite YouTube
+ music videos into your local collection by using the Chromium
+ extension.
+ .
+ Think of VVave as the playlist where all your favorite tracks at
+ the moment are. And when needed you also have an integrated
+ collection manager.
+
+Package: vvave-dbgsym
+Source: vvave
+Version: 1.2+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7094
+Depends: vvave (= 1.2+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/v/vvave/vvave-dbgsym_1.2+git20180905-1_armhf.deb
+Size: 7087236
+SHA256: 25d203991778944bf7b99e97b1555c5fe3e7487a8f239b3168f78c66953dbd05
+SHA1: 983d308e97b195e4cb49a2bd48a08daf1a908d07
+MD5sum: 889b551f9b681ce3d1d8dd5cb9736d81
+Description: debug symbols for vvave
+Build-Ids: 49ed9760cc52c24121392e0c8fe3a9995cb2394b
 
 Package: xserver-xorg-video-hwcomposer
 Version: 0.3.8+git20180622-1
