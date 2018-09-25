@@ -201,6 +201,45 @@ MD5sum: f0d67762fcbfb25a5b66c339d702998d
 Description: Development headers files for glamor-hybris
  Contains the development files.
 
+Package: glosbit
+Version: 1.2-1
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 149
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/dimkard/glosbit
+Priority: optional
+Section: tools
+Filename: pool/main/g/glosbit/glosbit_1.2-1_i386.deb
+Size: 86652
+SHA256: 29ff06893296ec91d27f8083d941ecc30006b223d9111fa693d473ead6236cc0
+SHA1: 13837e46f8dfaf1915b580a963b2ac37e8ac8b99
+MD5sum: 478875721783e4f61812eb6b330ed6a8
+Description: Touch friendly dictionary application using glosbe.com API
+ Glosbit is a translation tool powered by https://glosbe.com/.
+ You may translate a single word or a phrase using the top glosbe.com dictionaries.
+ Moreover, a set of examples of usage of the word or phrase are presented.
+ Glosbit is a touch friendly and has been created for plasma mobile.
+ Nevertheless, it may run as a desktop application as well
+
+Package: glosbit-dbgsym
+Source: glosbit
+Version: 1.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 398
+Depends: glosbit (= 1.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glosbit/glosbit-dbgsym_1.2-1_i386.deb
+Size: 385448
+SHA256: 37869e3781a7ce03959e01758138c02dca4207d1f7ff5e7a2a8d86b6855762c7
+SHA1: b7c5964e3e244584ee78a5b2f9366e7fef5a2b89
+MD5sum: cd5eb2f4cc81c201b743105860a7c4ba
+Description: debug symbols for glosbit
+Build-Ids: d261a9330bc4904cd994b20e0222fd959712f2a2 d6a91dce3fec450cb9e1e883cf35837a584a63dc
+
 Package: gstreamer1.0-droid
 Source: gst-droid
 Version: 0.20180503.0-1
