@@ -3170,24 +3170,6 @@ Description: Mobile telephony stack (test and maintenance script files)
  .
  This package includes test and maintenance scripts.
 
-Package: openboard-dbgsym
-Source: openboard
-Version: 1.4.1-1
-Auto-Built-Package: debug-symbols
-Architecture: i386
-Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 53147
-Depends: openboard (= 1.4.1-1)
-Priority: optional
-Section: debug
-Filename: pool/main/o/openboard/openboard-dbgsym_1.4.1-1_i386.deb
-Size: 52993328
-SHA256: 95a0263296741a438fa3b09f6df3d79fb5be6c635807a1be95fd00a0dc61c2c3
-SHA1: 95979916b5b2d2b2eefe5a1f2e27746f9cea41de
-MD5sum: 6716c7633a8854ba2151810d6ffc9af8
-Description: debug symbols for openboard
-Build-Ids: e371f46c17916ffa4b5857f73a3caf74cc2cf8ba
-
 Package: pix
 Version: 0+git20180905-1
 Architecture: i386
@@ -3579,6 +3561,23 @@ SHA256: 125d2b2b1397a8816c502b425e9ead27010a727936c90892614ee280bbcc99ce
 SHA1: 78e971870e78201573606ba5c56f945379cfd4b8
 MD5sum: d9f09d08eb56b99fd2f5c46b71d5d045
 Description: PulseAudio Droid HAL module development headers.
+
+Package: pulseaudio-module-droid-glue
+Source: pulseaudio-modules-droid-glue
+Version: 11.1.3-1
+Architecture: i386
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 26
+Depends: libc6 (>= 2.4), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
+Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid-glue
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-modules-droid-glue/pulseaudio-module-droid-glue_11.1.3-1_i386.deb
+Size: 6024
+SHA256: c50671eac650d8570d806285174aed319123bf5169d89cc50c2a97715c920e7d
+SHA1: 29ecf7531d43e117bc2ddfc796931927feb65536
+MD5sum: cc2b060840d07022bcbfd4e31967775d
+Description: PulseAudio Droid HAL glue module.
 
 Package: pulseaudio-module-gconf
 Source: pulseaudio
