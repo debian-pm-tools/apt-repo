@@ -3247,6 +3247,40 @@ MD5sum: 7de20b9d408b45144a32f01548186ad4
 Description: debug symbols for pix
 Build-Ids: 14bdabf87ab96a9d3779f2226333f581c14dc529
 
+Package: plasma-angelfish
+Version: 0+git20180828-1
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 191
+Depends: kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.100.0), libkf5declarative5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.1.0), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.7.1), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: net
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish_0+git20180828-1_i386.deb
+Size: 37564
+SHA256: f65a942c7d079313ddb98515cb7712f5d628fb1b78932f7a837b043c5b97ac51
+SHA1: 4f594befb9d6743dfedd185f3afc27f68161e617
+MD5sum: 648d328bc82d491acf885aa599c7cb82
+Description: Small webbrowser for mobile devices
+ Webbrowser based on QtWebEngine and QtQuickControls2
+
+Package: plasma-angelfish-dbgsym
+Source: plasma-angelfish
+Version: 0+git20180828-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 795
+Depends: plasma-angelfish (= 0+git20180828-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish-dbgsym_0+git20180828-1_i386.deb
+Size: 781552
+SHA256: f3be50b92e5ca90e7c68ba0a906d8aaa6e2eecf733e67f0037b0b6f933015981
+SHA1: f22c6930e46f63d4576d0c9bea907dfc5264559c
+MD5sum: 3643e27f4d509265f8d3dbc47c8b3d2a
+Description: debug symbols for plasma-angelfish
+Build-Ids: 75a571578014b3d555930cb877e72afd5e7d844d
+
 Package: plasma-phone-components
 Version: 0.7+git20180711-1
 Architecture: i386
