@@ -273,6 +273,43 @@ SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
 MD5sum: f98ab87d5503b3aaf77b772d435240d6
 Description: USB control for Android with hybris
 
+Package: index
+Version: 0+git20180905-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 841
+Depends: kio, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgles2, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2)
+Homepage: https://github.com/maui-project/index
+Priority: optional
+Section: utils
+Filename: pool/main/i/index/index_0+git20180905-1_armhf.deb
+Size: 383144
+SHA256: 64f4a8389bb45ee54a201f323123555f812446e2ef0e247b32d87e59433e1cd6
+SHA1: 4477d295e04e360ad71780a104482abab25594bc
+MD5sum: f75fc8966a709b950ea5843ce2b8afff
+Description: Maui File manager
+ Index is a file manager that works on desktops, Android and Plasma Mobile.
+ Index lets you browse your system files and applications and preview
+ your music, text, image and video files and share them with external applications
+
+Package: index-dbgsym
+Source: index
+Version: 0+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 5973
+Depends: index (= 0+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/i/index/index-dbgsym_0+git20180905-1_armhf.deb
+Size: 5917852
+SHA256: af9b99d58fa2c993ab20181692050b2355a6b257136188f182eeaee4a415cd90
+SHA1: c13763b7a4714c3f69e98e5273b31f73a3b8fb51
+MD5sum: cbebe54f9dc586415de60f3a26d86428
+Description: debug symbols for index
+Build-Ids: 9cee51fe5bcae95ffc2587d93e914d4ed0daa056 ac10ac5b2c7d1a2e03ea7e285ac8029985b39301
+
 Package: kaidan
 Version: 0.3.2+git20180712-1
 Architecture: armhf
