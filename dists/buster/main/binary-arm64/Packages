@@ -66,43 +66,6 @@ Description: Audioflinger glue
  .
  The other half of audioflingerglue is build into the android image.
 
-Package: cutelyst2
-Source: cutelyst
-Version: 2.5.2-1
-Architecture: arm64
-Maintainer: Debian Qt Extras Team <debian-qt-kde@lists.debian.org>
-Installed-Size: 86
-Depends: libcutelyst2qt5-2-dev (= 2.5.2-1), libc6 (>= 2.17), libcutelyst2qt5wsgi2-dev (>= 2.1.0), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libstdc++6 (>= 4.4.0)
-Homepage: https://cutelyst.org
-Priority: optional
-Section: libs
-Filename: pool/main/c/cutelyst/cutelyst2_2.5.2-1_arm64.deb
-Size: 22520
-SHA256: fd9ad6b830b99b42e89e3bb7d442f930bdd23bf09ceb8e73269294885195775b
-SHA1: 8f4fc45976862e82a9330e6fa5877790f7fe149e
-MD5sum: d2721f1026e2b3e06116e6e5e5c109c3
-Description: Qt Web Framework
- Create fast and modern web applications that share the same code from
- your desktop or mobile apps!
-
-Package: cutelyst2-dbgsym
-Source: cutelyst
-Version: 2.5.2-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Qt Extras Team <debian-qt-kde@lists.debian.org>
-Installed-Size: 425
-Depends: cutelyst2 (= 2.5.2-1)
-Priority: optional
-Section: debug
-Filename: pool/main/c/cutelyst/cutelyst2-dbgsym_2.5.2-1_arm64.deb
-Size: 399468
-SHA256: e52bee8cc28662dde2197dc444396378b47d4affe9c467225d0db9e9ae1ac596
-SHA1: 3f2c0c5b1ea00e996fb1aa8dc71e0d592de31e87
-MD5sum: 9fb2a149862628395cac06d7d25c84ff
-Description: debug symbols for cutelyst2
-Build-Ids: 56929ee339ea61e4d6a9c627859654729cfee5e5 6ca7bc3ab74a84590348455860f7b61f4772370f
-
 Package: debian-pm-archive-keyring
 Source: debian-pm-keyring
 Version: 20180408
@@ -2255,6 +2218,44 @@ Description: Mobile telephony stack (test and maintenance script files)
  .
  This package includes test and maintenance scripts.
 
+Package: pix
+Version: 0+git20180905-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 695
+Depends: kio, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/maui-project/pix
+Priority: optional
+Section: graphics
+Filename: pool/main/p/pix/pix_0+git20180905-1_arm64.deb
+Size: 316860
+SHA256: 00ad9b24e4ab8d379e7f05e2c547f28f2dfd43185ca978059aa3c9c4c25113a5
+SHA1: 1b05cc97e5a537ef1fe42bff38daec09f6214558
+MD5sum: 60cc2cdb70701e63fc625be0c1c9a9aa
+Description: Image gallery manager built with MauiKit
+ Pix is an image gallery manager made for Maui
+ .
+ Pix is a convergent and multiplatform app
+ that works under Android and GNU Linux distros
+
+Package: pix-dbgsym
+Source: pix
+Version: 0+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2211
+Depends: pix (= 0+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pix/pix-dbgsym_0+git20180905-1_arm64.deb
+Size: 2176124
+SHA256: 91bfe6f55819b4e4933f1a748dd4cd069b9396cc4c60e86a5c990e11fd727bf9
+SHA1: 63d16a234137a9dfe8314b0612c02e2bf593cfe2
+MD5sum: 91f4798e1362e3a699b0d6f2ff29ab04
+Description: debug symbols for pix
+Build-Ids: da9532c02d18c3a50b4ce5bf0b8b0ac5a8375908
+
 Package: plasma-angelfish
 Version: 0+git20180828-2
 Architecture: arm64
@@ -3135,6 +3136,41 @@ SHA1: 1175a13880cd270e0166a4523e4c02402627cc81
 MD5sum: 082c337dc6936129ffc5548682f37514
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: c1c70380a778b4bbd84dd1f1a4bcd5c8b2064e18
+
+Package: qmlkonsole
+Version: 0+git20180927-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 23
+Depends: qml-module-org-kde-kirigami2, qml-module-qmltermwidget, qml-module-qtquick-controls, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://gitlab.com/JBBgameich/qmlkonsole
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qmlkonsole/qmlkonsole_0+git20180927-1_arm64.deb
+Size: 6168
+SHA256: ac7bc1f4d73e7da04abb74c52aef8cbea08ae929b0aa403a7ca730637b82939a
+SHA1: bab476baddd8e1e8b3d76a4853b71e9e2b4515f8
+MD5sum: e70830fa2c765866378325dd37639b58
+Description: Mobile terminal application
+ Terminal application for Plasma Mobile based on qmltermwidget.
+
+Package: qmlkonsole-dbgsym
+Source: qmlkonsole
+Version: 0+git20180927-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 130
+Depends: qmlkonsole (= 0+git20180927-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmlkonsole/qmlkonsole-dbgsym_0+git20180927-1_arm64.deb
+Size: 117040
+SHA256: 3d601d2baa53fc408c18172770de63fa164297a515c24bf643f500901027f542
+SHA1: 8c12a48f06db628c20af979d818d675acb74cd26
+MD5sum: 43283b4787b6c2a5391224a9e185842f
+Description: debug symbols for qmlkonsole
+Build-Ids: 64ba3ffac1c81776a6e71ec7666798c344b0a44d
 
 Package: qrtr
 Version: 0.3+git20180323-1
