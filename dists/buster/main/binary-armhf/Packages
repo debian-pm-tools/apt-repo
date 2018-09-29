@@ -3216,6 +3216,41 @@ MD5sum: 5bd3276c2e710f1d0a44b927e5438c8f
 Description: debug symbols for qml-module-ubuntu-onlineaccounts
 Build-Ids: d9a51355a4b194f84cb31c6cfc6306cbff60e41a
 
+Package: qmlkonsole
+Version: 0+git20180927-1
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 22
+Depends: qml-module-org-kde-kirigami2, qml-module-qmltermwidget, qml-module-qtquick-controls, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://gitlab.com/JBBgameich/qmlkonsole
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qmlkonsole/qmlkonsole_0+git20180927-1_armhf.deb
+Size: 5876
+SHA256: aaf1a603fb210a1e2dcf887e73eac7682cdf7425dc47ce2acdf8028dd3f24578
+SHA1: dba8d117924800da7afa9fe25a3348995a876e9e
+MD5sum: 6da716d13ca1b06db5599dc7c102c1d1
+Description: Mobile terminal application
+ Terminal application for Plasma Mobile based on qmltermwidget.
+
+Package: qmlkonsole-dbgsym
+Source: qmlkonsole
+Version: 0+git20180927-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 128
+Depends: qmlkonsole (= 0+git20180927-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmlkonsole/qmlkonsole-dbgsym_0+git20180927-1_armhf.deb
+Size: 117268
+SHA256: 2a899ed2f182af6c15239bb521fcaf5291f21eb5ddcb3d27f9bbd5c832c30cda
+SHA1: 08acc54fad791572cf00080f2f3ce4330a52a72f
+MD5sum: ed1a5f731fb37f1ff62616c21fec4a95
+Description: debug symbols for qmlkonsole
+Build-Ids: b6749fd07a14e4582d112eb48fb0f083255643e1
+
 Package: qmlplane
 Version: 1.1.0-2
 Architecture: armhf

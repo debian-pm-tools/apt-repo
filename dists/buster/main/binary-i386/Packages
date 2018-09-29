@@ -1566,19 +1566,19 @@ Build-Ids: 0e917be10165bc2da8a068fa068bce539d38cc8b
 
 Package: libmauikit
 Source: mauikit
-Version: 0+git20180904-1
+Version: 0+git20180927-1
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 342
+Installed-Size: 358
 Depends: kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Homepage: https://maui-project.org/
 Priority: optional
 Section: lib
-Filename: pool/main/m/mauikit/libmauikit_0+git20180904-1_i386.deb
-Size: 86308
-SHA256: 3a6b4599bbe27bc4215014d5e74f53b6b0069234e29fb11d47140d5ce1814236
-SHA1: 5788c80eaacd66e22ba4e7303f06aad3004ea00b
-MD5sum: a54f67d8f54194344018c21772aaa39d
+Filename: pool/main/m/mauikit/libmauikit_0+git20180927-1_i386.deb
+Size: 93476
+SHA256: 49421401044d34449fa9ad6f30f71f46925835f423587535fa1aafa7164b63cf
+SHA1: d919dea12bbfbc51459407e97ec81f21aab83179
+MD5sum: d056451664b951b5085bca17b3769bc9
 Description: Kit for developing MAUI Apps.
  A set of templated controls and tools based off QQC2 and Kirigami
  shared among the Maui set of applications
@@ -1591,21 +1591,21 @@ Description: Kit for developing MAUI Apps.
 
 Package: libmauikit-dbgsym
 Source: mauikit
-Version: 0+git20180904-1
+Version: 0+git20180927-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 1923
-Depends: libmauikit (= 0+git20180904-1)
+Installed-Size: 2134
+Depends: libmauikit (= 0+git20180927-1)
 Priority: optional
 Section: debug
-Filename: pool/main/m/mauikit/libmauikit-dbgsym_0+git20180904-1_i386.deb
-Size: 1911116
-SHA256: 2f32ddadfab2c3514ed334e5192916599fa91110e1f01a0c80b0b6e7cf5eecd1
-SHA1: 02126ca47a471a075f91a9d5788adb2bd6490656
-MD5sum: 4519e3425751a5a402a284c7527f5ac5
+Filename: pool/main/m/mauikit/libmauikit-dbgsym_0+git20180927-1_i386.deb
+Size: 2127608
+SHA256: 00b9cd951eab184ff3bbfcd8bd2f697100de282a5aea62a673b28aac59aec3e2
+SHA1: 7101faaa854af611590f9fb45c0fce62f5a9975d
+MD5sum: 4811f9e20ee63f7917ab970ee231e9d1
 Description: debug symbols for libmauikit
-Build-Ids: 366b77eda6dc4d8de24b45a417c4bc097dbd5de4
+Build-Ids: c7064d49e3ec9e44c323130b4489f28fc26a4142
 
 Package: libmedia-dev
 Source: libhybris
@@ -3033,19 +3033,19 @@ Description: lxc configuration for starting android
 
 Package: mauikit-dev
 Source: mauikit
-Version: 0+git20180904-1
+Version: 0+git20180927-1
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 56
+Installed-Size: 61
 Depends: libmauikit, qml-module-org-kde-mauikit
 Homepage: https://maui-project.org/
 Priority: optional
 Section: lib
-Filename: pool/main/m/mauikit/mauikit-dev_0+git20180904-1_i386.deb
-Size: 9948
-SHA256: 127191f38ea560cc7cb86fdc50d89153f8199f0748e3769d85771c0897dcd820
-SHA1: 95cebb853367d6e0c71534049cff2b62e2ea5f80
-MD5sum: e4850de496bad2429afc090dc5117366
+Filename: pool/main/m/mauikit/mauikit-dev_0+git20180927-1_i386.deb
+Size: 10252
+SHA256: bce807aaf650587e982ed6009abd39c323162a4db780292ac0ab61a6d6bbcd38
+SHA1: 60986904bd39c24ce1ee28623b49fb35f3b28df3
+MD5sum: da6df05da63d7b3767068df8cf595ae2
 Description: Kit for developing MAUI Apps.
  A set of templated controls and tools based off QQC2 and Kirigami
  shared among the Maui set of applications
@@ -4075,19 +4075,19 @@ Description: QML bindings for libqofono
 
 Package: qml-module-org-kde-mauikit
 Source: mauikit
-Version: 0+git20180904-1
+Version: 0+git20180927-1
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 458
-Depends: libmauikit, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Installed-Size: 700
+Depends: libmauikit, qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Homepage: https://maui-project.org/
 Priority: optional
 Section: lib
-Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit_0+git20180904-1_i386.deb
-Size: 102484
-SHA256: ae64425d7d1c5e881906801fac08d2b9519444c96427323c2c54503ced51fc25
-SHA1: 3f06ffa8c270eebcdfe7e6ee64c0b7c27f288f63
-MD5sum: 122cc9390ece5f0081972cd1d5ed94f6
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit_0+git20180927-1_i386.deb
+Size: 135216
+SHA256: 965ab22becdf74a89eb6bd983684ee01a6f684fda91e022b5cd3b9ed33ced5a2
+SHA1: 59aa85ee0bdca6cf04f25d94a31de1f596a8a506
+MD5sum: 3c5bbcc55660be82393536954ee8debc
 Description: Kit for developing MAUI Apps.
  A set of templated controls and tools based off QQC2 and Kirigami
  shared among the Maui set of applications
@@ -4100,21 +4100,21 @@ Description: Kit for developing MAUI Apps.
 
 Package: qml-module-org-kde-mauikit-dbgsym
 Source: mauikit
-Version: 0+git20180904-1
+Version: 0+git20180927-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 1923
-Depends: qml-module-org-kde-mauikit (= 0+git20180904-1)
+Installed-Size: 2134
+Depends: qml-module-org-kde-mauikit (= 0+git20180927-1)
 Priority: optional
 Section: debug
-Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit-dbgsym_0+git20180904-1_i386.deb
-Size: 1911144
-SHA256: 9e842d723761b5f75e6842f2190d7d7aa3113efe383b5dbac4a6d40ba21503d0
-SHA1: c8143d4438f5b1e34d5471032d0006438a3be51c
-MD5sum: fc711e930508039ddc9ce8064b7f7302
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit-dbgsym_0+git20180927-1_i386.deb
+Size: 2127636
+SHA256: 798c247b4f3af07afb210e348a32c8d57d8cfc38ae12ccd01114c9e8aaac80fd
+SHA1: e9d5be701763ab7612ef665487a28dbcd899862a
+MD5sum: 50c25653ea15288bd18d18696a02961d
 Description: debug symbols for qml-module-org-kde-mauikit
-Build-Ids: 366b77eda6dc4d8de24b45a417c4bc097dbd5de4
+Build-Ids: c7064d49e3ec9e44c323130b4489f28fc26a4142
 
 Package: qml-module-qmltermwidget
 Source: qmltermwidget

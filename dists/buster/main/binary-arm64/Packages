@@ -66,6 +66,43 @@ Description: Audioflinger glue
  .
  The other half of audioflingerglue is build into the android image.
 
+Package: cutelyst2
+Source: cutelyst
+Version: 2.5.2-1
+Architecture: arm64
+Maintainer: Debian Qt Extras Team <debian-qt-kde@lists.debian.org>
+Installed-Size: 86
+Depends: libcutelyst2qt5-2-dev (= 2.5.2-1), libc6 (>= 2.17), libcutelyst2qt5wsgi2-dev (>= 2.1.0), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libstdc++6 (>= 4.4.0)
+Homepage: https://cutelyst.org
+Priority: optional
+Section: libs
+Filename: pool/main/c/cutelyst/cutelyst2_2.5.2-1_arm64.deb
+Size: 22520
+SHA256: fd9ad6b830b99b42e89e3bb7d442f930bdd23bf09ceb8e73269294885195775b
+SHA1: 8f4fc45976862e82a9330e6fa5877790f7fe149e
+MD5sum: d2721f1026e2b3e06116e6e5e5c109c3
+Description: Qt Web Framework
+ Create fast and modern web applications that share the same code from
+ your desktop or mobile apps!
+
+Package: cutelyst2-dbgsym
+Source: cutelyst
+Version: 2.5.2-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Qt Extras Team <debian-qt-kde@lists.debian.org>
+Installed-Size: 425
+Depends: cutelyst2 (= 2.5.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/cutelyst/cutelyst2-dbgsym_2.5.2-1_arm64.deb
+Size: 399468
+SHA256: e52bee8cc28662dde2197dc444396378b47d4affe9c467225d0db9e9ae1ac596
+SHA1: 3f2c0c5b1ea00e996fb1aa8dc71e0d592de31e87
+MD5sum: 9fb2a149862628395cac06d7d25c84ff
+Description: debug symbols for cutelyst2
+Build-Ids: 56929ee339ea61e4d6a9c627859654729cfee5e5 6ca7bc3ab74a84590348455860f7b61f4772370f
+
 Package: debian-pm-archive-keyring
 Source: debian-pm-keyring
 Version: 20180408
