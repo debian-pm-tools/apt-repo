@@ -1,0 +1,21 @@
+sudo: required
+dist: xenial
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install dpkg debian-archive-keyring -y
+  - echo "deb http://deb.debian.org/debian testing main" |sudo tee -a /etc/apt/sources.list
+  - sudo apt-get update
+
+install:
+  - sudo apt-get install reprepro -y
+
+script:
+ - mkdir conf/ && wget https://raw.githubusercontent.com/debian-pm-tools/apt-repo-conf/master/conf/distributions -O conf/distributions
+ - reprepro checkpool
+ - reprepro check
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: ./rsync_deploy.sh
