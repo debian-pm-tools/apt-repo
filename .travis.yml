@@ -1,12 +1,6 @@
 sudo: required
 dist: xenial
 
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install dpkg debian-archive-keyring -y
-  - echo "deb http://deb.debian.org/debian testing main" |sudo tee -a /etc/apt/sources.list
-  - sudo apt-get update
-
 install:
   - sudo apt-get install reprepro -y
 
