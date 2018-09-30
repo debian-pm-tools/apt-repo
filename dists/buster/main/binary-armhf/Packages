@@ -311,20 +311,20 @@ Description: debug symbols for index
 Build-Ids: 9cee51fe5bcae95ffc2587d93e914d4ed0daa056 ac10ac5b2c7d1a2e03ea7e285ac8029985b39301
 
 Package: kaidan
-Version: 0.3.2+git20180712-1
+Version: 0.3.2+git20180929-1
 Architecture: armhf
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 305
-Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Installed-Size: 554
+Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
 Recommends: libnotify-bin
-Homepage: https://github.com/kaidanim/kaidan/
+Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180712-1_armhf.deb
-Size: 88872
-SHA256: 54ed2d2c2f3c6588fb24854f30e8508f3f0b1f7f4187999f0e141fa72e338f6c
-SHA1: 1db76f76e470ebc706c43512646b45a5e1a4138d
-MD5sum: b11e511f5c5893beb01c75dc5a9c8548
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180929-1_armhf.deb
+Size: 169640
+SHA256: 3586a130dd6b0a67ca7c80c3517a7889c7e2bf80f346f9b7adf42377767b2d9f
+SHA1: 7b7eb71d68f684111508d6794f06207a51c19ebc
+MD5sum: 7ad96061ad4ff320ecfa32257b8d6f23
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -363,21 +363,21 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-dbgsym
 Source: kaidan
-Version: 0.3.2+git20180712-1
+Version: 0.3.2+git20180929-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 1891
-Depends: kaidan (= 0.3.2+git20180712-1)
+Installed-Size: 4456
+Depends: kaidan (= 0.3.2+git20180929-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180712-1_armhf.deb
-Size: 1857436
-SHA256: 975783ec6c47f1b14831b52b24a0bb060e51c21d6e7797d547d9f0e79e4ee857
-SHA1: 78938c641f7c8ca52291b6360bfd23977c1c724d
-MD5sum: f9a103cf13d1417f8e20b30dfefe0807
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180929-1_armhf.deb
+Size: 4384292
+SHA256: 7d67ca2c0a5d5fc99b6b9942463f29dcd666fcbe5d3457b37c39330145c12502
+SHA1: 39881be39be87bc7cbbcaf169150ae3b10938e49
+MD5sum: b67a99e9450e0a1d3781c04ebcfcc4c8
 Description: debug symbols for kaidan
-Build-Ids: 1ebfa4fc09280e2b58892251885cfbd59f74ddd3
+Build-Ids: 89bedbfebb12a52ea889399a134238db84fc3ef2
 
 Package: kde-window-manager
 Source: kwin
@@ -1762,20 +1762,20 @@ Build-Ids: 8d9910e22853eb862ca82cb030106053ed0a9769
 
 Package: libpulse-dev
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 501
-Depends: libpulse0 (= 11.1-5), libpulse-mainloop-glib0 (= 11.1-5), libglib2.0-dev
+Installed-Size: 471
+Depends: libpulse0 (= 12.2-2), libpulse-mainloop-glib0 (= 12.2-2), libglib2.0-dev
 Multi-Arch: same
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/pulseaudio/libpulse-dev_11.1-5_armhf.deb
-Size: 105644
-SHA256: c4b96f1e7f4b60a04c2f7379f479bd6e3b63df8185316cd5b2cee9053e44553a
-SHA1: 21d529413671334fbf9cc6214119ab9e06492c0d
-MD5sum: 1267a061ca3b77d594ac794bd7dcdf1e
+Filename: pool/main/p/pulseaudio/libpulse-dev_12.2-2_armhf.deb
+Size: 96976
+SHA256: e10c9e1c2de4324b57347c948bf44273e54329538fa27a9a973eecc95387a714
+SHA1: 8b369fdd3ac0ff808d838c55de4e199feb6fe3ab
+MD5sum: 218bb5608587dcc8705c9245c378afb1
 Description: PulseAudio client development headers and libraries
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -1786,20 +1786,20 @@ Description: PulseAudio client development headers and libraries
 
 Package: libpulse-mainloop-glib0
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 108
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.16.0), libpulse0 (= 11.1-5)
+Installed-Size: 74
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.16.0), libpulse0 (= 12.2-2)
 Multi-Arch: same
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0_11.1-5_armhf.deb
-Size: 45744
-SHA256: 693d66d7ae1c1b27a38d8f6d6a95116855f7118582d9ee9980fe04a61faf11d0
-SHA1: 550734d2765f345018b8e6f495fca0b76b992f28
-MD5sum: d54e8d908cf0052f3ccb138466a2443c
+Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0_12.2-2_armhf.deb
+Size: 36432
+SHA256: 7ff9eec57a23d43845e09b304e96ca8bafeae8d508805023566ac5a4576926b6
+SHA1: e8fe5871cead6ec47104a34560409149e2e90dec
+MD5sum: 36acc547a701174aee9712af4f968c9d
 Description: PulseAudio client libraries (glib support)
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -1812,40 +1812,40 @@ Description: PulseAudio client libraries (glib support)
 
 Package: libpulse-mainloop-glib0-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 32
-Depends: libpulse-mainloop-glib0 (= 11.1-5)
+Installed-Size: 34
+Depends: libpulse-mainloop-glib0 (= 12.2-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0-dbgsym_11.1-5_armhf.deb
-Size: 17468
-SHA256: efdb538cd988eda2ce0ff126f9acd19cffb4435d199f71ebb474ed0453b86acc
-SHA1: cac4990867d7b3377adf1f7dda4a7e22ec84dcc2
-MD5sum: 7d7d81dd59f6e5d5101b0dbf7eefe78a
+Filename: pool/main/p/pulseaudio/libpulse-mainloop-glib0-dbgsym_12.2-2_armhf.deb
+Size: 19776
+SHA256: 7e3bd9c53d3ab88467851eb127e8346f7878376f7dc7864b0ef45cc27da9ab04
+SHA1: fd80144f67e2e3aff2046d5974dee0752b294013
+MD5sum: 7815603f6336caa570c06d73e0400128
 Description: debug symbols for libpulse-mainloop-glib0
-Build-Ids: 3c7cb1a095aa544e910be1f985b4b0a4b98095fe
+Build-Ids: bdf1e4c4056258c42214a7833eb1434eb03a2396
 
 Package: libpulse0
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 689
+Installed-Size: 655
 Depends: libasyncns0 (>= 0.3), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libice6 (>= 1:1.0.0), libsm6, libsndfile1 (>= 1.0.20), libsystemd0, libwrap0 (>= 7.6-4~), libx11-6, libx11-xcb1, libxcb1, libxtst6
 Suggests: pulseaudio
 Multi-Arch: same
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: libs
-Filename: pool/main/p/pulseaudio/libpulse0_11.1-5_armhf.deb
-Size: 257192
-SHA256: 8b0953649190e2a6b053afbc3d4139cb80520427e520f1389197390fa6873881
-SHA1: 6af89a2c5837e51bfffab0000700020d178e78dd
-MD5sum: be134145a6a781a1b16eec79279a4ea0
+Filename: pool/main/p/pulseaudio/libpulse0_12.2-2_armhf.deb
+Size: 246612
+SHA256: b045f2c7644e15daf1935978aa4dead7525349455b5e765fe2c1753cf17c883c
+SHA1: d8ea4a3ad4929c111c1d9aa34081d0a6800fb1c4
+MD5sum: 8e0a186615db155d25ec8c2e15f380d9
 Description: PulseAudio client libraries
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -1856,39 +1856,39 @@ Description: PulseAudio client libraries
 
 Package: libpulse0-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 893
-Depends: libpulse0 (= 11.1-5)
+Installed-Size: 1008
+Depends: libpulse0 (= 12.2-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/libpulse0-dbgsym_11.1-5_armhf.deb
-Size: 708928
-SHA256: d792bf3f564e3e2bb008d6536d6f8b122ad4c97d0ed916f20e087d05ba60b5b7
-SHA1: e0ae2220aea5b4306ec9290bb46d1f8d474b7524
-MD5sum: da8f32c4f5aca53e7778c64482e18a36
+Filename: pool/main/p/pulseaudio/libpulse0-dbgsym_12.2-2_armhf.deb
+Size: 827108
+SHA256: 3a486bb3d1ef06db9ac25500ee51962aec9cffc523072f0007fc112e186e4315
+SHA1: 05d0bf6f3bde76b99ecf69355de1bd5abb596730
+MD5sum: f7b12f7d4e6b62da5c85e53cb343407e
 Description: debug symbols for libpulse0
-Build-Ids: 0250526b18334f4de8aa7b0e63fbe852931c14cb b90d3f26f1bb37aa37b954bf6b6edf0dba950951 d2270c51a056110d621e9f4c3dd8d52bf5a5bb51
+Build-Ids: 7f322645fbbb3376720b31d8627b05a777a7cd02 f7d61e5e46e87e70cb09e513c85fb1da3467e202 fb2205fc95d0e54218edf79a735ed164f4b2c7d1
 
 Package: libpulsedsp
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 127
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5)
+Installed-Size: 93
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libpulse0 (= 12.2-2)
 Multi-Arch: same
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/libpulsedsp_11.1-5_armhf.deb
-Size: 54276
-SHA256: 7d59adca36fdd5ed35985c767d34f865d5cfa53c83cc0a75a5145ec2d790e4c1
-SHA1: 90288d0faeee288944ab84641d3710b99a034d61
-MD5sum: e4bd09578d7df22a0dd7c12adab97ecb
+Filename: pool/main/p/pulseaudio/libpulsedsp_12.2-2_armhf.deb
+Size: 44920
+SHA256: 64322a30e0a7dd11f14aa3c7809a3e5ac16d4fe69fbbc8fdb23d1e48b821afb8
+SHA1: c1be8a911185f273df96560a084bdb1acbf53e57
+MD5sum: 3a139e8c48077335dcf56cf9531f6ea9
 Description: PulseAudio OSS pre-load library
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -1899,22 +1899,22 @@ Description: PulseAudio OSS pre-load library
 
 Package: libpulsedsp-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 62
-Depends: libpulsedsp (= 11.1-5)
+Installed-Size: 67
+Depends: libpulsedsp (= 12.2-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/libpulsedsp-dbgsym_11.1-5_armhf.deb
-Size: 43904
-SHA256: 936ad95ad286e90afce6b3461b4c71d458ede03f7b6a714e682ec2aae975a4c7
-SHA1: 58845d1091967014c75c9b8d0d3c416d21a41205
-MD5sum: fc821d4bf9c0fcded74d9a026044e255
+Filename: pool/main/p/pulseaudio/libpulsedsp-dbgsym_12.2-2_armhf.deb
+Size: 49220
+SHA256: 6ab02c7ae048bf029c524fb4be2bce7ece57ca89dbb02bf812653eea9c67fbca
+SHA1: 2e4c23e772c6cf87e09fc19fbb37669198be660d
+MD5sum: fe8a98b6b1fc66bcdd51fddc65ee90e1
 Description: debug symbols for libpulsedsp
-Build-Ids: e34d9b5c49d10eff463513f551917b73925b0155
+Build-Ids: b21db1356bd2e949ae9a62e8d7be6159c54c91e8
 
 Package: libqofono-dev
 Source: libqofono
@@ -2424,22 +2424,22 @@ Build-Ids: 019b99af41c1f7013d1d5743c5013084a4e12a23 03b1d00e0358f5177df6b92ca3e9
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 5265
-Depends: libasound2 (>= 1.0.24.1), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc1 (>= 1:3.5), libice6 (>= 1:1.0.0), libltdl7 (>= 2.4.6), liborc-0.4-0 (>= 1:0.4.25), libpulse0 (= 11.1-5), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 4.3.0), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing1, libx11-6, libx11-xcb1, libxcb1, libxtst6, adduser, lsb-base (>= 3.2-13), libasound2-plugins, pulseaudio-utils
+Installed-Size: 5274
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libgcc1 (>= 1:3.5), libice6 (>= 1:1.0.0), libltdl7 (>= 2.4.6), liborc-0.4-0 (>= 1:0.4.25), libpulse0 (= 12.2-2), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 4.3.0), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing1, libx11-6, libx11-xcb1, libxcb1, libxtst6, adduser, lsb-base (>= 3.2-13), libasound2-plugins, pulseaudio-utils
 Recommends: rtkit, libpam-systemd, dbus-user-session
 Suggests: udev, pavumeter, pavucontrol, paman, paprefs
 Multi-Arch: foreign
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio_11.1-5_armhf.deb
-Size: 1051256
-SHA256: 447a69db084d11f711a15df253119bc7d9c6f234fc0b4f5e6881400d92a44fd2
-SHA1: 37b3734113b9046be94a12f8da6352fc6e48566d
-MD5sum: af07e58f54f15e79bfeb8b43b8426b31
+Filename: pool/main/p/pulseaudio/pulseaudio_12.2-2_armhf.deb
+Size: 1054724
+SHA256: 8fc338efe0ed86565d719d1e09bac5ff807e7da6798debfd7a5688bb21c3487c
+SHA1: 946de0ad68425bcc6fb1740b599a97504a2f0fe1
+MD5sum: d3e3d6560fae0dd0547ba59c6f8c864c
 Description: PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2469,54 +2469,54 @@ Description: PulseAudio sound server
 
 Package: pulseaudio-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 3977
-Depends: pulseaudio (= 11.1-5)
+Installed-Size: 4354
+Depends: pulseaudio (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-dbgsym_11.1-5_armhf.deb
-Size: 3112428
-SHA256: 86d2442e81f864d8e5ae30b484537f754e6b973155c6b477694ab31f66560321
-SHA1: 21b1480c9f01456596c79b752beee4a84e9ad156
-MD5sum: 1134d61ae3a46a30b945acf6a0b54f10
+Filename: pool/main/p/pulseaudio/pulseaudio-dbgsym_12.2-2_armhf.deb
+Size: 3488732
+SHA256: f1c8cdda104b7022d86edcf778f4e7f6f9aff671bc626022284898889d450d56
+SHA1: 9b42dbec7fea3fd71aeb90421773c6de6fbe10eb
+MD5sum: 64921d121e9084ab03e6166a5e64d7ea
 Description: debug symbols for pulseaudio
-Build-Ids: 063aa8d028745d67fc893042edd0c3c323a7ff72 098b9e99c21bce2f906c07044a939b235515ba38 0c45208a14e0ffaad1fbc7ef39239159016fc4f7 12f981c0a6272472a9e280812f92cc867c9c0f3e 153968131609dda2e1f46120daf8dbaabb95aca4 1c67dfaca201c6e26645815b0b50f821da1d2546 1d81718ab116409b82d681396a1c52673ca848a3 219f2dafd98b374e001e60beb4c479ed21eadb51 224a57130a16c856faa93938a72f1a543dc89f33 25c2285ca9cc9fa8438cacb9e822a1ebe5185dc6 299da00d3a6ab4ae79199b216537676ba86ef2d8 29b9714b0aa506ff53b39c48f863a264dd3f7067 326ccd68faaeac4ec3a4f858abbd5428025724cf 329bee42abcc7f15f23626fbbe716f3641a74ed9 33441b9be62dc210041b936adc371e1377d7dc81 34f0e02ab1c5e59566ae3f90109d911c5a04bd9f 3689222608e6268713d8dacd4be42aa2a1495c5b 37ec5b0dd4734f0108d9af591fd2240fcac1d6f0 384e684d878529b96196a8637b91c37d984a33b3 38e0eb570ad7db2c392378c0606aed9b959bb168 3c44f1420c23628ce34daa2a38cdb142494aa772 3e5a0831452b91629a82bca4bfd82a55d8956d12 3f2229e908d7ce404be052023b543c26e7ad2d69 3f593ce214e5fad1e904c325f999594b28978b4c 41800255e20cbedece797c1d8c5c317a93d8b48d 423fd0348e55b9aecffe9a84cedd3b21d812f34b 46f7f8dcf0c8a97f749310d9d2d1045c1049f892 4975ac389efeff3742927882a78d503b83674ba7 4a28cf07ca0fd87c4a79a6a29e25d8535cf43ba9 4c430069c08e3939729b0bfbbf83c1922695368e 4f0cbb41eb8049791df6d1c9b887b179fe227db9 51f6286656070eca4ec0c0b17b51fcb63324279b 51f9f5d1fe44b0ce62a18e60f3a85eb31f29295d 591136b85a63e7a067e23fcef7d7a612f1df5811 598f9657da4d7b694b477747a5dcc1053039f886 5bbda28f25cbc725355d1fbcac0cbd3441ed5425 5e0bff510cced237968aba9578d05957f7ba69b4 5f1c8406f031614c5a1109eee8733c499106c780 7647a4360ec719b7024fc70f432ac99cfec3d32d 7f3a717f15697af126083c4325651365e1ad7b18 83e7da9cda58a7fee1ef84bbece4c7adf2f3fd84 86464f67111ad04325c88878f17ba34a0219aaff 8f1720323b01527431add714a841a2f7bd601597 8f97f38960965811c07361ae1fc3775a4bcd1003 923f829e6fdc5a96c67eb16ec5498cd20aa51b98 92b568ed5233f1c8aaa467297a4442d29cd3127d 92fe1a3e8a574084cec3b8b8f5f43820cea3f6c8 93c6489430cd26173fb62536bbc47356f64bbfac 9918f056fa95044b314bc2fa0ec975cca2d490a8 9a9f5968a9276479c3316f0a324c6ddf6f4d85e6 9adf71b8e315d824dfe84c0a5df1d729fdec3cb7 9db3f7dcc94fef25b3930d0190e1b70dbe595cf7 a021182ad886243bf260e7c8aff67c1308c5c9dd ab667bb53eabd07d16588903910203c5750060d7 ad32e8af172d674fe8b00c6217c1c04ccbd4839a ada4c9efd6fa7c2afd7284c56a8f41ad6d4e5e88 b21b8e26b69e14c8868f973bca70c3423c4c1483 b65718a10e8c46d6f7f7fe051090b7d2eb5b36b6 b99ac57bbf8cf0c28aeac55b247f26e78bb3e26b bac49a4bf58b5fad1578fe69bd254f1bb01f0ede c157a52678aa0807539af585ae3b0ad8663c035a c2ee9d453f3467c82cc589cf8c72e71ecd538025 d0830204d8d49bb2f868ffd4fc20c916fc5729a6 d514df62bb0d88745cb5565a5478064eb47821c0 da536d4c0bc829d3b63ad7199f2d37dc63872157 db41ab4ef43d30b9928f7462d1c6b857751c0f4f e2be91beae1617a184ecb4207f276c4bc89d847f e4738f198ca5f4044ea3e6f066ccf16d5c7be06b e8f3582ffb08bfc4a71fc7f73a03bbd49afffa97 ea7caa065dd8a649af42ee17a46ec8808916eee9 eac78bf434dbe58865d0e1fea13ba40588c9bc90 eaca50e5f9a2d551a9a741aadd3ddf108f95a0a9 ec7a7d1b9d09ea4104f0ff64616025bf3a1f4f78 ef3e4304c3b270e5a32e442c37adfc5c74ad4be5 f136e27e4b035f075f92553ad134936062fc5311 f362d8c4cdb5224982ed2eebc0c010fb8197f0ed fa0ea4fd3d73fdb2477f6ba64256580c827aaa37 fd8476d0e908dbda9fc461a306a3d737be3d620b ff2f1b01eddb76475070f71ce76c930788db3e07
+Build-Ids: 05732100179d44b0ba1127adc03cce389674d3ab 079e53bd31ca563857232550517cd877a4ab170c 0b9373a49c6c05d8509f2d1ff78b42bc0e569d0c 0c9f00c9f16599e505c63ee7d6575e8f6fdee836 0f9a8c05cc467c479529d69842a2d3f67aa8f56d 139efa98e36194053ca9fdab476127226ae8dc0a 1b9ca328feb6d367f6c871aa60527e874a25fee3 20ebb2ecb511ce77b1190bf34bf16b1594865c09 24b49ccf2c19bfe93100767f2c79ffbe7bfb5461 2af4fd8f2f9fc9a4199fa09553ffce5c94f74852 2bf8d53fdad35a88ca15e79da4784851ee8e40f5 2dbbd8957b4e96b3b78fa43ca42deb5424108502 317d3005717a0c2a148e37e11715b44a5f8d42e4 37a8043e701616f7a86950ab9ea4ad359858c65b 39c5b76ef6d4ac7e59fa3b1abf7a5ae811972592 3aad5925bda28b7a899ac7fa04df2443944e2c69 3e217d5eec96d71e75fdb48ce1aaeaf9b7bcbd1b 3e91a00de35fedd53b8ce14a299651a996be0557 411fc48c980cb77f475e81ea64db6af9b127c320 45731d0522796fb03998daf3b6eaef9ff9c38d3e 498659514a359abeb01e6140786a422816b2d939 49a63c1c5813ded8f3d6120758987af3e561d86c 4be2c2a6ba4db63ce542a3483014bc968d12ad63 500656cbcc74b743ee181f811c88a5480c89343e 50810a03620e3d64120dbec1e15efdc02241d073 50a4eb38872fe51874f47b2e983aacffd8a2e5ea 511c457d4ad0d8a49df2536bc8fcbd5ca8f36f85 5704691b8a4990167a7294ca8f7e0d4b28080868 592e00e7c365e0b751073c9719fda240ffc75edb 5971f9f89bab6e673aab6a050321f957284d4703 602b6fc25f0555e8a61939f5bf90594d42ca7659 63f5abedb76dd07eb2f96736aca7a376ed9f492e 6ec3ddf12dca3244491b87aedafc745d5677136c 6f07796ab7aa9d891de415f3b86de8423f88a39b 6fbafb3a7580632d0a4b68b1d9242421930c56b9 702f865e625e6c7376e4e183a0b5b2a6dba3345a 71a0eb74d13eaac4899ff468ee30a360b729edcd 72aab11cbc15e210eca2b95eaa03da31497c13b9 74ac38c308c5ce570c5ee09bdde2d04a4af54cb9 7eac0138671e2e936cb623362c58c9f0020f93f9 811cedcceddb78052d4abe311cdfed8b1f228627 85359d9a1955215157205e9f0ce5762117371460 8834afb867634cb983b5daed54b869435400e8f7 8935180fbfe8ed10edbd434652bdd9541acba1a5 8a52435080b818741aa1d623a3393aacebcfa578 8d46392808d6ff7dfbbc5795e748b888f57028fb 900b84d7623591c6575fa42f42d1b775a31f1ae9 93263ae238056d97eeb554ba5ffbdf0fc8372a46 938e4b36ab2609a3712a9dc03329f23c4c893cd3 93eb77e07808fa51a552290c7ddd92ec9e469a1e 98cc99b7ff8bdbff98f025b40469722fbbddb315 9b21aa5939371601b40177fc98b97a00db0b5c62 9d5baa17ea591cdc77e0e5c030fba139ff244f73 a528799dee6e41baa6f551a04d9d41af20676e36 a8293250e3503c6c9cdce485d977dd90c25c91ff a877c698d61c1f5111338fb86003c505e0a913df ac40e98239f5064a68a7d60e8c4286f38cdd4786 b1c1493145726bcc14c140213029bb38a4d40970 b2d8d1752f690cab8433f15cfa3eed16e0f163dc b6a401939685f36e5daaff9006631c273ad254ec b80390c4272864598597cde5d202d942eb08c5ab bd0b2ebe46c85608860edd7c811a4c63e1f45eed bd0bfc7d488b2ddffd9b27a520d4e41e1b1cc6cc bd60aacbe88c52db09a33e83034fdf17154dca38 c093166c2f452ad405060c79632bba8b2ff4f555 c87d9186125c622b9d6b573ff7edf6a21f5f8635 cd70538925120d79010884bee6071abb83ec8163 ce1158d5b9d3de9d52e8c7d93f56a9f3956df30a d2f5ac670451a5124cd9d4bc65c5d4cff7b26c91 d34adc8a98c391b62748fc428793ce06310b2231 d47fdaff5ec95fa04e4c9769914f4aab44074fbf d72c99f955f582581cadb8514d0a5dc8bedda0ce e3d4e737f04855ad2873e47c9037b77bd04ce918 e5ab6597dcc3ca520f235877f883a14bd30a88ac e60e139074e761d18c7f54e762239e7bde9df594 e6241aaab26aed93175fc87648ab3dcaf70dc52c ed93f57f751756ae1443e619b9ab19162dffa452 efba1e6e10b72059bf9381322d4c03dacede9e6f fb7af29d239a917b9b65fdeda0edcc4377d6574c
 
 Package: pulseaudio-dev
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 573
-Depends: pulseaudio (= 11.1-5)
+Installed-Size: 543
+Depends: pulseaudio (= 12.2-2)
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_armhf.deb
-Size: 109328
-SHA256: 95bb9f6396b85858ab8ae49aa89dc5ae643fea8a9bc1d4294f7031189140b8ea
-SHA1: f6f8bb189e0ad3e255acc675f74d387dbb16466d
-MD5sum: 28056017ea57fc1e605ac8c0d8cc6d8c
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_12.2-2_armhf.deb
+Size: 101388
+SHA256: 8d3b87acf452934f86335728594707c19672ae47c66e90bc24a4c0c520c2401a
+SHA1: 4d3ffd2fc65350a5be937058e3875261d27e728f
+MD5sum: 95e8a7f3b14562b8b03a4f1893511fb9
 Description: Pulsecore development headers
 
 Package: pulseaudio-equalizer
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 163
-Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libfftw3-single3 (>= 3.3.5), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5), python, python-pyqt5, python-sip, python-dbus.mainloop.pyqt5, python-dbus
+Installed-Size: 133
+Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libfftw3-single3 (>= 3.3.5), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), python, python-pyqt5, python-sip, python-dbus.mainloop.pyqt5, python-dbus
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-equalizer_11.1-5_armhf.deb
-Size: 65612
-SHA256: 8c2cf583e9197693697c9ca9cb1000247081e37dd5caf5d91878613b9b63cae7
-SHA1: ed424b1f34522e236329096d35ff769876980af8
-MD5sum: e1d5d592d334f320e27f5a9e23279b72
+Filename: pool/main/p/pulseaudio/pulseaudio-equalizer_12.2-2_armhf.deb
+Size: 56784
+SHA256: bb41f4b4fd055ff9c96dbd071cb6767525cba391e0c787f90f59e7bcea199b86
+SHA1: 199c23cd3a56a4d1d5ccaaf0a51fc6ae66de9b77
+MD5sum: ec602e400633c6c1d7819d41cff7504a
 Description: Equalizer sink module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2529,21 +2529,21 @@ Description: Equalizer sink module for PulseAudio sound server
 
 Package: pulseaudio-equalizer-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 78
-Depends: pulseaudio-equalizer (= 11.1-5)
+Installed-Size: 87
+Depends: pulseaudio-equalizer (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-equalizer-dbgsym_11.1-5_armhf.deb
-Size: 55840
-SHA256: cdc207eb0aa624f09d44f068206ac9573f48e7b6b6895aa98635e96974683aa0
-SHA1: 3e795d40ecbb42210237b31b6ac773f00501e1d6
-MD5sum: 41db6515d0cc0fe612a5cf57553cc7bf
+Filename: pool/main/p/pulseaudio/pulseaudio-equalizer-dbgsym_12.2-2_armhf.deb
+Size: 65048
+SHA256: ea8188f11ddbd16c745b5981e31e17ddaee4d62dc62d3dfb6e14a12d210d3b2c
+SHA1: 19c665f18d2f6bf428d6559103b065a1aed666f2
+MD5sum: c92d2704d7202126458be3f9ddb776ab
 Description: debug symbols for pulseaudio-equalizer
-Build-Ids: 15ff3cd1ae3c03f012034474588f75e3066cb3ae
+Build-Ids: ceb9be1a655b1397f8d831c706f172d4b5158809
 
 Package: pulseaudio-esound-compat
 Source: pulseaudio
@@ -2594,19 +2594,19 @@ Build-Ids: 51b786ea3841bbed32d6482d103ebcb6f8ecc682 7e470288053c6de1dd4c34156608
 
 Package: pulseaudio-module-bluetooth
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 225
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 11.1-5), libsbc1, pulseaudio (= 11.1-5), bluez (>= 5.23)
+Installed-Size: 191
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 12.2-2), libsbc1, pulseaudio (= 12.2-2), bluez (>= 5.23)
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth_11.1-5_armhf.deb
-Size: 88060
-SHA256: a6cbf46626639fb5bf87febc2123a914744a7461da5bb64f9a181d0738d40381
-SHA1: 6ae5acb2e6240795bf87ab6826cd07436b5a6281
-MD5sum: 6a2e6930e82fdabb2d92d3ec1caac4d6
+Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth_12.2-2_armhf.deb
+Size: 79148
+SHA256: a76ba0ef5f410decf886d312d02ddfd45da12f11d1aaed20f74027bec69505fa
+SHA1: 158247cdfc135af6facfec979a2c97a19f69bdb6
+MD5sum: 49f89a8c0fe35f2b1fba7b4530e70f91
 Description: Bluetooth module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2619,21 +2619,21 @@ Description: Bluetooth module for PulseAudio sound server
 
 Package: pulseaudio-module-bluetooth-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 233
-Depends: pulseaudio-module-bluetooth (= 11.1-5)
+Installed-Size: 253
+Depends: pulseaudio-module-bluetooth (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth-dbgsym_11.1-5_armhf.deb
-Size: 179416
-SHA256: ad14018490daa3b1555ec7233b2efc5ee05653542710d16b2c6eb07b7d8c074f
-SHA1: 4867b86f3d51184f0059ee29d6fbc312bd7e5e9a
-MD5sum: ca61a45375ff824f52282831cc5e982e
+Filename: pool/main/p/pulseaudio/pulseaudio-module-bluetooth-dbgsym_12.2-2_armhf.deb
+Size: 200236
+SHA256: ae7ae3f39cf8984a1d5345b0db5042a01ca90dfe232c6a1bef48ae72d678b296
+SHA1: 2acf06334d9f9ab2bd611a24d75107127aa7a4db
+MD5sum: eacaf61ee539f7b40937cea07619022c
 Description: debug symbols for pulseaudio-module-bluetooth
-Build-Ids: 30ddf66dcb89aa06cc920d07633582fe762b7aa5 3f40f228a6408725f7b9b27efa8da46e48fad919 4d9ab85bc924215263f3f913c2d2bd651cd88b3a 52eb8ef185a70b40c6b19197e2958f3253022fc4 d68d8b3f9677126634c8a19a934641ebef3179dd
+Build-Ids: 1019e7a682ded03da37fc5d58f8d4871094e9ccc 10bcd41f936b0a80f66eb91ec74276bd2633b6c1 2ae25a6e0207f5032784346ab4e6332cfa09a2a8 e9be0ded8c61caf045dad6e854a79004368db6c9 edd1787bbdf617281ef2b02da29e681fc2697777
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
@@ -2764,21 +2764,64 @@ MD5sum: d9e8020ce3ea69793be957ed17b4bb95
 Description: debug symbols for pulseaudio-module-gconf
 Build-Ids: 503a338dd0395c202112ccd1715e90eec718df00 70dbe527b9cf3764794147d2101440f7044e1ced
 
-Package: pulseaudio-module-jack
+Package: pulseaudio-module-gsettings
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 137
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Installed-Size: 95
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.30.0), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), dconf-gsettings-backend | gsettings-backend
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-module-jack_11.1-5_armhf.deb
-Size: 52708
-SHA256: 40fc5c7014c3903ba38281bb72bc3507f11b276dcafa52e2f4f34d6697edf5b3
-SHA1: 49abf454c09652d4b243534a6663ed7445be4ad6
-MD5sum: 31d0e1be36530a44e53bb09f88501a49
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gsettings_12.2-2_armhf.deb
+Size: 38156
+SHA256: ff390ee5520da197c8aae9cf3cf1ae664e5e610a42cc8a7fbd4bc3f11762643b
+SHA1: 412e496019514e5a6ff20a79a4a1cde17c87e6c0
+MD5sum: ecbeb6b9a6eb6a96819c2a11d3968ea1
+Description: GSettings module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to store additional configuration in GSettings.
+ It supersedes the gconf module.
+ .
+ The module is called module-gsettings.
+
+Package: pulseaudio-module-gsettings-dbgsym
+Source: pulseaudio
+Version: 12.2-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: pulseaudio-module-gsettings (= 12.2-2)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gsettings-dbgsym_12.2-2_armhf.deb
+Size: 38944
+SHA256: 6b5dfd270e590fb8faf862eacd76ccdf2138fbb1a3321093e1c0ca28ce61e811
+SHA1: fef46ef8cf29e3227962b00966c0a1dbb8927773
+MD5sum: 015f0e0e3735945dddb0ffcfd89dbf99
+Description: debug symbols for pulseaudio-module-gsettings
+Build-Ids: 2daac97f1ef0d7686365962c53a3200ac2a5a9a1 dbe0b1923430df0c73beb13542ec6894b60105a9
+
+Package: pulseaudio-module-jack
+Source: pulseaudio
+Version: 12.2-2
+Architecture: armhf
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 103
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (= 12.2-2), pulseaudio (= 12.2-2)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-jack_12.2-2_armhf.deb
+Size: 43656
+SHA256: e7570dcda88628bbf2b1e70a99f90c4d2c3c752dc1b4a1c05602c9c54b78bf38
+SHA1: 1609c21498d55c5052f90aa27878b31119624f38
+MD5sum: e7a90caf918adbeed5f247962d02e792
 Description: jackd modules for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2790,37 +2833,37 @@ Description: jackd modules for PulseAudio sound server
 
 Package: pulseaudio-module-jack-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 99
-Depends: pulseaudio-module-jack (= 11.1-5)
+Installed-Size: 102
+Depends: pulseaudio-module-jack (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-module-jack-dbgsym_11.1-5_armhf.deb
-Size: 68832
-SHA256: 96f4c15c8cb0634d65f0520f9a53aed32cfe6e27b6fbcaca4e93ef1d39b56758
-SHA1: cbd9be568e4a7f9600edf7f2bb83646604db2d91
-MD5sum: 1af2f3e3ad45af1f5105635e57e9c41d
+Filename: pool/main/p/pulseaudio/pulseaudio-module-jack-dbgsym_12.2-2_armhf.deb
+Size: 71340
+SHA256: 58bb4f29bdd171d86e38ebab905c760e715f04d932ac1e1212066d76fd3000d0
+SHA1: 97703eb83e2b53f7415f03b0e2977d34eca38196
+MD5sum: 9054039f054c54d9df64a4985fb6cc43
 Description: debug symbols for pulseaudio-module-jack
-Build-Ids: 0e9bd041dbe1c2473a49c8c98b3ef6538ef3560f 392a62371b8e4750f834653868ca4bf3bf711956 68bde9b4e4729050b20d7b67b6fa12bfb647c03a
+Build-Ids: 6497b948155a611c0c8ab0be7419b0bcdd531ba6 7f66bf7d7fd6055c4faab12d0e8221f515535a52 b3e33c2195c738549abab45860a7c0116e6965e0
 
 Package: pulseaudio-module-lirc
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 101
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), liblirc-client0, libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Installed-Size: 67
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), liblirc-client0, libpulse0 (= 12.2-2), pulseaudio (= 12.2-2)
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc_11.1-5_armhf.deb
-Size: 43924
-SHA256: 06751ae21b2f2c7c681679c308bd2da0d3520707224e7570d7e9ee7fcd59b213
-SHA1: b3b18c2d66e9d485bd6489d9a5ecbff09847e359
-MD5sum: 8aa393689364e1e1e3f95c66ff4d3f3c
+Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc_12.2-2_armhf.deb
+Size: 34656
+SHA256: d3012e573391bdbcfec065934e76ffffe0b9f352a41887213c692355b03d2446
+SHA1: dd6fceaa458ceef5a93cab638e869022b31e1ea7
+MD5sum: af02e0d32c33230b82221d654fcbcbfb
 Description: lirc module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2833,37 +2876,37 @@ Description: lirc module for PulseAudio sound server
 
 Package: pulseaudio-module-lirc-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
 Installed-Size: 33
-Depends: pulseaudio-module-lirc (= 11.1-5)
+Depends: pulseaudio-module-lirc (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc-dbgsym_11.1-5_armhf.deb
-Size: 20192
-SHA256: 0f63176f2bd1a14e25271b4ae5f3cc7122bb4d3c58dad8884193d9ba18d85978
-SHA1: d525e8be9a2bc8038ff67dccf6d6add81303d738
-MD5sum: 6f19bd8d57329047faab57832234670a
+Filename: pool/main/p/pulseaudio/pulseaudio-module-lirc-dbgsym_12.2-2_armhf.deb
+Size: 20356
+SHA256: 3261144eb0a317d78cba3e99301f278f34c7812d2ec47b50096e58d38369e3f4
+SHA1: b76582ff36a1012889b263d73891a8efcd8193df
+MD5sum: 7f0417a5b61343e2736774d1bd74126f
 Description: debug symbols for pulseaudio-module-lirc
-Build-Ids: 3d9d9ae7587ef77f0d86bc2542c02ad553d56760
+Build-Ids: 58131141407cfa828a4980a0f7035ea2dab14335
 
 Package: pulseaudio-module-raop
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 157
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5), libssl1.1 (>= 1.1.0), pulseaudio (= 11.1-5), pulseaudio-module-zeroconf
+Installed-Size: 127
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libcap2 (>= 1:2.10), libpulse0 (= 12.2-2), libssl1.1 (>= 1.1.0), pulseaudio (= 12.2-2), pulseaudio-module-zeroconf
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-module-raop_11.1-5_armhf.deb
-Size: 64996
-SHA256: 307f0f0caed60e88ee73a0e3a97c18bade78252082ce4782d73b4c92d27b93b2
-SHA1: 48a2f8f34ec818be6560622479b2b4c1dbf97832
-MD5sum: 071a127487dff30841714476c53bdbb7
+Filename: pool/main/p/pulseaudio/pulseaudio-module-raop_12.2-2_armhf.deb
+Size: 56556
+SHA256: 5ff8bb4ed65396d07d2af2b242f5f205403fc7fe37c8a2cb19a3ffc0985fcd87
+SHA1: dda4710c4c5168c75e009c793a0ddb01a1751a3a
+MD5sum: 1f3db1411ba4979862d10b81ecd91fdb
 Description: RAOP module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2873,37 +2916,37 @@ Description: RAOP module for PulseAudio sound server
 
 Package: pulseaudio-module-raop-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 137
-Depends: pulseaudio-module-raop (= 11.1-5)
+Installed-Size: 152
+Depends: pulseaudio-module-raop (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-module-raop-dbgsym_11.1-5_armhf.deb
-Size: 105784
-SHA256: 67a20e816cd20d57d8e3465eafc90da96a1d1a166ab71c7a2110845c2b6a39a6
-SHA1: 7bce0e7faa1c69c4bf1da126291456da4477ef4c
-MD5sum: eea19b236688ba6932bf45298d73a153
+Filename: pool/main/p/pulseaudio/pulseaudio-module-raop-dbgsym_12.2-2_armhf.deb
+Size: 118884
+SHA256: a6cda4ce5eeb1b16004c3f60a68bb36553d510dfa7c34d1cdd423d40addffe87
+SHA1: e54b2ad39543842678cc3223c9592dfce4d7de30
+MD5sum: cffe2d712cc43eed294d88f75a63bbee
 Description: debug symbols for pulseaudio-module-raop
-Build-Ids: 10628c8c8b717cf3f90bb446b39f2f01fdc5dfa8 2c3f4d0e34a9a04a86470fdd8a80c3fb917bd1bb 628bcdf1562a177a5afe12b49b35f2188a1ad5b8
+Build-Ids: 7ba6c0c4845e741b2c5f117166f5c3522a8621f2 c702a831a38be839b4dd04874da989276038877d f3c86a741db549a6bde8d7a825ae8ebaf2c13b9d
 
 Package: pulseaudio-module-zeroconf
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 137
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5), avahi-daemon
+Installed-Size: 103
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libpulse0 (= 12.2-2), pulseaudio (= 12.2-2), avahi-daemon
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf_11.1-5_armhf.deb
-Size: 54084
-SHA256: 3aa01f4265b0070420172162fadedd87c73c9c102e82ce18f1c5fec819b0a33e
-SHA1: 6e06186d3a65a6a84a78cd4bbf48a6c2499feddb
-MD5sum: ffbe8088dab8d1378dc29739d54979ee
+Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf_12.2-2_armhf.deb
+Size: 44784
+SHA256: 5f32051422e5da4b297a18db46918e12223b2cdbeb8465bd14e85ce2fd68df97
+SHA1: 587612dd1a784cd33523ac27ef87209bf092da9b
+MD5sum: 2ae1efa954f53f8258c3182de0e60c90
 Description: Zeroconf module for PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2916,38 +2959,38 @@ Description: Zeroconf module for PulseAudio sound server
 
 Package: pulseaudio-module-zeroconf-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 92
-Depends: pulseaudio-module-zeroconf (= 11.1-5)
+Installed-Size: 96
+Depends: pulseaudio-module-zeroconf (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf-dbgsym_11.1-5_armhf.deb
-Size: 63032
-SHA256: b52876460b6283344e30569d61e1e44c9b8d17d2a42677890f7ce234580cb9d5
-SHA1: 749bec4d96ba3d34aeaf27e608cb1cb44caddab6
-MD5sum: 5a907530a7ed67804f216ea7678a3047
+Filename: pool/main/p/pulseaudio/pulseaudio-module-zeroconf-dbgsym_12.2-2_armhf.deb
+Size: 67736
+SHA256: 0a338d793f1fe03b42430f4199c2230b04745018a2b29818f9338723a8529c28
+SHA1: 169409ee38a66d4c5294e618ce207e5c7f734b13
+MD5sum: e87918909bc3b3868521fc4840788f45
 Description: debug symbols for pulseaudio-module-zeroconf
-Build-Ids: 05a5cfa92abda365c9006c9e75d19e5495d239a1 4436b49e949498c173171031f97a1a5cd343752f c5d300a7bfd6dd8055565a3b93dffcd3e5b341a3
+Build-Ids: 3b04692243ade3db57ae5dec4a4eed3987de5483 a49904ab6911aa4a45ab29bc39afc63c2a42aa41 b5bb59caf15a2a4b085b64c6b66d9cc77f2082f7
 
 Package: pulseaudio-utils
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 226
-Depends: libc6 (>= 2.16), libcap2 (>= 1:2.10), libice6 (>= 1:1.0.0), libpulse0 (= 11.1-5), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libxtst6, libpulsedsp
+Installed-Size: 192
+Depends: libc6 (>= 2.16), libcap2 (>= 1:2.10), libice6 (>= 1:1.0.0), libpulse0 (= 12.2-2), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libxtst6, libpulsedsp
 Suggests: avahi-daemon, pulseaudio
 Homepage: http://www.pulseaudio.org
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio/pulseaudio-utils_11.1-5_armhf.deb
-Size: 87484
-SHA256: e073b92f8f1a6ecc1c0a02e45516197c879da4c0ccc1e8d1ae9bd443231e550e
-SHA1: 934c8618c6db22dfed6f75856dec5e9706818ff4
-MD5sum: 76be4390def330dc676aea2c44a929e5
+Filename: pool/main/p/pulseaudio/pulseaudio-utils_12.2-2_armhf.deb
+Size: 78296
+SHA256: c3e14caff5bcc070cd5a3d0274e356705557802433f9c548a4bd8c223475bc8d
+SHA1: 562b3e9db7d1cf14689fcc8e70771632762fc3aa
+MD5sum: cfd0c8db1c755d620e48432fd389003c
 Description: Command line tools for the PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -2967,21 +3010,21 @@ Description: Command line tools for the PulseAudio sound server
 
 Package: pulseaudio-utils-dbgsym
 Source: pulseaudio
-Version: 11.1-5
+Version: 12.2-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 145
-Depends: pulseaudio-utils (= 11.1-5)
+Installed-Size: 155
+Depends: pulseaudio-utils (= 12.2-2)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pulseaudio/pulseaudio-utils-dbgsym_11.1-5_armhf.deb
-Size: 88720
-SHA256: 18b16490d5ceba24e229743a5d8a78b79c265af1a0241cff504287bb83d5a4f5
-SHA1: 13f1c223d05038c275ce7e52b632a2faeb988ee4
-MD5sum: 2af9958e305c93bb2f455263a6a757dc
+Filename: pool/main/p/pulseaudio/pulseaudio-utils-dbgsym_12.2-2_armhf.deb
+Size: 100168
+SHA256: 461584d7de964bac0212c07552e2f4187a12c1520af984805ab0aaf03e86b93c
+SHA1: 725ee66db360974dd1b941a6f47586647d89d999
+MD5sum: a92022b2e992dbfea807761733f6f747
 Description: debug symbols for pulseaudio-utils
-Build-Ids: 677d3243bccfbdcad13130f9abfd4bdb5d084d80 9222fd386f70633ee0e69a02ee315b8e00150869 9723f497c32e164cd264e294df7161b1e4bfec90 e857159cfe5cc6f36ae65f8f90415e8a9979f056 ff5fe44c19b17aa3f6f6240d8dc95e8ac13c497d
+Build-Ids: 005178085c676236d8563ed8e08b169c9128d4b5 320b2ea3edf1450c6685d6f147fd5f58a3b0322c 8bf6fbef9858d9a56e3c9eee57cda79290fb24da 9177019e84ee4ced06168023891686c886831ddc b66a1fb35af9e845ce11fe3940f778bb4d0eab55
 
 Package: qmic
 Version: 0.1+git20180712-1

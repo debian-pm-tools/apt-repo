@@ -419,20 +419,20 @@ Description: debug symbols for index
 Build-Ids: 4fef907e489c8c1212140e60d4f6137e3da13608 a99084c071ecbd7e777ff45fa9b5ba4e82617cd5
 
 Package: kaidan
-Version: 0.3.2+git20180712-1
+Version: 0.3.2+git20180929-1
 Architecture: arm64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 403
-Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Installed-Size: 752
+Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
 Recommends: libnotify-bin
-Homepage: https://github.com/kaidanim/kaidan/
+Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180712-1_arm64.deb
-Size: 96756
-SHA256: 243f29112238b426fa4f2924b63c8c3b4747b76c29b84a1ca9eae947522c8569
-SHA1: 80531507c4a31d2f40a0add35f417320f4feb5f0
-MD5sum: 775f7e36b3c69b130e46b2b7dcad0ab5
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180929-1_arm64.deb
+Size: 180848
+SHA256: 7fb6d141d12bd3ca8d1d129f53bff6b05b4e857fc973a28a2fc1f5fb85425dba
+SHA1: 83818e9708d12af18b7dc96217f0dfe662252bba
+MD5sum: 568b8591af914a41bc855b4a0349f2ec
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -471,21 +471,21 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-dbgsym
 Source: kaidan
-Version: 0.3.2+git20180712-1
+Version: 0.3.2+git20180929-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 1900
-Depends: kaidan (= 0.3.2+git20180712-1)
+Installed-Size: 4513
+Depends: kaidan (= 0.3.2+git20180929-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180712-1_arm64.deb
-Size: 1858852
-SHA256: f2714724e6556b4432d44a848eec3fd22c47480e2edc094a2b01b1bba24a79d1
-SHA1: ab88bcc4bbeb0dfbf42d3fe84c92e2afb30c08db
-MD5sum: 3884d5e7970120ebb55d31128135cfba
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180929-1_arm64.deb
+Size: 4419288
+SHA256: 094598e440116c05861f514ab3a8bdbec352afcebb440ea9bfc4fac16ecae6a8
+SHA1: 37780b72a82c5fa57fcbd596ae9d1a9d065a009b
+MD5sum: daeb1d6052dfff5aec387c399aa3229a
 Description: debug symbols for kaidan
-Build-Ids: 39cccdb05eca03e453ac330b195178aade7a02b4
+Build-Ids: 411604a7be29c151d898286306bf2a7499a8d02c
 
 Package: kde-window-manager
 Source: kwin
