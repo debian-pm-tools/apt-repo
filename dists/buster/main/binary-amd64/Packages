@@ -134,18 +134,18 @@ Description: USB control for Android with hybris
 
 Package: kaidan-data
 Source: kaidan
-Version: 0.3.2+git20180712-1
+Version: 0.3.2+git20180929-1
 Architecture: all
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 103
-Homepage: https://github.com/kaidanim/kaidan/
+Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180712-1_all.deb
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180929-1_all.deb
 Size: 47348
-SHA256: 311ab9f02cfd397d81ff507bebda9224eb4a2fd08cf007f7d1756cc408a17120
-SHA1: 3800e0087bd4568917dd41d9b3f5680a9bd8310d
-MD5sum: a31c9b50c81a5f29ac1ec20ffa0cf3bb
+SHA256: ee90b173e75f524f519e801b17d56e45c96b9a86ef89937253a29dc004828ff1
+SHA1: ba9b5332254580c429fa2d45806cac939790805c
+MD5sum: 536aadf1dc8804a4e3ba85438aa9930f
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
