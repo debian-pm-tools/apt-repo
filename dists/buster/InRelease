@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Sun, 30 Sep 2018 15:48:33 UTC
+Date: Wed, 03 Oct 2018 10:15:44 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -15,14 +15,14 @@ MD5Sum:
  ef173b7586ceb1bda22561f551dba3a6 171645 main/binary-arm64/Packages
  d23272baaf73ba6e0585499f77d08a89 44510 main/binary-arm64/Packages.gz
  45bb3257049ac2ea6e11884d432ec423 133 main/binary-arm64/Release
- 9d31de2cdeed3d3a94bcdeb273173c1c 63403 main/binary-amd64/Packages
- 0a753b3c358fc8e04ef935c2b353dccc 17272 main/binary-amd64/Packages.gz
+ 6719846de710a76c8cb0611150197a07 72509 main/binary-amd64/Packages
+ b6e767f8da775344be5d0a428ce9e04d 19609 main/binary-amd64/Packages.gz
  5bb7a08b8bce3165214ed24d53a9354a 133 main/binary-amd64/Release
  fc6fc9fcba462a978eef4f30b18ae134 267429 main/binary-i386/Packages
  10cb9015b09dc76c31eaf05ffce7f6c0 63378 main/binary-i386/Packages.gz
  754c2ab74e8a7877c3b3928231355b1c 132 main/binary-i386/Release
- fef0726b85a2cabf440d660d18595cb7 71673 main/source/Sources
- 406a41d4cfb09d3f25fc7bcb1de8a285 20500 main/source/Sources.gz
+ 2c1220e306babe100e950a6b1adb617b 73267 main/source/Sources
+ bb0da0a4c2835358fd33f28bce116bfe 20903 main/source/Sources.gz
  994bd563d7b0e4d56018b8ebb34998bd 134 main/source/Release
 SHA1:
  613beae5ba3151d8ea348ebf960d320c7dd77f65 176861 main/binary-armhf/Packages
@@ -31,14 +31,14 @@ SHA1:
  c955f05f7eeb1ff2c5ec168d462f69609ea584ce 171645 main/binary-arm64/Packages
  29bd1e8e6d1b12f0a43d94e087b05571c27004db 44510 main/binary-arm64/Packages.gz
  3edabd733cccb0fd3cf25e0fa4168451384984c4 133 main/binary-arm64/Release
- f5c9d00482ebf77b177c10f8b6e027dedce3710f 63403 main/binary-amd64/Packages
- 1d996170b11de38a91b11ed0ef09f7118627987f 17272 main/binary-amd64/Packages.gz
+ 41412af0b902f67b68fd7ea4c1cc4596824c2aa6 72509 main/binary-amd64/Packages
+ ecd57160fe9aa487bd57820f1c8ebbb7300eb369 19609 main/binary-amd64/Packages.gz
  6434fa282dcd21c250d444a22b52653ac6fdc070 133 main/binary-amd64/Release
  1d14a56390f349231af04da2d0c1f99a94afa8d5 267429 main/binary-i386/Packages
  362f8685debba7bcac38185f716ae720e4607f21 63378 main/binary-i386/Packages.gz
  9094fa710c6d5609558084d2c273864ba6ca7919 132 main/binary-i386/Release
- 75f81b1ac1768334db50e6d6da82cd0425392c97 71673 main/source/Sources
- 35fd3c21ecce444523d54e8b09e08894e8adba45 20500 main/source/Sources.gz
+ 45b02a0ce90de704509e0a8bd5a4c4e1dd3a7ca7 73267 main/source/Sources
+ 4c6db961b8e2d4568e9cb9321625c252bc3c8bd2 20903 main/source/Sources.gz
  04a03b0035e430b0b9ca23a1506bab7a35b07f42 134 main/source/Release
 SHA256:
  2a7b68fa71bc31f269039e86298a5cadf9faa84bb8e94e78f33d7134fbb77fbf 176861 main/binary-armhf/Packages
@@ -47,28 +47,28 @@ SHA256:
  743c52f204affc8afa382eb66ad266ee73de51b4b7fba0c973192772fb4c1cae 171645 main/binary-arm64/Packages
  63286f84e6bcfc7fa47024f4ebd3c2db197118b6c981c9ee21979772ba54a9ed 44510 main/binary-arm64/Packages.gz
  d5b83a5a96717759d823a5dabb867659e50db32aadd0faa40f012dff1a1f0333 133 main/binary-arm64/Release
- 1488fa3cac0b2323b62fd2153095280d09fe5a42d7dfe54ec4ab56f71af514bf 63403 main/binary-amd64/Packages
- d8c2d5a5ff32f37782038c2e3d1b48847c4ca7ae46ac8b4932b96438f98d6169 17272 main/binary-amd64/Packages.gz
+ fac5bfa70bae78bfcec8729b74aa9d4b07b9cb715a675b4b531c04407ceeaf08 72509 main/binary-amd64/Packages
+ f44d3ebcd02d6c924bda4444b5f2825211cd359c20d76f5af5022b7a187848ed 19609 main/binary-amd64/Packages.gz
  a57a9e63381d12ca452b63812873b84aaadde8974b23670df65d93ffee1f6688 133 main/binary-amd64/Release
  5006527aad53e283a9bf0a62411975a88701c33211a1d363e5ec556d2d659d35 267429 main/binary-i386/Packages
  c3fa2a3aadd0fdc6993ed1ac376c894e5ac81fa651c46224d87af3fd68c7060f 63378 main/binary-i386/Packages.gz
  bfef80aefae46a518708dddb9ae98392d67f37dce7701dc4e4858f1d0ef40e43 132 main/binary-i386/Release
- 15cdbfb51ef92a9c6c7d750c41484f50606059e74177664f072c9e17497e0344 71673 main/source/Sources
- 4adf4f6b948669179bca0c60f208fd9eda3723ccd0dc94fe676f9d02129964a1 20500 main/source/Sources.gz
+ 0971005444f8407c42bda6053440116f41832e58980ce8ac233faf0ea18a16ed 73267 main/source/Sources
+ cc3d4bea6e7092fd40a0d4431ee96e3e279eb55e4f77c4764bb0f2c0120f6a67 20903 main/source/Sources.gz
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAluw8FEACgkQqB4HWr7I
-Cn64qhAAqt65F6qmXtJwrTPQ7TcCOzSxI416uSp5ER+tV+L4BVhhBERLa3kgulSI
-xXzeGgDxXYMmSEPikKxSV3FfThFwIZU9gh7og3xsZzPDCBim8Urog6TqJ+SI4cyb
-chC2qjZfc8oULZNv1ngRNyBcRIxVNkPrPrYbTeuyPOdm7lsjQplbipo0Tnxujmqo
-k8KGJ0N/ALE1C7xHhzxV3CZ088lRrQr/rYZRCh3JCBUeTjYdIvnBBZjHQ2WGYXrP
-5YPNc691JpIj0WmPBhqlebmQrLzktvZGr9Bvr/hGQj+FGJYCTw6eL/aECXw/B/4g
-p3sw46A8estb9rNE6sC7O+gVrs60khfHLdnR/zok8s7lW+NS2Z3dEVSdyYNY8qD6
-15m1I1Pv7lY/sQZgyphgRrRxQgYDUsjXLRZZ8sOCB8Amtdli6/ZBaOUm/55KBqy5
-Eygx2V/atvPut0FmGp7Nx2Cg3T9YIb3MKuyjSaiKsIkEDwKQHdCIVg3BoT25bcHc
-zk5qe+milOJDzID5RbnFkbbvAldU2jTaNtXcPgN83LJNC8rhX5WYOYFsmOOoC2SN
-JNzUtc300bsC59uXpxxSgM1Rv8ishdEH4evCzILy90BMMGg0Wy4IfDbiXHvaP0Vt
-LqsX44g9F2ZIGXWJ75UOtyN8ObBakMvqUWrY0L+qHDRx2qCZqwo=
-=I4WX
+iQIzBAEBCAAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlu0ltUACgkQqB4HWr7I
+Cn5qlg/9E1CjAsQNp7jZeJ5zEmT+sAm/t3/NZBqu2n6n/uiNvBwAY7P+YQRzMoNI
+g1s/SVHHAQ8kRPaS103mGSKhyNz+CnA0Du7rzngG9ngtV00/SqwGNIGlmliatNBW
+5m60QQqAyJT3VdQfooNLvIOTRA7oOMo8mYu71rQfXZeK6hiKsak3ovdSA5pfGVS+
+/NlzCVC9nU/GsyUKJau37WBEHTVJh8dQEbNUdBmfALk6kLS5Oj+edDhTTKcBU/n4
+ZI6HBboaxqNVjEqOvoYIKVjiUTG9HZImWmzMNFxHOJ23G+7t3/ZYtkpPoq3hHT7g
+5VvuEoSGrBU1UKVsPwnEruy70EjQ3sm+2Fof78cekqBJnfuf6+6xUp+YRahmStIQ
+u3rxGNPIUJvxZyOkORMvhZC+ZozIA2+utUj1kASbvmr/LmzLhSSYmCH/RjA+bRtV
++If6we7OK9Yr3IJfVmOHTT8lP0gaVYqKWjBDRAXNQ9Ra/pVWdGdGO4HKTNZ6Bz66
+nntSa6GLyE72bK1YCNpeONJsd295YFkJclFt9+gGsgqjlpRyof0KzyvAVU1uFouN
+4gkNQdFFlQsUzburnf9i5YE7n28DrIQHQhGH+IpnIQtyBcTRPAmCdhQ/YUNHngo0
+ukIDIM6dO67HZl362HhkhFD/35Um3T1+pQwMF1+2IHPDYi6LSog=
+=MvOT
 -----END PGP SIGNATURE-----
