@@ -1084,6 +1084,44 @@ Description: Mobile telephony stack (test and maintenance script files)
  .
  This package includes test and maintenance scripts.
 
+Package: pix
+Version: 0+git20180905-1
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 703
+Depends: qml-module-org-kde-mauikit, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/maui-project/pix
+Priority: optional
+Section: graphics
+Filename: pool/main/p/pix/pix_0+git20180905-1_amd64.deb
+Size: 321712
+SHA256: f4b039a9f1fb8f901f6c851481ed8c7c48c1682d0192e86190174ad6ff647165
+SHA1: 1cc426b9484750e99302ea32e171e0816ca239b6
+MD5sum: e39f3bb11777335b6a80f111afb37449
+Description: Image gallery manager built with MauiKit
+ Pix is an image gallery manager made for Maui
+ .
+ Pix is a convergent and multiplatform app
+ that works under Android and GNU Linux distros
+
+Package: pix-dbgsym
+Source: pix
+Version: 0+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2304
+Depends: pix (= 0+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pix/pix-dbgsym_0+git20180905-1_amd64.deb
+Size: 2274128
+SHA256: 6d6c18d858b2cfc42ed387ce78936cf99075886a7f7d04bcffbba32f2b138937
+SHA1: f9743794d0a9809ac99a4a7620a606f7112bc457
+MD5sum: 98be3f5cb67f49715b60c523d50439b8
+Description: debug symbols for pix
+Build-Ids: a0f2d1f70d47ab6f9ce987e28e9d2501371f2656
+
 Package: plasma-phone-components
 Version: 0.7+git20180811-1
 Architecture: amd64
@@ -1794,4 +1832,51 @@ MD5sum: e86a66330ebf0faa3874f7388868d738
 Description: debug symbols for simplelogin
 Build-Ids: 9cffc604a67da4765d809ac8dd85cfec826e897f
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: vvave
+Version: 1.2+git20180930-1
+Architecture: amd64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1198
+Depends: qml-module-org-kde-mauikit, youtube-dl, kio, libc6 (>= 2.14), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.5.0~), libqt5webengine5 (>= 5.7.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~)
+Homepage: https://github.com/maui-project/vvave
+Priority: optional
+Section: sound
+Filename: pool/main/v/vvave/vvave_1.2+git20180930-1_amd64.deb
+Size: 513960
+SHA256: a89e530c606eeb9b9d4ca1c73220e7da48683c33ba4b9adc35c6a27e01bece61
+SHA1: 198af857a920109949ec84648f7d2c80b5f61e7e
+MD5sum: 6e85a8847989fc6c61ea7830c15f549c
+Description: Tiny Qt VVave Music Player
+ VVave is a tiny Qt music player to keep your favorite songs at hand
+ .
+ VVave will handle your whole music collection, letting you create
+ custom playlists to organize your music.
+ .
+ You can also filter your music by artist, title, album, genre,
+ date and location. VVave lets you vvave-mark your favorite YouTube
+ music videos into your local collection by using the Chromium
+ extension.
+ .
+ Think of VVave as the playlist where all your favorite tracks at
+ the moment are. And when needed you also have an integrated
+ collection manager.
+
+Package: vvave-dbgsym
+Source: vvave
+Version: 1.2+git20180930-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7522
+Depends: vvave (= 1.2+git20180930-1)
+Priority: optional
+Section: debug
+Filename: pool/main/v/vvave/vvave-dbgsym_1.2+git20180930-1_amd64.deb
+Size: 7489796
+SHA256: 469cc0d0d8dd3ebb891a2f9a2d85e51be3c738c61bdc2ace750348de02687713
+SHA1: be17fa6a6fbaf6b4492568e24da8f208fa9c7977
+MD5sum: fa2232c89142f2ae8dfc2cb6782e16eb
+Description: debug symbols for vvave
+Build-Ids: e37f7f99679de552a868127e733c83c5934f1423
 
