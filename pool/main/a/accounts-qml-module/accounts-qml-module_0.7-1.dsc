@@ -5,19 +5,19 @@ Architecture: any all
 Version: 0.7-1
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Homepage: https://gitlab.com/accounts-sso/accounts-qml-module
-Standards-Version: 4.1.1
-Vcs-Browser: https://gitlab.com/accounts-sso/accounts-qml-module
-Vcs-Git: https://gitlab.com/accounts-sso/accounts-qml-module.git
-Build-Depends: dbus-test-runner, debhelper (>= 9), libaccounts-qt5-dev (>= 1.10), libsignon-qt5-dev (>= 8.50), pkg-config, qtdeclarative5-dev, qtdeclarative5-dev-tools, qml-module-qtquick2, qtchooser, qt5-qmake, qttools5-dev-tools, xauth, xvfb
+Standards-Version: 4.1.4
+Vcs-Browser: https://gitlab.com/debian-pm/accounts-qml-module
+Vcs-Git: https://gitlab.com/debian-pm/accounts-qml-module.git
+Build-Depends: dbus-test-runner, debhelper (>= 11), libaccounts-qt5-dev (>= 1.10), libsignon-qt5-dev (>= 8.50), pkg-config, qml-module-qtquick2, qt5-qmake, qtchooser, qtdeclarative5-dev, qtdeclarative5-dev-tools, qttools5-dev-tools, xauth, xvfb
 Package-List:
  accounts-qml-module-doc deb doc optional arch=all
  qml-module-ubuntu-onlineaccounts deb libs optional arch=any
 Checksums-Sha1:
- a93170713b2054cec4dfb12514e3710a06cfed34 49620 accounts-qml-module_0.7.orig.tar.xz
- 7bc93894d81a9061e6369550e19042ce3883619f 3860 accounts-qml-module_0.7-1.debian.tar.xz
+ bb99ab9922ccf849fc7009ebef9f47559f443576 62029 accounts-qml-module_0.7.orig.tar.gz
+ 8c5c38d6d440c8bdf920f71a6409ebe45a00d0a8 4248 accounts-qml-module_0.7-1.debian.tar.xz
 Checksums-Sha256:
- 4b1a6d0cbc966f06acb51164b3cf8fed61dac27e13edb797a8ceca3ba9ad2885 49620 accounts-qml-module_0.7.orig.tar.xz
- a36715bfb6ca5271ec5082a9930f1f7cbedba2fc9dc5a10ce2cc3af4398b1007 3860 accounts-qml-module_0.7-1.debian.tar.xz
+ 550a6c684bf4b4f6460a35bac0cf3afbb9090a5cf4038b880c6b86c2e9ea0195 62029 accounts-qml-module_0.7.orig.tar.gz
+ 21b979a26b0257bb19f01525f05c7669fc8d8121c48e8d2a5cc217520442d239 4248 accounts-qml-module_0.7-1.debian.tar.xz
 Files:
- e4f4b5e34aa792ede8fda7efe2590b80 49620 accounts-qml-module_0.7.orig.tar.xz
- 11de8be5a7561910b5879013e3234833 3860 accounts-qml-module_0.7-1.debian.tar.xz
+ 69cf0b3ff318fc4086aab86a6fe279c1 62029 accounts-qml-module_0.7.orig.tar.gz
+ a58d3c215ee65afeb0c68af272ad3f62 4248 accounts-qml-module_0.7-1.debian.tar.xz

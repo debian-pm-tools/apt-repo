@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: testing
 Codename: buster
-Date: Wed, 03 Oct 2018 15:14:13 UTC
+Date: Wed, 03 Oct 2018 15:47:30 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -18,8 +18,8 @@ MD5Sum:
  fc6fc9fcba462a978eef4f30b18ae134 267429 main/binary-i386/Packages
  10cb9015b09dc76c31eaf05ffce7f6c0 63378 main/binary-i386/Packages.gz
  754c2ab74e8a7877c3b3928231355b1c 132 main/binary-i386/Release
- dec68d28b363ea2fd0e9673ceae4f44c 73409 main/source/Sources
- 7d5959508bea4357c37fbc90afa3b37e 20892 main/source/Sources.gz
+ a071cdaf183227a29651e21b4c18d1af 73404 main/source/Sources
+ 9de5017ad341ffe42c23e11b0d7fdec4 20884 main/source/Sources.gz
  994bd563d7b0e4d56018b8ebb34998bd 134 main/source/Release
 SHA1:
  613beae5ba3151d8ea348ebf960d320c7dd77f65 176861 main/binary-armhf/Packages
@@ -34,8 +34,8 @@ SHA1:
  1d14a56390f349231af04da2d0c1f99a94afa8d5 267429 main/binary-i386/Packages
  362f8685debba7bcac38185f716ae720e4607f21 63378 main/binary-i386/Packages.gz
  9094fa710c6d5609558084d2c273864ba6ca7919 132 main/binary-i386/Release
- 0117151cb8fcc56a11a22897b5abfaa00bfa4057 73409 main/source/Sources
- dbe1af88afb3e1494439ea9097a1a1d1daa83d9f 20892 main/source/Sources.gz
+ 13a1c0a0b2f944f2e7c7308f68756ab49169692f 73404 main/source/Sources
+ 9bcfd18ba10b8e7abb7160357f77083f51ff1141 20884 main/source/Sources.gz
  04a03b0035e430b0b9ca23a1506bab7a35b07f42 134 main/source/Release
 SHA256:
  2a7b68fa71bc31f269039e86298a5cadf9faa84bb8e94e78f33d7134fbb77fbf 176861 main/binary-armhf/Packages
@@ -50,6 +50,6 @@ SHA256:
  5006527aad53e283a9bf0a62411975a88701c33211a1d363e5ec556d2d659d35 267429 main/binary-i386/Packages
  c3fa2a3aadd0fdc6993ed1ac376c894e5ac81fa651c46224d87af3fd68c7060f 63378 main/binary-i386/Packages.gz
  bfef80aefae46a518708dddb9ae98392d67f37dce7701dc4e4858f1d0ef40e43 132 main/binary-i386/Release
- 051b446af4bd7f3d3445f0a19eb166f46cecba266fcae1222a2fbe3dcda9d6be 73409 main/source/Sources
- e6f6e199f5be8c33e3bc92cd3634a9bd497ec23867e47ff7f05a9c5ff540a2d5 20892 main/source/Sources.gz
+ 0271d266fd7ce5d2b0f81a0e4e85c24953ac208f928f888f74b2024c2355c8bc 73404 main/source/Sources
+ c82f366e1c1adfbccdc73f9f42e9b0d152ac593956a566c2aa8771585891813c 20884 main/source/Sources.gz
  4917806b330632e89ff602e664afc321672e61f8c2243cce3a853030631ee9ec 134 main/source/Release
