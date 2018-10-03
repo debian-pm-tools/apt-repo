@@ -899,57 +899,57 @@ Build-Ids: f671e9d61253056eafafd786081349b750568b7a
 
 Package: libqrtr-dev
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 19
-Depends: libqrtr1 (= 0.3+git20180323-1)
+Installed-Size: 21
+Depends: libqrtr1 (= 0.3+git20180712-1)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_amd64.deb
-Size: 4128
-SHA256: f924dfa5f6e7b7731753f59141838a7c4d06a8c0002120576ae506be86ecdbf6
-SHA1: 6329ab744d3f8fa65104c8a6f50fe7df798d2e12
-MD5sum: ac5bf99d1e6b88321b90e06d8f708827
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180712-1_amd64.deb
+Size: 4276
+SHA256: 62f4d384a6461008395d91c54f671af89aa9a02f0532a6135cc7af35456df1a8
+SHA1: 9d72baf695379860af628ca969a0340c72b288c6
+MD5sum: 0467dd671b36b8751342ae65079ac8a1
 Description: QRTR development files
  QRTR development files.
 
 Package: libqrtr1
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 33
+Installed-Size: 35
 Depends: libc6 (>= 2.14)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libs
-Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180323-1_amd64.deb
-Size: 8004
-SHA256: 38f09e9e371bdbb14c8a6c1272744169331ccfd3ab2d8a57a454d150fa2b8631
-SHA1: e5fcfbb2c36819c2c922154d3ec880a0bd910169
-MD5sum: eb30560f757e1f32faf4e6f6ea22a05b
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180712-1_amd64.deb
+Size: 8348
+SHA256: 40fcba56f5ffdbfec4d2c2ad569faa7758096ebbc5eee50474d06dc5f8175257
+SHA1: 16cacf5a514536553bb2616fedd94ee7067828f0
+MD5sum: 2a01ecd017fd4e974e9ef6db6437c211
 Description: QRTR library
  QRTR library.
 
 Package: libqrtr1-dbgsym
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 24
-Depends: libqrtr1 (= 0.3+git20180323-1)
+Installed-Size: 26
+Depends: libqrtr1 (= 0.3+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180323-1_amd64.deb
-Size: 9132
-SHA256: b9fc40f84a35427b9dd81b84e574e8541eee2485883ee9af37d68e5fe6ecee8b
-SHA1: 4bdf9bfddb10607891dbb99719f997df2c56830f
-MD5sum: 0abfebfa63afa1614bbfbf9d93535fb7
+Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180712-1_amd64.deb
+Size: 10992
+SHA256: 8da64d7c7b1316744df1f365e191abbe6148bdf0aeef21361ad35e85437b152a
+SHA1: 59a43416e3e121df98996d006177202e44b02e4a
+MD5sum: 93b527e44180f9bf11d535a9c5e7b308
 Description: debug symbols for libqrtr1
-Build-Ids: f85a8201b424b80f49fb98c8a709510d71ef0fb8
+Build-Ids: dfb079c3226cbae37e2064b1d32610c1f8f31ad7
 
 Package: llsvplayer
 Version: 0.3+git20180828-2
@@ -1085,19 +1085,19 @@ Description: Mobile telephony stack (test and maintenance script files)
  This package includes test and maintenance scripts.
 
 Package: pix
-Version: 0+git20180905-1
+Version: 0+git20181003-1
 Architecture: amd64
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 703
-Depends: qml-module-org-kde-mauikit, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libgl1, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
+Installed-Size: 383
+Depends: qml-module-org-kde-mauikit, kio, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.5.0~), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
 Homepage: https://github.com/maui-project/pix
 Priority: optional
 Section: graphics
-Filename: pool/main/p/pix/pix_0+git20180905-1_amd64.deb
-Size: 321712
-SHA256: f4b039a9f1fb8f901f6c851481ed8c7c48c1682d0192e86190174ad6ff647165
-SHA1: 1cc426b9484750e99302ea32e171e0816ca239b6
-MD5sum: e39f3bb11777335b6a80f111afb37449
+Filename: pool/main/p/pix/pix_0+git20181003-1_amd64.deb
+Size: 178940
+SHA256: e59e110c6842782f1c3ebebe7691036f067fe861975a314d79562e6aec642fd8
+SHA1: 6412ccd278e71e72892fa90898abacb883c79472
+MD5sum: 93419ae21d93798a0ae35cff1932aab0
 Description: Image gallery manager built with MauiKit
  Pix is an image gallery manager made for Maui
  .
@@ -1106,21 +1106,21 @@ Description: Image gallery manager built with MauiKit
 
 Package: pix-dbgsym
 Source: pix
-Version: 0+git20180905-1
+Version: 0+git20181003-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Installed-Size: 2304
-Depends: pix (= 0+git20180905-1)
+Installed-Size: 1497
+Depends: pix (= 0+git20181003-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/pix/pix-dbgsym_0+git20180905-1_amd64.deb
-Size: 2274128
-SHA256: 6d6c18d858b2cfc42ed387ce78936cf99075886a7f7d04bcffbba32f2b138937
-SHA1: f9743794d0a9809ac99a4a7620a606f7112bc457
-MD5sum: 98be3f5cb67f49715b60c523d50439b8
+Filename: pool/main/p/pix/pix-dbgsym_0+git20181003-1_amd64.deb
+Size: 1476460
+SHA256: 43cfd56e14dd19ef441e9d70ca15a9099000326ebbbe842150ebe21331b4413f
+SHA1: 587acca6b5df9394e39bef8631ab245d0a1ea71d
+MD5sum: a852b7d774a0de8b433980e7bc5563f7
 Description: debug symbols for pix
-Build-Ids: a0f2d1f70d47ab6f9ce987e28e9d2501371f2656
+Build-Ids: a317c18aab8ea943199b53d95c091f4feff8e8c7
 
 Package: plasma-phone-components
 Version: 0.7+git20180811-1
@@ -1213,40 +1213,40 @@ Build-Ids: 2303e5298be3a12b88d1539d48f36869cf2baeb6 3f21539e18489e5c19fbcd557433
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
 
 Package: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20180712-1
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 37
+Installed-Size: 41
 Depends: libc6 (>= 2.4)
 Multi-Arch: foreign
 Homepage: https://github.com/andersson/qmic.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_amd64.deb
-Size: 10580
-SHA256: 806ddf61d6e0703040fb7e200c7d6cf61c52e68aa829c3ab0ada25e1fa4d06b5
-SHA1: 5b33c258ddc8dc46775861fbb021809c10ec1d4f
-MD5sum: b2e57cf8120881de8198c01bc4960d76
+Filename: pool/main/q/qmic/qmic_0.1+git20180712-1_amd64.deb
+Size: 10700
+SHA256: 356493b59ed2ab4ae9d06de1b2ab8400e477ba21a044b6c3b886c7530350188e
+SHA1: 62849e97c299877099efbbc2c142b0e10bf90fd5
+MD5sum: a524716c2fa8be744424adecbe913b3a
 Description: QMI Compiler
  QMI compiler.
 
 Package: qmic-dbgsym
 Source: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 38
-Depends: qmic (= 0.1+git20180323-1)
+Installed-Size: 43
+Depends: qmic (= 0.1+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180323-1_amd64.deb
-Size: 22992
-SHA256: d9b0ae4d89ac987145597a5fc52ef539ee88a1b388d53cd0078db9e24d3d19d2
-SHA1: 2bcd21d6902ba9854f50f7c943502f8924979972
-MD5sum: feab615d855df053e4cf23c6e9c1f34e
+Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180712-1_amd64.deb
+Size: 27800
+SHA256: 2126fdff4fcce1afc1989f38a851082e6e94b03617ce5a8689f459b08b145ebf
+SHA1: 82c1de07f28c5b50af9230ea8e88a564a87259f0
+MD5sum: 4bacddd96da82822ec467e7af0a3b0d7
 Description: debug symbols for qmic
-Build-Ids: 12f5d994f73d02ae24a0466a76f4d663a65649cb
+Build-Ids: 443aca6a98b7df09021171292e6f5476bd7683c4
 
 Package: qml-box2d
 Version: 2.0.0
@@ -1553,39 +1553,39 @@ Description: debug symbols for qmlplane
 Build-Ids: b74ae2fdf7e589916b1075746600292b1aa22ee4
 
 Package: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 67
+Installed-Size: 81
 Depends: libc6 (>= 2.2.5)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_amd64.deb
-Size: 13380
-SHA256: fff53ba5916a8033a0083c1f665c67cbe24901c0fca346a7d4b2f38290fc8e80
-SHA1: 533d7dba8d5e5dab2c56f292f3059369a526979f
-MD5sum: ab87f31428cf90412753e651c13d7cff
+Filename: pool/main/q/qrtr/qrtr_0.3+git20180712-1_amd64.deb
+Size: 14656
+SHA256: f42f8bf9d07a3000f43dde19b38d90c4cc51500e68459a0adab0bb62608b83ae
+SHA1: d7f75ee58c38f9410902bc495455ba1b0b22efb0
+MD5sum: d01ae6ebdacb993a10d3be10557e8f97
 Description: QRTR applications
  QRTR applications.
 
 Package: qrtr-dbgsym
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20180712-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 50
-Depends: qrtr (= 0.3+git20180323-1)
+Installed-Size: 59
+Depends: qrtr (= 0.3+git20180712-1)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180323-1_amd64.deb
-Size: 20588
-SHA256: cb43fcf198af31fbd6b9eb47d484f04fbfae4fade7ba3b87ff4f693eb9917c23
-SHA1: 9639f15c4ec0c12f48e8eab825ab1c6e01717e25
-MD5sum: 942e41db8e9097a0db9cfacb44939262
+Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180712-1_amd64.deb
+Size: 28392
+SHA256: e92aa032fd4aa9825f22538f504635bdea39a20409094f419af11ef6a8e77822
+SHA1: e375be19a1a47ef4a6fded5cd83bba149a89868e
+MD5sum: 1a3f11ee82c363c5f51ad4b240a9ce64
 Description: debug symbols for qrtr
-Build-Ids: 081c5ed7b1e542240139eb2c8e3c7e96d020ac5e 36973def5ab9045643271bd038b2dbc531eae6d6 a3c9774b7e7afed0c1b0b1fd3b2230cf7a034e7d
+Build-Ids: 379df671c582e3ac9bd8252ab98743c3bd118b46 5f56dff40044ee2bd310c99a19306bc6a10db7dd de13383141e31d5783bc6aef8499d63837636f85
 
 Package: qt3d5-doc
 Source: qt3d-opensource-src
@@ -1795,6 +1795,79 @@ Description: Qt 5 multimedia HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 multimedia
  libraries.
+
+Package: rmtfs
+Version: 0.2+git20180323-1
+Architecture: amd64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 42
+Depends: qrtr, libc6 (>= 2.14), libqrtr1, libudev1 (>= 183)
+Homepage: https://github.com/andersson/rmtfs.git
+Priority: optional
+Section: utils
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_amd64.deb
+Size: 10700
+SHA256: 9d644aa5d400cf875e18f546bd82bac1125ecf812f3b7efa83e5096201ae22b3
+SHA1: 871f9828200f851c11e6269eafb0d0ae12dbd6bc
+MD5sum: c35593e1c98136b69540eb1d28d792e3
+Description: RMTFS QMI service
+ The QDSP firmware requires access to storage, through the RMTFS QMI service.
+ Implement this service to allow for us to load the QDSP firmware on relevant
+ Qualcomm SoC.
+
+Package: rmtfs-dbgsym
+Source: rmtfs
+Version: 0.2+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 43
+Depends: rmtfs (= 0.2+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-1_amd64.deb
+Size: 26844
+SHA256: fd0d4cc1badcd96e63a91bd7c8ef54c87e640f83892e0b924e9eaeee35938035
+SHA1: ca1f0804b4089710c79e57112b8c99b36f113503
+MD5sum: 146f4acc3f628de1c2be823840040af4
+Description: debug symbols for rmtfs
+Build-Ids: d93a6ea00f654a7a7baf69c2d550084bbe44f038
+
+Package: rpmsgexport
+Version: 0.1+git20180405-1
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 25
+Depends: libc6 (>= 2.3.4)
+Homepage: https://github.com/andersson/rpmsgexport
+Priority: optional
+Section: unknown
+Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20180405-1_amd64.deb
+Size: 4308
+SHA256: 2dd9b56aca39483d3c9236e169851a313bea86526daa84ba06992d6aa04a21e5
+SHA1: b03831feceb5fc1bb9cfb90d73368928ff7ceb23
+MD5sum: 272d0e4c46241e6e95a515cabb343114
+Description: Tool to create endpoint devices for remoteproc devices
+ rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
+ to automatically create endpoint devices as remoteproc devices are booted.
+
+Package: rpmsgexport-dbgsym
+Source: rpmsgexport
+Version: 0.1+git20180405-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 19
+Depends: rpmsgexport (= 0.1+git20180405-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpmsgexport/rpmsgexport-dbgsym_0.1+git20180405-1_amd64.deb
+Size: 5260
+SHA256: 4a05f947e015cd57df936d0cfa02367a3a39e4a51be7b8e114b7213cee8d61f7
+SHA1: 0a601c4cb78293078f03e3246010d56d8d12896b
+MD5sum: bc167cf168e9d3c8a91f501a521e9d2a
+Description: debug symbols for rpmsgexport
+Build-Ids: 59275abce095ecf563688f859662818483af2fb3
 
 Package: simplelogin
 Version: 0.0.6+git20180314-1
