@@ -1,3 +1,87 @@
+Package: accounts-qml-module-doc
+Source: accounts-qml-module
+Version: 0.7-1
+Architecture: all
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 213
+Multi-Arch: foreign
+Homepage: https://gitlab.com/accounts-sso/accounts-qml-module
+Priority: optional
+Section: doc
+Filename: pool/main/a/accounts-qml-module/accounts-qml-module-doc_0.7-1_all.deb
+Size: 15724
+SHA256: f3caa7e7c42d439575e7d8f10a3ae29a639d01ce3a7e902b33e9b33c28799791
+SHA1: 97de4b207bb01077e482fb1348f9c3e8e0b58674
+MD5sum: a3f349a17c2217dbf94564e15e0df7b3
+Description: Online Accounts QML - documentation
+ This module provides access to the Online Accounts framework from QML
+ applications.
+ .
+ This package contains developer documentation.
+
+Package: android-headers
+Version: 1:7.1-4
+Architecture: all
+Maintainer: Rohan Garg <rohan@kde.org>
+Installed-Size: 2876
+Multi-Arch: foreign
+Homepage: https://github.com/Halium/android-headers
+Priority: optional
+Section: libs
+Filename: pool/main/a/android-headers/android-headers_7.1-4_all.deb
+Size: 407104
+SHA256: b14537149a620461a4466b9189e909eebd15ec9cc93c7007a106ea57b4300ac6
+SHA1: e346f3baa8af5dacd5f205fdef86b77840effaf3
+MD5sum: db3f4801ccb4d6c91cda70de1a521088
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of LineageOS, for the 7.1 release.
+
+Package: audioflingerglue-dev
+Source: audioflingerglue
+Version: 0.0.9-1
+Architecture: all
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 14
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/audioflingerglue/audioflingerglue-dev_0.0.9-1_all.deb
+Size: 2420
+SHA256: 05f86f41a214d5e0bee041454d52a059afe49fb3b6ffdbf69c18cfa1428ee178
+SHA1: 380e68295cbdce7e15728d7e78dd7f18f35bd3d6
+MD5sum: b0fb4362b6b43da048e6b4794abd739c
+Description: Audioflinger glue
+ Simple service that replaces AudioFlinger
+ and library for forwarding calls made to custom AudioFlinger to client
+ .
+ This package contains only the headers
+ .
+ The other half of audioflingerglue is build into the android image.
+
+Package: debian-pm-archive-keyring
+Source: debian-pm-keyring
+Version: 20180408
+Architecture: all
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 54
+Recommends: gpgv
+Priority: optional
+Section: misc
+Filename: pool/main/d/debian-pm-keyring/debian-pm-archive-keyring_20180408_all.deb
+Size: 21232
+SHA256: d72d05c70e2643c3384c59ec8fd0aa553dd8d366e38715470b2f785e2cbd6dd0
+SHA1: db1d72d540eacd592f5b1c14de3571aca611c53c
+MD5sum: 9bbd084ff8483869d25c3dfff893c341
+Description: GnuPG keys of the debian-pm test archive
+
 Package: drihybris
 Version: 0.1.0+git20180622-1
 Architecture: arm64
@@ -50,7 +134,7 @@ Description: Development headers files for drihybris
  Contains the development files.
 
 Package: droidmedia
-Version: 0.20180626.0-1
+Version: 0.20180709.0-1
 Architecture: all
 Maintainer: Bhushan Shah <bhush94@gmail.com>
 Installed-Size: 51
@@ -58,13 +142,103 @@ Multi-Arch: foreign
 Homepage: http://github.com/sailfishos/droidmedia
 Priority: optional
 Section: libdevel
-Filename: pool/main/d/droidmedia/droidmedia_0.20180626.0-1_all.deb
-Size: 7616
-SHA256: 567dd6ea5264a1fee36e286cee20a143b3e041e1e0ecaf33801904954ad677fa
-SHA1: a6a59edb9354e54a655e2e8a6c0be6bd14790d49
-MD5sum: e1f6d109ef9485a7b23857313d6695a6
+Filename: pool/main/d/droidmedia/droidmedia_0.20180709.0-1_all.deb
+Size: 7680
+SHA256: 480417ab7090913fd4efa310b404450d777abce9fb3f72caf2c7d29b23cf9b67
+SHA1: 4463cde14faa361813dedf47c41181fdba1bcebd
+MD5sum: 10be545de0b78f0d50e2fdc075c098f0
 Description: Android media wrapper library
  Android media wrapper library
+
+Package: glamor-hybris
+Version: 0.1.0+git20180622-1
+Architecture: arm64
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 190
+Depends: libc6 (>= 2.26), libepoxy0 (>= 1.0)
+Homepage: https://github.com/gemian/glamor-hybris
+Priority: extra
+Section: libs
+Filename: pool/main/g/glamor-hybris/glamor-hybris_0.1.0+git20180622-1_arm64.deb
+Size: 67468
+SHA256: 23a5b995e36442756d85b82715761aa605e4b5a1ad79700299ad26675cc7a6ef
+SHA1: 1d0880fd0ac3c9595c28db2c1ec70a072c2ca31a
+MD5sum: eeb7d30cd7c7ccddb6cb6acac22c8cad
+Description: glamor Xserver 2D acceleration modified to work with libhybris drivers.
+
+Package: glamor-hybris-dbgsym
+Source: glamor-hybris
+Version: 0.1.0+git20180622-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 1986
+Depends: glamor-hybris (= 0.1.0+git20180622-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glamor-hybris/glamor-hybris-dbgsym_0.1.0+git20180622-1_arm64.deb
+Size: 1977272
+SHA256: b3103619a8e3dce54a09b278a7eb9df7d79ddc8eb7ddc510fd08bffa7459b93c
+SHA1: a301578835223a5a6de11b620de46aa0835f3f9a
+MD5sum: 13e85e062c6860fbb93f07547af1ab34
+Description: debug symbols for glamor-hybris
+Build-Ids: 7bdf4da240b336142b9da92e6093637faab33e36
+
+Package: glamor-hybris-dev
+Source: glamor-hybris
+Version: 0.1.0+git20180622-1
+Architecture: arm64
+Maintainer: TheKit <nekit1000@gmail.com>
+Installed-Size: 27
+Homepage: https://github.com/gemian/glamor-hybris
+Priority: extra
+Section: libdevel
+Filename: pool/main/g/glamor-hybris/glamor-hybris-dev_0.1.0+git20180622-1_arm64.deb
+Size: 6092
+SHA256: 5e9917d8d0292aedb04de0e99a88ab2bd235f2af79a0887d7d002a526c4b0007
+SHA1: d754ce83138c1d07024e99f0e9411a0c3676afce
+MD5sum: 27e1fde9135238b86193d28b254d5315
+Description: Development headers files for glamor-hybris
+ Contains the development files.
+
+Package: glosbit
+Version: 1.2-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 147
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/dimkard/glosbit
+Priority: optional
+Section: tools
+Filename: pool/main/g/glosbit/glosbit_1.2-1_arm64.deb
+Size: 85824
+SHA256: 814acef991db1a011ddebb229dab9004eab7ab84a7e7b5091ad54e73a03b998f
+SHA1: ced64825fcb17ee02056a47b06260ce46d8546de
+MD5sum: b84e18630f844ed6c66a8c06995aa6d2
+Description: Touch friendly dictionary application using glosbe.com API
+ Glosbit is a translation tool powered by https://glosbe.com/.
+ You may translate a single word or a phrase using the top glosbe.com dictionaries.
+ Moreover, a set of examples of usage of the word or phrase are presented.
+ Glosbit is a touch friendly and has been created for plasma mobile.
+ Nevertheless, it may run as a desktop application as well
+
+Package: glosbit-dbgsym
+Source: glosbit
+Version: 1.2-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 407
+Depends: glosbit (= 1.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/glosbit/glosbit-dbgsym_1.2-1_arm64.deb
+Size: 387876
+SHA256: bcd06e42cfb07c2a31fa23243873f5be74f7c847bfbab6d4fd091d76f503a6b8
+SHA1: e5c181edd74bb74c650fcc27d0cbc1a8b29bcd40
+MD5sum: f15d92967d98262b43c796154364caff
+Description: debug symbols for glosbit
+Build-Ids: 00d520247a1c85034ac3b84f34cd6a966cd8e7b4 9065ff2f4e82164deace09d9fdb891d1f8ce7574
 
 Package: gstreamer1.0-droid
 Source: gst-droid
@@ -156,6 +330,23 @@ MD5sum: dfa1a276193492b000e887396d3a52e6
 Description: debug symbols for gstreamer1.0-droid-tools
 Build-Ids: 6fd2202409d8fd7a7941f8239bf96da370a092cb 7027b1c174da599ceabadb4d508369c5724ca47a 743f531efeb9edb72346de587385be50474c11d2
 
+Package: halium-tool
+Source: halium-install
+Version: 0.1
+Architecture: all
+Maintainer: JBBgameich <jbb.mail@gmx.de
+Installed-Size: 20
+Depends: qemu-utils, qemu-user-static, qemu-system-arm, simg2img, adb, sudo, e2fsprogs, binfmt-support
+Homepage: https://github.com/JBBgameich/halium-install
+Priority: optional
+Section: devel
+Filename: pool/main/h/halium-install/halium-tool_0.1_all.deb
+Size: 4720
+SHA256: 477d1bd223320f6af297084ad739a8d34ee8ea9fe99d894b81983420c3375ab3
+SHA1: 359e419015ef98034a59a838417bdd98a1115ee6
+MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
+Description: Scripts to install a Halium rootfs on your android device
+
 Package: hybris-usb
 Version: 0.2.2
 Architecture: all
@@ -171,6 +362,1397 @@ SHA256: 90a2a6e8d44851aa0e3396df235e7b458159a4f5ddef853586f0596d40ea17aa
 SHA1: 29f03baf2b9b434b5939b9655652e338b58c8f8c
 MD5sum: 8053e14e44bf7e7b5e59011ee4738ff8
 Description: USB control for Android with hybris
+
+Package: index
+Version: 0+git20180930-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 351
+Depends: qml-module-org-kde-mauikit, qml-module-qmltermwidget, kio, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/maui-project/index
+Priority: optional
+Section: utils
+Filename: pool/main/i/index/index_0+git20180930-1_arm64.deb
+Size: 211976
+SHA256: 84df3a9627260b0a00fcb06953cc00e42c714faf60eb8744e78689c3ba08f697
+SHA1: b7fbb33f58fa4284c955131900fb79ff7adb7b2e
+MD5sum: 1b614ceab972c59b1e71f3f13179e680
+Description: Maui File manager
+ Index is a file manager that works on desktops, Android and Plasma Mobile.
+ Index lets you browse your system files and applications and preview
+ your music, text, image and video files and share them with external applications
+
+Package: index-dbgsym
+Source: index
+Version: 0+git20180930-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 1474
+Depends: index (= 0+git20180930-1)
+Priority: optional
+Section: debug
+Filename: pool/main/i/index/index-dbgsym_0+git20180930-1_arm64.deb
+Size: 1446720
+SHA256: 522d3871a887a8272f0c310d76348147e0a17a5c46b4de47ee8835d103710cea
+SHA1: 035627093fc94fa64382370e0bbeaa8f999cccf1
+MD5sum: f974d9e5b9667b1b92fe7f86175fc9b8
+Description: debug symbols for index
+Build-Ids: 3850eb0eed9659a9bfd1cb5ce366e01d4f8f3e5c
+
+Package: kaidan
+Version: 0.3.2+git20180929-1
+Architecture: arm64
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 752
+Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Recommends: libnotify-bin
+Homepage: https://kaidan.im
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180929-1_arm64.deb
+Size: 180848
+SHA256: 7fb6d141d12bd3ca8d1d129f53bff6b05b4e857fc973a28a2fc1f5fb85425dba
+SHA1: 83818e9708d12af18b7dc96217f0dfe662252bba
+MD5sum: 568b8591af914a41bc855b4a0349f2ec
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+
+Package: kaidan-data
+Source: kaidan
+Version: 0.3.2+git20180929-1
+Architecture: all
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 103
+Homepage: https://kaidan.im
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180929-1_all.deb
+Size: 47348
+SHA256: ee90b173e75f524f519e801b17d56e45c96b9a86ef89937253a29dc004828ff1
+SHA1: ba9b5332254580c429fa2d45806cac939790805c
+MD5sum: 536aadf1dc8804a4e3ba85438aa9930f
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
+
+Package: kaidan-dbgsym
+Source: kaidan
+Version: 0.3.2+git20180929-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 4513
+Depends: kaidan (= 0.3.2+git20180929-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180929-1_arm64.deb
+Size: 4419288
+SHA256: 094598e440116c05861f514ab3a8bdbec352afcebb440ea9bfc4fac16ecae6a8
+SHA1: 37780b72a82c5fa57fcbd596ae9d1a9d065a009b
+MD5sum: daeb1d6052dfff5aec387c399aa3229a
+Description: debug symbols for kaidan
+Build-Ids: 411604a7be29c151d898286306bf2a7499a8d02c
+
+Package: kde-window-manager
+Source: kwin
+Version: 4:5.12.3-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 31
+Depends: kwin-x11 (>= 4:5.3.2-4~)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: oldlibs
+Filename: pool/main/k/kwin/kde-window-manager_5.12.3-1_all.deb
+Size: 12172
+SHA256: 37bb7509018b8a20d1ae63e130bcedb7db7e14583cc1c07d52be6c21b8c061f8
+SHA1: 3a2f9c89328b0e398387a60ff00035006b6cb08e
+MD5sum: 6d84cbd9533a623bac5a5a54f9b7a3b3
+Description: transitional package for kwin-x11
+ This transitional package allows one to migrate to the packages providing
+ the X11 version of the KDE window manager.
+ .
+ It can be safely removed after the installation.
+
+Package: koko
+Version: 0.0+git20171201-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 24364
+Depends: plasma-framework, qml-module-qtgraphicaleffects, qml-module-org-kde-kirigami2, qml-module-org-kde-purpose, kio, libc6 (>= 2.17), libexiv2-14 (>= 0.25), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5dbusaddons5 (>= 4.97.0), libkf5guiaddons5 (>= 4.96.0), libkf5i18n5 (>= 5.17.0), libkf5kiocore5 (>= 5.20.0), libkf5kiowidgets5 (>= 4.99.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Priority: optional
+Section: kde
+Filename: pool/main/k/koko/koko_0.0+git20171201-1_arm64.deb
+Size: 6341216
+SHA256: 9da6a94047c5a3465ebf538bfc441f0060beb0b9972fcad97984c3978e3e0df0
+SHA1: fe0c95521eb2e89c0a729e2f1384a6ee929b378c
+MD5sum: 14e5fad94d3452d5e581b34e66667e5d
+Description: KDE Image Gallery
+ A KDE Image Gallery.
+Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+
+Package: koko-dbgsym
+Source: koko
+Version: 0.0+git20171201-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2990
+Depends: koko (= 0.0+git20171201-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/koko/koko-dbgsym_0.0+git20171201-1_arm64.deb
+Size: 2934212
+SHA256: c52179907c939730f6758a77021bd51ca160fdc1e86cd4b1c0129025bbc23003
+SHA1: 563a8ce3f0f7b60bf32d4e5944e5e4a9efbebb25
+MD5sum: 6ddf7691b7e3f36b0ca32c09ced24540
+Description: debug symbols for koko
+Build-Ids: 762a753de7e1e6b0b9e5f5c69d21ebb9d9bf0da7 9d3205ae6daf47abe305d2e511528981e663a6c3 f7402a41715deb3001d1d95eb2264b9a4480fc72
+Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+
+Package: kpeople-vcard
+Source: kpeoplevcard
+Version: 0.0+git20180520-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 54
+Depends: libc6 (>= 2.17), libkf5contacts5 (>= 4:15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20180520-1_arm64.deb
+Size: 12640
+SHA256: c8a6c200911d89cc2fa1212bf5a9ba4d6be22a809b704d6b1934984a5695043a
+SHA1: 8966a5da3a859b625050ba8bdf5ae03f5a2bb65b
+MD5sum: a383427fd38fc5f2a6053f67c4c83aaa
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
+Package: kpeople-vcard-dbgsym
+Source: kpeoplevcard
+Version: 0.0+git20180520-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 360
+Depends: kpeople-vcard (= 0.0+git20180520-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+git20180520-1_arm64.deb
+Size: 342824
+SHA256: da426738109058b440612033f57a4424a4e5062c1e217d55c344755224bb9b83
+SHA1: b5cb622b3e2edecb7fab7ef1ed138d4215d613ec
+MD5sum: e0e9554e664aa0d33daddc8cf63fd567
+Description: debug symbols for kpeople-vcard
+Build-Ids: bb0f89840a6d1e8f6a4be5072da8c41d8f8718b5
+
+Package: kwin-common
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 8645
+Depends: kwin-data (= 4:5.13.4-1), libkf5globalaccel-bin, libkwineffects11 (= 4:5.13.4-1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.17), libepoxy0 (>= 1.0), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private6 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.35.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
+Recommends: libqt5multimedia5-plugins, plasma-desktop (>= 4:5.13)
+Suggests: kwin-addons (>= 4:5.13)
+Breaks: kwin (<= 4:5.3.1-0ubuntu3), plasma-workspace (<< 4:5.13), plasma-workspace-dev (<< 4:5.13)
+Replaces: kwin (<= 4:5.3.1-0ubuntu3)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-common_5.13.4-1_arm64.deb
+Size: 1569200
+SHA256: 11f0409e54448022e2cca6a9f38762d1163a3ba0e20cf7c6701c12e810a54077
+SHA1: 11a354f301280c32aaf1b629266ecf005feb772a
+MD5sum: 2f07a12e903f7faa52c1a23a5557c1d0
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-common-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 61907
+Depends: kwin-common (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-common-dbgsym_5.13.4-1_arm64.deb
+Size: 59851420
+SHA256: 95e8fc846d5b92bf48f7c5c6caacd8fbd4279b1f778381a497caea4bb43911e1
+SHA1: e10d7e12f22839f1dcadb017650e3f33daf2c6eb
+MD5sum: fe0988f0b8611b59f18f0fc1d3cb7919
+Description: debug symbols for kwin-common
+Build-Ids: 02ac6abf27ec492db84deff5a1f83fb155b57c1f 0cf863c37fb5e775d4432fc0c707f0d408eecedc 10c581a80855ed0de30694067c4c511f02ef39be 18742b97dc125e73c121abc129828d246fa778a6 20111915a8d1473efb64b749d836cd30d1d479af 20a6b589eed59cd3c763e24d4bed160ff7837aaa 2c337e0bdc809a3e1f3c94679393bcf2640a8c18 2d39c372c7f435ecc1b13068a30eb666b22d9afa 39b3cae6b5c7031e2f0b87a4b809b7f7c4dc60d7 3a22199ca7ce8324dfb51ecbac6e8a86e965a4d8 3f5bd928bee9eb9a7dd73b35c880143749adaf9c 50b8e8b999c3a49a826061b6ede2d3a07b01a186 54e083bba31e9224d877a8b454dfd39f31dd7097 5bbeba3541de0867d5cc28972b01eeddfba2240c 5c9e9a1b9405b7c485b4366bb0584f9bbbb236cc 615cbfd9d90ba85d7ab214b9081191a7464ad604 678b92b42c2c27e25e93832af6f4a62ba014dd7a 6c1c6fec6938cc6288ceaaf4cb99f6c31d9dbccf 6d8ac9f94156a2c25a74cf7218efc6f000d09a51 7b4ab432e4dc4b0ff8297e31124acff6319cb630 7c3ad5bc4de9f070709a9a7ff340fcbee0b3fdd4 8002c5a3b97aa425eda9e97fdb4075c320ce26f7 8a2a578c3ed5c69fe630922a8623c42f34a4cf62 8f9e72734a8264c71a9b19bf018c14488168b488 90255ed43c250349398ab4b926235c0c844e991b 9ddc175d025d517d7237ba9e4334ce19ac9555f6 9debd91f19eb0b6ca2c8953324625dce79814545 a427265961f3b1952a6bc94e30483930310a88cd a5a40489008f6533fecf24282f1fd1d6447c816c a88133b8deccb057caf155b20e44a1aad4a0addd b0a44c58cb0bed5ad9ab9a813722fd73a74e2a4f b1a7129802c1a1e3f50e87a303317172c8b7a548 b398bfc7e008cb789393f6df065c7c3b88e42bf9 b7013dfa9c553bcc05d70b6d59e58a68f8335263 b85d65c3a3def7451b56d58437eac811ad151ecf b90af756adea16f241e12a48442ac9980d9ceae9 bedaaa66eb7a35f811abdca6c8713452d77b1ab6 c51d3b064da8e3f829b15faef26598d373366105 c66b48a159cdef287dcac3b243b6a83adb7e8319 ce2c4b108bd680bd3ea09ccd88936e171bd606ed ceab662778a4a31be024a1aaae2574a3c45def2d d18b16cd3a414c37be757fa3492a80c2c2f9117e d5359f90a07eb767c079f62d739572d145361773 db83836b5f249e18e9a2e643b86b07070758dbfd e0e5b50d761d041c2ca75f5267b4a99a086c4357 e6c4e49a2162980900bdbd753475b10ff70a0593 e8167be115587da428050b200df4902cef10d9c1 f0360637e54c28e80c52c9c061cde82a52954c9e f4e5ce47fa42fa1b321846bfe5b6f1a20bb4831a fb6fbac069384c646dc8dd38c0a9f222c4c54f42 ff2662be5b18cfac005b6397e81f9481a39b229d
+
+Package: kwin-data
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12885
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-data_5.13.4-1_all.deb
+Size: 4151432
+SHA256: 49aadae34bcc353453b966a9a90112c1593fc91a294b690d51b0da73fd54c316
+SHA1: 0a089bd3ddab994144ccfefcfb03be16a1cb8b10
+MD5sum: 377cf75d65d077e35f5c50226065d048
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: kwin-dev
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 251
+Depends: kwin-common (= 4:5.13.4-1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.42.0~), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libdevel
+Filename: pool/main/k/kwin/kwin-dev_5.13.4-1_arm64.deb
+Size: 55048
+SHA256: 9056b229dc7082de446caa553c0ce17658d7c1e63dfee1c9edb28ef5efcf817c
+SHA1: 1f04ea4498d2d19232dc2b3c92ffa8ce7826a978
+MD5sum: 6516b59919379c9fd2ef2655b9c08724
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 620
+Depends: kwayland-integration (>= 5.13), kwin-common (= 4:5.13.4-1), kwin-wayland-backend-drm (= 4:5.13.4-1) | kwin-wayland-backend-fbdev (= 4:5.13.4-1) | kwin-wayland-backend-x11 (= 4:5.13.4-1) | kwin-wayland-backend-virtual (= 4:5.13.4-1) | kwin-wayland-backend-wayland (= 4:5.13.4-1), libcap2-bin, xwayland, libc6 (>= 2.17), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0), libxcb1, qtbase-abi-5-11-0
+Breaks: plasma-workspace-wayland (<< 4:5.13)
+Provides: kwin
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-wayland_5.13.4-1_arm64.deb
+Size: 160476
+SHA256: 31c3340c34f1a5764afec9c83298cd5f928d9a2fb202b25f1e9987bd47033bc5
+SHA1: 8be8cde1b5f321212b9412b805a829e687647302
+MD5sum: 463a110cdaace957442acf1b8f3b35cc
+Description: KDE window manager, wayland version, PREVIEW release
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package provides the wayland version, which is still a work in progress
+ project, and is available as a PREVIEW release. Don't expect the same
+ stability as with the x11 version.
+
+Package: kwin-wayland-backend-drm
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 282
+Depends: kwin-common, libc6 (>= 2.17), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.45.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.13.4-1_arm64.deb
+Size: 84244
+SHA256: 63cf40802675112f838087ad786c014867c6b36745f166d0f7ce291df81df47d
+SHA1: f8d7e18223b737461918c7abe07d59b86314c53c
+MD5sum: 2f065d1420dd3f425e1ea0630b0488cb
+Description: KDE window manager drm plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-drm-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3226
+Depends: kwin-wayland-backend-drm (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm-dbgsym_5.13.4-1_arm64.deb
+Size: 3216152
+SHA256: 3915d0baedac60f5c78ceebb440e581ab6fb388a8f0f5de76b1d6ed8b143270e
+SHA1: 399af2b061cb68734dd40db9d2249a8e01246bf7
+MD5sum: 289c61eaa2dedae0923cd969fe30b09b
+Description: debug symbols for kwin-wayland-backend-drm
+Build-Ids: 338ea6a1079a5ee9dea4f717aef823288264e437
+
+Package: kwin-wayland-backend-fbdev
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 79
+Depends: kwin-common, libc6 (>= 2.17), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.13.4-1_arm64.deb
+Size: 23944
+SHA256: 2b3fb23b3dd35a0c6310c3b09fb47e183829ab76debdc153bb57c38642a7a6fb
+SHA1: 03479e94072ef196ce45ea0f76b848b7fba6ba16
+MD5sum: 22d89c00345fce69aa65b5564019eb83
+Description: KDE window manager fbdev plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-fbdev-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 745
+Depends: kwin-wayland-backend-fbdev (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev-dbgsym_5.13.4-1_arm64.deb
+Size: 738224
+SHA256: cf066a8a956031b6fbd16115c369e0b64c49c065d47b544cf43e72f643470267
+SHA1: 2d7952f19742e5a6feb5320ce281bd5295350036
+MD5sum: 589260abef3d17ec345e59e6d5c3298e
+Description: debug symbols for kwin-wayland-backend-fbdev
+Build-Ids: 0f6e4fbbba32855dbc9717e706edc412eb324e6e
+
+Package: kwin-wayland-backend-hwcomposer
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 132
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libhardware2, libhybris, libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.13.4-1_arm64.deb
+Size: 39768
+SHA256: 4abb2b903d0fc84de5aeb9557f532a296602a04dfab44262870c28b8d6f43d56
+SHA1: 5ad332d1df7d98030a083392d501da01a942d17e
+MD5sum: 743ba250962af068920d6143b5c7021c
+Description: KDE window manager hwcompositor plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland-backend-hwcomposer-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1464
+Depends: kwin-wayland-backend-hwcomposer (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer-dbgsym_5.13.4-1_arm64.deb
+Size: 1450144
+SHA256: 8a4ddf0297732dbd87646264aa4e92c2aca10951ceaf3c41c965220675ef64a2
+SHA1: 90a0a7c3a8f386fa19df23352f5ba5137e4579cd
+MD5sum: 10d23142baa04b89c6ae5cd609a24620
+Description: debug symbols for kwin-wayland-backend-hwcomposer
+Build-Ids: 5a69ea023d227e67e911b0a6aea6c28e9bf2b431
+
+Package: kwin-wayland-backend-virtual
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 140
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.13.4-1_arm64.deb
+Size: 42556
+SHA256: 3032f4a990fa36c8a646a810ef0692d81d9ab0a4dce7aa7c580e286edd371fa3
+SHA1: 44bc98333f3605869cf8198a2483babb50b4c3bc
+MD5sum: b4f1fda218fc6ab251551ee059bbe7a6
+Description: KDE window manager virtual plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This backend allows running kwin-wayland in headless mode, useful for testing,
+ or in the Cloud.
+
+Package: kwin-wayland-backend-virtual-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1711
+Depends: kwin-wayland-backend-virtual (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual-dbgsym_5.13.4-1_arm64.deb
+Size: 1703152
+SHA256: 81af8764e1bd97234131b0f2d1f33b5bde6a1c6baf90ba0ced3a370177c80f9f
+SHA1: 75e733759c0d737fb9922398ca0ae244d8e89b0c
+MD5sum: 41957d3aa9e649b01ba4b54c8b65a624
+Description: debug symbols for kwin-wayland-backend-virtual
+Build-Ids: 5d7256bc27a63354abf45247dd0f2012b37cfe85
+
+Package: kwin-wayland-backend-wayland
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 169
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.35.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.13.4-1_arm64.deb
+Size: 46992
+SHA256: 380bbcea0de77810bac922fd49d62477a1031599bf3b3f79e4f6d9d7e69d1aba
+SHA1: f3e93f30380864a68bcd456c9c5441092afd23e9
+MD5sum: 6602b62a10255709446150f7864dd7e4
+Description: KDE window manager nested wayland plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-wayland-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1713
+Depends: kwin-wayland-backend-wayland (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland-dbgsym_5.13.4-1_arm64.deb
+Size: 1689996
+SHA256: 77a143be479d8a7ce09b3aef6a12119d13b3b79b8a6bf4d711e63fe5dd767baa
+SHA1: 45596f87822be0495253721b16ba6945aeb2b37c
+MD5sum: ed7e25c60a60c905666db6484ab8a767
+Description: debug symbols for kwin-wayland-backend-wayland
+Build-Ids: 7e9b403ed28b7b8dd03ddd83457448b4394b97ec
+
+Package: kwin-wayland-backend-x11
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 165
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.98.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1, libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.13.4-1_arm64.deb
+Size: 51244
+SHA256: 0c3f366cb4ee5a0abaed7ee3cd2cffeb3d00eee97098602164eec068cce299ac
+SHA1: 1542e37f6458900b06dd2279dedbfc774d55a99e
+MD5sum: 6919601f095d8aad3537d472f7d95871
+Description: KDE window manager x11 plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-x11-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1884
+Depends: kwin-wayland-backend-x11 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11-dbgsym_5.13.4-1_arm64.deb
+Size: 1877720
+SHA256: 052f6fa436c511c9c9245dd0d57b5e9aff72bfd1591a226c0352938b9caa3ab4
+SHA1: 86843b413bb0c9d3505da6610c6fbf74e06dee20
+MD5sum: 5c4e460b4dd5dea87733fe77cfd210fe
+Description: debug symbols for kwin-wayland-backend-x11
+Build-Ids: 8db7c191b0fd122efd828ad95e66cac85f564cc8
+
+Package: kwin-wayland-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2506
+Depends: kwin-wayland (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-wayland-dbgsym_5.13.4-1_arm64.deb
+Size: 2350756
+SHA256: a7847573fae057df65fcb686ef96a43a42c9a642c6c5d497fea0d6aac31a91c9
+SHA1: 95a2b9465b0d2f78569f0fb002cbab6ceb4ead61
+MD5sum: b4e150dc24657632b43400ccfd803f91
+Description: debug symbols for kwin-wayland
+Build-Ids: 95758668ea0f9df1785de3be35b9b85edebbc5fe aebab1b2c678ba485e533028f35d93382ff48183 da684f44e466e8a9eca44e09d4e73b8dca4def39
+
+Package: kwin-x11
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 422
+Depends: kwin-common (= 4:5.13.4-1), libkwinglutils11 (= 4:5.13.4-1), libkwinxrenderutils11 (= 4:5.13.4-1), libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.13)
+Replaces: kde-window-manager (<< 4:5)
+Provides: kwin, x-window-manager
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-x11_5.13.4-1_arm64.deb
+Size: 114464
+SHA256: dfbe1097482dda505f60f2ba5e83a7e2d7fd35adaa1f77003958e793e478bf4f
+SHA1: 0fe0715fe01751ee7c41bd571980089287e6bc21
+MD5sum: 9b7c2c2d0769f07b59c69b51ecac06d7
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-x11-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4050
+Depends: kwin-x11 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/kwin-x11-dbgsym_5.13.4-1_arm64.deb
+Size: 4003972
+SHA256: a89c4db3d1294d827e1322c03a61d4547932f589ccf962978fc9c052b3266cf4
+SHA1: c9739b1b3d14cecb99cfacd737f97b7e09e148cc
+MD5sum: b63297e17be961d5d6474d5dfb20138e
+Description: debug symbols for kwin-x11
+Build-Ids: b1a823da4339a18113421fcf4c0f6509cb0e200b dfce245dbc3d98e515f61656b362b2f94b9c0cce f9d048c7f0b1c9eab9859ba4d79e78ac767f18f7
+
+Package: libandroid-properties-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 46
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20180625-1_arm64.deb
+Size: 16668
+SHA256: defda7cbb281db317f12fd881c1fa7c66026df21d8cdb92ef34f33237ee02a59
+SHA1: a35e3e9600d4416c2c5bbed958d442e01d26a7ba
+MD5sum: 11b35ba9ef03771baddc694822eaeb83
+Description: Development headers files for libandroid-properties
+ Contains the development files for use in applications that wants to get,
+ set or list the Android properties.
+
+Package: libandroid-properties1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.17)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20180625-1_arm64.deb
+Size: 20356
+SHA256: a372a24c864d1049d8d584ed71c425becb6f7ce11dd918761af9ba605549bb04
+SHA1: 5f0bc761177458bfe0f86e096991cb0f04cf764e
+MD5sum: 21a43a8e19f6a5f13d39604cad52f698
+Description: Library to provide access to get, set and list Android properties
+ Contains a library that provides access to get, set and list Android
+ properties, which can be used by any Ubuntu app that needs to probe
+ for properties (gps, modem, device specifics).
+
+Package: libandroid-properties1-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 32
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 16388
+SHA256: 8afcb82b4fbb52fb5133d7794333fc81808c254fa989a2d6d5756e30c22e78d2
+SHA1: a51664847fb38cc76fb2a1cb2a5604f0566c4b66
+MD5sum: 0aa7ec1b8ac1485d46f4e60e4748010c
+Description: debug symbols for libandroid-properties1
+Build-Ids: 825e2be2cea6ec8c245ca9cecbb98e9865f3b654
+
+Package: libgloox-doc
+Source: gloox
+Version: 1.0.20-1
+Architecture: all
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 20226
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1843188
+SHA256: 9d6e064b8a1897507fd00ce303ac7735a737942582da7bf5feb750d97a8414d7
+SHA1: c00726548fa1aab1c6bb564719d68e57dd4d321e
+MD5sum: fc9edb037b902045fbb0485c922e9c51
+Description: C++ jabber/xmpp library (API documentation)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains API documentation for this library.
+
+Package: libhardware-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 41
+Depends: android-headers (>= 4.4.2), libhardware2 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20180625-1_arm64.deb
+Size: 16208
+SHA256: 4e1d0c1597a77216453293ce2c26afda138df6bbf6cef0d18772603ed1322d9a
+SHA1: 51b98d78e4a8f2a864bec1a3cf72703b174340cc
+MD5sum: 10e900fe40a4b7bbe0071719371e32e1
+Description: Development files for libhardware
+ Contains the development files for the Android libhardware HAL, which can
+ be used to access a wide range of other HALs, such as audio, power,
+ gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.17), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20180625-1_arm64.deb
+Size: 17616
+SHA256: 55aa974ebdc431bccabf1a642d5fef317c5aa4686bfeded234d01970af3ec85d
+SHA1: b3efa46165ab201b81721d5b9ce5b797c375a3cd
+MD5sum: 3f8ec0a6922d115d9294e9bfb5995fb3
+Description: Library to provide access to the Android libhardware HAL
+ Contains a library that provides access to the Android libhardware HAL,
+ which can be used to access a wide range of other HALs, such as audio,
+ power, gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 18
+Depends: libhardware2 (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 4276
+SHA256: 42d47b0a5cfce72fe7ff2644af54b90fc83fe86bfa09e3b09767cedbb57eb67a
+SHA1: b4fd351190fba9f230b7078f222bf8376d0e18a8
+MD5sum: fec89f6a82d0bcd6bae44deb628c0acb
+Description: debug symbols for libhardware2
+Build-Ids: 8a0f4fa651ef1985bd00fcef852cb40d1605fe08
+
+Package: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 513
+Depends: libandroid-properties1 (= 0.1.0+git20180625-1), libhardware2, libmedia1, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20180625-1_arm64.deb
+Size: 92384
+SHA256: 48955769716547d71b65430bc190b7ce2017bbfe858b7c25f1443e4c43b08ed1
+SHA1: 5331fa1cd2b06b0bc86c6c03b95907150ef01a65
+MD5sum: 1e9a98892c1bf989fc9f5e9ed53533bc
+Description: Allows to run bionic-based HW adaptations in glibc systems - libs
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 39
+Depends: libhybris-common1 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20180625-1_arm64.deb
+Size: 15964
+SHA256: 2d543bb13f9f155590ab77f3cf1e7f6feeab1b299a724496058b1818e280ff63
+SHA1: f3cb75895e57911bde751135a5c756b500aa92fe
+MD5sum: 45d9003db8de2a1f734b2e55b4c6778c
+Description: Development files for libhybris-common
+ Contains the development files for the common library that contains the
+ Android linker, used to dynamically load and use symbols from Android
+ based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 518
+Depends: libandroid-properties1, libc6 (>> 2.27), libc6 (<< 2.28), libgcc1 (>= 1:4.2), libstdc++6 (>= 5.2)
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20180625-1_arm64.deb
+Size: 124764
+SHA256: 28e600e6c6d2d2628d3cdb5699510a396e4067c0c376612a0d61767fef9e1b11
+SHA1: 2903db06006c32f8661cc135d2b4b8b5290c076f
+MD5sum: 8388ca2063bc574f0aa10cfb86f8cbb6
+Description: Common library that contains the Android linker and custom hooks
+ Contains a common library that contains the Android linker, used to
+ dynamically load and use symbols from Android based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 737
+Depends: libhybris-common1 (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 642420
+SHA256: 702513d30ecfdb0dab9e61961074b12a14521eac7c8313d299c114fabf53e376
+SHA1: d94726873f2344b5a15ad27d69ec9951a82c0553
+MD5sum: e36691550e51423b5e4167638c3f0d84
+Description: debug symbols for libhybris-common1
+Build-Ids: 0ee3bf3cba813c581811b4724d257eaae58c4259 d39e362e8cdd622b7861c526f5afb351c550f4fb ee230f99083d42a60085afa83e1b479946ff3dff
+
+Package: libhybris-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 634
+Depends: libhybris (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 408112
+SHA256: 5ed82fed7f398dc2014a12d5ba5c1827420e100ac81e01ff505913fac4a6352b
+SHA1: 6550bc23c6ef1c1eccc85828417293905ea77d46
+MD5sum: 361ce3308f380cee49c707f71ac3300d
+Description: debug symbols for libhybris
+Build-Ids: 1fe8c76b20114562ba188f3131bdc54e0e2d9e68 2e347302a838ab3ec16e4a492bc1a798ce224116 4ac8c6ada3bd0d27c74e8d0a40e403412ee13e70 58433b12f0a638df52c53f53b6889357ee3d0adb 5fe087249ffa5638f9b247cc4a02e76a091372d1 688d2230939a96619230fe71f6f5d294a6b84773 7e4096eeabccc811fd4e71188c3bed8ca2e96c6a 98a84b7e84f2e8b6abfe49373f24d60faec4aa46 9f51119f4310c2bacf7d0fcbab428d0ec9055976 b65e2a62ab353d053321b7db74bc6a0e05b12647 c3001c17a50f98b9984672a9b901ee103c7e6869 cd89d6caa94dccb55ab177b6a4cb63e6313703a7 d99f6b1644b0be8c0ff2ffc824a0c8ebc9328b78 de9097e5e7d44d03b7b74d4ab83fddedee5b2a45 e7465d8912c5fbda985bdf85cefc8ccf4bd95c7f ef9b194bfe3cd9f9302c9f15bd008f413b8d372f f5c0bf4e12ebf8aaac8217a63d9c9af97b55b58a fbf0abb6229c32a8acda9dede2af8f1b6753b514
+
+Package: libhybris-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 181
+Depends: android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20180625-1), libgles2-mesa-dev, libhardware-dev (= 0.1.0+git20180625-1), libhybris (= 0.1.0+git20180625-1), libhybris-common-dev (= 0.1.0+git20180625-1), libmedia-dev (= 0.1.0+git20180625-1)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20180625-1_arm64.deb
+Size: 34760
+SHA256: 40b564d1f9e4a0d904c93aa91884c3913cd7949790eccda2651bcc1bda4f9dfa
+SHA1: 2599ffdab83c71dc90b9fadcde139248379beb8b
+MD5sum: cec624c95fc949e8597b214c557b1538
+Description: Development headers and libraries for libhybris
+ Contains the header files for use in developing applications that use
+ the libhybris library.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 263
+Depends: libhybris (= 0.1.0+git20180625-1), libc6 (>= 2.17), libegl1, libgcc1 (>= 1:3.0), libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5), ocl-icd-libopencl1 | libopencl1
+Priority: extra
+Section: devel
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20180625-1_arm64.deb
+Size: 50176
+SHA256: ca64c9d8c71891c0d9b4d25a1f9c1991b6c48c4445fa61f9a172858f1970e5ca
+SHA1: e4581737ebbd177335c262eaef3a1c96b2f14b33
+MD5sum: e8643a6906a3e6421d3d702c572ef60a
+Description: Allows to run bionic-based HW adaptations in glibc systems - tests
+ Contains the test applications used to validate libhybris (needs Android
+ libraries or container).
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 299
+Depends: libhybris-test (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 145584
+SHA256: 998d44497b5b1e2528036e0ad717ac7d78b0d9c6ee5f02cb27aa38b8ae06318e
+SHA1: 045b0178366b25ded7855988d20b19bb7f4ed0e2
+MD5sum: 3fb2c7a1313dbcb3707f783cdd7a44f7
+Description: debug symbols for libhybris-test
+Build-Ids: 04f0682a25c4e376fabdeaaead26d2494aad7007 06dc23ad6f4cd88ad829b8ece2968c102ed1c3a3 2221edbf1855805117ec2f9803556c381f9df2ab 29c5d1599ddcac1ffec40938f8fc6b5da9f352e5 42b7945995a0f427c827af0d1cc3a161d73f519c 43ee4de8c9f93b1abe4ac212cc938dbce3a1ba86 4830e7c8412f263be5c77e56e803c4a65c0e76f4 55f9b1f629e0ef731d354b97b6855cb81640e1cf 6d4954e62629d99adca9dc4d5c9bfcd1f069d05e 7863dce888cf22d1a643f3dc20345e36ebebf668 a51194cf4672f19a70672609ac00e8cb698cc07d acc971b9acc914c90bda1c899b51ffc38698c709 bf95b1448cca634cfb6a931a59db7232c6154673 c50ed63b07dd2e32d2c13fab1e93e17ea6454595 d405c623892c73d0a2c08421436c53521f61ad67 dc06557aa7bc741ede54a08b4b52a1884ed203e2 e4e6ba98912735e99e22b25fd86f45c53a017daf
+
+Package: libhybris-utils
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 60
+Depends: libhybris (= 0.1.0+git20180625-1), libandroid-properties1, libc6 (>= 2.17)
+Priority: extra
+Section: utils
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20180625-1_arm64.deb
+Size: 20584
+SHA256: 792121d9db4a90fc10af41a74b45f4d6b2b2d49575005b76f5be43845e405396
+SHA1: a92bcd8f1d81fbaeefcf622d633ae0fda4775118
+MD5sum: 3c0182f0854ae1944499d61f5dab8f32
+Description: Utilities to help working with the Android HW abstraction layer
+ Contains utilities used to help working with Android HW abstraction layer.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-utils-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 30
+Depends: libhybris-utils (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 7792
+SHA256: 0cacef72094adcab4c275e58a6618edc245222e58f516f7a6be56f3c4fb1579f
+SHA1: bd2d7d74fbe1ead29306bda817eada9d06774812
+MD5sum: 1a8643fec72897f652045d7018d49f1a
+Description: debug symbols for libhybris-utils
+Build-Ids: 67509c16b6f16868cfc0cd8fb976c9fc0be73186 88d608c20b6cb73aa6086285bab86d9332733c1f
+
+Package: libkwin4-effect-builtins1
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1113
+Depends: libkwineffects11 (= 4:5.13.4-1), libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.13.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.13.4-1_arm64.deb
+Size: 294344
+SHA256: 915144925db5542df14f31bc4000c9972cacf066d688d825ead0b9022f7297a5
+SHA1: e71979093b075019d508c27dbbc1dbb36f4c7e4b
+MD5sum: 91e74ba91c50bfe7e736dcbd8b869fa9
+Description: KDE window manager effect builtins library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwin4-effect-builtins1-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12252
+Depends: libkwin4-effect-builtins1 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1-dbgsym_5.13.4-1_arm64.deb
+Size: 12153788
+SHA256: 150123f182dc3fec2cad997de5f67c2f2268bdc0394a8868ffb642ce903a9b60
+SHA1: ec1588bdd625fe8fd9f429ad341a1432d062ba99
+MD5sum: c08b1a0604d775a5d515e282e357e274
+Description: debug symbols for libkwin4-effect-builtins1
+Build-Ids: e492295370b41934f1247a8613b74afe0c99c058
+
+Package: libkwineffects11
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 273
+Depends: libc6 (>= 2.17), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0
+Breaks: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Replaces: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwineffects11_5.13.4-1_arm64.deb
+Size: 73516
+SHA256: f39b6043effb2e19537df37e8eb554e62a83bc6c2424cc298af4d1b995a873c8
+SHA1: 3833929ae0716fb5631a8b884b7cdadc43e01040
+MD5sum: 42dc9a75705cfa163bb92df65cf864cb
+Description: KDE window manager effects library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwineffects11-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1099
+Depends: libkwineffects11 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwineffects11-dbgsym_5.13.4-1_arm64.deb
+Size: 1061648
+SHA256: 5a0ac121d3ed8dbb77ac15b73b71a5db697e37dafda83ee275711064e246a05f
+SHA1: 3f05b7671d8f61e80be211f643b8b5e076c8b7b7
+MD5sum: 28add285b138048f355970778ca97e6d
+Description: debug symbols for libkwineffects11
+Build-Ids: f079b705c45a7b51ab953e8d4bee3329cc6f3156
+
+Package: libkwinglutils11
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 200
+Depends: libc6 (>= 2.17), libepoxy0 (>= 1.0), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb1
+Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4), libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4.5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Replaces: libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4:5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwinglutils11_5.13.4-1_arm64.deb
+Size: 61108
+SHA256: 0acbeef3da197f66aa37b47d8f826975fa11cf48c64e93ccb92a0a5c2fac62dc
+SHA1: 47fbd81229a45d8beb21f45f93e23b5b407fbaa5
+MD5sum: 1cf1cfa4ff343986fa660a59a42d700b
+Description: KDE window manager gl utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwinglutils11-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1029
+Depends: libkwinglutils11 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwinglutils11-dbgsym_5.13.4-1_arm64.deb
+Size: 998036
+SHA256: 7f8a9d15f4d372062c14e0f7ada9f1ae22c401e957bc1eea7bdfa3b11c217f9b
+SHA1: a7b55e46868222be3f9e526191b3f97f71e10c15
+MD5sum: 007ff9696ab7020a2c054d305c2b4168
+Description: debug symbols for libkwinglutils11
+Build-Ids: 75691b454cef218f59b36f99bb7605b1b776928b
+
+Package: libkwinxrenderutils11
+Source: kwin
+Version: 4:5.13.4-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 65
+Depends: libc6 (>= 2.17), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
+Breaks: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Replaces: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/k/kwin/libkwinxrenderutils11_5.13.4-1_arm64.deb
+Size: 21808
+SHA256: bca8ad2eed66c396b3a348c7821d790aaa750b1bc8247c95c8ab7414828b2789
+SHA1: 37412d9f4fe4f94385e105f46d6a4bac04c375f4
+MD5sum: ad0625315fcfa736a4fee4a7cfbae4cd
+Description: KDE window manager render utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwinxrenderutils11-dbgsym
+Source: kwin
+Version: 4:5.13.4-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 303
+Depends: libkwinxrenderutils11 (= 4:5.13.4-1)
+Breaks: kwin-dbg (<= 4:5.5.5-1~~)
+Replaces: kwin-dbg (<= 4:5.5.5-1~~)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kwin/libkwinxrenderutils11-dbgsym_5.13.4-1_arm64.deb
+Size: 290076
+SHA256: f661dfc7af9b3f8eb37d843f04e99cdca9647465ed1b4f69c3196fea44acd499
+SHA1: a308836e1ad55abb43a181709fe937ae6a313b72
+MD5sum: a50927923ada6151d7fe3b702256e418
+Description: debug symbols for libkwinxrenderutils11
+Build-Ids: 20dd1e516ff85238a6bd8a0cdef0ac8daad542a5
+
+Package: libmauikit
+Source: mauikit
+Version: 0+git20180927-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 276
+Depends: kio, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/libmauikit_0+git20180927-1_arm64.deb
+Size: 77168
+SHA256: 1e4b396e4a6422a1a15286198c2842feb9be051b8a6b100e5da6e3b15a991509
+SHA1: 0a31f8b18cae07c0fc633dfcfd9f41c47819a7d5
+MD5sum: 1bf5012a59dfd7dc397d5af76ae9e43e
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit shared library
+
+Package: libmauikit-dbgsym
+Source: mauikit
+Version: 0+git20180927-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2146
+Depends: libmauikit (= 0+git20180927-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mauikit/libmauikit-dbgsym_0+git20180927-1_arm64.deb
+Size: 2115848
+SHA256: c1926d16750ea1b903c86aefb1740af97fa2e0f33a600f0602fe2342b64fc05a
+SHA1: 1e1f91c66d7eb5ba95462b176e4761badd71f320
+MD5sum: bb240c392116151dbd20e2e9b794d98c
+Description: debug symbols for libmauikit
+Build-Ids: 94df9459e400564ab5774ab0cf53fdc2289a2fab
+
+Package: libmedia-dev
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 85
+Depends: android-headers (>= 4.4.2), libmedia1 (= 0.1.0+git20180625-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Priority: extra
+Section: libdevel
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20180625-1_arm64.deb
+Size: 21316
+SHA256: 18b734b6f9d697971f8c3136113b56556457b5059446db0b158196213006ba3d
+SHA1: fb568a8f0df4e80cfa6385091057721a376623bc
+MD5sum: 8bffe4c570fd3c8e79b5a0ca173c66ad
+Description: Development files for libmedia
+ Contains the development files for the Android Media HAL, which
+ abstract the access to the Android libstagefright based decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 95
+Depends: libc6 (>= 2.17), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Priority: extra
+Section: libs
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20180625-1_arm64.deb
+Size: 23956
+SHA256: 251e1068aa33ebfa29564bb49587902ac7128dc8e1e1db9568eff6d94c5c4b7a
+SHA1: 59836bd401cd49d47d6d07c6c1d18e4cfc439f25
+MD5sum: a14a04e58adb5ef8708e4fbbd7621a7c
+Description: Library to provide access to the Android Media HAL
+ Contains a library that provides access to the Android Media HAL,
+ which abstract the access to the Android libstagefright based
+ decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1-dbgsym
+Source: libhybris
+Version: 0.1.0+git20180625-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Halium Developers <admin@halium.org>
+Installed-Size: 57
+Depends: libmedia1 (= 0.1.0+git20180625-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20180625-1_arm64.deb
+Size: 29256
+SHA256: 4c319c55542b5980fdf8db312b984a8f62bade948c160e13b5ad035baf905332
+SHA1: 5e8ad3e159ebb3c4c4c17dbc2eb6238f0186a265
+MD5sum: 9f32ebccd4515ec4efeffa42d895493b
+Description: debug symbols for libmedia1
+Build-Ids: 226031438f39f6c15cb52749231a5ab7a1a2ebc3
+
+Package: libofono-qt-dev
+Source: ofono-qt
+Version: 1.5+git20120419+bcf0c04-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 101
+Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-1)
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/ofono-qt/libofono-qt-dev_1.5+git20120419+bcf0c04-1_arm64.deb
+Size: 11952
+SHA256: f0bff496d445e578fffbda787014d1c1cf2f1e4d44f34b3e78ba11944bbead20
+SHA1: 87d022f1b4ee644ceb1ac8c16d475ca349e8cece
+MD5sum: 45933c1a13a9651bba68cd813bc07b75
+Description: Qt oFono library (development files)
+ This package contains development files for ofono-qt, a Qt-based
+ library that provides bindings to oFono.
+ .
+ oFono is a free software project for mobile telephony (GSM/UMTS)
+ applications. It is build on 3GPP standards and uses a high-level
+ D-Bus API for use by telephony applications.
+
+Package: libofono-qt1
+Source: ofono-qt
+Version: 1.5+git20120419+bcf0c04-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 888
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/o/ofono-qt/libofono-qt1_1.5+git20120419+bcf0c04-1_arm64.deb
+Size: 167312
+SHA256: 94c25f0f19534496ea688cade45f052a4ab85578945abf7b4d261a28cf1bc90c
+SHA1: bb920e3b1463e8b0d3a507456c83cbefefe12d4c
+MD5sum: d07c26fb943d64b7bb7943218eec690c
+Description: Qt oFono library
+ This package contains ofono-qt, a Qt-based library that provides
+ bindings to oFono.
+ .
+ oFono is a free software project for mobile telephony (GSM/UMTS)
+ applications. It is build on 3GPP standards and uses a high-level
+ D-Bus API for use by telephony applications.
+
+Package: libofono-qt1-dbgsym
+Source: ofono-qt
+Version: 1.5+git20120419+bcf0c04-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5671
+Depends: libofono-qt1 (= 1.5+git20120419+bcf0c04-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/o/ofono-qt/libofono-qt1-dbgsym_1.5+git20120419+bcf0c04-1_arm64.deb
+Size: 5616036
+SHA256: e4787c9c3684fe48012109408151b0a861e5fcfe60120d324d39a8cf69650589
+SHA1: 86189e426998f8690df64bb47621237368d4490e
+MD5sum: bf7728a308097a4df3053e5602b9449e
+Description: debug symbols for libofono-qt1
+Build-Ids: 4dd84c1b54ea244371f0e6f103b5edc19c2baec4
 
 Package: libpulse-dev
 Source: pulseaudio
@@ -328,6 +1910,198 @@ MD5sum: dc7bdf28dce17959d97799b4b97dcaf5
 Description: debug symbols for libpulsedsp
 Build-Ids: 0e7daa837a185c72d275eb4010289559f4b54e55
 
+Package: libqofono-dev
+Source: libqofono
+Version: 0.92-1
+Architecture: arm64
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 182
+Depends: libqofono-qt5-0 (= 0.92-1)
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libdevel
+Filename: pool/main/libq/libqofono/libqofono-dev_0.92-1_arm64.deb
+Size: 18892
+SHA256: aee0d3d21a248748e925789290a2a6df2e8f2fd82472a38000fad880fda12db8
+SHA1: 9ca562dd80c4af80461955f3da51cec8309a0fd0
+MD5sum: da55eb4616a45e2c9da0d05532028d85
+Description: Qt library for Ofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: libqofono-qt5-0
+Source: libqofono
+Version: 0.92-1
+Architecture: arm64
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 1232
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5xmlpatterns5 (>= 5.0.2), libstdc++6 (>= 5)
+Suggests: ofono (>= 1.16)
+Multi-Arch: same
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libs
+Filename: pool/main/libq/libqofono/libqofono-qt5-0_0.92-1_arm64.deb
+Size: 251344
+SHA256: 782857d4dc59866a2423d70644d668a2194a19992d9754890a120c5d1702245e
+SHA1: 293d2980de55ff449086e657976054f588066ef1
+MD5sum: c19b0a517a03850a0dd28c2467414bd2
+Description: Qt library for Ofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: libqofono-qt5-0-dbgsym
+Source: libqofono
+Version: 0.92-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 17985
+Depends: libqofono-qt5-0 (= 0.92-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libq/libqofono/libqofono-qt5-0-dbgsym_0.92-1_arm64.deb
+Size: 17323476
+SHA256: 8c8635b2541271395c033dd869004734a7deb15346fa6fa9f6f2a41f4493975c
+SHA1: 102ea6f97d14adb45157bf5ae95a3301ae258c16
+MD5sum: 3e98f2c4758ceb88869debf629805c27
+Description: debug symbols for libqofono-qt5-0
+Build-Ids: 0f134fa632f11abad5e26389e30bf58a7da3d51b
+
+Package: libqrtr-dev
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 19
+Depends: libqrtr1 (= 0.3+git20180323-1)
+Homepage: https://github.com/andersson/qrtr.git
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_arm64.deb
+Size: 4124
+SHA256: 0465b809d3767a3f0b7d65bb2183134a716cca3cb440920c8a672f7f06ce466f
+SHA1: 853a8a82dffa1c64571948277bb48183c812c516
+MD5sum: 94a7a4d72a24cd0d9648dd867bc65c9a
+Description: QRTR development files
+ QRTR development files.
+
+Package: libqrtr1
+Source: qrtr
+Version: 0.3+git20180323-1
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 33
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/andersson/qrtr.git
+Priority: optional
+Section: libs
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180323-1_arm64.deb
+Size: 7276
+SHA256: da5a45ec1a98b9b0d89779a8ca3e160f594f5d020734b12bf040a0e5dc568850
+SHA1: 26498ac4e82ddc66dbe0fe89fbd2303cf6f83aaa
+MD5sum: e05de9af2dc8c0a7a0e16ef62f22f5bc
+Description: QRTR library
+ QRTR library.
+
+Package: libqrtr1-dbgsym
+Source: qrtr
+Version: 0.3+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 24
+Depends: libqrtr1 (= 0.3+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qrtr/libqrtr1-dbgsym_0.3+git20180323-1_arm64.deb
+Size: 9568
+SHA256: fc2cbbd914a2b31f4529473ec179de4c5ec2e74a479a646ece4a1c78d51f95e2
+SHA1: 069b49c69e38d3be55da5f20c5b72482a3c27c4a
+MD5sum: 303a503005b0438343d8742ae17ae3a4
+Description: debug symbols for libqrtr1
+Build-Ids: 4e706b21cce95b34b8d5021b36261ce7867f46b1
+
+Package: llsvplayer
+Version: 0.3+git20180828-2
+Architecture: arm64
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 89
+Depends: libqt5core5a, libqt5multimediaquick5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-org-kde-kirigami2, qml-module-qt-labs-folderlistmodel, qml-module-qtquick-controls2, qml-module-qtquick-localstorage, qml-module-qtwebkit
+Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
+Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
+Priority: optional
+Section: video
+Filename: pool/main/l/llsvplayer/llsvplayer_0.3+git20180828-2_arm64.deb
+Size: 20900
+SHA256: 75ccb1a72a03cea403659fd78bab153edef1377c69f7204146e8b6b49e27dfa6
+SHA1: 146aae23ad7c29eef02fbd4ccc26c602090478ca
+MD5sum: 2d1c9f916fe6234223fa6d577fcb5928
+Description: Simple media player based on the Gstreamer Framework and
+ Plasma aswell as QtQuick.
+
+Package: llsvplayer-dbgsym
+Source: llsvplayer
+Version: 0.3+git20180828-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 172
+Depends: llsvplayer (= 0.3+git20180828-2)
+Priority: optional
+Section: debug
+Filename: pool/main/l/llsvplayer/llsvplayer-dbgsym_0.3+git20180828-2_arm64.deb
+Size: 159540
+SHA256: 7083e23da55bc8b9bbc51c148744f799b4ff59d3708932f55f717f8677c34cab
+SHA1: f578fc7d3776ef66afe4260cb93a86f55c105414
+MD5sum: 21daec9c96e77d3307db850c1a3bc6ba
+Description: debug symbols for llsvplayer
+Build-Ids: 1dc3e891c1e030fb866c3bb25a7a6d021634677a
+
+Package: lxc-android
+Version: 0.1+git20180723-2
+Architecture: all
+Maintainer: Bhushan Shah <bshah@kde.org>
+Installed-Size: 484
+Depends: adduser, cpio, lxc
+Homepage: https://github.com/Halium/lxc-android
+Priority: optional
+Section: libs
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180723-2_all.deb
+Size: 14520
+SHA256: 4c8440959bd9b7e55abc6580ed2b10c9909409603bc781b437530bb4ee8cf402
+SHA1: ecb69036696992c23c561de7df02a344c84eebcc
+MD5sum: ad2ac6d583337863dfeca38b5635d969
+Description: lxc configuration for starting android
+ .
+ This package provides the configuration for starting android in lxc
+
+Package: mauikit-dev
+Source: mauikit
+Version: 0+git20180927-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 61
+Depends: libmauikit, qml-module-org-kde-mauikit
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/mauikit-dev_0+git20180927-1_arm64.deb
+Size: 10252
+SHA256: 398896ed05bb73a84ef29219edba7d13adca96708b5dd3e620c56ffd694ef2cc
+SHA1: 732d44d278c2ce19f6b42428b5fc86c392a093e0
+MD5sum: ee9d8a67410ea10ca24f377583750ad2
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains mauikit development files
+
 Package: nemo-gstreamer1.0-interfaces
 Source: nemo-gst-interfaces
 Version: 0.20150126.0-1
@@ -381,6 +2155,230 @@ SHA1: 6101ff7c68213b193e27abda294415f694c84fef
 MD5sum: 8ae3283d35f6e280fe0a606e7f9e8cca
 Description: Nemo mobile GStreamer interfaces
  Nemo mobile GStreamer interfaces
+
+Package: ofono
+Version: 1.21-2
+Architecture: arm64
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 1810
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.32), libudev1 (>= 183), dbus, lsb-base
+Recommends: udev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono_1.21-2_arm64.deb
+Size: 504964
+SHA256: 14eb78e8a36857c6714cbbb65143ecbb45e82e304a8f243b0c153a4dd5f62363
+SHA1: 3c1da0cb964d66b67dfb73fa2fcbbafad7905797
+MD5sum: 3bf4fd245f0297e6fffc7225d671ce24
+Description: Mobile telephony stack (daemon)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the core daemon.
+
+Package: ofono-dbgsym
+Source: ofono
+Version: 1.21-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 3182
+Depends: ofono (= 1.21-2)
+Priority: optional
+Section: debug
+Filename: pool/main/o/ofono/ofono-dbgsym_1.21-2_arm64.deb
+Size: 2758964
+SHA256: 1e8182bf8d1d094e5ccce3fc39af9dbc64b81d4a4b20338cad71e515604e0967
+SHA1: f69fb07f1d3ed3d7e6e726eab8651b25b4f59f19
+MD5sum: 9a177183c75789e7cb97eb83d410f907
+Description: debug symbols for ofono
+Build-Ids: a4fa69fdda6024b66b1e7c1122b340489b4f8c94 ab4e9ba9d1f19e69b43820d38c2a4ec1e6d57d96
+
+Package: ofono-dev
+Source: ofono
+Version: 1.21-2
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 182
+Depends: libc6-dev | libc-dev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-dev_1.21-2_all.deb
+Size: 38856
+SHA256: 6b47fe158df4bec0fdf9e03da0bbb5779e947b6d86861f62b89363ec574bb7bf
+SHA1: 1ad7f0af83eca8e5b715e248ede76a91f6ac4b3a
+MD5sum: 5253d6a80b3161c7cdcda11c87cfd158
+Description: Mobile telephony stack (development files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the header files for building oFono plugins.
+
+Package: ofono-scripts
+Source: ofono
+Version: 1.21-2
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 184
+Depends: ofono (>= 1.21-2), python3, python3-dbus, python3-gi
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-scripts_1.21-2_all.deb
+Size: 32696
+SHA256: 14a17ae7650831e80faf47d3e4366e5d20c67bf9b15657a770fccbf1a5c5902d
+SHA1: 43dff6d51836dc8cbb7d8384500bb742a9b66610
+MD5sum: a11d3c38be5917efd3e89060ef57fced
+Description: Mobile telephony stack (test and maintenance script files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes test and maintenance scripts.
+
+Package: pix
+Version: 0+git20180905-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 695
+Depends: kio, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.5.0~), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/maui-project/pix
+Priority: optional
+Section: graphics
+Filename: pool/main/p/pix/pix_0+git20180905-1_arm64.deb
+Size: 316860
+SHA256: 00ad9b24e4ab8d379e7f05e2c547f28f2dfd43185ca978059aa3c9c4c25113a5
+SHA1: 1b05cc97e5a537ef1fe42bff38daec09f6214558
+MD5sum: 60cc2cdb70701e63fc625be0c1c9a9aa
+Description: Image gallery manager built with MauiKit
+ Pix is an image gallery manager made for Maui
+ .
+ Pix is a convergent and multiplatform app
+ that works under Android and GNU Linux distros
+
+Package: pix-dbgsym
+Source: pix
+Version: 0+git20180905-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2211
+Depends: pix (= 0+git20180905-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pix/pix-dbgsym_0+git20180905-1_arm64.deb
+Size: 2176124
+SHA256: 91bfe6f55819b4e4933f1a748dd4cd069b9396cc4c60e86a5c990e11fd727bf9
+SHA1: 63d16a234137a9dfe8314b0612c02e2bf593cfe2
+MD5sum: 91f4798e1362e3a699b0d6f2ff29ab04
+Description: debug symbols for pix
+Build-Ids: da9532c02d18c3a50b4ce5bf0b8b0ac5a8375908
+
+Package: plasma-angelfish
+Version: 0+git20180828-2
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 185
+Depends: qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, qml-module-qtwebengine, kpackagetool5, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.100.0), libkf5declarative5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5package5 (>= 5.5.0+git), libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.1.0), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.7.1), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: net
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish_0+git20180828-2_arm64.deb
+Size: 33888
+SHA256: df39fb4cfb614a6b8f5eece60b8dde5eeb1aebd5092b6c7d71dde6fa64601f9e
+SHA1: edb60cd307feffb3761fd7f81d2e4ad2aa754eea
+MD5sum: f28534a15c594b35cede18695e7424a6
+Description: Small webbrowser for mobile devices
+ Webbrowser based on QtWebEngine and QtQuickControls2
+
+Package: plasma-angelfish-dbgsym
+Source: plasma-angelfish
+Version: 0+git20180828-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 800
+Depends: plasma-angelfish (= 0+git20180828-2)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-angelfish/plasma-angelfish-dbgsym_0+git20180828-2_arm64.deb
+Size: 779160
+SHA256: 48e9ff3f60021a8bb6e4f66bd3d7b4d00ba53b051e93c7af78da3e7c1173d34f
+SHA1: d6aeec2f967b4593db7773cc929b5177408dd963
+MD5sum: 50b5db78d938f8ce75405902da5ba5b1
+Description: debug symbols for plasma-angelfish
+Build-Ids: 4c84862bfa29752296fcf3e4962fcc4993a7901f
+
+Package: plasma-phone-components
+Version: 0.7+git20180711-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3846
+Depends: breeze-icon-theme, fonts-oxygen, kpeople-vcard, milou, plasma-workspace (>= 4:5.13), powerdevil, qml-module-org-kde-activities, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-people, qml-module-qtquick-localstorage, kio, kpackagetool5, libc6 (>= 2.17), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
+Recommends: qml-module-ofono
+Homepage: https://plasma-mobile.org
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180711-1_arm64.deb
+Size: 1744100
+SHA256: ab5fad133d4224f52bc76f5c7c0c95e97d9f28cb3e0a6e20258cf4a4be877218
+SHA1: 23920f845276eba48be83d31f76cf641e8c0ad65
+MD5sum: 27e68757fa97e2a34cd6a62d780314d4
+Description: Plasma Phone Components
+ Phone components for KDE Plasma.
+Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
+
+Package: plasma-phone-components-dbgsym
+Source: plasma-phone-components
+Version: 0.7+git20180711-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3067
+Depends: plasma-phone-components (= 0.7+git20180711-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180711-1_arm64.deb
+Size: 3009124
+SHA256: 0eaf623a354e82b9d1080a3ad066deb52c8df9fe3cd7ba1fc889845e249aa906
+SHA1: 064c78f901f05f79a4fe8ab13b7b453ccac3d012
+MD5sum: abdd74a4b30564e4f677b0538cdb0c0f
+Description: debug symbols for plasma-phone-components
+Build-Ids: 3089b325f2453a8e1d9a87cac56d33a41fa840df 686dde828b949a626241ed4b7fe80fad55b0cb44 71b363f18c5c6462113a3021d01427b8a2473f32 b7780dfb6365bd399cd0673b75453be4c2a3acbc c455da63da1d1f237cbdf804227a47e479c673d3 e9dc9f68cf3f7678cafc644e8bd628332abe4dce
+Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
+
+Package: plasma-phone-settings
+Version: 4+git20180223-2
+Architecture: arm64
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Installed-Size: 35
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-phone-settings/plasma-phone-settings_4+git20180223-2_arm64.deb
+Size: 4360
+SHA256: ddedb590d9d12f054dd2318c069c74114b09106ae0a969fdaeec3c48813d97ea
+SHA1: aaef01fbd2aeaaae10844284bc9f85933469808f
+MD5sum: bb723d297fb57a4b27807a27f94ac11c
+Description: Settings and artwork for Plasma Phone
+ This package contains settings used by Plasma Phone.
 
 Package: plasma-settings
 Version: 0.0.1+git20180828-1
@@ -541,6 +2539,53 @@ MD5sum: 7bbe4a52aff3864a2703854e95324665
 Description: debug symbols for pulseaudio-equalizer
 Build-Ids: 7d118ee1a8d99ccf0b32da634cd3e31a0c4b9e65
 
+Package: pulseaudio-esound-compat
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 191
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Conflicts: esound
+Breaks: pulseaudio (<< 0.9.7)
+Replaces: esound
+Provides: esound
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-esound-compat_11.1-5_arm64.deb
+Size: 61024
+SHA256: c7d647f07d3f9a02bbfcef7477463b4a8e3cf5082f3abfcfdea9f3e3dfcd789e
+SHA1: 25bb1fc2931a3c10b4d7f31400a9fa7ea2e51523
+MD5sum: 51837c66471eca191df96681075a0691
+Description: PulseAudio ESD compatibility layer
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package contains the ESD compatibility components used by some
+ older versions of complete desktop environments, e.g., GNOME, and
+ many useful applications. It enables a PulseAudio sound server to
+ fully replace ESD.
+
+Package: pulseaudio-esound-compat-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 166
+Depends: pulseaudio-esound-compat (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-esound-compat-dbgsym_11.1-5_arm64.deb
+Size: 116412
+SHA256: f4f4fd838a0114ddaa9bc7390c0acb7343416ad7f14e6ac6fb08623f794779fa
+SHA1: f9c6ac020220e586dcbdb902e9dba8b6c1bd337c
+MD5sum: 022a35e2f05b345d70fbc1a1744d4abb
+Description: debug symbols for pulseaudio-esound-compat
+Build-Ids: 2860b0086a277501ce239be1b8499878dd45c59c 2ab511bc3ca2bc7b5ab0b385e17a61e17aff70c0 58a44a08a8b846dbfe5e3d49d15aef2b3f9066d9 8eda538a467f8852f3d86b59ca12594ef2d8acf2 ef3c04bca3d5520320a11c447e1ae96cc189c182
+
 Package: pulseaudio-module-bluetooth
 Source: pulseaudio
 Version: 12.2-2
@@ -635,6 +2680,83 @@ SHA256: e2552da0256ee8c321f0ba6e27b7752b8fb873dca40669b0555ae08b03b6d2ad
 SHA1: 5bb2ca70dcfe82201cfb387625bd6a67301e12b0
 MD5sum: 4f3f577ae87b59014879560d36cc9684
 Description: PulseAudio Droid HAL module development headers.
+
+Package: pulseaudio-module-droid-glue
+Source: pulseaudio-modules-droid-glue
+Version: 11.1.3-1
+Architecture: arm64
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.17), libhardware2, libhybris-common1, libpulse0 (>= 0.99.1)
+Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid-glue
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-modules-droid-glue/pulseaudio-module-droid-glue_11.1.3-1_arm64.deb
+Size: 5936
+SHA256: 71593533a1373f92579e04a11190a0a1b7d06728daec958227cbad1146ddba17
+SHA1: fba405217f3e9e15f1688e8515c3fe1c76bd1f54
+MD5sum: 2e1ce49f8548008bdc18146c4a58819b
+Description: PulseAudio Droid HAL glue module.
+
+Package: pulseaudio-module-droid-glue-dbgsym
+Source: pulseaudio-modules-droid-glue
+Version: 11.1.3-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marius Gripsgard <marius@ubports.com>
+Installed-Size: 42
+Depends: pulseaudio-module-droid-glue (= 11.1.3-1)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio-modules-droid-glue/pulseaudio-module-droid-glue-dbgsym_11.1.3-1_arm64.deb
+Size: 27140
+SHA256: 2aa3b47a9c3868d33bd6ae0cbfb5a54820718ed099b465e3e89f247157fa5584
+SHA1: b5ef2458b4c9d903cdee4282613ad7833b42dd66
+MD5sum: 52fa4a2bbb89092b7066a34fddad8fe3
+Description: debug symbols for pulseaudio-module-droid-glue
+Build-Ids: f4bbb8451715730fdcf4775022ef8fd9d783fd80
+
+Package: pulseaudio-module-gconf
+Source: pulseaudio
+Version: 11.1-5
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 117
+Depends: gconf-service, libc6 (>= 2.17), libcap2 (>= 1:2.10), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.16.0), libpulse0 (= 11.1-5), pulseaudio (= 11.1-5)
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gconf_11.1-5_arm64.deb
+Size: 46164
+SHA256: 69db88e3abfd31c94c0e9ce6e451ffde33eed8d60ebb78f40447f3c972af68a8
+SHA1: a032cd0972543d912da1967ae1e9f6983d63469f
+MD5sum: c55acc1451cfafff78a1ff0cc560b5d1
+Description: GConf module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to store additional configuration in GConf.
+ .
+ The module is called module-gconf.
+
+Package: pulseaudio-module-gconf-dbgsym
+Source: pulseaudio
+Version: 11.1-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 52
+Depends: pulseaudio-module-gconf (= 11.1-5)
+Priority: optional
+Section: debug
+Filename: pool/main/p/pulseaudio/pulseaudio-module-gconf-dbgsym_11.1-5_arm64.deb
+Size: 29700
+SHA256: b04a1abe40fa7c758a280eb81ede99bfc1a8e5d0e317e4eb6fff36a7881c2a2f
+SHA1: c763d75751fc0aca6a71686a283878b4f1ef0379
+MD5sum: d41904afc0561676315684c93b530d19
+Description: debug symbols for pulseaudio-module-gconf
+Build-Ids: 43ac9a07b909b9a9993fd365f76aa4a1e419f9e0 9d01f53ff7482d824b9bf4fcd491ee987fda10d3
 
 Package: pulseaudio-module-gsettings
 Source: pulseaudio
@@ -897,6 +3019,714 @@ SHA1: 360cc90a482d0707b28bd799a1f000643d5b979a
 MD5sum: 340f65dfaaa0520aced97c65bf73bf8b
 Description: debug symbols for pulseaudio-utils
 Build-Ids: 010473819b8580dab4ae3b69b5399e517033221b 490faff25394293d7593bfbd8e6ce212abcdedd6 4c728b3276973efc24124981fd1ed26a11d84df2 64affb4debbf9f5af00afec2c1bea3a3c5580776 c9a6f8b60475d2f0889ee164fa3c3076140eddad
+
+Package: qmic
+Version: 0.1+git20180323-1
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 37
+Depends: libc6 (>= 2.17)
+Multi-Arch: foreign
+Homepage: https://github.com/andersson/qmic.git
+Priority: optional
+Section: utils
+Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_arm64.deb
+Size: 9544
+SHA256: 0420772c41c461e29f8909cad22cd939d9ff48a5611077101f4b63b1d753ebd1
+SHA1: 48a9072776aae092dc34c5e62ba81e076387c26b
+MD5sum: d1ea835414c3548bcbee5990887c9b34
+Description: QMI Compiler
+ QMI compiler.
+
+Package: qmic-dbgsym
+Source: qmic
+Version: 0.1+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 39
+Depends: qmic (= 0.1+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmic/qmic-dbgsym_0.1+git20180323-1_arm64.deb
+Size: 23484
+SHA256: e0dc714d6618ce0387fd15e764923d7fd6eb7a28b11a7623c3c4712bb8e3716f
+SHA1: df5ae41e5fd2ae6db88a2e4152328b69979ee26e
+MD5sum: 0ea7d0a715b37fe160ed70938414d063
+Description: debug symbols for qmic
+Build-Ids: af845b4444ab3ee3be56d9d19a47c55faf625cb8
+
+Package: qml-module-ofono
+Source: libqofono
+Version: 0.92-1
+Architecture: arm64
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 279
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libqofono-qt5-0, libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: qtdeclarative5-ofono0.2, ubuntu-system-settings (<< 0.3+15.04.20150114)
+Replaces: qtdeclarative5-ofono0.2
+Multi-Arch: same
+Homepage: https://github.com/nemomobile/libqofono
+Priority: extra
+Section: libs
+Filename: pool/main/libq/libqofono/qml-module-ofono_0.92-1_arm64.deb
+Size: 43376
+SHA256: a6056f81e0ae74621f16b3ed74a49d922c6f91d619de348eb6e37b0b9e7d1aca
+SHA1: 995ef407718f1b5fd83ee9f558dd85ca387324c5
+MD5sum: e54a8372bdc85941cd6626b8c8170503
+Description: QML bindings for libqofono
+ A library for accessing the ofono daemon, and a declarative plugin for
+ it. This allows accessing ofono in qtquick and friends.
+
+Package: qml-module-ofono-dbgsym
+Source: libqofono
+Version: 0.92-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
+Installed-Size: 1104
+Depends: qml-module-ofono (= 0.92-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libq/libqofono/qml-module-ofono-dbgsym_0.92-1_arm64.deb
+Size: 1022020
+SHA256: 112bddc54687f03c5924c8de83e461073b42e52cdf26c933ad312faae3dd9e10
+SHA1: 53b7efef58facca5929701b76f90ab1d36b979ef
+MD5sum: 6b97c1e1da63a2e7152c69af0daafa37
+Description: debug symbols for qml-module-ofono
+Build-Ids: 8f5f0eb99c8fb87030685db87d52c9dd8f4714aa
+
+Package: qml-module-org-kde-mauikit
+Source: mauikit
+Version: 0+git20180927-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 618
+Depends: libmauikit, qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, kio, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libkf5auth5 (>= 4.96.0), libkf5bookmarks5 (>= 4.96.0), libkf5codecs5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiofilewidgets5 (>= 4.96.0), libkf5kiontlm5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.24.0), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5solid5 (>= 4.97.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://maui-project.org/
+Priority: optional
+Section: lib
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit_0+git20180927-1_arm64.deb
+Size: 118864
+SHA256: 1bcc496022d4873f6ce8517965296327bf9c72edede3f128c7768da9c312c1d5
+SHA1: d4b63aeafb6bd035a3e32d5d28a336939c1e9936
+MD5sum: c4f3ec96675f4b8635516a11e6edda00
+Description: Kit for developing MAUI Apps.
+ A set of templated controls and tools based off QQC2 and Kirigami
+ shared among the Maui set of applications
+ .
+ Maui Kit helps to quickly build UIs that follow the Maui HIG
+ and bring ready to go tools for different platforms,
+ such as Android and Linux
+ .
+ This package contains the mauikit qml module
+
+Package: qml-module-org-kde-mauikit-dbgsym
+Source: mauikit
+Version: 0+git20180927-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 2146
+Depends: qml-module-org-kde-mauikit (= 0+git20180927-1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mauikit/qml-module-org-kde-mauikit-dbgsym_0+git20180927-1_arm64.deb
+Size: 2115876
+SHA256: cfcd87c25f87fb8076f66cd52784fc1eb40cb2a72239c7345f63193715d277c3
+SHA1: 290e0dd5f6158ae585209d3cc368001d364df636
+MD5sum: e00f6ba45700c65b14ba2272b299fa29
+Description: debug symbols for qml-module-org-kde-mauikit
+Build-Ids: 94df9459e400564ab5774ab0cf53fdc2289a2fab
+
+Package: qml-module-qmltermwidget
+Source: qmltermwidget
+Version: 0.1+git20180903-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 772
+Depends: qml-module-qtquick2, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Homepage: https://github.com/Swordfish90/qmltermwidget
+Priority: optional
+Section: lib
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget_0.1+git20180903-1_arm64.deb
+Size: 193400
+SHA256: f44a92554fc3b5a9e2c9c5154cd41049d02223a8800c9c1d79587f40f9ac0681
+SHA1: e7337951aa2d1af5be0bb218d1af2d2d5928dd71
+MD5sum: 42fda8e052b08453dabc3bafca3e3968
+Description: QML port of qtermwidget
+ Qmltermwidget allows building terminal applications using qml
+
+Package: qml-module-qmltermwidget-dbgsym
+Source: qmltermwidget
+Version: 0.1+git20180903-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 4527
+Depends: qml-module-qmltermwidget (= 0.1+git20180903-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmltermwidget/qml-module-qmltermwidget-dbgsym_0.1+git20180903-1_arm64.deb
+Size: 4479516
+SHA256: 573abafd5ab4f4ad7459e51e42c6c28c59bd731123e3191c4a0298f3cf4d360e
+SHA1: fa7f2b0f4414b2e71b059c80a55c37bad4f4328c
+MD5sum: 8b0ef9b620fb516c19266888e3c02810
+Description: debug symbols for qml-module-qmltermwidget
+Build-Ids: 835eb2c071cbf54de09cc4d625ef107518ce87e7
+
+Package: qml-module-ubuntu-onlineaccounts
+Source: accounts-qml-module
+Version: 0.7-1
+Architecture: arm64
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 255
+Depends: libaccounts-qt5-1 (>= 1.13), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libsignon-qt5-1 (>= 8.57+20150423), libstdc++6 (>= 4.1.1), qml-module-qtquick2
+Breaks: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Replaces: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Multi-Arch: same
+Homepage: https://gitlab.com/accounts-sso/accounts-qml-module
+Priority: optional
+Section: libs
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts_0.7-1_arm64.deb
+Size: 54196
+SHA256: 15964f0c1c14638fad14721216e4e80e64cd4158306181bbf2d9b237204c90f9
+SHA1: 2914c1d609317dd5ff071f380f51d11fbfe0c1bd
+MD5sum: 52a79ce3c9fa5a9a624779ac7c3d849f
+Description: Expose the Online Accounts API to QML applications
+ This module provides access to the Online Accounts framework from QML
+ applications.
+
+Package: qml-module-ubuntu-onlineaccounts-dbgsym
+Source: accounts-qml-module
+Version: 0.7-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 1993
+Depends: qml-module-ubuntu-onlineaccounts (= 0.7-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts-dbgsym_0.7-1_arm64.deb
+Size: 1969172
+SHA256: f6ce0e807d4782650bc26e14c1a0a7c1199b718a40dda1b3c29c46aa4bc320d1
+SHA1: 1175a13880cd270e0166a4523e4c02402627cc81
+MD5sum: 082c337dc6936129ffc5548682f37514
+Description: debug symbols for qml-module-ubuntu-onlineaccounts
+Build-Ids: c1c70380a778b4bbd84dd1f1a4bcd5c8b2064e18
+
+Package: qmlkonsole
+Version: 0+git20180927-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 23
+Depends: qml-module-org-kde-kirigami2, qml-module-qmltermwidget, qml-module-qtquick-controls, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://gitlab.com/JBBgameich/qmlkonsole
+Priority: optional
+Section: unknown
+Filename: pool/main/q/qmlkonsole/qmlkonsole_0+git20180927-1_arm64.deb
+Size: 6168
+SHA256: ac7bc1f4d73e7da04abb74c52aef8cbea08ae929b0aa403a7ca730637b82939a
+SHA1: bab476baddd8e1e8b3d76a4853b71e9e2b4515f8
+MD5sum: e70830fa2c765866378325dd37639b58
+Description: Mobile terminal application
+ Terminal application for Plasma Mobile based on qmltermwidget.
+
+Package: qmlkonsole-dbgsym
+Source: qmlkonsole
+Version: 0+git20180927-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 130
+Depends: qmlkonsole (= 0+git20180927-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qmlkonsole/qmlkonsole-dbgsym_0+git20180927-1_arm64.deb
+Size: 117040
+SHA256: 3d601d2baa53fc408c18172770de63fa164297a515c24bf643f500901027f542
+SHA1: 8c12a48f06db628c20af979d818d675acb74cd26
+MD5sum: 43283b4787b6c2a5391224a9e185842f
+Description: debug symbols for qmlkonsole
+Build-Ids: 64ba3ffac1c81776a6e71ec7666798c344b0a44d
+
+Package: qrtr
+Version: 0.3+git20180323-1
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/andersson/qrtr.git
+Priority: optional
+Section: utils
+Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_arm64.deb
+Size: 11696
+SHA256: ab69c574c6aeb4f524c2f3ef1743a2801589a4da0f5a481d6486ddf03b5d088c
+SHA1: 942120cc3c4e6b9547c4b2bc94eb1bbf8e98b486
+MD5sum: d372097bdff4791db10059a6c28029df
+Description: QRTR applications
+ QRTR applications.
+
+Package: qrtr-dbgsym
+Source: qrtr
+Version: 0.3+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 54
+Depends: qrtr (= 0.3+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qrtr/qrtr-dbgsym_0.3+git20180323-1_arm64.deb
+Size: 21692
+SHA256: 2cccf60d11fdb502647a5fd1540d6dc0a6e667e9bd06a29f965598767af89a8c
+SHA1: 317e63028f5221a8f119e6baef91db74ad19c806
+MD5sum: 7e6d8d172c81ca8d1e400779aa0b52d7
+Description: debug symbols for qrtr
+Build-Ids: 13595243f2960954438eec98595173c3e93f80eb 6380c5d4766426ebf0dc9e14633591dfee3548ea dde30d5705623cad8b16a88e950fe993a4465b7b
+
+Package: qt3d5-doc
+Source: qt3d-opensource-src
+Version: 5.10.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 20462
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc_5.10.1+dfsg-5_all.deb
+Size: 19134176
+SHA256: 3ba0ade275a4ca1c923dcc18a6566238f53a03c9a588c8b225d6d296f0913dd4
+SHA1: 5b2d778d4addfde67bd17a948c1cb902a8b45e2b
+MD5sum: ea758be28127ac45ab4baf8079e88771
+Description: Qt 3D documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 3D libraries.
+
+Package: qt3d5-doc-html
+Source: qt3d-opensource-src
+Version: 5.10.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 32522
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qt3d-opensource-src/qt3d5-doc-html_5.10.1+dfsg-5_all.deb
+Size: 17405144
+SHA256: 63b528ed8f4a09dedde09be95e3f03e9c43850eba5ffd543dc5aa5c6153b4215
+SHA1: b90a3b3c246b075ab5f94f4b8e053d7d50be70b3
+MD5sum: 0c2cbe1782541490f54deb5da69a4b84
+Description: Qt 3D HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 3D libraries.
+
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 38737
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.10.1+dfsg-7_all.deb
+Size: 30029084
+SHA256: f2cd0da9d7e178c6e4313dbda67f88df9dbda8cc58794e8444b3a8f14f02375c
+SHA1: dc76a5b24df865650612523e7aca75f7c2d847ce
+MD5sum: 859d365b348c9d41b9d4b19ef2afa191
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.10.1+dfsg-7
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 165442
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.10.1+dfsg-7_all.deb
+Size: 23444024
+SHA256: 6c51af03a8122cb3487c1ab3d1f685ca663f1f6552e87b8021b8e244b7bfcb26
+SHA1: bf77e5464244b66f171bee2c58b2e2bd1566785a
+MD5sum: bb00416a07f7834f0c89c4ef3713e59c
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtdeclarative5-doc
+Source: qtdeclarative-opensource-src
+Version: 5.10.1-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 17172
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc_5.10.1-5_all.deb
+Size: 15007364
+SHA256: 4daee6f7712f2c4268c9ac66dbf8343fccea6897bd360412a72ec3a85e250453
+SHA1: 1a8cf0a994cd19b071b30fd7f3de3bd980a8b250
+MD5sum: 4c72b57f661c3f245457cb8764c30bd0
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-doc-html
+Source: qtdeclarative-opensource-src
+Version: 5.10.1-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 43923
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtdeclarative-opensource-src/qtdeclarative5-doc-html_5.10.1-5_all.deb
+Size: 12499872
+SHA256: 806e20274a2ef94d88673fd12a38d7aa7f02a8fc8b71ac846019554e01cef0d0
+SHA1: c334888d8935b780f33eb1837387f36bb265e310
+MD5sum: be231b1d6ffc2c2c372f0560997f3a42
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
+
+Package: qtlocation5-doc
+Source: qtlocation-opensource-src
+Version: 5.10.1+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4039
+Breaks: qtpositioning5-doc (<< 5.5.0~)
+Replaces: qtpositioning5-doc (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc_5.10.1+dfsg-3_all.deb
+Size: 3452808
+SHA256: 9164944069e08681c630837b530fbe5583050c63b81697ab0d4805d1a4984130
+SHA1: 2ba01b993a434fa58c24350adbecfa850f209af2
+MD5sum: f76e6aa41deb440bb831347b35a3c7ad
+Description: Qt 5 Positioning documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Positioning
+ library and binaries.
+
+Package: qtlocation5-doc-html
+Source: qtlocation-opensource-src
+Version: 5.10.1+dfsg-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 10033
+Breaks: qtpositioning5-doc-html (<< 5.5.0~)
+Replaces: qtpositioning5-doc-html (<< 5.5.0~)
+Homepage: http://qt-project.org/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtlocation-opensource-src/qtlocation5-doc-html_5.10.1+dfsg-3_all.deb
+Size: 2724436
+SHA256: 5edf36855c72187ccd58d5b580e5d013864c23e860968b38a30ce9082e468320
+SHA1: ebae87ec59a4e6e78f9375017a1c0855e7ab2e7b
+MD5sum: 6586a0074e17015669812346c78fa76c
+Description: Qt 5 Positioning HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Positioning
+ libraries and binaries.
+
+Package: qtmultimedia5-doc
+Source: qtmultimedia-opensource-src
+Version: 5.10.1-2
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3278
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.10.1-2_all.deb
+Size: 2440636
+SHA256: a168cecbc86597f81b831590f09b38b471ef1ed99291c6cb76439a116f365fc1
+SHA1: 9023ab9da34b4c19d17198adc4bea00b0fc5540a
+MD5sum: de5ea869278742297b4ec915e3e86bf5
+Description: Qt 5 multimedia documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 multimedia libraries.
+
+Package: qtmultimedia5-doc-html
+Source: qtmultimedia-opensource-src
+Version: 5.10.1-2
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 13751
+Homepage: https://qt.io/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.10.1-2_all.deb
+Size: 1581704
+SHA256: 1fadec568236e2372f958bcace974baaccdb3e38822e0ffcac3d87af68492364
+SHA1: e9e186195c095bdbb53eeab3ba82608a89b178e3
+MD5sum: 45300e630a8b23c8e9ef855dab0bcb5a
+Description: Qt 5 multimedia HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 multimedia
+ libraries.
+
+Package: rmtfs
+Version: 0.2+git20180323-1
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 38
+Depends: libc6 (>= 2.17), libqrtr1, libudev1 (>= 183), qrtr
+Homepage: https://github.com/andersson/rmtfs.git
+Priority: optional
+Section: utils
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_arm64.deb
+Size: 9948
+SHA256: f302c24b81beb7a74cb38139e24f1452a15f854cf74f2f5fa4f4febd019ac93e
+SHA1: 8e23400a863da0ae311cc3b9094779ae9b57462b
+MD5sum: 89c09a05d9ebc8900c64a8595ba44c0a
+Description: RMTFS QMI service
+ The QDSP firmware requires access to storage, through the RMTFS QMI service.
+ Implement this service to allow for us to load the QDSP firmware on relevant
+ Qualcomm SoC.
+
+Package: rmtfs-dbgsym
+Source: rmtfs
+Version: 0.2+git20180323-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
+Installed-Size: 41
+Depends: rmtfs (= 0.2+git20180323-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rmtfs/rmtfs-dbgsym_0.2+git20180323-1_arm64.deb
+Size: 24540
+SHA256: df7696ec5f04b85fc49265225d48802bb1ed00f4684f3933563b23a5eaa27e4e
+SHA1: c1b0a3f6a8f77f677e3d09bded00186533faf665
+MD5sum: 7aef8a3138dab8fe5155c9cf383c061f
+Description: debug symbols for rmtfs
+Build-Ids: 22d36b3b15436883d3d11677737b6f278dc931ee
+
+Package: rpmsgexport
+Version: 0.1+git20180405-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 17
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/andersson/rpmsgexport
+Priority: optional
+Section: unknown
+Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20180405-1_arm64.deb
+Size: 4032
+SHA256: 721bec216cec47b81e27d23decbedcfca3489c831ecb2b8fa5e9fd02d4040019
+SHA1: 96f6c6ac4e45a1e3be21844b4d3f2d90491c60b3
+MD5sum: 3e8e3e74855f0d5cb27c606058389d87
+Description: Tool to create endpoint devices for remoteproc devices
+ rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
+ to automatically create endpoint devices as remoteproc devices are booted.
+
+Package: rpmsgexport-dbgsym
+Source: rpmsgexport
+Version: 0.1+git20180405-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 20
+Depends: rpmsgexport (= 0.1+git20180405-1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpmsgexport/rpmsgexport-dbgsym_0.1+git20180405-1_arm64.deb
+Size: 5212
+SHA256: 9a1483ef56ba421d082c0f273eb9375bacbcdf62078d7e0dd149b851e009374a
+SHA1: 84aae8313dec4511aeb3c09d376db85b07a4a700
+MD5sum: 61581c570f8f37c11c1e0315e6a56861
+Description: debug symbols for rpmsgexport
+Build-Ids: 2bccbed4b4535af5852b3286290f59f6638912b5
+
+Package: simplelogin
+Version: 0.0.6+git20180314-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 86
+Depends: libpam-runtime, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.5.0), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/bhush9/simplelogin
+Priority: optional
+Section: kde
+Filename: pool/main/s/simplelogin/simplelogin_0.0.6+git20180314-1_arm64.deb
+Size: 21408
+SHA256: 51e8185e213c7ead162e26390fdd64931ec4bb5a07e9c151f9731023af6735db
+SHA1: 64dc03c7ce28eb5c93c9454af171a6e2532d5c9d
+MD5sum: c6d904d8081c35c7ba0f4372cc80ec1b
+Description: Simple Login
+ A trivial login manager without UI useful on embedded devices.
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: simplelogin-dbgsym
+Source: simplelogin
+Version: 0.0.6+git20180314-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 405
+Depends: simplelogin (= 0.0.6+git20180314-1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/simplelogin/simplelogin-dbgsym_0.0.6+git20180314-1_arm64.deb
+Size: 388836
+SHA256: 0d84be32493a903b4359c9e9700cdf3e518db45ac52d70faeada5f54118ec24f
+SHA1: 26c194816a168258c09207aa72695b9f0572dc5a
+MD5sum: 84850d44face67d63fcf9f9fa86472af
+Description: debug symbols for simplelogin
+Build-Ids: 5226e062b3fcd4a255708f22b2b54fe4b5370840
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2303
+Depends: ofono, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libofono-qt1, libphonenumber7, libpulse0 (>= 0.99.1), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.7)
+Homepage: https://launchpad.net/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono_0.2.20161109-1_arm64.deb
+Size: 467888
+SHA256: bd770f64446c97c56f22c453a0edc67ae4188476dedf87825273558e81f1e50c
+SHA1: 588c27164f383628efa3de5294a7617f158b6bbc
+MD5sum: fe17ad66e5115f222b8c1553529d6ed8
+Description: telepathy oFono connection manager
+ telepathy-ofono is a Telepathy connection manager that makes it possible for
+ Telepathy clients to communicate using oFono modems, enabling features like
+ real phone calls and send and receive SMSs.
+
+Package: telepathy-ofono-dbgsym
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4674
+Depends: telepathy-ofono (= 0.2.20161109-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-dbgsym_0.2.20161109-1_arm64.deb
+Size: 4113076
+SHA256: 196bf4da4aaefc5dc5b257cd73f4d4ca38f32d1be1b0f1cc6631311ee4b3cdca
+SHA1: 644cc89c5d8525506410b5ac760013b79b9fe641
+MD5sum: 3733a7785e0016a59da48dd3cca84521
+Description: debug symbols for telepathy-ofono
+Build-Ids: a3b87fc8c8f7df5eac9a9719b4b96365153aa54c
+
+Package: telepathy-ofono-ril-mc-plugin
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 34
+Depends: telepathy-ofono, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libmission-control-plugins0 (>= 1:5.13.0~), libstdc++6 (>= 4.1.1), libtelepathy-glib0 (>= 0.11.13)
+Suggests: libhybris-utils
+Homepage: https://launchpad.net/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin_0.2.20161109-1_arm64.deb
+Size: 12128
+SHA256: 694b8118429ab01438d4fc1645e53290629bbad6a1ce9e4c8809aeaac95b681b
+SHA1: 683ce9fd9c68576ad6567cc951e440b660425ec2
+MD5sum: 72fcbafc33eec0a291ae7b8bb11fecdc
+Description: telepathy oFono mission control plugin for ril modems
+ This telepathy mission-control plugin is used to automatically provision
+ telepathy-ofono accounts for each available ril modem.
+
+Package: telepathy-ofono-ril-mc-plugin-dbgsym
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 35
+Depends: telepathy-ofono-ril-mc-plugin (= 0.2.20161109-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin-dbgsym_0.2.20161109-1_arm64.deb
+Size: 19520
+SHA256: 07363e0abde548e131877f5f99952b2b7e93b4a87bdbbfa1fee58a20f950c5ca
+SHA1: 746a0d7af63140c66e60ffd5e05e3bcc794bcfd6
+MD5sum: 0f83981fc36d2fd1d6d9787b5b139365
+Description: debug symbols for telepathy-ofono-ril-mc-plugin
+Build-Ids: 60a433bcc8303a6717f362d7ba7c41ad49758ea4
+
+Package: vvave
+Version: 1.2+git20180930-1
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1174
+Depends: qml-module-org-kde-mauikit, youtube-dl, kio, libc6 (>= 2.17), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0~), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.5.0~), libqt5webengine5 (>= 5.7.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.5.0~), libqt5xml5 (>= 5.5.0~), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~)
+Homepage: https://github.com/milohr/vvave-qt
+Priority: optional
+Section: sound
+Filename: pool/main/v/vvave/vvave_1.2+git20180930-1_arm64.deb
+Size: 498516
+SHA256: 842cdc1b56e8d25e6b41c1f0f4cad9bc8477161e43139f6ec54f468090af71b4
+SHA1: 3bfb365a7da90a45f84be3326f1a6f02ce105a2d
+MD5sum: db3c362fc6c1a8743302df0d81593c2e
+Description: Tiny Qt VVave Music Player
+ VVave is a tiny Qt music player to keep your favorite songs at hand
+ .
+ VVave will handle your whole music collection, letting you create
+ custom playlists to organize your music.
+ .
+ You can also filter your music by artist, title, album, genre,
+ date and location. VVave lets you vvave-mark your favorite YouTube
+ music videos into your local collection by using the Chromium
+ extension.
+ .
+ Think of VVave as the playlist where all your favorite tracks at
+ the moment are. And when needed you also have an integrated
+ collection manager.
+
+Package: vvave-dbgsym
+Source: vvave
+Version: 1.2+git20180930-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7389
+Depends: vvave (= 1.2+git20180930-1)
+Priority: optional
+Section: debug
+Filename: pool/main/v/vvave/vvave-dbgsym_1.2+git20180930-1_arm64.deb
+Size: 7354344
+SHA256: f99380dfe6261dddaa4dbcc9e707bb05daff6b4e5b751dd08e1acd8ba5585913
+SHA1: 440f11d00b5243e4e64092539e6412c4faadfc47
+MD5sum: 617c85ff9369dd3158d3db1afc15e032
+Description: debug symbols for vvave
+Build-Ids: 7285184b9bbe491e4a7a9a5cd81b23256280de52
 
 Package: xserver-xorg-video-hwcomposer
 Version: 0.3.8+git20180622-1
