@@ -258,19 +258,19 @@ MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
 Description: Scripts to install a Halium rootfs on your android device
 
 Package: hybris-usb
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
-Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 23
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 28
 Depends: isc-dhcp-server, net-tools
 Homepage: https://github.com/mickybart/gnulinux_support
 Priority: optional
 Section: net
-Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
-Size: 2844
-SHA256: d2fe9f3b3dee0829ee8225c7347b3671ed98089fe984f4d062dc7b49b397940d
-SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
-MD5sum: f98ab87d5503b3aaf77b772d435240d6
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.2_all.deb
+Size: 3752
+SHA256: 90a2a6e8d44851aa0e3396df235e7b458159a4f5ddef853586f0596d40ea17aa
+SHA1: 29f03baf2b9b434b5939b9655652e338b58c8f8c
+MD5sum: 8053e14e44bf7e7b5e59011ee4738ff8
 Description: USB control for Android with hybris
 
 Package: index

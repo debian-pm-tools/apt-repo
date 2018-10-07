@@ -348,19 +348,19 @@ MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
 Description: Scripts to install a Halium rootfs on your android device
 
 Package: hybris-usb
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
-Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 23
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 28
 Depends: isc-dhcp-server, net-tools
 Homepage: https://github.com/mickybart/gnulinux_support
 Priority: optional
 Section: net
-Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
-Size: 2844
-SHA256: d2fe9f3b3dee0829ee8225c7347b3671ed98089fe984f4d062dc7b49b397940d
-SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
-MD5sum: f98ab87d5503b3aaf77b772d435240d6
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.2_all.deb
+Size: 3752
+SHA256: 90a2a6e8d44851aa0e3396df235e7b458159a4f5ddef853586f0596d40ea17aa
+SHA1: 29f03baf2b9b434b5939b9655652e338b58c8f8c
+MD5sum: 8053e14e44bf7e7b5e59011ee4738ff8
 Description: USB control for Android with hybris
 
 Package: index
@@ -3727,4 +3727,41 @@ SHA1: 440f11d00b5243e4e64092539e6412c4faadfc47
 MD5sum: 617c85ff9369dd3158d3db1afc15e032
 Description: debug symbols for vvave
 Build-Ids: 7285184b9bbe491e4a7a9a5cd81b23256280de52
+
+Package: xserver-xorg-video-hwcomposer
+Version: 0.3.8+git20180622-1
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 53
+Depends: libc6 (>= 2.17), libegl1, libepoxy0 (>= 1.0), libgles2, libhardware2, libhybris, xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Provides: xorg-driver-video
+Homepage: https://github.com/gemian/xf86-video-hwcomposer
+Priority: optional
+Section: x11
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer_0.3.8+git20180622-1_arm64.deb
+Size: 20340
+SHA256: fb9c1f8036fddb2ef71d373030818022892324bc74e25bdd825b30ee3f2b8547
+SHA1: 8ee940c07ef52fb71703e1ce626f889dc2d16d44
+MD5sum: bdbf5c43053820ad04b9dc9c52990b1d
+Description: X.Org X server -- hwcomposer driver
+ frame buffer driver for the Xorg X server,
+ utilizing Android HWComposer API through libhybris for rendering.
+
+Package: xserver-xorg-video-hwcomposer-dbgsym
+Source: xserver-xorg-video-hwcomposer
+Version: 0.3.8+git20180622-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonah Brüchert <jbb.mail@gmx.de>
+Installed-Size: 392
+Depends: xserver-xorg-video-hwcomposer (= 0.3.8+git20180622-1)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xserver-xorg-video-hwcomposer/xserver-xorg-video-hwcomposer-dbgsym_0.3.8+git20180622-1_arm64.deb
+Size: 381608
+SHA256: 24068f25f06771768f81a8e3fd37eb66808a1bed0916f272778f7f17ed0224ff
+SHA1: 6975daadc118f618c53de7c5eb77f1698bb383d5
+MD5sum: 731c5fae4f416ffa516f4a293a6e0c2c
+Description: debug symbols for xserver-xorg-video-hwcomposer
+Build-Ids: 727a3fbfe1580a22a963d386759d6423fc8b915c
 

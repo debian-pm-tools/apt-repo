@@ -258,6 +258,24 @@ MD5sum: b097682029a4031aa3d5460b3ed320ea
 Description: GStreamer droid plug-in.
  GStreamer droid plug-in contains elements using the Android HAL.
 
+Package: gstreamer1.0-droid-dbgsym
+Source: gst-droid
+Version: 0.20180503.0-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 433
+Depends: gstreamer1.0-droid (= 0.20180503.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-dbgsym_0.20180503.0-1_i386.deb
+Size: 371920
+SHA256: 721d28fb6978f5e8fc14f413dd53f2560a22c6b8326ae7f739ab42bf2ef4b1d7
+SHA1: 69d01b8b0b0d41f71d4c27dcd9cbf7025cb6d9a9
+MD5sum: 67c58e76145720fc194f6c45c10549d8
+Description: debug symbols for gstreamer1.0-droid
+Build-Ids: a6b333247d9d14d624855e5ef2a8b643cf712228 df02b337ed80988d27fbd744e139d16d84632d13
+
 Package: gstreamer1.0-droid-dev
 Source: gst-droid
 Version: 0.20180503.0-1
@@ -294,6 +312,24 @@ MD5sum: 84c4d326fd5a772715c6e6b60484cb4b
 Description: GStreamer droid plug-in.
  GStreamer droid plug-in contains elements using the Android HAL.
 
+Package: gstreamer1.0-droid-tools-dbgsym
+Source: gst-droid
+Version: 0.20180503.0-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Installed-Size: 80
+Depends: gstreamer1.0-droid-tools (= 0.20180503.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gst-droid/gstreamer1.0-droid-tools-dbgsym_0.20180503.0-1_i386.deb
+Size: 53592
+SHA256: 857517ab8ca5d81ec2a56635df4ab4bdda308167cada0a2691721c2e7058496f
+SHA1: 87bda722c805cf89ea11a582edcc87ab15a496b3
+MD5sum: a7a2facdfa8a98d4f5498fb6e99450f3
+Description: debug symbols for gstreamer1.0-droid-tools
+Build-Ids: 03154bc278abcc76acaa205740311e1cbda1e7e4 88df6c844e812a0ee388e9d8b96d1dff18f12d2e c2ea6e7367107377856d6fbab164c78d3ca3ebf7
+
 Package: halium-tool
 Source: halium-install
 Version: 0.1
@@ -312,19 +348,19 @@ MD5sum: 828512ecdf4067e234f72bd32c6e3a0f
 Description: Scripts to install a Halium rootfs on your android device
 
 Package: hybris-usb
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
-Maintainer: JBBgameich <jbb.mail@gmx.de>
-Installed-Size: 23
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 28
 Depends: isc-dhcp-server, net-tools
 Homepage: https://github.com/mickybart/gnulinux_support
 Priority: optional
 Section: net
-Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
-Size: 2844
-SHA256: d2fe9f3b3dee0829ee8225c7347b3671ed98089fe984f4d062dc7b49b397940d
-SHA1: 0196bd5009dc805a128b256afa62b40dd842662c
-MD5sum: f98ab87d5503b3aaf77b772d435240d6
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.2_all.deb
+Size: 3752
+SHA256: 90a2a6e8d44851aa0e3396df235e7b458159a4f5ddef853586f0596d40ea17aa
+SHA1: 29f03baf2b9b434b5939b9655652e338b58c8f8c
+MD5sum: 8053e14e44bf7e7b5e59011ee4738ff8
 Description: USB control for Android with hybris
 
 Package: index
