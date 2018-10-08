@@ -13,10 +13,10 @@ Package-List:
  pulseaudio-module-droid-glue deb sound optional arch=amd64,arm64,armhf
 Checksums-Sha1:
  f42dff7f4f1b60115b3cdef7e399426470cffef3 18685 pulseaudio-modules-droid-glue_11.1.3.orig.tar.gz
- 70f8b78cd0445d88387be77bd7c47c08072f78f6 2048 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
+ 3b2f82cc7c560d28b45eb052c10a46c8eecd7a52 1952 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
 Checksums-Sha256:
  63adfbc725dcedb16d567dca18496de5160b653ebcbc33f00dbfa443fa88b847 18685 pulseaudio-modules-droid-glue_11.1.3.orig.tar.gz
- 8236bb3680209e3dde18ffef0c56e9b69394ccc74cfee5d8dfc993fc64933c4c 2048 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
+ 909a3dabc15d68b51a2d93825870d791781c00e89edbb462f3924142096ea98a 1952 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
 Files:
  e8e69fe2f990331e36dae44c7e15d497 18685 pulseaudio-modules-droid-glue_11.1.3.orig.tar.gz
- 46a2c4fe3adbb5181d0c96605f8d9952 2048 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
+ d8c27803df2f1696a2303ed2873de1a8 1952 pulseaudio-modules-droid-glue_11.1.3-1.debian.tar.xz
