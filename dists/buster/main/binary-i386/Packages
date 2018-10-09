@@ -3338,41 +3338,41 @@ Description: debug symbols for plasma-angelfish
 Build-Ids: 75a571578014b3d555930cb877e72afd5e7d844d
 
 Package: plasma-phone-components
-Version: 0.7+git20180711-1
+Version: 0.7+git20180811-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3871
-Depends: breeze-icon-theme, fonts-oxygen, kpeople-vcard, milou, plasma-workspace, powerdevil, qml-module-org-kde-activities, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-people, qml-module-qtquick-localstorage, kio, kpackagetool5, libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
+Installed-Size: 3909
+Depends: breeze-icon-theme, fonts-oxygen, kpeople-vcard, milou, plasma-workspace, powerdevil, qml-module-org-kde-activities, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-people, qml-module-qtquick-localstorage, kio, kpackagetool5, libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 5.5.0+git20150101.0309+15.04), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libphonenumber7, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.5)
 Recommends: qml-module-ofono
 Homepage: https://plasma-mobile.org
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180711-1_i386.deb
-Size: 1757892
-SHA256: 69e0306f9efd4a5c7da2201d4c8cda74bdd67747f9df78514136c9db8e7ce3c5
-SHA1: 016f9f25f29d8dc6eed3de48598de0d6c76e7706
-MD5sum: 20bb8a97c72faeece1ac033e7b46defa
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180811-1_i386.deb
+Size: 1766328
+SHA256: f2e19d0a4f0910536a51a54bf743bb071e3edbdca9d97c612a5844d0fa14707d
+SHA1: dbfa9dac3102af903b170236e2dbca16669d384e
+MD5sum: b5e72826b404f6b7bdaba730e2cbd08f
 Description: Plasma Phone Components
  Phone components for KDE Plasma.
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-components-dbgsym
 Source: plasma-phone-components
-Version: 0.7+git20180711-1
+Version: 0.7+git20180811-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3358
-Depends: plasma-phone-components (= 0.7+git20180711-1)
+Installed-Size: 3389
+Depends: plasma-phone-components (= 0.7+git20180811-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180711-1_i386.deb
-Size: 3328132
-SHA256: 28b52c8b66b06afa0a3c139cf40f291f5428e9dc83204c6859d4c0b0b3d79489
-SHA1: f2107a9d78abd4f58273d55e6eceb81b545be0f3
-MD5sum: 67a7b461121025ead88cbcbaf4db0d28
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180811-1_i386.deb
+Size: 3358252
+SHA256: c2ea5c51863b033dda47402a98f934d56caa225ec7736e2e493a87b449450dca
+SHA1: 6d2cdb099016d0077e78896c569e6fbf3d124c42
+MD5sum: 4d17bbecc9873696f5732f22b1d865ee
 Description: debug symbols for plasma-phone-components
-Build-Ids: 361f0a62ce17e5aae14499550c2965e5f47cad5b 4e25a453254628a9796ab566a700275a2cebaeeb 6be90a349dbf525646adaf716d7090fce9a3150e b31a5edc2f74301600656404ad65557855d9c911 d3d9a6b09bb47f0ea60cdae4c16e0dd20baa60bb f40f135890956732634f1c515bed78d2379b9486
+Build-Ids: 0eb50472a72fe94392be8b4beb5bb2301605bce4 1d4c65549a26c59edee9ee734591baf552ade1db 36acb1f6c29e4c0a3ec260b34a3765f35b207bd3 42ca9f4ad0c1a1307f431612fb4011e23c9a0429 8ae74585ff0a2b675754f2d3c569f8a4216576f8 ffe1be02a976598e42dec89525b2d2da3a48488a
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-settings

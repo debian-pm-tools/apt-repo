@@ -13,11 +13,11 @@ Package-List:
  plasma-settings deb kde optional arch=any
 Checksums-Sha1:
  8fba7a200468580fd059822ffbdd9ed8d53ddb28 48908 plasma-settings_0.0.1+git20180828.orig.tar.xz
- e7d355fed907ebe597210f928407584c8552baf0 2536 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
+ 5410e3ebc64d553f57ac51fdbed93c76cf3a1cb4 2524 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
 Checksums-Sha256:
  ae7b1ca195c9cb9203d67016a96e28e5c277113c4a879c7e9b06cf8535c648de 48908 plasma-settings_0.0.1+git20180828.orig.tar.xz
- d3e69d55631b6ace37637128d3127586e1acd7b576507b07b3cc2bea2be31110 2536 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
+ 244452552275e1366e472fa089502da81bcc298a00c4d5c739a8989d5b159620 2524 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
 Files:
  8ccae66ee4b247ec40d23fd241ac5756 48908 plasma-settings_0.0.1+git20180828.orig.tar.xz
- 8974de593607f62769185f849ddf514b 2536 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
+ 3f63edd8f52f32704eca629f7955d42e 2524 plasma-settings_0.0.1+git20180828-1.debian.tar.xz
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
