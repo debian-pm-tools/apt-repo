@@ -491,39 +491,39 @@ Description: transitional package for kwin-x11
  It can be safely removed after the installation.
 
 Package: koko
-Version: 0.0+git20180504-1
+Version: 0.0+git20171201-1
 Architecture: arm64
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 24602
-Depends: plasma-framework, qml-module-org-kde-kirigami2, qml-module-org-kde-purpose, qml-module-qtgraphicaleffects, kio, libc6 (>= 2.17), libexiv2-14 (>= 0.25), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5dbusaddons5 (>= 4.97.0), libkf5guiaddons5 (>= 4.96.0), libkf5i18n5 (>= 5.17.0), libkf5kiocore5 (>= 5.20.0), libkf5kiowidgets5 (>= 4.99.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Installed-Size: 24364
+Depends: plasma-framework, qml-module-qtgraphicaleffects, qml-module-org-kde-kirigami2, qml-module-org-kde-purpose, kio, libc6 (>= 2.17), libexiv2-14 (>= 0.25), libgcc1 (>= 1:3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.97.0), libkf5dbusaddons5 (>= 4.97.0), libkf5guiaddons5 (>= 4.96.0), libkf5i18n5 (>= 5.17.0), libkf5kiocore5 (>= 5.20.0), libkf5kiowidgets5 (>= 4.99.0), libkf5notifications5 (>= 4.96.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5positioning5 (>= 5.6.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Priority: optional
 Section: kde
-Filename: pool/main/k/koko/koko_0.0+git20180504-1_arm64.deb
-Size: 6400908
-SHA256: d1b2dd5a8dc8eace068fb172322ac1b7f49f1bb0adf7fbec766f4960bb1ca1b5
-SHA1: aecbbb2aaf7d6e777700be8ded3c74241432f339
-MD5sum: 09df2383e366023359f600fc2b95ffc0
+Filename: pool/main/k/koko/koko_0.0+git20171201-1_arm64.deb
+Size: 6341216
+SHA256: 9da6a94047c5a3465ebf538bfc441f0060beb0b9972fcad97984c3978e3e0df0
+SHA1: fe0c95521eb2e89c0a729e2f1384a6ee929b378c
+MD5sum: 14e5fad94d3452d5e581b34e66667e5d
 Description: KDE Image Gallery
  A KDE Image Gallery.
 Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 
 Package: koko-dbgsym
 Source: koko
-Version: 0.0+git20180504-1
+Version: 0.0+git20171201-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3325
-Depends: koko (= 0.0+git20180504-1)
+Installed-Size: 2990
+Depends: koko (= 0.0+git20171201-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/koko/koko-dbgsym_0.0+git20180504-1_arm64.deb
-Size: 3263772
-SHA256: 725b3034acbd1f5e1247eebb9cc88d186546a98ce886d0ec46cc62f926aca932
-SHA1: 221f46e9219c896416b335eb7bc5b0ad2147636f
-MD5sum: 0d4920637fa99bcc7b94414c7b204918
+Filename: pool/main/k/koko/koko-dbgsym_0.0+git20171201-1_arm64.deb
+Size: 2934212
+SHA256: c52179907c939730f6758a77021bd51ca160fdc1e86cd4b1c0129025bbc23003
+SHA1: 563a8ce3f0f7b60bf32d4e5944e5e4a9efbebb25
+MD5sum: 6ddf7691b7e3f36b0ca32c09ced24540
 Description: debug symbols for koko
-Build-Ids: 23fd722c8aab912a24468c26fb7a5f9001e74796 4fbefc85c23d3ed2b1899de9d273e266f5378609 f8c7683bd54f0d95b84903c2dcd4760b50628f06
+Build-Ids: 762a753de7e1e6b0b9e5f5c69d21ebb9d9bf0da7 9d3205ae6daf47abe305d2e511528981e663a6c3 f7402a41715deb3001d1d95eb2264b9a4480fc72
 Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 
 Package: kpeople-vcard

@@ -4,15 +4,13 @@ Binary: debian-pm-archive-keyring
 Architecture: all
 Version: 20180408
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
-Standards-Version: 4.1.4
-Vcs-Browser: https://gitlab.com/debian-pm/debian-pm-keyring
-Vcs-Git: https://gitlab.com/debian-pm/debian-pm-keyring.git
+Standards-Version: 4.1.3
 Build-Depends: debhelper (>= 11), gnupg
 Package-List:
  debian-pm-archive-keyring deb misc optional arch=all
 Checksums-Sha1:
- 05612ac74460c2e62a29dcb4dd6751d0aee1e849 22224 debian-pm-keyring_20180408.tar.xz
+ f3ae290e13f4b60b54e8ab5a9808f5defccadef5 22148 debian-pm-keyring_20180408.tar.xz
 Checksums-Sha256:
- 5b101918fd426ffbeadb3aaf52cea967ea8d210433e9804711fc964d3397d636 22224 debian-pm-keyring_20180408.tar.xz
+ 1296146d9388bd23512ac45f80b48bb82ae922bd999ebea49043287371b6bfec 22148 debian-pm-keyring_20180408.tar.xz
 Files:
- 72031aa804898b04ed75dd30fc7aa611 22224 debian-pm-keyring_20180408.tar.xz
+ 1534fda77fe4d2f7b76982dccfc6c78b 22148 debian-pm-keyring_20180408.tar.xz
