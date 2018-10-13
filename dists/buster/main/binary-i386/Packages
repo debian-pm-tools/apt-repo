@@ -563,11 +563,11 @@ Build-Ids: 265e639fcc39acb5635de418302f19cf275a0b2a
 
 Package: kwin-common
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 9442
-Depends: kwin-data (= 4:5.13.1-1), libkf5globalaccel-bin, libkwineffects11 (= 4:5.13.1-1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.8), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private6 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.35.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.9.0~beta), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
+Installed-Size: 9414
+Depends: kwin-data (= 4:5.13.5-1), libkf5globalaccel-bin, libkwineffects11 (= 4:5.13.5-1), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.8), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.10.3), libkdecorations2private6 (>= 4:5.10.3), libkf5activities5 (>= 4.96.0), libkf5auth5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.24.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.20.0), libkf5declarative5 (>= 5.0.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 5.2.0+git20140930), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.42.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.35.0), libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5, libkwin4-effect-builtins1, libkwinglutils11 (>= 4:5.11.4), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5script5 (>= 5.6.0~beta), libqt5sensors5 (>= 5.6.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0)
 Recommends: libqt5multimedia5-plugins, plasma-desktop (>= 4:5.13)
 Suggests: kwin-addons (>= 4:5.13)
 Breaks: kwin (<= 4:5.3.1-0ubuntu3), plasma-workspace (<< 4:5.13), plasma-workspace-dev (<< 4:5.13)
@@ -575,11 +575,11 @@ Replaces: kwin (<= 4:5.3.1-0ubuntu3)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-common_5.13.1-1_i386.deb
-Size: 1846504
-SHA256: 370f173cdd8466df481466dc1741a62fcd643935d0df7e5f5e312213afb06a4e
-SHA1: bebb8d58eed3f2446eff988297c8c190f009eefb
-MD5sum: fee8fa40402cc835f83361e9a9bcab49
+Filename: pool/main/k/kwin/kwin-common_5.13.5-1_i386.deb
+Size: 1855716
+SHA256: b19130a3522a1818cf986477193014b3d29d5c871f8b9d1c50afddb96ea8b9cd
+SHA1: 1925b67e1c5ff81456a66c99b1b9472da2e35b5c
+MD5sum: da9177275ac6a6af9c79275a963b0dd6
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -613,21 +613,21 @@ Build-Ids: 0515c948a256f2f031c6911cf181520c793fa173 0f3ace2091a534a7f6581c7377e0
 
 Package: kwin-data
 Source: kwin
-Version: 4:5.13.4-1
+Version: 4:5.13.5-1
 Architecture: all
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 12885
+Installed-Size: 12890
 Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-data_5.13.4-1_all.deb
-Size: 4151432
-SHA256: 49aadae34bcc353453b966a9a90112c1593fc91a294b690d51b0da73fd54c316
-SHA1: 0a089bd3ddab994144ccfefcfb03be16a1cb8b10
-MD5sum: 377cf75d65d077e35f5c50226065d048
+Filename: pool/main/k/kwin/kwin-data_5.13.5-1_all.deb
+Size: 4153408
+SHA256: 92fb8006e86283d59b3913e195b772ce9cc500ed3b9fccdb657a8f1a86605583
+SHA1: 6ecc75c41d7ba181673d2121a7f10aecfcb02c95
+MD5sum: e7d738c624431331de22e27c3ddff600
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -641,21 +641,21 @@ Description: KDE window manager data files
 
 Package: kwin-dev
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 251
-Depends: kwin-common (= 4:5.13.1-1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.42.0~), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
+Depends: kwin-common (= 4:5.13.5-1), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.42.0~), libkf5coreaddons-dev (>= 5.42.0~), libkf5windowsystem-dev (>= 5.42.0~), libqt5x11extras5-dev (>= 5.9.0~), qtbase5-dev (>= 5.9.0~)
 Breaks: kde-workspace-dev
 Replaces: kde-workspace-dev
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libdevel
-Filename: pool/main/k/kwin/kwin-dev_5.13.1-1_i386.deb
-Size: 54992
-SHA256: 837d27fcbd03e286950bee03bd1a74c516d9be6df87fd89b1d1ba4e19e5a0337
-SHA1: b776d78253bede8beedf556166a971f9b9576c9e
-MD5sum: 837f69611a8458d44fe023915f967fd2
+Filename: pool/main/k/kwin/kwin-dev_5.13.5-1_i386.deb
+Size: 55044
+SHA256: 67343647f56e8ddcf28cf24544af99b99ba11ed77c2e94501a38117bf5deed20
+SHA1: 0abf55ed207f5352fda9c9b450bdeef71914a8ca
+MD5sum: d784c6c6da803a5f821adf113b0db477
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -669,21 +669,21 @@ Description: KDE window manager - devel files
 
 Package: kwin-wayland
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 672
-Depends: kwayland-integration (>= 5.13), kwin-common (= 4:5.13.1-1), kwin-wayland-backend-drm (= 4:5.13.1-1) | kwin-wayland-backend-fbdev (= 4:5.13.1-1) | kwin-wayland-backend-x11 (= 4:5.13.1-1) | kwin-wayland-backend-virtual (= 4:5.13.1-1) | kwin-wayland-backend-wayland (= 4:5.13.1-1), libcap2-bin, xwayland, libc6 (>= 2.4), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgcc1 (>= 1:4.2), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.1), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0), libxcb1, qtbase-abi-5-10-0
+Installed-Size: 684
+Depends: kwayland-integration (>= 5.13), kwin-common (= 4:5.13.5-1), kwin-wayland-backend-drm (= 4:5.13.5-1) | kwin-wayland-backend-fbdev (= 4:5.13.5-1) | kwin-wayland-backend-x11 (= 4:5.13.5-1) | kwin-wayland-backend-virtual (= 4:5.13.5-1) | kwin-wayland-backend-wayland (= 4:5.13.5-1), libcap2-bin, xwayland, libc6 (>= 2.4), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgcc1 (>= 1:4.2), libkf5coreaddons5 (>= 5.2.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.5.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.11.1), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0), libxcb1, qtbase-abi-5-11-0
 Breaks: plasma-workspace-wayland (<< 4:5.13)
 Provides: kwin
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-wayland_5.13.1-1_i386.deb
-Size: 185824
-SHA256: d0411a37742675121f6de1bc98f792bf36446d62770e7583819d7ef311739e57
-SHA1: bc73a25fa751321c1ffde54b100bf1746fc8fe61
-MD5sum: 06844bd8269f96f4bff538e06c016ccf
+Filename: pool/main/k/kwin/kwin-wayland_5.13.5-1_i386.deb
+Size: 189792
+SHA256: 54bc2ffd89f0ad72fae76274cc7f9f85c7f3edf1bc46a1305a21fe3177996b9b
+SHA1: 31923bc5794e8e6110a333ec34ee54f2c58a8590
+MD5sum: ecad6312e4c351a34b3bbb1195d549fb
 Description: KDE window manager, wayland version, PREVIEW release
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -699,20 +699,20 @@ Description: KDE window manager, wayland version, PREVIEW release
 
 Package: kwin-wayland-backend-drm
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 295
-Depends: kwin-common, libc6 (>= 2.4), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.45.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Depends: kwin-common, libc6 (>= 2.4), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.20.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.45.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.13.1-1_i386.deb
-Size: 96368
-SHA256: d3af17caa83a2eff3103ff8cbd98f961db646a97b914b9c6f3da46c9b42748b7
-SHA1: 52da5f449708ac7c78756a40c484a75916a2ea56
-MD5sum: 2773a111dfa1864e78a21a84cc114850
+Filename: pool/main/k/kwin/kwin-wayland-backend-drm_5.13.5-1_i386.deb
+Size: 97312
+SHA256: f862356af88c798271b52a090c331ca0c93ab020f03ea3afc147c4761c1893a9
+SHA1: 33aafc9cd774f929f458a6212c76d2d5f95278e7
+MD5sum: 7e200673ec8f070b4d2597e6dd04764d
 Description: KDE window manager drm plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -746,20 +746,20 @@ Build-Ids: fbadcfc2295d92d07201a96732e263c7819bba9f
 
 Package: kwin-wayland-backend-fbdev
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 78
-Depends: kwin-common, libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Depends: kwin-common, libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.13.1-1_i386.deb
-Size: 25016
-SHA256: 82f8fe86d70237174e544605c1471310c732831a4747bf85072c55046b6e29dd
-SHA1: 9b55a5315653f5187d6652affc15a07f01e6fd7b
-MD5sum: 8624b26ac98dd8edaf13efcaa15b5fdf
+Filename: pool/main/k/kwin/kwin-wayland-backend-fbdev_5.13.5-1_i386.deb
+Size: 25316
+SHA256: 0c37721eeaee6464e2f142bcd3225d664fdb58f2462fbccad2a5345a9d099f17
+SHA1: 5dee87f2b4cc6c7b8c57a58ce480e56b1fa23f53
+MD5sum: 7bbe91839aee1f0ff6d26f049fa6dfe5
 Description: KDE window manager fbdev plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -793,20 +793,20 @@ Build-Ids: d28234ad56bb234b5a68eba4e73e9c309862f57e
 
 Package: kwin-wayland-backend-hwcomposer
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 131
-Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libhardware2, libhybris, libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libhardware2, libhybris, libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.13.1-1_i386.deb
-Size: 43680
-SHA256: 1f94760d434799213ccfc8906a84250de82d88e5c10c4bb19433e432ab154ba0
-SHA1: c5391c02fa7c99da8cb5ee9f4f4e473e85fbe0fb
-MD5sum: dbe5215bee7450b48d8fb172171a8165
+Filename: pool/main/k/kwin/kwin-wayland-backend-hwcomposer_5.13.5-1_i386.deb
+Size: 43532
+SHA256: 958c97e7401ebe1d87f182a37ce18c244fb69d93435698bd02c1c2034a0e9740
+SHA1: b627d30691b9dc7aeb9dcdb0f509bc21926468d5
+MD5sum: 00a7f17e305fd4afcecd59698e26e717
 Description: KDE window manager hwcompositor plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -840,20 +840,20 @@ Build-Ids: e2be836c2d7fb22463866858b5eb68ef5ddef277
 
 Package: kwin-wayland-backend-virtual
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 135
-Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgbm1 (>= 7.11~1), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.13.1-1_i386.deb
-Size: 46456
-SHA256: f84d20ce27b103cb063fc3bc0458e91b967a805261e469ce4f3c2929fa081705
-SHA1: ce6b1d088ebcb181adf2da4a2c302e750caa5079
-MD5sum: 77050cc513f8e5bf59bfcd657645c26a
+Filename: pool/main/k/kwin/kwin-wayland-backend-virtual_5.13.5-1_i386.deb
+Size: 46304
+SHA256: 577d904b2d51fc5acefbd0b182876a395044744e394c06571de3fc982fa635b7
+SHA1: 0b748f6317856917a4052da7a56eb19c01c2cd24
+MD5sum: c8b5101036d8768f2d27b154e2e33ac7
 Description: KDE window manager virtual plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -888,20 +888,20 @@ Build-Ids: 305cb2d14b093e0eccb8d03f5bbaedfec51f1a31
 
 Package: kwin-wayland-backend-wayland
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 167
-Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.35.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.35.0), libkf5waylandserver5 (>= 4:5.22.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.13.1-1_i386.deb
-Size: 52724
-SHA256: afd263a306f981306703d44afc556eb4879d4ac5ddf1fb06e3332957abe607cc
-SHA1: 794d52dc1b8fbadd91e5bd537b2fed6daf39d193
-MD5sum: bf92355ce5887b5ace2887666233374d
+Filename: pool/main/k/kwin/kwin-wayland-backend-wayland_5.13.5-1_i386.deb
+Size: 51944
+SHA256: b8fd854fbf4233887608e521f350aa9bff59de2c2e1079c54076ca51208cd63e
+SHA1: 3c91daa75fcba8f9b7c1e05d7fd01cbf996b351b
+MD5sum: 913aa8fe60ea01d73979c158810f21d0
 Description: KDE window manager nested wayland plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -935,20 +935,20 @@ Build-Ids: a629e131908b3d0cf054ffb9a1528a7aa2408e43
 
 Package: kwin-wayland-backend-x11
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 167
-Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.98.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1, libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6)
+Depends: kwin-common, libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.98.0), libkwineffects11 (>= 4:5.1.95+git20150122), libkwinglutils11 (>= 4:5.10.3.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1, libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6)
 Provides: kwin-wayland-backend
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.13.1-1_i386.deb
-Size: 56904
-SHA256: 75f258e33eddd115779f74707ec3fc2f2103c232f75ec0eb2d71f25159965736
-SHA1: e683a3282b3b3d3fba2279ddd8fdd595c91eb47a
-MD5sum: 84e29dca2e13b741b429b6ba679e911d
+Filename: pool/main/k/kwin/kwin-wayland-backend-x11_5.13.5-1_i386.deb
+Size: 57104
+SHA256: 7d34001703b5d431354d9cc14b6543e18612cb966c2f747fe09488d90586a55e
+SHA1: b6646e090cd501cee6f9cdfafcd649cfc76ab3eb
+MD5sum: 1832f9ec2cf0345fd57f9a5c834f9b73
 Description: KDE window manager x11 plugin
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1002,22 +1002,22 @@ Build-Ids: 31a4b29aff945c7c9e387b9d39c118142a55106a 3cd27d24ffb6d9028e571ea4df7b
 
 Package: kwin-x11
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 457
-Depends: kwin-common (= 4:5.13.1-1), libkwinglutils11 (= 4:5.13.1-1), libkwinxrenderutils11 (= 4:5.13.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Installed-Size: 453
+Depends: kwin-common (= 4:5.13.5-1), libkwinglutils11 (= 4:5.13.5-1), libkwinxrenderutils11 (= 4:5.13.5-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libgcc1 (>= 1:4.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.22.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
 Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.13)
 Replaces: kde-window-manager (<< 4:5)
 Provides: kwin, x-window-manager
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-x11_5.13.1-1_i386.deb
-Size: 131764
-SHA256: 2fe10f94c4a1a803e08b29c00bbf3beafc207d223876f275b61e6e1ba3fb1a89
-SHA1: 167539d636ed61eb42592c5e9e3a53f565727826
-MD5sum: 64dd0324695156eb71c880636975bc24
+Filename: pool/main/k/kwin/kwin-x11_5.13.5-1_i386.deb
+Size: 131360
+SHA256: 6300062946af9b2c71b620eefd9b4d2d4dd598f0a445976348ff9c176625e770
+SHA1: 7d7bacf30b43252cbf825e57343353da3338feb4
+MD5sum: d9f862d868b4d90e9545b0c9cc292ef8
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1413,19 +1413,19 @@ Build-Ids: 12cde86deb4faa012b323ec544e8cc904610e585 6c623fe40ae6af20a54d073731f8
 
 Package: libkwin4-effect-builtins1
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1317
-Depends: libkwineffects11 (= 4:5.13.1-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.13.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
+Installed-Size: 1293
+Depends: libkwineffects11 (= 4:5.13.5-1), libc6 (>= 2.4), libepoxy0 (>= 1.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils11 (>= 4:5.13.1), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.9.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.13.1-1_i386.deb
-Size: 359700
-SHA256: 232e336f4014bbed2fa5b63cbfa3c02daf7eaf14aa0a7d7190a63451162970fe
-SHA1: 683f7299110211378e62d0e255cfa74a752cdf4f
-MD5sum: 50cc4815956d92aa2c479bf1c18b1563
+Filename: pool/main/k/kwin/libkwin4-effect-builtins1_5.13.5-1_i386.deb
+Size: 360856
+SHA256: e8780e25bc6cc1770decd5fcb8ce3ed6710589b521ef88f91bafb57a41138a70
+SHA1: 249710659f6032c5d19be9ed71a93be6c8e58e5b
+MD5sum: c83f75e9ffd865795d93c95fc206df18
 Description: KDE window manager effect builtins library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1459,21 +1459,21 @@ Build-Ids: 774dff1c426808f42fb09c562f664d4d7ddeaa3c
 
 Package: libkwineffects11
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 295
-Depends: libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0
+Installed-Size: 287
+Depends: libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009), libkwinxrenderutils11 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0
 Breaks: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
 Replaces: libkwineffects10, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwineffects11_5.13.1-1_i386.deb
-Size: 83616
-SHA256: f526eb6a559dd22e0c0007ecc1e5d29df12990f9451a715bdb723e6e2f8f5d9b
-SHA1: 665d3526438f6d9d11095057ed5fd4701bdf8644
-MD5sum: 0fa1585daadca573a5a5cd677599a6b2
+Filename: pool/main/k/kwin/libkwineffects11_5.13.5-1_i386.deb
+Size: 83220
+SHA256: 44a9fc03d23649fa9c9d99eb9875f5e1d7eef3277074636fb485b376ba76e339
+SHA1: 9d84d13e27ce2f4046d665250419968e04f38328
+MD5sum: 9906ae2a190a9251c83ca40bc3d4016a
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1507,21 +1507,21 @@ Build-Ids: d524279300e7d6d1d41fdff8a551b0dc6e733cf3
 
 Package: libkwinglutils11
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 211
-Depends: libc6 (>= 2.4), libepoxy0 (>= 1.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb1
+Depends: libc6 (>= 2.4), libepoxy0 (>= 1.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb1
 Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4), libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4.5.5.80+git20160203), libkwinglutils8, libkwinglutils9
 Replaces: libkwinglutils10, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4:5.5.80+git20160203), libkwinglutils8, libkwinglutils9
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwinglutils11_5.13.1-1_i386.deb
-Size: 68668
-SHA256: 395dc3d7eede78bc26a6982a7e485839057b81ae18b6c55b91581868b21e98c4
-SHA1: 9699ff709c4bd98c063f2f5b7c307683618adac9
-MD5sum: 56e05d7f1eadbdad91f9725810f485ec
+Filename: pool/main/k/kwin/libkwinglutils11_5.13.5-1_i386.deb
+Size: 68444
+SHA256: 3d99a0c68af7ed88358fee14906059de05be7599d980c6399c1a01e620e166e6
+SHA1: e5f81a8db7cb7c5be78a0d8643203987edcbf1f8
+MD5sum: 22b6f08c007f90eaceb8e942e6d18c0f
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -1555,21 +1555,21 @@ Build-Ids: e796d68f44b8ca29e245ce2dc3fee0253c78f1d6
 
 Package: libkwinxrenderutils11
 Source: kwin
-Version: 4:5.13.1-1
+Version: 4:5.13.5-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 68
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
 Breaks: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
 Replaces: libkwinxrenderutils10, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: libs
-Filename: pool/main/k/kwin/libkwinxrenderutils11_5.13.1-1_i386.deb
-Size: 22988
-SHA256: ac8e7cd7e2e3d46ed19a331d9b4ea9bf565de5885fd8b0486c7cb9cb5e083dc8
-SHA1: 9d5a9e0eb9e843e10f8e76ac3cf9176074bbe085
-MD5sum: e915d7e2249074cda1fe32d5017cabfd
+Filename: pool/main/k/kwin/libkwinxrenderutils11_5.13.5-1_i386.deb
+Size: 23092
+SHA256: 10bcd66ba559eb04ef171f64a753d2e8b6c7e74d6f8a6101e7750f2c90bb148d
+SHA1: b774e86fde08c22c1b9f69f533873ed9b77f6174
+MD5sum: 585a80a93126d85201a5723d2ba08460
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -2289,20 +2289,20 @@ Description: Qt 3D Renderer module
 
 Package: libqt5concurrent5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 173
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5)
+Installed-Size: 184
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.11.0~rc1), libstdc++6 (>= 5)
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5concurrent5_5.10.1+dfsg-7_i386.deb
-Size: 56228
-SHA256: 60d4e0b31e22aae6d15c7c00f9a7c3d786606ac3c81e39cbe44b610dab1112df
-SHA1: 2badc19ab72effcb826b3de207430570b1856b12
-MD5sum: 0108e9aec7e41b566affb1a2ca137635
+Filename: pool/main/q/qtbase-opensource-src/libqt5concurrent5_5.11.1+dfsg-9_i386.deb
+Size: 57708
+SHA256: 97d02c7da9bec111d20da09b337db1d6c5f983394a36a05ed6a687371a5c9f87
+SHA1: 73efbe5903ed89abffcfbcbec332d68248388e9d
+MD5sum: 3852b50dab5de1cd9f50b2cf69f56813
 Description: Qt 5 concurrent module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2312,24 +2312,24 @@ Description: Qt 5 concurrent module
 
 Package: libqt5core5a
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 10942
-Depends: libc6 (>= 2.25), libdouble-conversion1 (>= 2.0.0), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.22.0), libicu60 (>= 60.1-1~), libpcre2-16-0 (>= 10.31), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Installed-Size: 10870
+Depends: libc6 (>= 2.17), libdouble-conversion1 (>= 2.0.0), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.22.0), libicu60 (>= 60.1-1~), libpcre2-16-0 (>= 10.31), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
 Recommends: qttranslations5-l10n
 Suggests: libthai0
 Breaks: libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~)
-Provides: qtbase-abi-5-10-0
+Provides: qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5core5a_5.10.1+dfsg-7_i386.deb
-Size: 2490976
-SHA256: 6745fe9a4bfa6111e3121c294e1fb89c585c49a87c24347b3ba053c87cb26b72
-SHA1: a3610052097367357cadb934de5adeb93ccd8982
-MD5sum: c8586134e8cc86331178e5efaa3cc410
+Filename: pool/main/q/qtbase-opensource-src/libqt5core5a_5.11.1+dfsg-9_i386.deb
+Size: 2511448
+SHA256: a3d4d249a63d59b7f9d6c6551d171276bf48fd5674c62eeabbb60b3541e62326
+SHA1: 020f59c911acd2951046d7fd9f57a91eead15a91
+MD5sum: 937fb21365b31a57ce3e49fc12f9f603
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2338,20 +2338,20 @@ Description: Qt 5 core module
 
 Package: libqt5dbus5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 836
-Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 883
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libqt5core5a (>= 5.11.0~rc1), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5dbus5_5.10.1+dfsg-7_i386.deb
-Size: 245676
-SHA256: 922f4e63fbcb7f082624d593a27529aa15e631100af1cef296d1fc14781f4f98
-SHA1: f78aff6aff35e09a4a59385465718d8daf913b22
-MD5sum: 01dd1fca317dd486b303cc851f99d88e
+Filename: pool/main/q/qtbase-opensource-src/libqt5dbus5_5.11.1+dfsg-9_i386.deb
+Size: 252924
+SHA256: 00149497472f4fe934346d0850dec7af44445cceb2778ecd4619a89d18c94bd4
+SHA1: 1d9471aa9b5b42245f12277214be1ac59d408f90
+MD5sum: 05fc354e971f2afb6449fbb020c192c5
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2365,11 +2365,11 @@ Description: Qt 5 D-Bus module
 
 Package: libqt5gui5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 17301
-Depends: fontconfig, libc6 (>= 2.11), libdrm2 (>= 2.4.30), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc1 (>= 1:7), libgles2, libharfbuzz0b (>= 1.2.6), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xkb1, libxcb1 (>= 1.8), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1, qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Installed-Size: 17778
+Depends: fontconfig, libc6 (>= 2.11), libdrm2 (>= 2.4.47), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc1 (>= 1:7), libgles2, libharfbuzz0b (>= 1.6.0~), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg62-turbo (>= 1.3.1), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xkb1, libxcb1 (>= 1.8), libxi6 (>= 2:1.5.99.2), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1, qtbase-abi-5-11-0, zlib1g (>= 1:1.1.4)
 Recommends: libqt5svg5, qt5-gtk-platformtheme
 Suggests: qt5-image-formats-plugins, qtwayland5
 Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
@@ -2378,11 +2378,11 @@ Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5gui5_5.10.1+dfsg-7_i386.deb
-Size: 4644500
-SHA256: e3e47a6da089c9ec691ee85855d7fc9d801b9568731f30ccc1941668eec8d832
-SHA1: 8aa9f1159b809f8dcbbbda3b538b868165441184
-MD5sum: 516bc1eef0b2501e97e0f969e48cdaad
+Filename: pool/main/q/qtbase-opensource-src/libqt5gui5_5.11.1+dfsg-9_i386.deb
+Size: 4737068
+SHA256: 931fda76645d9fd54d64448902dc038c0aa598c74c4c344b136a80ef2deaba0b
+SHA1: a4192f8b1dadb3cf1840557484e2bb1821d28a2e
+MD5sum: 5ca063d6c283e3ef554262ebd4900736
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2549,20 +2549,20 @@ Description: Qt 5 Multimedia Widgets module
 
 Package: libqt5network5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2908
-Depends: libssl1.1, libc6 (>= 2.10), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Installed-Size: 2932
+Depends: libssl1.1, libc6 (>= 2.10), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-11-0, zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5network5_5.10.1+dfsg-7_i386.deb
-Size: 751032
-SHA256: d33d9f26b1ba7315c9d014d42edad484c37c705716e4293645d1aa9a0b11116c
-SHA1: 3630bd5a4a66f8a67e6c28dedebdcc830189bbae
-MD5sum: 95fef488384f06a8b480ae671a997c00
+Filename: pool/main/q/qtbase-opensource-src/libqt5network5_5.11.1+dfsg-9_i386.deb
+Size: 769296
+SHA256: b0cff4d2ea7fa3006eb95d4beb7d32f63e316709379f0822601fa70ab902fb58
+SHA1: 0fc756895e196137e2b6b5d4cd3ec1444b1a63a0
+MD5sum: 7ff14e0f8b2c3783b3a3b7f87b43e9eb
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2572,20 +2572,20 @@ Description: Qt 5 network module
 
 Package: libqt5opengl5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 547
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 558
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~beta), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5_5.10.1+dfsg-7_i386.deb
-Size: 165412
-SHA256: 9295022f6d12b3bde939629e186ae74da45963eccb050890fb15a1847c325509
-SHA1: f73efd3c700d52bbbfc392732a06b6d7c6f6c74d
-MD5sum: 77c52cb25b474ab2942f806ff4ecc729
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5_5.11.1+dfsg-9_i386.deb
+Size: 167884
+SHA256: a4df2d2497910fbb89588fe44869064da18a97385415ba5d70c16b5ec238da1d
+SHA1: 14eaa875010e56056d7f66447b69312143478fdd
+MD5sum: d19f64b8cc86ccad6192c93e0530ff13
 Description: Qt 5 OpenGL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2598,22 +2598,23 @@ Description: Qt 5 OpenGL module
 
 Package: libqt5opengl5-dev
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 279
-Depends: libqt5opengl5 (= 5.10.1+dfsg-7), qtbase5-dev (= 5.10.1+dfsg-7)
+Installed-Size: 282
+Depends: libqt5opengl5 (= 5.11.1+dfsg-9), qtbase5-dev (= 5.11.1+dfsg-9)
 Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Provides: libqt5opengl5-desktop-dev (= 5.11.1+dfsg-9)
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5-dev_5.10.1+dfsg-7_i386.deb
-Size: 61732
-SHA256: bf0b460db46917ebfbfa733dc648f3281d323acf0343595309de6db10b3e7e2c
-SHA1: 58cdb51f66f7c5aa7a9c4030c34c5f25691664b0
-MD5sum: 37639f00042ebadd4ca9fce49a55801a
+Filename: pool/main/q/qtbase-opensource-src/libqt5opengl5-dev_5.11.1+dfsg-9_i386.deb
+Size: 63032
+SHA256: 642327d042917f70f9713e28ae602a029a1bf99dbcbe1a6e97f00b6863f9412e
+SHA1: 400bcf33e9d500b437cf832afe8f46974473e9ac
+MD5sum: d10e07285b492bfddff2663c15baed37
 Description: Qt 5 OpenGL library development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2668,20 +2669,20 @@ Description: Qt Positioning module - position plugins
 
 Package: libqt5printsupport5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 722
-Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.10.0), libqt5widgets5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 770
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5printsupport5_5.10.1+dfsg-7_i386.deb
-Size: 220280
-SHA256: f9b601b40451f7be2d8442ae2d0fb76beb8ec8d2437956b84fe457168669c893
-SHA1: 4b58d5877243a900eeb1087c374fc6adcba00202
-MD5sum: a7f762669e1d4babc8062922e81cd88b
+Filename: pool/main/q/qtbase-opensource-src/libqt5printsupport5_5.11.1+dfsg-9_i386.deb
+Size: 233096
+SHA256: 8e3ea0c4bd80163eff1f9c59bc1e847d116d2499c4256e5071c0950a6554f1a1
+SHA1: ee445409872224a2e50f37211742787ab800e0e4
+MD5sum: 4063b65b41cd18fd78f47a7f9ea20480
 Description: Qt 5 print support module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2811,21 +2812,21 @@ Description: Qt 5 Quick Widgets library
 
 Package: libqt5sql5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 519
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 531
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-tds | libqt5sql5-ibase
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5_5.10.1+dfsg-7_i386.deb
-Size: 154332
-SHA256: 777c5926ff8cfc8008cdef1da7463f7ce4dc05ac6d751fe9fcd0643c90e18ddf
-SHA1: fb90884f37d808e71fc2189c2cb2d52efebfb797
-MD5sum: a26db711fb4ec0d4773e7496f4501bfc
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5_5.11.1+dfsg-9_i386.deb
+Size: 156788
+SHA256: 10b6018536ce64d1477cefb81cd498b6d121601475af94270b37da592f1a9204
+SHA1: baf1ce5bfd4221f41ca6e7fd123251606f8f2ba7
+MD5sum: 3cbd472535712299e6862c41180d144c
 Description: Qt 5 SQL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2835,20 +2836,20 @@ Description: Qt 5 SQL module
 
 Package: libqt5sql5-ibase
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 259
-Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 262
+Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-ibase_5.10.1+dfsg-7_i386.deb
-Size: 83684
-SHA256: 4e778c519d23554213a62021a7fc76e016b9cd00a14324cad09d7bea5f684838
-SHA1: 150f9b6d56e3806f4a683a22a729cbd0b00052e3
-MD5sum: f76f8fc1dfc9113f214d76a7b6435bf7
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-ibase_5.11.1+dfsg-9_i386.deb
+Size: 83996
+SHA256: de9662615a62eab0a6202c451ac31cbd4a7cc4d8186698bddd2822ea95d94baf
+SHA1: 1517b5e910f599186f40b6a72a29629c6777d3f3
+MD5sum: ee7eb7a43e521f49942e3067d165415b
 Description: Qt 5 Firebird database driver
  This package contains the Firebird plugin for Qt 5.
  .
@@ -2857,20 +2858,20 @@ Description: Qt 5 Firebird database driver
 
 Package: libqt5sql5-mysql
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 223
-Depends: libc6 (>= 2.4), libmariadbclient18 (>= 10.1.28), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 226
+Depends: libc6 (>= 2.4), libmariadbclient18 (>= 10.1.28), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-mysql_5.10.1+dfsg-7_i386.deb
-Size: 72756
-SHA256: be329e22c99b2ff84fb8a9ec5dfeadf81b4f412fecefcf1ef1b352e63ac07e5e
-SHA1: e685fd7bafcf15e5b5f965236a0e6187b2bb6250
-MD5sum: 87e4d7cde7b2b14d733e8c0e5fd2c821
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-mysql_5.11.1+dfsg-9_i386.deb
+Size: 74276
+SHA256: f032d80936b7a5e9e53b50dc97b19f32347959d0160c7269622e809b503835dc
+SHA1: bf76bed723d17d875dfec0cfc02d67926e96af27
+MD5sum: c0da62396253f1edddd40b809d99f400
 Description: Qt 5 MySQL database driver
  This package contains the MySQL plugin for Qt 5.
  .
@@ -2879,20 +2880,20 @@ Description: Qt 5 MySQL database driver
 
 Package: libqt5sql5-odbc
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 247
-Depends: libc6 (>= 2.4), libodbc1 (>= 2.3.1), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 254
+Depends: libc6 (>= 2.4), libodbc1 (>= 2.3.1), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-odbc_5.10.1+dfsg-7_i386.deb
-Size: 82380
-SHA256: 8e96d87103da120ee4f9a655bcaa498731b2d83a9ebce6f795c4cca55e586da2
-SHA1: 392dfe44c8ac6701a0595baa5d9f10b53f056ef9
-MD5sum: 0a7cccb7f3963b764b5dbe7af51f9c63
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-odbc_5.11.1+dfsg-9_i386.deb
+Size: 83708
+SHA256: 4b7fcd53f9d6a94b09db08586c9ff5d8ea4c9da311444d46dffb90e1633e87e5
+SHA1: d09e76578006a8a005d66748c799f56361164ccd
+MD5sum: 67c31a6194a6ac12e143089f45a67ef6
 Description: Qt 5 ODBC database driver
  This package contains the ODBC plugin for Qt 5.
  .
@@ -2901,20 +2902,20 @@ Description: Qt 5 ODBC database driver
 
 Package: libqt5sql5-psql
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 227
-Depends: libc6 (>= 2.4), libpq5, libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 242
+Depends: libc6 (>= 2.4), libpq5 (>= 9.2~beta3), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-psql_5.10.1+dfsg-7_i386.deb
-Size: 74488
-SHA256: eb6e63ef3839adb68639e0354babfaa134bfa3a6cab2ee33a10d9e529d2e4edd
-SHA1: 931477b5e83eaade20cedb85a430bb33fffe9a5d
-MD5sum: f3f569a15d01ebc82cd09be11666b03d
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-psql_5.11.1+dfsg-9_i386.deb
+Size: 78184
+SHA256: 851874deafe02e102a05483a77602e9eb566c6688c66f8511f787f88d5c78478
+SHA1: 041fd13988213e3999df45c86b20d149998d907c
+MD5sum: 80757df74bca01f51776ea3921a563b6
 Description: Qt 5 PostgreSQL database driver
  This package contains the PostgreSQL plugin for Qt 5.
  .
@@ -2923,20 +2924,20 @@ Description: Qt 5 PostgreSQL database driver
 
 Package: libqt5sql5-sqlite
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 219
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 226
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-sqlite_5.10.1+dfsg-7_i386.deb
-Size: 72404
-SHA256: bb73d2e22bd9b9ed91956c4fd35018deaa875b4bb4634fe32d0ee5700aa5a176
-SHA1: ef36ba0024cb2c6529888dccc60a556fe1c75a15
-MD5sum: eedf4300887f657f6f3fa7f3c825c831
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-sqlite_5.11.1+dfsg-9_i386.deb
+Size: 74104
+SHA256: 7cfeba97575e3d896bf07485ca8302fdf298de0eb74c67014a64bdbd30281e8d
+SHA1: 5d3b5b67f8b36fa67a25d22bc62091276b1c65df
+MD5sum: 681343666eaf9ee786f190ba5520e18b
 Description: Qt 5 SQLite 3 database driver
  This package contains the SQLite 3 plugin for Qt 5.
  .
@@ -2945,20 +2946,20 @@ Description: Qt 5 SQLite 3 database driver
 
 Package: libqt5sql5-tds
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 203
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), libsybdb5 (>= 0.63), qtbase-abi-5-10-0
+Installed-Size: 210
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), libsybdb5 (>= 0.63), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-tds_5.10.1+dfsg-7_i386.deb
-Size: 66548
-SHA256: db0027ffcbf45f440a450dda0a1393c36ace25459595d5fc2ec27d9bbe7555ba
-SHA1: ad398bb4dae3688f899044ae613363359765600e
-MD5sum: ead916ac290c9b8bab94517a7a93a9b1
+Filename: pool/main/q/qtbase-opensource-src/libqt5sql5-tds_5.11.1+dfsg-9_i386.deb
+Size: 67576
+SHA256: ab3d6f678fcc748056fe587152693a6acc2ae9d161ccc7fd9fbbc63bbc61351c
+SHA1: 58cb5402fe8f0da49f555e92eea6a48e935b03d9
+MD5sum: 46f68c15c2e86c01b4fc3324fb17d6fb
 Description: Qt 5 FreeTDS database driver
  This package contains the FreeTDS plugin for Qt 5.
  .
@@ -2967,20 +2968,20 @@ Description: Qt 5 FreeTDS database driver
 
 Package: libqt5test5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 374
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5)
+Installed-Size: 481
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.11.0~rc1), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5test5_5.10.1+dfsg-7_i386.deb
-Size: 129424
-SHA256: 7ec515b276948356fb5236bada7623414db75d8485356feb802702b0fb1629fd
-SHA1: 1554a7665b44bfd021f12b40ded84c5ac9e1ba0b
-MD5sum: 7ea59ced1f6b6f3c225001ae1d711652
+Filename: pool/main/q/qtbase-opensource-src/libqt5test5_5.11.1+dfsg-9_i386.deb
+Size: 156836
+SHA256: 28f5ceb38a353a310538604ef5e157b4c5c013ca9140b645fad331ef95c29cfc
+SHA1: 81782f46a9737eab1fcffcba0af018d0a26b4d03
+MD5sum: e7d97ab04f6c40059c3c8bc9bebb4993
 Description: Qt 5 test module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -2988,22 +2989,111 @@ Description: Qt 5 test module
  The QtTest module provides classes for unit testing Qt applications and
  libraries.
 
-Package: libqt5widgets5
-Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Package: libqt5webengine-data
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 22476
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.11.1+dfsg-6_all.deb
+Size: 5106508
+SHA256: fdc608e4556486acbf19a76c295648520cbde8b551eb0df7df9a56968113b7d8
+SHA1: ef9076d6a1bf304687676018ed490d752b8d2de7
+MD5sum: a2aa1da4b3905e4f13d3800b81119e5d
+Description: Web content engine library for Qt - Data
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the arch independent parts of QtWebEngine libraries.
+
+Package: libqt5webengine5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 7920
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 1066
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0~beta), libqt5test5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.11.1), libstdc++6 (>= 5), qtbase-abi-5-11-0
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine5_5.11.1+dfsg-6_i386.deb
+Size: 184384
+SHA256: f815b665014b4b27e17e3db552ac72bae80905123ca2c3690563b0ace6022184
+SHA1: c1534c78ea8b361c480023aa3205a521200e83f3
+MD5sum: 08c21c980d0492241af55768edeb532c
+Description: Web content engine library for Qt
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the QtWebEngine library.
+
+Package: libqt5webenginecore5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 102676
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.27), libdbus-1-3 (>= 1.9.14), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:7), libglib2.0-0 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libicu60 (>= 60.1-1~), libjpeg62-turbo (>= 1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.8.0), libqt5positioning5 (>= 5.6.0), libqt5quick5 (>= 5.9.0), libqt5webchannel5 (>= 5.6.1), libre2-4 (>= 20160901), libsnappy1v5, libstdc++6 (>= 6), libvpx5 (>= 1.6.0), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrender1, libxss1, libxtst6, qtbase-abi-5-11-0, zlib1g (>= 1:1.2.0)
+Breaks: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Replaces: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webenginecore5_5.11.1+dfsg-6_i386.deb
+Size: 30695284
+SHA256: 6abb49d8e2c5dfe36393edc8d52aa093ec3b40e7c0cf017c757b89fa96180c6e
+SHA1: a2cf642eec46b6ea180554e9f36bbe20cea6b5ba
+MD5sum: c1f80ea1732012364bdf035566885c7c
+Description: Web content engine library for Qt - Core
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the core QtWebEngine library.
+
+Package: libqt5webenginewidgets5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 851
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.4.0), libqt5printsupport5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5webenginecore5 (>= 5.11.1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webenginewidgets5_5.11.1+dfsg-6_i386.deb
+Size: 143192
+SHA256: 9b852a40476421556bced70a4e8e57beca2d4c00b6b0f2a48d0ee4daae2fa2e5
+SHA1: 8d66fc114b8ffb58bd53ec1ecd49cbb0252afc12
+MD5sum: f44af57fa0b125e453767f0bff201477
+Description: Web content engine library for Qt - Widget
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the widget QtWebEngine library.
+
+Package: libqt5widgets5
+Source: qtbase-opensource-src
+Version: 5.11.1+dfsg-9
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7939
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.11.0~rc1), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5widgets5_5.10.1+dfsg-7_i386.deb
-Size: 2519556
-SHA256: 96de8761540fc49c8de19c286f0ae7dc7aab68478faa81357b12c0f0fc340960
-SHA1: b6c8ea7779486719a1bca4984000d7024c7b9aec
-MD5sum: e96c2053d9fcda09e53717616d694695
+Filename: pool/main/q/qtbase-opensource-src/libqt5widgets5_5.11.1+dfsg-9_i386.deb
+Size: 2535684
+SHA256: 700ccaf50dd65ec80ba6a581d2ec1ac148284cb211fec97c296317c573454e97
+SHA1: 0d45745ce038bee91f1342acfd0b78f07a9fdac1
+MD5sum: 74a5d805899f3e4188a6157b34e0e07e
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -3012,20 +3102,20 @@ Description: Qt 5 widgets module
 
 Package: libqt5xml5
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 438
-Depends: libc6 (>= 2.4), libqt5core5a (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-10-0
+Installed-Size: 453
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/libqt5xml5_5.10.1+dfsg-7_i386.deb
-Size: 136004
-SHA256: 63ae3c43a442fd91355bd2da832bf8f6a4f03baa8bfc0cee901950ccb33f2a8d
-SHA1: 069ecf4cabafb99665ca22c0f53410904ca858c4
-MD5sum: 010f82c4252aee4be8e39314a65a8da7
+Filename: pool/main/q/qtbase-opensource-src/libqt5xml5_5.11.1+dfsg-9_i386.deb
+Size: 138072
+SHA256: 81072dc945b8080bdac363348730ac6ecb47a6215f1b66fd6f06c1cd2aceae70
+SHA1: fad68ff353ffcb9faf470f580083f934fce602de
+MD5sum: e91597dc3cb87f1b1bbb0da7adb84e58
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -3338,41 +3428,41 @@ Description: debug symbols for plasma-angelfish
 Build-Ids: 75a571578014b3d555930cb877e72afd5e7d844d
 
 Package: plasma-phone-components
-Version: 0.7+git20180711-1
+Version: 0.7+git20180811-1
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3871
-Depends: breeze-icon-theme, fonts-oxygen, kpeople-vcard, milou, plasma-workspace, powerdevil, qml-module-org-kde-activities, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-people, qml-module-qtquick-localstorage, kio, kpackagetool5, libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.9.5)
+Installed-Size: 3909
+Depends: breeze-icon-theme, fonts-oxygen, kpeople-vcard, milou, plasma-workspace, powerdevil, qml-module-org-kde-activities, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-people, qml-module-qtquick-localstorage, kio, kpackagetool5, libc6 (>= 2.4), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 5.5.0+git20150101.0309+15.04), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libphonenumber7, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.5)
 Recommends: qml-module-ofono
 Homepage: https://plasma-mobile.org
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180711-1_i386.deb
-Size: 1757892
-SHA256: 69e0306f9efd4a5c7da2201d4c8cda74bdd67747f9df78514136c9db8e7ce3c5
-SHA1: 016f9f25f29d8dc6eed3de48598de0d6c76e7706
-MD5sum: 20bb8a97c72faeece1ac033e7b46defa
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180811-1_i386.deb
+Size: 1766328
+SHA256: f2e19d0a4f0910536a51a54bf743bb071e3edbdca9d97c612a5844d0fa14707d
+SHA1: dbfa9dac3102af903b170236e2dbca16669d384e
+MD5sum: b5e72826b404f6b7bdaba730e2cbd08f
 Description: Plasma Phone Components
  Phone components for KDE Plasma.
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-components-dbgsym
 Source: plasma-phone-components
-Version: 0.7+git20180711-1
+Version: 0.7+git20180811-1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3358
-Depends: plasma-phone-components (= 0.7+git20180711-1)
+Installed-Size: 3389
+Depends: plasma-phone-components (= 0.7+git20180811-1)
 Priority: optional
 Section: debug
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180711-1_i386.deb
-Size: 3328132
-SHA256: 28b52c8b66b06afa0a3c139cf40f291f5428e9dc83204c6859d4c0b0b3d79489
-SHA1: f2107a9d78abd4f58273d55e6eceb81b545be0f3
-MD5sum: 67a7b461121025ead88cbcbaf4db0d28
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbgsym_0.7+git20180811-1_i386.deb
+Size: 3358252
+SHA256: c2ea5c51863b033dda47402a98f934d56caa225ec7736e2e493a87b449450dca
+SHA1: 6d2cdb099016d0077e78896c569e6fbf3d124c42
+MD5sum: 4d17bbecc9873696f5732f22b1d865ee
 Description: debug symbols for plasma-phone-components
-Build-Ids: 361f0a62ce17e5aae14499550c2965e5f47cad5b 4e25a453254628a9796ab566a700275a2cebaeeb 6be90a349dbf525646adaf716d7090fce9a3150e b31a5edc2f74301600656404ad65557855d9c911 d3d9a6b09bb47f0ea60cdae4c16e0dd20baa60bb f40f135890956732634f1c515bed78d2379b9486
+Build-Ids: 0eb50472a72fe94392be8b4beb5bb2301605bce4 1d4c65549a26c59edee9ee734591baf552ade1db 36acb1f6c29e4c0a3ec260b34a3765f35b207bd3 42ca9f4ad0c1a1307f431612fb4011e23c9a0429 8ae74585ff0a2b675754f2d3c569f8a4216576f8 ffe1be02a976598e42dec89525b2d2da3a48488a
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
 
 Package: plasma-phone-settings
@@ -4674,6 +4764,28 @@ Description: Qt 5 test QML module
  .
  This package contains the test QML module for Qt declarative.
 
+Package: qml-module-qtwebengine
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 797
+Depends: qml-module-qtquick2, libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webengine5 (>= 5.10.1), libqt5webenginecore5 (>= 5.11.1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/qml-module-qtwebengine_5.11.1+dfsg-6_i386.deb
+Size: 94676
+SHA256: 67c1b78dcb9d53d64096e89ec4282e66ae1837e4e6ec956b4243359d3961feea
+SHA1: 73a6173dab10d70a729e50226fc69127c291c5db
+MD5sum: 58b4754dc89621514e7814efe8426a2a
+Description: Qt WebEngine QML module
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebEngine QML module for QtDeclarative.
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -5050,10 +5162,10 @@ Description: Qt 5 3d examples
 
 Package: qt5-default
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 143
+Installed-Size: 146
 Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~)
 Suggests: qt5-qmake, qtbase5-dev-tools
 Conflicts: qt4-default
@@ -5061,11 +5173,11 @@ Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qtbase-opensource-src/qt5-default_5.10.1+dfsg-7_i386.deb
-Size: 46452
-SHA256: 334f25b85afc1f42d7875ebdafc99e5591a0ea14e0178dcef568af572887bb9e
-SHA1: b79c53d1e4b0e26c82b46c50bde9984567b446fc
-MD5sum: f3bd13a3730d47fb93619a7ce0f5021d
+Filename: pool/main/q/qtbase-opensource-src/qt5-default_5.11.1+dfsg-9_i386.deb
+Size: 47716
+SHA256: d7079887feb92a1a642a1636d9192c3380f51f3f3ddce84ccb0130475b64ce97
+SHA1: d9e57e13a4a09c3eb5b86671106da8b51268b0d7
+MD5sum: c71b951d55ab24d378b1ae692bed4d73
 Description: Qt 5 development defaults package
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5076,25 +5188,48 @@ Description: Qt 5 development defaults package
  installations from being used.
  .
  This package should not be used for building Debian packages. Take a
- look at http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html for
+ look at https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html for
  more information.
 
-Package: qt5-gtk-platformtheme
+Package: qt5-flatpak-platformtheme
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 556
-Depends: libqt5gui5 (= 5.10.1+dfsg-7), libc6 (>= 2.4), libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.5.18), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-10-0
+Installed-Size: 221
+Depends: libqt5gui5 (= 5.11.1+dfsg-9), libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libs
-Filename: pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.10.1+dfsg-7_i386.deb
-Size: 154984
-SHA256: 5141583f13eb3e71e5a89ed7d16b1611fb8aa8718f47e5d6a17bda1402a3a9d9
-SHA1: c2b6bc07f612d1d1574a51e02c4a8079272574ca
-MD5sum: ea4bc743c78b4ac70a419e3b2e85adec
+Filename: pool/main/q/qtbase-opensource-src/qt5-flatpak-platformtheme_5.11.1+dfsg-9_i386.deb
+Size: 69236
+SHA256: 44d6ad9b7eba1d2d1f2d587201e6c7414e3521d2b9b00a9a4cdb503218694be1
+SHA1: 066f51b097de002afcfc53f7b375eb53611b0baa
+MD5sum: 4d89fe765df6efbf881bc450d8551c55
+Description: Qt 5 Flatpak platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the Flatpak platform theme, which makes Qt use
+ native file dialogs on Flatpak-based environments.
+
+Package: qt5-gtk-platformtheme
+Source: qtbase-opensource-src
+Version: 5.11.1+dfsg-9
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 575
+Depends: libqt5gui5 (= 5.11.1+dfsg-9), libc6 (>= 2.4), libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-11-0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.11.1+dfsg-9_i386.deb
+Size: 159116
+SHA256: 5f39d9e76acf4ca688439efa4cf6c724c4f9a1e869209aab290ee506f9dcafc3
+SHA1: feb575590046c36ce0bc256abf3f1a7558cdf30e
+MD5sum: 9da414b5e44474aa777876d606a473a7
 Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5104,20 +5239,20 @@ Description: Qt 5 GTK+ 3 platform theme
 
 Package: qt5-qmake
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1481
-Depends: qt5-qmake-bin (= 5.10.1+dfsg-7), qtchooser (>= 55-gc9562a1-1~)
+Installed-Size: 1489
+Depends: qt5-qmake-bin (= 5.11.1+dfsg-9), qtchooser (>= 55-gc9562a1-1~)
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: devel
-Filename: pool/main/q/qtbase-opensource-src/qt5-qmake_5.10.1+dfsg-7_i386.deb
-Size: 216892
-SHA256: 38ecce9833cfccff470817743e840385cc1d3c77a5f82078c9d981d58edbb75f
-SHA1: 40b6d8ec4af371d09b5a9ee51d2542b3f27be2da
-MD5sum: 7f09230ab49b5ad8b433f4bc00d8510f
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake_5.11.1+dfsg-9_i386.deb
+Size: 218304
+SHA256: 2ea3e6498a69e815daf772699037ab6f222b390392366244995bbc8a5f072581
+SHA1: da6c6d47887526d92e77ae9e1c56fab035f6e02f
+MD5sum: 2827cdaf4eeb2b772428452806b24a1d
 Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5135,10 +5270,10 @@ Description: Qt 5 qmake Makefile generator tool
 
 Package: qt5-qmake-bin
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3141
+Installed-Size: 3244
 Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.9)
 Breaks: qt5-qmake (<< 5.9.1+dfsg-12~)
 Replaces: qt5-qmake (<< 5.9.1+dfsg-12~)
@@ -5146,11 +5281,11 @@ Multi-Arch: foreign
 Homepage: http://qt-project.org/
 Priority: optional
 Section: devel
-Filename: pool/main/q/qtbase-opensource-src/qt5-qmake-bin_5.10.1+dfsg-7_i386.deb
-Size: 1056484
-SHA256: d6c6429139632d941d3681de8282f55288325f3e708821ae58675d95fc592f3a
-SHA1: d12804d3c40432c3ae6fbd700af72ae94a4e7929
-MD5sum: f4a0031ce0a90649e918f12bb5d56954
+Filename: pool/main/q/qtbase-opensource-src/qt5-qmake-bin_5.11.1+dfsg-9_i386.deb
+Size: 1089332
+SHA256: 6b0bb8dd04adf5394135ffc00d9d95728bf1e048c6fd53f5bd2e17cf72e2608d
+SHA1: 7efab406a438837ba4e1fba49f1cca4417b1737b
+MD5sum: b6ab33cdd023612d0ea7bca0af99b32b
 Description: Qt 5 qmake Makefile generator tool — binary file
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5184,22 +5319,22 @@ Description: Qt 5 qmltooling plugins
 
 Package: qtbase5-dev
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 12268
-Depends: libgles2-mesa-dev | libgles2-dev, libqt5concurrent5 (= 5.10.1+dfsg-7), libqt5core5a (= 5.10.1+dfsg-7), libqt5dbus5 (= 5.10.1+dfsg-7), libqt5gui5 (= 5.10.1+dfsg-7), libqt5network5 (= 5.10.1+dfsg-7), libqt5printsupport5 (= 5.10.1+dfsg-7), libqt5sql5 (= 5.10.1+dfsg-7), libqt5test5 (= 5.10.1+dfsg-7), libqt5widgets5 (= 5.10.1+dfsg-7), libqt5xml5 (= 5.10.1+dfsg-7), libxext-dev, qt5-qmake (= 5.10.1+dfsg-7), qtbase5-dev-tools (= 5.10.1+dfsg-7), qtchooser
-Recommends: libqt5opengl5-dev (= 5.10.1+dfsg-7)
+Installed-Size: 12292
+Depends: libqt5concurrent5 (= 5.11.1+dfsg-9), libqt5core5a (= 5.11.1+dfsg-9), libqt5dbus5 (= 5.11.1+dfsg-9), libqt5gui5 (= 5.11.1+dfsg-9), libqt5network5 (= 5.11.1+dfsg-9), libqt5printsupport5 (= 5.11.1+dfsg-9), libqt5sql5 (= 5.11.1+dfsg-9), libqt5test5 (= 5.11.1+dfsg-9), libqt5widgets5 (= 5.11.1+dfsg-9), libqt5xml5 (= 5.11.1+dfsg-9), libxext-dev, qt5-qmake (= 5.11.1+dfsg-9), qtbase5-dev-tools (= 5.11.1+dfsg-9), qtchooser
+Recommends: libqt5opengl5-dev (= 5.11.1+dfsg-9)
 Suggests: default-libmysqlclient-dev, firebird-dev, libegl1-mesa-dev, libgl1-mesa-dev, libpq-dev, libsqlite3-dev, unixodbc-dev
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev_5.10.1+dfsg-7_i386.deb
-Size: 952008
-SHA256: 33772880988871d8cb44b0b990fb6ab8a2872a807fc556336c959112a3a1c658
-SHA1: 42d7be5e1b67aee6e68633b053c49afed29490d7
-MD5sum: 519644dfe5beb231cb23673ed1e23ef5
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev_5.11.1+dfsg-9_i386.deb
+Size: 955960
+SHA256: 512734bdfba871ab5a453d1d8badb29594e88e2f36b157bf1868b44166ac79ae
+SHA1: a7e7ff0a6d4abfd2807c1b460149d2753c03c505
+MD5sum: c2aa7cd4d082a0fa7dbbcf14f022fcaf
 Description: Qt 5 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5208,24 +5343,24 @@ Description: Qt 5 base development files
  applications.
  .
  If you are interested in packaging Qt 5 stuff please take a look at
- http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html
+ https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html
 
 Package: qtbase5-dev-tools
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3895
-Depends: qtchooser (>= 55-gc9562a1-1~), perl:any, libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), qtbase-abi-5-10-0, zlib1g (>= 1:1.1.4)
+Installed-Size: 4044
+Depends: qtchooser (>= 55-gc9562a1-1~), perl:any, libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), qtbase-abi-5-11-0, zlib1g (>= 1:1.1.4)
 Multi-Arch: foreign
 Homepage: http://qt-project.org/
 Priority: optional
 Section: devel
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev-tools_5.10.1+dfsg-7_i386.deb
-Size: 830280
-SHA256: a982fcc1b514d02ee20ff0c4aaf9ba885578c265a2842245ad54b489565c9d93
-SHA1: a36dbf44a046fb4d932738e2b230f3a06286a0fa
-MD5sum: aa42bd4e83d55cc70702b52151526954
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-dev-tools_5.11.1+dfsg-9_i386.deb
+Size: 856072
+SHA256: 1af301c2665967eaaf39e08415118742084eea38580119cfa5fcb28c5595f8a8
+SHA1: 3b70ffea90641fbc2992b70364761e0d5aa59fbb
+MD5sum: 280834f77bf529d93ce19145d442f3dd
 Description: Qt 5 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5236,18 +5371,18 @@ Description: Qt 5 base development programs
 
 Package: qtbase5-doc
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 38737
+Installed-Size: 33848
 Homepage: http://qt-project.org/
 Priority: optional
 Section: doc
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.10.1+dfsg-7_all.deb
-Size: 30029084
-SHA256: f2cd0da9d7e178c6e4313dbda67f88df9dbda8cc58794e8444b3a8f14f02375c
-SHA1: dc76a5b24df865650612523e7aca75f7c2d847ce
-MD5sum: 859d365b348c9d41b9d4b19ef2afa191
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.11.1+dfsg-9_all.deb
+Size: 27010820
+SHA256: a19de851b0795044b9a0b786ceedfa7f38c220fbeca7c60e0c7d91fb4b0e5727
+SHA1: 4d825716700734be7d7c3488f6df90c65f8e56f6
+MD5sum: 15bfad51465885601295dfd6d842005c
 Description: Qt 5 base documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5256,18 +5391,18 @@ Description: Qt 5 base documentation
 
 Package: qtbase5-doc-html
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 165442
+Installed-Size: 127804
 Homepage: http://qt-project.org/
 Priority: optional
 Section: doc
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.10.1+dfsg-7_all.deb
-Size: 23444024
-SHA256: 6c51af03a8122cb3487c1ab3d1f685ca663f1f6552e87b8021b8e244b7bfcb26
-SHA1: bf77e5464244b66f171bee2c58b2e2bd1566785a
-MD5sum: bb00416a07f7834f0c89c4ef3713e59c
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.11.1+dfsg-9_all.deb
+Size: 22902720
+SHA256: 37e51731b9072150c4ca369820e2464c77b4b4dad32b54406afec7e2293e0017
+SHA1: 2f4bab5052bb6a031bf443e54e3995f3719330e2
+MD5sum: 907015d9bc567c0c5ce446b07f4523aa
 Description: Qt 5 base HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5277,20 +5412,20 @@ Description: Qt 5 base HTML documentation
 
 Package: qtbase5-examples
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 19746
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.8.0), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.10.0), libqt5test5 (>= 5.10.0), libqt5widgets5 (>= 5.10.0), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5)
+Installed-Size: 21244
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.1+dfsg-9), libqt5network5 (>= 5.8.0), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.10.0), libqt5test5 (>= 5.10.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5), qtbase-abi-5-11-0
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: x11
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-examples_5.10.1+dfsg-7_i386.deb
-Size: 4176168
-SHA256: d7b02f4f4ad5f4b4d7dbc6053cbdc87088f453e42bfbf29449a4bca3ca7964db
-SHA1: c2b585f8ce3a6753b7d6e0cd00d06e8d502460f6
-MD5sum: 93f0037779ef3e12c388ab4d928abb1a
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-examples_5.11.1+dfsg-9_i386.deb
+Size: 4201156
+SHA256: 5fa4808dd0d51b468aa0f801d79cca4492e904e2546c1e1df68d7cbe4174891b
+SHA1: 17db4c73585a31bd03a4a6dd0144df975facf161
+MD5sum: 8c4958cf348adebf96f1199481e9efea
 Description: Qt 5 base examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5299,22 +5434,22 @@ Description: Qt 5 base examples
 
 Package: qtbase5-private-dev
 Source: qtbase-opensource-src
-Version: 5.10.1+dfsg-7
+Version: 5.11.1+dfsg-9
 Architecture: i386
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 9164
-Depends: libinput-dev, libxkbcommon-dev, qtbase5-dev (= 5.10.1+dfsg-7)
+Installed-Size: 9441
+Depends: libinput-dev, libxkbcommon-dev, qtbase5-dev (= 5.11.1+dfsg-9)
 Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Multi-Arch: same
 Homepage: http://qt-project.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qtbase-opensource-src/qtbase5-private-dev_5.10.1+dfsg-7_i386.deb
-Size: 1179964
-SHA256: dc3ceebe5bff0cd6fe78774dd1e3816f60ddd28d5d3bd7d95c949143a134af23
-SHA1: 197e4107c57999f36c18af8a5d4c5b4fe865d721
-MD5sum: aa45b044e1eccd5ec28f5bbdfcfcd78f
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-private-dev_5.11.1+dfsg-9_i386.deb
+Size: 1223640
+SHA256: 9146d3e020c534c84e57c3e8879a9f3f9501cf1cee40035e1d7c04314296c1f8
+SHA1: dda796225430d51ba56d654cf5f888fc9a091218
+MD5sum: 22a3e24d9e62bcbdf3067daedeb7cb80
 Description: Qt 5 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5577,18 +5712,18 @@ Description: APIs for multimedia functionality - development files
 
 Package: qtmultimedia5-doc
 Source: qtmultimedia-opensource-src
-Version: 5.10.1-2
+Version: 5.11.1-2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3278
+Installed-Size: 2010
 Homepage: https://qt.io/
 Priority: optional
 Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.10.1-2_all.deb
-Size: 2440636
-SHA256: a168cecbc86597f81b831590f09b38b471ef1ed99291c6cb76439a116f365fc1
-SHA1: 9023ab9da34b4c19d17198adc4bea00b0fc5540a
-MD5sum: de5ea869278742297b4ec915e3e86bf5
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc_5.11.1-2_all.deb
+Size: 1536532
+SHA256: c8008f2a0796ab575692d23d14e2b1fd24aa56779221f2770ed8c2e68d2dc185
+SHA1: 1e1b4161fdf3be1dc75fd2d12f070b43d133e1af
+MD5sum: 8791e51acee759919c0d28a7bad68cec
 Description: Qt 5 multimedia documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5597,18 +5732,18 @@ Description: Qt 5 multimedia documentation
 
 Package: qtmultimedia5-doc-html
 Source: qtmultimedia-opensource-src
-Version: 5.10.1-2
+Version: 5.11.1-2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 13751
+Installed-Size: 8583
 Homepage: https://qt.io/
 Priority: optional
 Section: doc
-Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.10.1-2_all.deb
-Size: 1581704
-SHA256: 1fadec568236e2372f958bcace974baaccdb3e38822e0ffcac3d87af68492364
-SHA1: e9e186195c095bdbb53eeab3ba82608a89b178e3
-MD5sum: 45300e630a8b23c8e9ef855dab0bcb5a
+Filename: pool/main/q/qtmultimedia-opensource-src/qtmultimedia5-doc-html_5.11.1-2_all.deb
+Size: 1315044
+SHA256: 7b2722d16fea83c7ed702b7d43d81f2370705988dd582e9672d82a75150adc1c
+SHA1: 9ab392c5381c43aef204d2add2b3b2ebdd30ca9b
+MD5sum: ee75e8742faf7d3be4828f4fddac8bba
 Description: Qt 5 multimedia HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -5663,6 +5798,142 @@ Description: Qt 5 Positioning development files
  .
  This package contains the header development files used for building Qt 5
  applications using Qt Positioning library.
+
+Package: qtwebengine5-dev
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 789
+Depends: libqt5webchannel5-dev, libqt5webengine5 (= 5.11.1+dfsg-6), libqt5webenginecore5 (= 5.11.1+dfsg-6), libqt5webenginewidgets5 (= 5.11.1+dfsg-6), qtbase5-dev, qtdeclarative5-dev, qtpositioning5-dev, libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Recommends: qtwebengine5-doc
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-dev_5.11.1+dfsg-6_i386.deb
+Size: 93300
+SHA256: 7f3e12ad449381c46d8bc98a37e7e8256c209433f28e3c1827a303658a8477b4
+SHA1: 56ff9543e92310a182bc73aed1132746b319409f
+MD5sum: 6b995984bda9610850f51e2326b8da8f
+Description: Web content engine library for Qt - development files
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtWebEngine library.
+
+Package: qtwebengine5-dev-tools
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 826
+Depends: qtchooser, libc6 (>= 2.4), libevent-2.1-6 (>= 2.1.8-stable), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.12.0), libicu60 (>= 60.1-1~), libqt5core5a (>= 5.3.0), libstdc++6 (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-dev-tools_5.11.1+dfsg-6_i386.deb
+Size: 168708
+SHA256: f7565ec5fe931cfc2bb61e525dd9c99f246476847f014640ecb927a86ac60054
+SHA1: f2fe213f5f85824b9e702810173e64bfa42a9c11
+MD5sum: 6d736db531fbfdf030e8b7d47c2d730e
+Description: Qt WebEngine tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qwebengine_convert_dict tool which converts hunspell
+ 'dic' dictionaries to binary 'bdic' format, which is required by spellchecker
+ in Qt WebEngine.
+
+Package: qtwebengine5-doc
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2771
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc_5.11.1+dfsg-6_all.deb
+Size: 1859736
+SHA256: e548871943f02770a288dbf2b891c5783ec818d62900d9899e2b211cbeb5311b
+SHA1: be9b9679babed45084644615cc3a9e425e6d1837
+MD5sum: 37c61a13db6f6f7139df83a13402d1c2
+Description: Qt 5 webengine documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webengine libraries.
+
+Package: qtwebengine5-doc-html
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 23334
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc-html_5.11.1+dfsg-6_all.deb
+Size: 1943012
+SHA256: b1af63d42e63e8676dd6046dc3d060069bc88b03dca63768ba939a96a6901ae4
+SHA1: 84234c47fd1039e1ee76c9773ee1db53f7088e49
+MD5sum: 676d83d9a3cfcb28ff4a67027a622adc
+Description: Qt 5 webengine HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 webengine
+ libraries.
+
+Package: qtwebengine5-examples
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2759
+Depends: libjs-jquery, libjs-marked, qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtwebengine, qtwebengine5-dev-tools, libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quickcontrols2-5 (>= 5.7.1), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.11.1), libqt5webenginewidgets5 (>= 5.11.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-examples_5.11.1+dfsg-6_i386.deb
+Size: 630684
+SHA256: 4cdcaec2b9d1fb199a0229acd820901f671e8dbd86fed9f4a671ed71cf5305ca
+SHA1: acc15d8e430218793909ce2ed6becee4507bb7a8
+MD5sum: 5eb4bda0e96485c35172597ca316a2c5
+Description: Qt WebEngine - Examples
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebEngine examples.
+
+Package: qtwebengine5-private-dev
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: i386
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 749
+Depends: qtwebengine5-dev (= 5.11.1+dfsg-6)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-private-dev_5.11.1+dfsg-6_i386.deb
+Size: 85360
+SHA256: 648e2256df35e4363928ee51a013508ecb2da8fcfa340636f51c20a361712638
+SHA1: 1a4001f509788be592daedaa10162cf7673f75da
+MD5sum: 9aac05488204e9192653770afe0901dd
+Description: Web content engine library for Qt - private development files
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the private development files needed to build
+ Qt 5 applications using QtWebEngine library.
 
 Package: rmtfs
 Version: 0.2+git20180323-1
