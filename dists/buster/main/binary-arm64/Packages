@@ -2652,7 +2652,7 @@ Build-Ids: 5761569ca7349679ed08cbdcf2fa72b882122ae8 a56c51f2f05e5ec24dccf2ba6f4b
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
-Version: 11.1.73-1
+Version: 11.1.74-1
 Architecture: arm64
 Maintainer: Marius Gripsgard <marius@ubports.com>
 Installed-Size: 249
@@ -2660,11 +2660,11 @@ Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-commo
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.73-1_arm64.deb
-Size: 57128
-SHA256: 3de465c3f57775f1630b71465ab3eca1bcb12656db3b9bb8bb629770347c1bf3
-SHA1: 2a0ad5ca33058034c35637d48cf351453098cbb4
-MD5sum: 8b3afa70e1e3bfc1f5b0d9d4d66d4287
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.74-1_arm64.deb
+Size: 57912
+SHA256: 5cbe77552517711e119a7fb394b6e9bc6b4559fc1e48df54e3dd598492b81c4e
+SHA1: a8eb86253ecd8d8cb253bb22dfe04cc4252b0ed5
+MD5sum: 5b49e028b579ef3a4294231b3703b1ae
 Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
 
 Package: pulseaudio-module-droid-dbgsym
@@ -2687,7 +2687,7 @@ Build-Ids: 44e2b079047cba73d6fb8b1e43abcc7e31f3f3d1 4b793c8868ea3fbe6c86473f00cf
 
 Package: pulseaudio-module-droid-dev
 Source: pulseaudio-modules-droid
-Version: 11.1.73-1
+Version: 11.1.74-1
 Architecture: arm64
 Maintainer: Marius Gripsgard <marius@ubports.com>
 Installed-Size: 85
@@ -2695,11 +2695,11 @@ Depends: pulseaudio-module-droid
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.73-1_arm64.deb
-Size: 11084
-SHA256: e2552da0256ee8c321f0ba6e27b7752b8fb873dca40669b0555ae08b03b6d2ad
-SHA1: 5bb2ca70dcfe82201cfb387625bd6a67301e12b0
-MD5sum: 4f3f577ae87b59014879560d36cc9684
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.74-1_arm64.deb
+Size: 11020
+SHA256: 5e0d0f790fa6c3a47429e20280696e3ae50b7882cd12c69d88d1d86dc78d79a5
+SHA1: 85196c494dff5f9dacb13038d1a1d18236ba08a8
+MD5sum: d5f8995739a2657c1aac844212d63ffc
 Description: PulseAudio Droid HAL module development headers.
 
 Package: pulseaudio-module-droid-glue
@@ -3042,7 +3042,7 @@ Description: debug symbols for pulseaudio-utils
 Build-Ids: 010473819b8580dab4ae3b69b5399e517033221b 490faff25394293d7593bfbd8e6ce212abcdedd6 4c728b3276973efc24124981fd1ed26a11d84df2 64affb4debbf9f5af00afec2c1bea3a3c5580776 c9a6f8b60475d2f0889ee164fa3c3076140eddad
 
 Package: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20181013-1
 Architecture: arm64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 37
@@ -3051,11 +3051,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/andersson/qmic.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_arm64.deb
-Size: 9544
-SHA256: 0420772c41c461e29f8909cad22cd939d9ff48a5611077101f4b63b1d753ebd1
-SHA1: 48a9072776aae092dc34c5e62ba81e076387c26b
-MD5sum: d1ea835414c3548bcbee5990887c9b34
+Filename: pool/main/q/qmic/qmic_0.1+git20181013-1_arm64.deb
+Size: 10232
+SHA256: fdfee9baef383a685a331cda01a6bc49af25ec91eff05f72230817a718d298a6
+SHA1: 9389ad9782b18e4c8515a9d2b6aa22382330741f
+MD5sum: bbc7b1e513fbf4c5b898584d653511be
 Description: QMI Compiler
  QMI compiler.
 
@@ -3561,19 +3561,19 @@ Description: Qt 5 webengine HTML documentation
  libraries.
 
 Package: rmtfs
-Version: 0.2+git20180323-1
+Version: 0.2+git20181013-1
 Architecture: arm64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 38
-Depends: libc6 (>= 2.17), libqrtr1, libudev1 (>= 183), qrtr
+Installed-Size: 42
+Depends: qrtr, libc6 (>= 2.17), libqrtr1, libudev1 (>= 183)
 Homepage: https://github.com/andersson/rmtfs.git
 Priority: optional
 Section: utils
-Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_arm64.deb
-Size: 9948
-SHA256: f302c24b81beb7a74cb38139e24f1452a15f854cf74f2f5fa4f4febd019ac93e
-SHA1: 8e23400a863da0ae311cc3b9094779ae9b57462b
-MD5sum: 89c09a05d9ebc8900c64a8595ba44c0a
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20181013-1_arm64.deb
+Size: 10936
+SHA256: 1b2c3be8a485fc88a2160c012504136087794f68d7b1cfb5f08080395f101853
+SHA1: 9e0d7ca53e97de2423b5ef3bc17fc81da2147d11
+MD5sum: aa2466871329ab551f3e238a6a9ea96a
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant

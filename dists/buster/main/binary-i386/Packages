@@ -1971,25 +1971,25 @@ Description: Qt library for Ofono
 
 Package: libqrtr-dev
 Source: qrtr
-Version: 0.3+git20180712-1
+Version: 0.3+git20181013-1
 Architecture: i386
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 21
-Depends: libqrtr1 (= 0.3+git20180712-1)
+Depends: libqrtr1 (= 0.3+git20181013-1)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180712-1_i386.deb
-Size: 4268
-SHA256: 4d8ccfa3c790ceb991def3cf2a9320924468d9adeff5f232bbd2d175b9d59da7
-SHA1: f0a529d19844a8153a5716c04f6c81dc19fe857d
-MD5sum: 58ada3be0dbab3cfe930b18b2c405bbe
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20181013-1_i386.deb
+Size: 4276
+SHA256: 9523be1d16131273f8cddc32d8f41b178c59024bdd0df670d61c99fabfdb4e7e
+SHA1: 54611b3d7c43115866f41775c7c7262c0462fd78
+MD5sum: 79178db3b82dbff0ef5a1c752ea4eea3
 Description: QRTR development files
  QRTR development files.
 
 Package: libqrtr1
 Source: qrtr
-Version: 0.3+git20180712-1
+Version: 0.3+git20181013-1
 Architecture: i386
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 34
@@ -1997,11 +1997,11 @@ Depends: libc6 (>= 2.1.3)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libs
-Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180712-1_i386.deb
-Size: 8200
-SHA256: 31783c87c065f10be48c243f9f84b14e040de5a6eaf76afcce4d10f9d0d1d8be
-SHA1: 1626df1d8f0baa8c0749c0f6a2992641990cbafc
-MD5sum: d0cc7af53fd36502af26a6a5b6c0a86f
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20181013-1_i386.deb
+Size: 8204
+SHA256: 4cf2bcc65280343fb1fbbe803d9f57688afdcfc5aa3b12875702d3f9976c6b61
+SHA1: 158dd71c8d5c666e4381923f9eb72a907084168d
+MD5sum: 6b6e656b3a9b642426e5ae42391b7516
 Description: QRTR library
  QRTR library.
 
@@ -3731,19 +3731,19 @@ Build-Ids: b4988e761c0ab9b4309c9f3f525dd956c382e20a db48d95bcae3f10575e946f19520
 
 Package: pulseaudio-module-droid
 Source: pulseaudio-modules-droid
-Version: 11.1.73-1
+Version: 11.1.74-1
 Architecture: i386
 Maintainer: Marius Gripsgard <marius@ubports.com>
-Installed-Size: 285
+Installed-Size: 286
 Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libhardware2, libhybris-common1, libpulse0 (>= 5.99.1)
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.73-1_i386.deb
-Size: 65108
-SHA256: 0f1cb8cd39d7c964cb13171aed767841bf7e44c46b5252785437c1c7aa173761
-SHA1: 8a867736f574e0a49b806d12a7752fe9ff30cdb3
-MD5sum: ab9a3f53393111b1e11091100af69d1f
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid_11.1.74-1_i386.deb
+Size: 65608
+SHA256: 4f8fe6aef417cee348f26accfc440a88eccd5a7d5c74167ab1726cd4f453a7bd
+SHA1: 66b639c65657fbc4ac29f913e35008e9f56bd974
+MD5sum: 82854bd6263a54ea1aeb77c9e9c0ede5
 Description: PulseAudio Droid HAL module. (JOLLA TEST VERSION)
 
 Package: pulseaudio-module-droid-dbgsym
@@ -3766,7 +3766,7 @@ Build-Ids: 324fdae27b07f01492f3224b7d7d580ea22f81ba 383b390cfdf1b0fd3d4f5b3d56cd
 
 Package: pulseaudio-module-droid-dev
 Source: pulseaudio-modules-droid
-Version: 11.1.73-1
+Version: 11.1.74-1
 Architecture: i386
 Maintainer: Marius Gripsgard <marius@ubports.com>
 Installed-Size: 85
@@ -3774,11 +3774,11 @@ Depends: pulseaudio-module-droid
 Homepage: https://github.com/mer-hybris/pulseaudio-modules-droid
 Priority: optional
 Section: sound
-Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.73-1_i386.deb
-Size: 11096
-SHA256: 125d2b2b1397a8816c502b425e9ead27010a727936c90892614ee280bbcc99ce
-SHA1: 78e971870e78201573606ba5c56f945379cfd4b8
-MD5sum: d9f09d08eb56b99fd2f5c46b71d5d045
+Filename: pool/main/p/pulseaudio-modules-droid/pulseaudio-module-droid-dev_11.1.74-1_i386.deb
+Size: 11020
+SHA256: f24cc270ce952a371f12b7f61d8010994de60f29807cd989a6aef5fdcc4a6f44
+SHA1: ec16f46fd82ede3f2b27ccd41a1c912a0a54ee5c
+MD5sum: 7e2f97476f59f07f73d9a87001b61700
 Description: PulseAudio Droid HAL module development headers.
 
 Package: pulseaudio-module-droid-glue
@@ -4103,20 +4103,20 @@ Description: debug symbols for pulseaudio-utils
 Build-Ids: 6b95dc3c7eef29376808a9e2f296647c9ca1f742 8df4ce3c4a57b9e7e035a570c0b1fa3e58c16a11 e625b4709b92b80162f08784089a34ae3020ec80 f7fbbb0088bb37929c3248ccf21dbd3f486041e1 f9bba393622259b231ddc8983bb3d246c6327685
 
 Package: qmic
-Version: 0.1+git20180323-1
+Version: 0.1+git20181013-1
 Architecture: i386
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 36
+Installed-Size: 40
 Depends: libc6 (>= 2.4)
 Multi-Arch: foreign
 Homepage: https://github.com/andersson/qmic.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qmic/qmic_0.1+git20180323-1_i386.deb
-Size: 10852
-SHA256: 0dfe5b87194ca4b830450931ebc0335997bb0fa8d458058c5097b450627f0b84
-SHA1: 2ee9aed5926a8c405085f17d861c10b43fcfb109
-MD5sum: 7fe0a49fd3bdae70a6b4efb712e58b38
+Filename: pool/main/q/qmic/qmic_0.1+git20181013-1_i386.deb
+Size: 11132
+SHA256: c95f39e617de47eb4b6c5bb429667837793fd3cee584d71321617857abbbeda8
+SHA1: f9365a742e40d4154f775dc7805940a7bb58deb6
+MD5sum: 958606e136fc17bcd9300ab01674910a
 Description: QMI Compiler
  QMI compiler.
 
@@ -4923,7 +4923,7 @@ Description: Qt 5 QML scene viewer
  for the newer one.
 
 Package: qrtr
-Version: 0.3+git20180712-1
+Version: 0.3+git20181013-1
 Architecture: i386
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 78
@@ -4931,11 +4931,11 @@ Depends: libc6 (>= 2.1.3)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qrtr/qrtr_0.3+git20180712-1_i386.deb
-Size: 14892
-SHA256: 59928a7180be48b7af7635ab2064fce3ce1644206593c77fdcc734b1b9e348a8
-SHA1: 0cdf592b04491e4102f7f263443146667f71dd2a
-MD5sum: 48a8a734bab0631a6b8c2b36db8a0803
+Filename: pool/main/q/qrtr/qrtr_0.3+git20181013-1_i386.deb
+Size: 14896
+SHA256: 771b6ce8dc7d378cee58046d087d4e6a78c40ab02442931b38384c6dde88b51b
+SHA1: 1296ede195483be000b7b7e9c39e801e3a7d39d7
+MD5sum: fa925135b5deb2489590c8df830513a6
 Description: QRTR applications
  QRTR applications.
 
@@ -5936,7 +5936,7 @@ Description: Web content engine library for Qt - private development files
  Qt 5 applications using QtWebEngine library.
 
 Package: rmtfs
-Version: 0.2+git20180323-1
+Version: 0.2+git20181013-1
 Architecture: i386
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
 Installed-Size: 45
@@ -5944,11 +5944,11 @@ Depends: qrtr, libc6 (>= 2.4), libqrtr1, libudev1 (>= 183)
 Homepage: https://github.com/andersson/rmtfs.git
 Priority: optional
 Section: utils
-Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_i386.deb
-Size: 11264
-SHA256: b4cfdaa29baf19a60ee156ee477d9e435976a411c1fdd8c3fcbf13b3dca7123c
-SHA1: 9076f61bbf4d3b43016f3667265f5193bba90b04
-MD5sum: d8cc35ec7654a70a65921cd19f99d010
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20181013-1_i386.deb
+Size: 11560
+SHA256: 8e00898af4de787e119e3cf6bb430bd3198aedefb91e2defac51219f0fc5030e
+SHA1: 252511e5c08ac55874daf84ddea9846a5e130f4b
+MD5sum: a3fbe9c1709ce66a7b5db0acc594ec55
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant
@@ -5973,7 +5973,7 @@ Description: debug symbols for rmtfs
 Build-Ids: 61aaf34561fc253ca44662a2508dd63ca8277ed5
 
 Package: rpmsgexport
-Version: 0.1+git20180405-1
+Version: 0.1+git20181013-1
 Architecture: i386
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 24
@@ -5981,11 +5981,11 @@ Depends: libc6 (>= 2.3.4)
 Homepage: https://github.com/andersson/rpmsgexport
 Priority: optional
 Section: unknown
-Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20180405-1_i386.deb
-Size: 4364
-SHA256: 211fd7a14d8c34dafe43695e09643d9965c2d8d2053d7eaecc635f2b5cf91e47
-SHA1: 811a22d27d272b3559c4d162fee4525f1703f2a2
-MD5sum: ada7a5d2cda940252557e5aafc7925e0
+Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20181013-1_i386.deb
+Size: 4428
+SHA256: 38b48d8824e684881d44199a1f4bca1f901d92c4abc158fb81b0e2e4cc7deb97
+SHA1: 2a2ca1f23dd835ef7e0015ec426737836b957b0b
+MD5sum: f1fb28dbdd21dc6d1cc166fcab026afe
 Description: Tool to create endpoint devices for remoteproc devices
  rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
  to automatically create endpoint devices as remoteproc devices are booted.

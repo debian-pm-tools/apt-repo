@@ -3446,19 +3446,19 @@ Description: Qt 5 webengine HTML documentation
  libraries.
 
 Package: rmtfs
-Version: 0.2+git20180323-1
+Version: 0.2+git20181013-1
 Architecture: amd64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 42
+Installed-Size: 46
 Depends: qrtr, libc6 (>= 2.14), libqrtr1, libudev1 (>= 183)
 Homepage: https://github.com/andersson/rmtfs.git
 Priority: optional
 Section: utils
-Filename: pool/main/r/rmtfs/rmtfs_0.2+git20180323-1_amd64.deb
-Size: 10700
-SHA256: 9d644aa5d400cf875e18f546bd82bac1125ecf812f3b7efa83e5096201ae22b3
-SHA1: 871f9828200f851c11e6269eafb0d0ae12dbd6bc
-MD5sum: c35593e1c98136b69540eb1d28d792e3
+Filename: pool/main/r/rmtfs/rmtfs_0.2+git20181013-1_amd64.deb
+Size: 10952
+SHA256: 16264eb932354dcd4567cd71e4fa4be593ca48d2be71d0674e7990cff10ece0c
+SHA1: 3396e15801c34d28b6a5fab3c3078b1a89ee9b2e
+MD5sum: 5334b67783679b2fd4a0310675435438
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant
@@ -3483,7 +3483,7 @@ Description: debug symbols for rmtfs
 Build-Ids: d93a6ea00f654a7a7baf69c2d550084bbe44f038
 
 Package: rpmsgexport
-Version: 0.1+git20180405-1
+Version: 0.1+git20181013-1
 Architecture: amd64
 Maintainer: Jonah Brüchert <jbb@kaidan.im>
 Installed-Size: 25
@@ -3491,11 +3491,11 @@ Depends: libc6 (>= 2.3.4)
 Homepage: https://github.com/andersson/rpmsgexport
 Priority: optional
 Section: unknown
-Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20180405-1_amd64.deb
-Size: 4308
-SHA256: 2dd9b56aca39483d3c9236e169851a313bea86526daa84ba06992d6aa04a21e5
-SHA1: b03831feceb5fc1bb9cfb90d73368928ff7ceb23
-MD5sum: 272d0e4c46241e6e95a515cabb343114
+Filename: pool/main/r/rpmsgexport/rpmsgexport_0.1+git20181013-1_amd64.deb
+Size: 4368
+SHA256: a7d978be82815d519d425520821efb8e8a3bedc3acf6476e0b70c09ec64d246b
+SHA1: 660787364cde006842050720ddab2efa4a4cf84f
+MD5sum: 10df71e884021f5f599a9366e85ac3f6
 Description: Tool to create endpoint devices for remoteproc devices
  rpmsgexport implements RPMSG_CREATE_EPT_IOCTL for usage in udev rules
  to automatically create endpoint devices as remoteproc devices are booted.
