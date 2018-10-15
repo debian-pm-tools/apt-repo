@@ -1971,37 +1971,37 @@ Build-Ids: 0f134fa632f11abad5e26389e30bf58a7da3d51b
 
 Package: libqrtr-dev
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20181013-1
 Architecture: arm64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 19
-Depends: libqrtr1 (= 0.3+git20180323-1)
+Installed-Size: 21
+Depends: libqrtr1 (= 0.3+git20181013-1)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libdevel
-Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20180323-1_arm64.deb
-Size: 4124
-SHA256: 0465b809d3767a3f0b7d65bb2183134a716cca3cb440920c8a672f7f06ce466f
-SHA1: 853a8a82dffa1c64571948277bb48183c812c516
-MD5sum: 94a7a4d72a24cd0d9648dd867bc65c9a
+Filename: pool/main/q/qrtr/libqrtr-dev_0.3+git20181013-1_arm64.deb
+Size: 4280
+SHA256: d3585896ec97f6ff1819785494dd77c8b4b21cf014c05a9d6257efc71c5d93a6
+SHA1: 2105a3c2c9f938a11eee83354c02e40d0b120ac4
+MD5sum: c22979667c73cd0954643f524a224c2b
 Description: QRTR development files
  QRTR development files.
 
 Package: libqrtr1
 Source: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20181013-1
 Architecture: arm64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 33
+Installed-Size: 35
 Depends: libc6 (>= 2.17)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: libs
-Filename: pool/main/q/qrtr/libqrtr1_0.3+git20180323-1_arm64.deb
-Size: 7276
-SHA256: da5a45ec1a98b9b0d89779a8ca3e160f594f5d020734b12bf040a0e5dc568850
-SHA1: 26498ac4e82ddc66dbe0fe89fbd2303cf6f83aaa
-MD5sum: e05de9af2dc8c0a7a0e16ef62f22f5bc
+Filename: pool/main/q/qrtr/libqrtr1_0.3+git20181013-1_arm64.deb
+Size: 8060
+SHA256: c5a49b1d53ed4507db43b5d3226a1954acba8abe58c483fab2eecc1d0b5c6f4d
+SHA1: cc29241ba79df9e11c46e3ec45ef86e1b1b1b74b
+MD5sum: 0c214de213ef3f57c222f5089742b852
 Description: QRTR library
  QRTR library.
 
@@ -3274,19 +3274,19 @@ Description: debug symbols for qmlkonsole
 Build-Ids: 64ba3ffac1c81776a6e71ec7666798c344b0a44d
 
 Package: qrtr
-Version: 0.3+git20180323-1
+Version: 0.3+git20181013-1
 Architecture: arm64
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Installed-Size: 63
+Installed-Size: 73
 Depends: libc6 (>= 2.17)
 Homepage: https://github.com/andersson/qrtr.git
 Priority: optional
 Section: utils
-Filename: pool/main/q/qrtr/qrtr_0.3+git20180323-1_arm64.deb
-Size: 11696
-SHA256: ab69c574c6aeb4f524c2f3ef1743a2801589a4da0f5a481d6486ddf03b5d088c
-SHA1: 942120cc3c4e6b9547c4b2bc94eb1bbf8e98b486
-MD5sum: d372097bdff4791db10059a6c28029df
+Filename: pool/main/q/qrtr/qrtr_0.3+git20181013-1_arm64.deb
+Size: 14080
+SHA256: aed1d2cefb2813ad365a1b88e82967eed4710f8b72bdb3065650b63dd44a26e2
+SHA1: 805e57101aa52a9f7973ea0fe1f10d107821bfc8
+MD5sum: 4f43734287807466c4fba26c6685ca49
 Description: QRTR applications
  QRTR applications.
 

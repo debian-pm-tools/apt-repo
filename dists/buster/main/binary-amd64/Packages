@@ -1900,6 +1900,74 @@ Description: Web content engine library for Qt - Data
  .
  This package contains the arch independent parts of QtWebEngine libraries.
 
+Package: libqt5webengine5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1047
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libc6 (>= 2.14), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.9.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0~beta), libqt5test5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.11.1), libstdc++6 (>= 5), qtbase-abi-5-11-0
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine5_5.11.1+dfsg-6_amd64.deb
+Size: 174260
+SHA256: 08eb1064a3139d40d1c7d2f459f3c5a692c637a729d5b8950255b87ff1c98942
+SHA1: 8aa4c379090f6fbd4e203731f2f83a679a19a08a
+MD5sum: 5610e627e770f2787ba2e3072dcf4b6c
+Description: Web content engine library for Qt
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the QtWebEngine library.
+
+Package: libqt5webenginecore5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 102977
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.27), libdbus-1-3 (>= 1.9.14), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.0), libglib2.0-0 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libicu60 (>= 60.1-1~), libjpeg62-turbo (>= 1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.8.0), libqt5positioning5 (>= 5.6.0), libqt5quick5 (>= 5.9.0), libqt5webchannel5 (>= 5.6.1), libre2-4 (>= 20160901), libsnappy1v5, libstdc++6 (>= 6), libvpx5 (>= 1.6.0), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrender1, libxss1, libxtst6, qtbase-abi-5-11-0, zlib1g (>= 1:1.2.0)
+Breaks: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Replaces: libqt5webengine5 (<< 5.7.1+dfsg-4)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webenginecore5_5.11.1+dfsg-6_amd64.deb
+Size: 29850500
+SHA256: b76f89a66cc5a983f259c3451f5c7f5699ebcb0ee016cb290cad235053f7c557
+SHA1: 86a7409d62a7f14860bf1c95aa56eab918befd75
+MD5sum: e55c79810877215ae586851769492bf2
+Description: Web content engine library for Qt - Core
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the core QtWebEngine library.
+
+Package: libqt5webenginewidgets5
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 844
+Depends: libqt5webengine-data (= 5.11.1+dfsg-6), libc6 (>= 2.14), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.4.0), libqt5printsupport5 (>= 5.0.2), libqt5quick5 (>= 5.9.0~beta), libqt5quickwidgets5 (>= 5.11.0), libqt5webenginecore5 (>= 5.11.1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webenginewidgets5_5.11.1+dfsg-6_amd64.deb
+Size: 135016
+SHA256: 70c3dd32853648357cea872bd4fc2f02b558238e98b838f591bfaa6c990ede60
+SHA1: 3fdb2d17eebc29a430e637843c6567c3bb881e28
+MD5sum: 08bbcc42e7675fc7a672bede69a6864e
+Description: Web content engine library for Qt - Widget
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the widget QtWebEngine library.
+
 Package: llsvplayer
 Version: 0.3+git20180828-2
 Architecture: amd64
@@ -2999,6 +3067,28 @@ Description: Qt 5 Multimedia QML module
  .
  This package contains the Multimedia QML module for QtDeclarative.
 
+Package: qml-module-qtwebengine
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 787
+Depends: qml-module-qtquick2, libc6 (>= 2.14), libqt5core5a (>= 5.11.0~rc1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5webengine5 (>= 5.10.1), libqt5webenginecore5 (>= 5.11.1), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/qml-module-qtwebengine_5.11.1+dfsg-6_amd64.deb
+Size: 94084
+SHA256: 1bc4f1acf56dcd78b2728afb4c2536d39575a09df5f64ad9c5ba66770a79a146
+SHA1: e889648c2f453a462ff45b86199bb22ffc051dab
+MD5sum: e1d71b1d093c1bc84a8a00d91c7be618
+Description: Qt WebEngine QML module
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebEngine QML module for QtDeclarative.
+
 Package: qml-module-ubuntu-onlineaccounts
 Source: accounts-qml-module
 Version: 0.7-1
@@ -3402,6 +3492,54 @@ Description: Examples for Qt 5 Multimedia module
  This package contains the examples for Qt5 multimedia application
  development.
 
+Package: qtwebengine5-dev
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 794
+Depends: libqt5webchannel5-dev, libqt5webengine5 (= 5.11.1+dfsg-6), libqt5webenginecore5 (= 5.11.1+dfsg-6), libqt5webenginewidgets5 (= 5.11.1+dfsg-6), qtbase5-dev, qtdeclarative5-dev, qtpositioning5-dev, libc6 (>= 2.4), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Recommends: qtwebengine5-doc
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-dev_5.11.1+dfsg-6_amd64.deb
+Size: 93048
+SHA256: 4553a2ef59856fcd52afb1ee93fa4425825b0084fe9435b00b88457b2958e9e0
+SHA1: 90ab0e81db722e5191d6360f25a6ea52aa2b9178
+MD5sum: 90e0899ed83c70de2ea1e776151d0bef
+Description: Web content engine library for Qt - development files
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtWebEngine library.
+
+Package: qtwebengine5-dev-tools
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 831
+Depends: qtchooser, libc6 (>= 2.14), libevent-2.1-6 (>= 2.1.8-stable), libglib2.0-0 (>= 2.12.0), libicu60 (>= 60.1-1~), libqt5core5a (>= 5.3.0), libstdc++6 (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: devel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-dev-tools_5.11.1+dfsg-6_amd64.deb
+Size: 166036
+SHA256: fd9ca1ec72a1ab17f7ca4e89f63a9531c275439142989cef81be1d40dbe94049
+SHA1: 952466dfa298190d6ddb5bb0b0134e3e086fe71d
+MD5sum: 8afdff299d70d04fedff55504f7730e4
+Description: Qt WebEngine tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qwebengine_convert_dict tool which converts hunspell
+ 'dic' dictionaries to binary 'bdic' format, which is required by spellchecker
+ in Qt WebEngine.
+
 Package: qtwebengine5-doc
 Source: qtwebengine-opensource-src
 Version: 5.11.1+dfsg-6
@@ -3444,6 +3582,51 @@ Description: Qt 5 webengine HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 webengine
  libraries.
+
+Package: qtwebengine5-examples
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2769
+Depends: libjs-jquery, libjs-marked, qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtwebengine, qtwebengine5-dev-tools, libc6 (>= 2.14), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quickcontrols2-5 (>= 5.7.1), libqt5webchannel5 (>= 5.6.1), libqt5webengine5 (>= 5.7.1), libqt5webenginecore5 (>= 5.11.1), libqt5webenginewidgets5 (>= 5.11.1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-examples_5.11.1+dfsg-6_amd64.deb
+Size: 618708
+SHA256: 010cbce28039aa572c15a27573b9852b86ae60f84586037160f42ea82acbd184
+SHA1: 9188ae5da8e668c131b62846c798f211e8a349b9
+MD5sum: a1c6c0d10a7c507dcc7cadfc35107bda
+Description: Qt WebEngine - Examples
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebEngine examples.
+
+Package: qtwebengine5-private-dev
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-6
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 749
+Depends: qtwebengine5-dev (= 5.11.1+dfsg-6)
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-private-dev_5.11.1+dfsg-6_amd64.deb
+Size: 85364
+SHA256: 0461e1670721d324ba7c777823da54a60c2e57a013780849e51da491920e5572
+SHA1: 4d36c95c465b3993a9fab4bd27f89572edc1bde8
+MD5sum: 97046a41c8003b3b691893aa9cb28126
+Description: Web content engine library for Qt - private development files
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the private development files needed to build
+ Qt 5 applications using QtWebEngine library.
 
 Package: rmtfs
 Version: 0.2+git20181013-1
