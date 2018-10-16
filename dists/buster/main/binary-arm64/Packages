@@ -2023,27 +2023,6 @@ MD5sum: 303a503005b0438343d8742ae17ae3a4
 Description: debug symbols for libqrtr1
 Build-Ids: 4e706b21cce95b34b8d5021b36261ce7867f46b1
 
-Package: libqt5webengine-data
-Source: qtwebengine-opensource-src
-Version: 5.11.1+dfsg-6
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 22476
-Multi-Arch: foreign
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Priority: optional
-Section: libs
-Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.11.1+dfsg-6_all.deb
-Size: 5106508
-SHA256: fdc608e4556486acbf19a76c295648520cbde8b551eb0df7df9a56968113b7d8
-SHA1: ef9076d6a1bf304687676018ed490d752b8d2de7
-MD5sum: a2aa1da4b3905e4f13d3800b81119e5d
-Description: Web content engine library for Qt - Data
- QtWebEngine provides a Web browser engine that makes it easy to embed content
- from the World Wide Web into your Qt application.
- .
- This package contains the arch independent parts of QtWebEngine libraries.
-
 Package: llsvplayer
 Version: 0.3+git20180828-2
 Architecture: arm64
@@ -3515,49 +3494,6 @@ Description: Qt 5 multimedia HTML documentation
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the HTML documentation for the Qt 5 multimedia
- libraries.
-
-Package: qtwebengine5-doc
-Source: qtwebengine-opensource-src
-Version: 5.11.1+dfsg-6
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2771
-Multi-Arch: foreign
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc_5.11.1+dfsg-6_all.deb
-Size: 1859736
-SHA256: e548871943f02770a288dbf2b891c5783ec818d62900d9899e2b211cbeb5311b
-SHA1: be9b9679babed45084644615cc3a9e425e6d1837
-MD5sum: 37c61a13db6f6f7139df83a13402d1c2
-Description: Qt 5 webengine documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the documentation for the Qt 5 webengine libraries.
-
-Package: qtwebengine5-doc-html
-Source: qtwebengine-opensource-src
-Version: 5.11.1+dfsg-6
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 23334
-Multi-Arch: foreign
-Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
-Priority: optional
-Section: doc
-Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc-html_5.11.1+dfsg-6_all.deb
-Size: 1943012
-SHA256: b1af63d42e63e8676dd6046dc3d060069bc88b03dca63768ba939a96a6901ae4
-SHA1: 84234c47fd1039e1ee76c9773ee1db53f7088e49
-MD5sum: 676d83d9a3cfcb28ff4a67027a622adc
-Description: Qt 5 webengine HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 5 webengine
  libraries.
 
 Package: rmtfs
