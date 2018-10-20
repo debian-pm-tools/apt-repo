@@ -401,7 +401,7 @@ Description: debug symbols for index
 Build-Ids: 811c7d54bcb170102fe59d71c49a595b070bc541
 
 Package: kaidan
-Version: 0.3.2+git20180929-1
+Version: 0.3.2+git20181020-1
 Architecture: amd64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 760
@@ -410,11 +410,11 @@ Recommends: libnotify-bin
 Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180929-1_amd64.deb
-Size: 197376
-SHA256: 98a4aec8b0880aee0ec877d9a66d3d1f7f50922eb7fd46fb081e23487b5aa008
-SHA1: a97ec4fbd1a907b88a0252b07a5a5689fecbcc51
-MD5sum: 9f5e7fc6be5ae8fbb0bcb40cf0eddca0
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20181020-1_amd64.deb
+Size: 196740
+SHA256: cf94688e31dd3904c06999f8d39d6c33b50935b59e97b63d140fade1603bef7f
+SHA1: 25eb6e84bfe6de37ca7d25bb178015c42b91cf4a
+MD5sum: 05a3efd33412ba02950ac7886ec7c2fa
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -427,18 +427,18 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-data
 Source: kaidan
-Version: 0.3.2+git20180929-1
+Version: 0.3.2+git20181020-1
 Architecture: all
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 103
 Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180929-1_all.deb
-Size: 47348
-SHA256: ee90b173e75f524f519e801b17d56e45c96b9a86ef89937253a29dc004828ff1
-SHA1: ba9b5332254580c429fa2d45806cac939790805c
-MD5sum: 536aadf1dc8804a4e3ba85438aa9930f
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20181020-1_all.deb
+Size: 47356
+SHA256: 7f102b9c1fea26b710fa141f772ace8da08b018a37fa56b01171dadd9d6be8f2
+SHA1: a729592b0215ab09fab0f578b9acd97047db18a7
+MD5sum: f0aba947450357cf637b03ac34e356a7
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -1878,6 +1878,27 @@ Description: Qt 5 Multimedia Widgets module
  .
  This package contains a set of widgets to play and record media, and manage a
  collection of media content.
+
+Package: libqt5webengine-data
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 22476
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.11.1+dfsg-5_all.deb
+Size: 5122688
+SHA256: 80d3d827168f7d6fa8591adf633fc439749da5c2af022aa43d54d037ea7e57c5
+SHA1: 09d8718de83ec99eede17007cdb38e8104f13f5d
+MD5sum: b5f731a233b3ab0f7b9c0bb32caa7462
+Description: Web content engine library for Qt - Data
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the arch independent parts of QtWebEngine libraries.
 
 Package: llsvplayer
 Version: 0.3+git20180828-2
@@ -3381,6 +3402,49 @@ Description: Examples for Qt 5 Multimedia module
  This package contains the examples for Qt5 multimedia application
  development.
 
+Package: qtwebengine5-doc
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2771
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc_5.11.1+dfsg-5_all.deb
+Size: 1859920
+SHA256: d35ae35d6cff162eb78d021058d3ca1ea2930871f8bc45fdf71cd106536f0915
+SHA1: e676795808a4a7a30d99bb5760acdc5bf7ebc7e8
+MD5sum: d1605d2ee6226f88a812b605bf9ae31f
+Description: Qt 5 webengine documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webengine libraries.
+
+Package: qtwebengine5-doc-html
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 23334
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc-html_5.11.1+dfsg-5_all.deb
+Size: 1942972
+SHA256: 0bfdaf83523055eb80a8e357bd27881ef6f8f298c0834857e1fe38a5adced1aa
+SHA1: 149d993ee040f0d4e0e82a5bf9cdf83bef70bee4
+MD5sum: 6f1831c9e9986a045724d944b0e0115b
+Description: Qt 5 webengine HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 webengine
+ libraries.
+
 Package: rmtfs
 Version: 0.2+git20181013-1
 Architecture: amd64
@@ -3490,6 +3554,45 @@ MD5sum: e86a66330ebf0faa3874f7388868d738
 Description: debug symbols for simplelogin
 Build-Ids: 9cffc604a67da4765d809ac8dd85cfec826e897f
 Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+
+Package: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2143
+Depends: ofono, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libofono-qt1, libphonenumber7, libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libtelepathy-qt5-0 (>= 0.9.7)
+Homepage: https://github.com/ubports/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono_0.2.20161109-1_amd64.deb
+Size: 472788
+SHA256: bf17865346f59c9782a0fb935db41f0711aae912e427a0b63bce7a0fd4211800
+SHA1: e0bdcaaaf47e44384526679ed5543fc60ce0f093
+MD5sum: 8d4cc82cbf917ac371f72bfde80a866f
+Description: telepathy oFono connection manager
+ telepathy-ofono is a Telepathy connection manager that makes it possible for
+ Telepathy clients to communicate using oFono modems, enabling features like
+ real phone calls and send and receive SMSs.
+
+Package: telepathy-ofono-ril-mc-plugin
+Source: telepathy-ofono
+Version: 0.2.20161109-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 42
+Depends: telepathy-ofono, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmission-control-plugins0 (>= 1:5.13.0~), libstdc++6 (>= 4.1.1), libtelepathy-glib0 (>= 0.11.13)
+Suggests: libhybris-utils
+Homepage: https://github.com/ubports/telepathy-ofono
+Priority: optional
+Section: net
+Filename: pool/main/t/telepathy-ofono/telepathy-ofono-ril-mc-plugin_0.2.20161109-1_amd64.deb
+Size: 12696
+SHA256: 4aa602a348cecaa20d915c12b351e29e7c6afbff9dc96624d5637e3fc4143e8b
+SHA1: 7de33b8e2906d8b02b35730fca33c9ca9928b1c7
+MD5sum: 93966b24581719a905bba8ffc78b21c6
+Description: telepathy oFono mission control plugin for ril modems
+ This telepathy mission-control plugin is used to automatically provision
+ telepathy-ofono accounts for each available ril modem.
 
 Package: vvave
 Version: 1.2+git20180930-1

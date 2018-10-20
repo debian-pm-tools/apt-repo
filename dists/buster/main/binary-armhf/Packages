@@ -427,18 +427,18 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-data
 Source: kaidan
-Version: 0.3.2+git20180929-1
+Version: 0.3.2+git20181020-1
 Architecture: all
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 103
 Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180929-1_all.deb
-Size: 47348
-SHA256: ee90b173e75f524f519e801b17d56e45c96b9a86ef89937253a29dc004828ff1
-SHA1: ba9b5332254580c429fa2d45806cac939790805c
-MD5sum: 536aadf1dc8804a4e3ba85438aa9930f
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20181020-1_all.deb
+Size: 47356
+SHA256: 7f102b9c1fea26b710fa141f772ace8da08b018a37fa56b01171dadd9d6be8f2
+SHA1: a729592b0215ab09fab0f578b9acd97047db18a7
+MD5sum: f0aba947450357cf637b03ac34e356a7
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -2119,6 +2119,27 @@ MD5sum: 717684d65a1cba37185b250e0af1ac74
 Description: debug symbols for libqrtr1
 Build-Ids: 6cabcb95141ca7d06643d5e7066bdfabea78e71d
 
+Package: libqt5webengine-data
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 22476
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: libs
+Filename: pool/main/q/qtwebengine-opensource-src/libqt5webengine-data_5.11.1+dfsg-5_all.deb
+Size: 5122688
+SHA256: 80d3d827168f7d6fa8591adf633fc439749da5c2af022aa43d54d037ea7e57c5
+SHA1: 09d8718de83ec99eede17007cdb38e8104f13f5d
+MD5sum: b5f731a233b3ab0f7b9c0bb32caa7462
+Description: Web content engine library for Qt - Data
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the arch independent parts of QtWebEngine libraries.
+
 Package: llsvplayer
 Version: 0.3+git20180828-2
 Architecture: armhf
@@ -3645,6 +3666,49 @@ Description: Qt 5 multimedia HTML documentation
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the HTML documentation for the Qt 5 multimedia
+ libraries.
+
+Package: qtwebengine5-doc
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2771
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc_5.11.1+dfsg-5_all.deb
+Size: 1859920
+SHA256: d35ae35d6cff162eb78d021058d3ca1ea2930871f8bc45fdf71cd106536f0915
+SHA1: e676795808a4a7a30d99bb5760acdc5bf7ebc7e8
+MD5sum: d1605d2ee6226f88a812b605bf9ae31f
+Description: Qt 5 webengine documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webengine libraries.
+
+Package: qtwebengine5-doc-html
+Source: qtwebengine-opensource-src
+Version: 5.11.1+dfsg-5
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 23334
+Multi-Arch: foreign
+Homepage: https://doc.qt.io/qt-5/qtwebengine-index.html
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtwebengine-opensource-src/qtwebengine5-doc-html_5.11.1+dfsg-5_all.deb
+Size: 1942972
+SHA256: 0bfdaf83523055eb80a8e357bd27881ef6f8f298c0834857e1fe38a5adced1aa
+SHA1: 149d993ee040f0d4e0e82a5bf9cdf83bef70bee4
+MD5sum: 6f1831c9e9986a045724d944b0e0115b
+Description: Qt 5 webengine HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 webengine
  libraries.
 
 Package: rmtfs
